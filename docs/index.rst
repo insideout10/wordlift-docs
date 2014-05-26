@@ -11,6 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   getting-started
+   analysis
 
 
 Indices and tables
