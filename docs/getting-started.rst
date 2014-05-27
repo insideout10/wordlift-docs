@@ -8,7 +8,7 @@ Getting Started
 
 .. warning::
 
-    Even if we're already using WordLift 3 on some production web sites and no harm is done to your data, we **strongly
+    Even though we're already using WordLift 3 on some production web sites and no harm is done to your data, we **strongly
     suggest** to make a full back-up of your site data before installing WordLift.
 
 
