@@ -44,7 +44,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'WordLift'
-copyright = u'2014, David Riccitelli, Andrea Volpini'
+copyright = u'2014, <a href="http://insideout.io">InsideOut10</a>.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -241,7 +241,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'WordLift', u'WordLift Documentation',
-   u'David Riccitelli, Andrea Volpini', 'WordLift', 'One line description of project.',
+   u'InsideOut10', 'WordLift', 'Dynamic Semantic Publishing for WordPress',
    'Miscellaneous'),
 ]
 
