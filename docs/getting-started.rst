@@ -15,7 +15,7 @@ Getting Started
 Compatibility
 _____________
 
-WordLift is currently being tested with WordPress_ 3.7 and up.
+WordLift is currently being tested with WordPress_ 3.7 and later.
 
 
 Installation
