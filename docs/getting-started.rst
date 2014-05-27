@@ -13,8 +13,8 @@ _____________
 WordLift is currently being tested with WordPress_ 3.7 and up.
 
 
-Install WordLift
-________________
+Installation
+____________
 
 Download the provided zip file to the `wp-content/plugins` directory of your WordPress_ installation. Unzip the file,
 from the command line::
@@ -22,8 +22,8 @@ from the command line::
     unzip wordlift.zip
 
 
-Activate WordLift
-_________________
+Activation
+__________
 
 From the WordPress administration menu, click on *Plugins* / *Installed Plugins*. Then click on *Activate* on the
 WordLift plugin.
@@ -34,5 +34,49 @@ admin bar:
 .. image:: /images/wordpress-admin-bar.png
 
 
-.. _join.wordlift.it: http://join.wordlift.it
+Configuration
+_____________
+
+Hover on the WordLift logo on the upper right corner, a menu will open. Click on *Settings* to open the settings screen:
+
+.. image:: /images/wordlift-settings-menu.png
+
+From this screen you can set the following settings:
+
+.. image:: /images/wordlift-settings-screen.png
+
+Application Key
+    A *unique key* which uniquely identifies your blog.
+
+User ID
+    Your user ID (numeric).
+
+Dataset Name
+    The name of the dataset associated with your blog.
+
+Dataset URI
+    The URL of the dataset *triple store*.
+
+Analysis Name
+    The name of the analysis to use to analyze the blog contents.
+
+Site Language
+    The default language for the blog, used as a language code in the *triple store*.
+
+
+Configure all the settings with the values that the WordLift team will provide to you. Don't forget to save the changes
+by clicking on *Save Changes*.
+
+
+.. note::
+
+    If you have a Redlink_ account, you can use your own settings. Refer to my.redlink.io_ for more information.
+
+
+You can now continue to the :ref:`analysis` page.
+
+
+.. _join.wordlift.it: http://join.wordlift.it/
+.. _my.redlink.io: http://my.redlink.io
+.. _Redlink: http://redlink.co/
 .. _WordPress: http://wordpress.org/
