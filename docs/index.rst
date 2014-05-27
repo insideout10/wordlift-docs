@@ -14,11 +14,3 @@ Contents:
    getting-started
    analysis
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
