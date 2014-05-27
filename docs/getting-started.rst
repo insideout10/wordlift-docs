@@ -6,6 +6,11 @@ Getting Started
     WordLift 3 is currently in active development, and is being tested by a restricted team of testers. If you'd like to
     join the team, subscribe on join.wordlift.it_.
 
+.. warning::
+
+    Even if we're already using WordLift 3 on some production web sites and no harm is done to your data, we **strongly
+    suggest** to make a full back-up of your site data before installing WordLift.
+
 
 Compatibility
 _____________
@@ -55,7 +60,7 @@ Dataset Name
     The name of the dataset associated with your blog.
 
 Dataset URI
-    The URL of the dataset *triple store*.
+    The URL of the dataset *triple store* (**no trailing slash** at the end), e.g. http://data.redlink.io/000/dataset
 
 Analysis Name
     The name of the analysis to use to analyze the blog contents.
