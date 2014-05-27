@@ -17,7 +17,7 @@ Install WordLift
 ________________
 
 Download the provided zip file to the `wp-content/plugins` directory of your WordPress_ installation. Unzip the file,
-from the command line:
+from the command line::
 
     unzip wordlift.zip
 
@@ -31,7 +31,7 @@ WordLift plugin.
 If the plugin is successfully activated you should see the WordLift logo on the upper right corner of the WordPress
 admin bar:
 
-    .. image:: images/wordpress-admin-bar.png
+.. image:: /images/wordpress-admin-bar.png
 
 
 .. _join.wordlift.it: http://join.wordlift.it
