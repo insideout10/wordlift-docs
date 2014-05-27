@@ -44,7 +44,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'WordLift'
-copyright = u'2014, <a href="http://insideout.io">InsideOut10</a>.'
+copyright = u'2014, InsideOut10.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
