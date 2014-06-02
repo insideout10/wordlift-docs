@@ -50,6 +50,13 @@ From this screen you can set the following settings:
 
 .. image:: /images/wordlift-settings-screen.png
 
+New Entity Posts displayed as
+    If *index* new Entity Posts by default are displayed as an index of posts referencing that entity.
+    If *page* new Entity Posts by default are displayed as a page with the entity image and description.
+
+Enable color coding of entities
+    If enabled, entities in post content are highlighted on the front-end web.
+
 Application Key
     A *unique key* which uniquely identifies your blog.
 
