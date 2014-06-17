@@ -12,7 +12,9 @@ Facts allows WordLift to understand the text you write, structure it to create e
 and make sure *commercial search* engines like Google, Bing, Yandex and Yahoo! receive  the structured data 
 they need to properly index your contents.
 
-## Why shall I publish my contents as Linked Open Data?
+=================
+Why shall I publish my contents as Linked Open Data?
+=================
 
 Linked Open Data is a modern approach to use the Web as a platform and expose data in a format that can be
 easily shared and re-used within a larger network of intereconnected data.
