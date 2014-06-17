@@ -13,6 +13,7 @@ and make sure *commercial search* engines like Google, Bing, Yandex and Yahoo! r
 they need to properly index your contents.
 
 ## Why shall I publish my contents as Linked Open Data?
+
 Linked Open Data is a modern approach to use the Web as a platform and expose data in a format that can be
 easily shared and re-used within a larger network of intereconnected data.
 
@@ -21,6 +22,7 @@ that link to each other. The advantage is that right now entire verticals are ad
 to share knowledge within different communities. 
 
 ### Who is using Linked Data today? 
+
 In the media industries companies like BBC or RedBull are investing in these technologies, in the Public Health Care 
 the World Health Organisation, in the energy sector companies like Enel. Public Libraries are adopting these 
 standards to share materials at regional, national and international level. 
@@ -31,13 +33,6 @@ quality of their services and to become more meanigful.
 
 ## Why shall I publish my contents as Linked Open Data?
 
-
 ## If I add schema.org markup will I jump on top of the Search results? 
-
-
-
-
-
-    
 
     :warning: This documentation is still under construction. 
