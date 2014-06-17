@@ -21,7 +21,9 @@ Much like in the nienties we created web pages with links to other pages right n
 that link to each other. The advantage is that right now entire verticals are adopting Linked Data Principles 
 to share knowledge within different communities. 
 
-### Who is using Linked Data today? 
+=================
+Who is using Linked Data today?
+=================
 
 In the media industries companies like BBC or RedBull are investing in these technologies, in the Public Health Care 
 the World Health Organisation, in the energy sector companies like Enel. Public Libraries are adopting these 
@@ -31,8 +33,11 @@ Public administrations around the World are committed to make their data availab
 markets search engines like Google, Yahoo!, Bing and Yandex are starting to use these technologies to increase the 
 quality of their services and to become more meanigful.
 
-## Why shall I publish my contents as Linked Open Data?
+=================
+Why shall I publish my contents as Linked Open Data?
+=================
 
-## If I add schema.org markup will I jump on top of the Search results? 
-
+=================
+If I add schema.org markup will I jump on top of the Search results? 
+=================
     :warning: This documentation is still under construction. 
