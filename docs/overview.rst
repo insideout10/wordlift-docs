@@ -5,8 +5,8 @@ Overview
 
 **WordLift** is a plugin for WordPress designed to create, structure and visualizing your contents.
 **WordLift** helps you **adding facts**, text and media to build *beautifully structured web sites* and to 
-publish your content as **`Link Linked Open Data <http://en.wikipedia.org/wiki/Linked_data>`_** following **Tim Berners Lee**'s 
-`Link Linked Data Principles <http://www.w3.org/DesignIssues/LinkedData.html>`**:
+publish your content as **Linked Open Data_** following **Tim Berners-Lee's 
+Linked Data Principles_**:
 
 Facts allows WordLift to understand the text you write, structure it to create effective navigation storyboards 
 and make sure *commercial search* engines like Google, Bing, Yandex and Yahoo! receive  the structured data 
@@ -43,3 +43,6 @@ Why shall I publish my contents as Linked Open Data?
 If I add schema.org markup will I jump on top of the Search results? 
 =================
     :warning: This documentation is still under construction. 
+
+::  _Linked Open Data: http://en.wikipedia.org/wiki/Linked_data
+::  _Linked Open Data Principles: http://www.w3.org/DesignIssues/LinkedData.html
