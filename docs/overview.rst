@@ -27,7 +27,7 @@ to share knowledge within different communities.
 Who is using Linked Data today?
 =================
 
-In the media industries companies like BBC or RedBull are investing in these technologies, in the Public Health Care 
+In the media industries companies like BBC, Financial Times and Associated Press are investing in these technologies, in the Public Health Care 
 the World Health Organisation, in the energy sector companies like Enel. Public Libraries are adopting these 
 standards to share materials at regional, national and international level. 
 
@@ -38,6 +38,11 @@ quality of their services and to become more meanigful.
 =================
 Why shall I publish my contents as Linked Open Data?
 =================
+Organising web contents around **concepts** or **entities** rather than traditional web pages helps 
+*improve navigation*, *content re-use*, *content re-purposing* and *search engine rankings*.
+
+Overall having content aggregations based on **semantic fingerprinting** (using Linked Data identifiers) facilitates 
+*multi-dimensional entry points* and a richer navigation bringing the user experience to new levels of engagement. 
 
 =================
 If I add schema.org markup will I jump on top of the Search results? 
