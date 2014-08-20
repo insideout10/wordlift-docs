@@ -5,8 +5,8 @@ Overview
 
 **WordLift** is a plugin for WordPress designed to create, structure and visualizing your contents.
 **WordLift** helps you **adding facts**, text and media to build *beautifully structured web sites* and to 
-publish your content as Linked Open Data_ following **Tim Berners-Lee's 
-Linked Data Principles_**:
+publish your content as `Linked Open Data`_ following **Tim Berners-Lee's 
+`Linked Data Principles`_**:
 
 Facts allows WordLift to understand the text you write, structure it to create effective navigation storyboards 
 and make sure *commercial search* engines like Google, Bing, Yandex and Yahoo! receive  the structured data 
