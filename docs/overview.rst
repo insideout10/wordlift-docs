@@ -51,5 +51,4 @@ increasing traffic on your website (more on `Schema.org Actions <http://searchen
 =================
 If I add schema.org markup will I jump on top of the Search results? 
 =================
-    :warning: This documentation is still under construction. 
-
+.. warning:: This documentation is still under construction. 
