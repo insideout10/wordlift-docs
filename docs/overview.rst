@@ -1,7 +1,7 @@
 Overview
 ===============
 
-        Serendipity for bloggers
+        **Serendipity for bloggers**
 
 **WordLift** is a plugin for WordPress designed to create, structure and visualizing your contents.
 **WordLift** helps you **adding facts**, text and media to build *beautifully structured web sites* and to 
