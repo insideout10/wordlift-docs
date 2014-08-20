@@ -41,8 +41,12 @@ Why shall I publish my contents as Linked Open Data?
 Organising web contents around **concepts** or **entities** rather than traditional web pages helps 
 *improve navigation*, *content re-use*, *content re-purposing* and *search engine rankings*.
 
-Overall having content aggregations based on **semantic fingerprinting** (using Linked Data identifiers) facilitates 
-*multi-dimensional entry points* and a richer navigation bringing the user experience to new levels of engagement. 
+Overall having content aggregations based on **semantic fingerprinting** (using Linked Data identifiers) creates
+a richer navigation bringing the user experience to new levels of engagement.
+
+As your contents metadata is published as `Linked Open Data <http://en.wikipedia.org/wiki/Linked_data>`_ it becomes easier
+for third party applications providers like Google to interact with your contents creating multi-dimensional entry points and 
+increasing traffic on your website (more on `Schema.org Actions <http://searchengineland.com/schema-user-actions-now-available-189421>`_ from the Search Engine Land website).
 
 =================
 If I add schema.org markup will I jump on top of the Search results? 
