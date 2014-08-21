@@ -55,5 +55,4 @@ Adding Schema.org does help creating rich snippets for your pages but most impor
 that machines can understand and reference. 
 
 There are a growing number of services (including Google) that try 
-to make use of this kind of information: ensuring that you are *directly* controlling the data you care about
-it is a good thing.
+to make use of this kind of information: ensuring that you are *directly* controlling the data you care about is a good thing.
