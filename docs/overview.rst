@@ -1,8 +1,6 @@
 Overview
 ===============
 
-        **Serendipity for bloggers**
-
 **WordLift** is a plugin for WordPress designed to create, structure and visualizing your contents.
 **WordLift** helps you **adding facts**, text and media to build *beautifully structured web sites* and to 
 publish your content as `Linked Open Data <http://en.wikipedia.org/wiki/Linked_data>`_ following **Tim Berners-Lee**'s 
@@ -32,8 +30,8 @@ the World Health Organisation, in the energy sector companies like Enel. Public 
 standards to share materials at regional, national and international level. 
 
 Public administrations around the World are committed to make their data available as Linked Open Data. In more horizontal
-markets search engines like Google, Yahoo!, Bing and Yandex are starting to use these technologies to increase the 
-quality of their services and to become more meanigful.
+markets search engines like Google, Yahoo!, Bing and Yandex as well as social networks like Facebook are starting to use these technologies to increase the 
+quality of their services and to become *more meanigful* to their end users.
 
 =================
 Why shall I publish my contents as Linked Open Data?
@@ -49,7 +47,13 @@ for third party applications providers like Google to interact with your content
 increasing traffic on your website (more on `Schema.org Actions <http://searchengineland.com/schema-user-actions-now-available-189421>`_ from the Search Engine Land website).
 
 =================
-If I add schema.org markup will I jump on top of the Search results? 
+If I add Schema.org markup will I jump on top of the Search results? 
 =================
-       :warning: This documentation is still under construction. 
 
+No, Schema.org is worth implementing right now but might have no immediate result on your SERP positionings.
+Adding Schema.org does help creating rich snippets for your pages but most importantly it’s about creating content
+that machines can understand and reference. 
+
+There are a growing number of services (including Google) that try 
+to make use of this kind of information: ensuring that you are *directly* controlling the data you care about
+it is a good thing.
