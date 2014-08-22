@@ -22,7 +22,7 @@ In WordLift users can create their own custom vocabulary by creating entities an
 When we link entities WordLift uses the ``owl:sameAs`` property; this means that we're talking about the same *thing* (or simply that both entities share the same "identity"): "Yes, I'm talking about that same *[Europe Day]* that Freebase describes with machine id **m/04f6ymq**". 
 
 
-This linking process is also called reconciliation or disambiguation.   
+This linking process is also called `Reconciliation`_ or disambiguation.   
 
 Knowledge Graph
 _____________
