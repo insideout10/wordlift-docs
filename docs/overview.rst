@@ -10,6 +10,12 @@ Facts allows WordLift to understand the text you write, structure it to create e
 and make sure *commercial search* engines like Google, Bing, Yandex and Yahoo! receive  the structured data 
 they need to properly index your contents.
 
+**WordLift** enriches the content/context of blog posts and pages by tagging, categorising, 
+and/or classifying them in relationship to each other, to existing dictionaries, and/or to other openly 
+available reference sources like DBpedia and Freebase. 
+This means adding contextual information to web publishing contents in the form of universal identifier 
+to *transform WordPress into a fully dynamic semantic architecture*. 
+
 =================
 Why shall I publish my contents as Linked Open Data?
 =================
