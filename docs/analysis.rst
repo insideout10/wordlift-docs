@@ -25,7 +25,7 @@ have written so far. The text is sent to the cloud and named entities are extrac
 
 .. image:: /images/wordlift-content-analysis-results.png
 
-Entities being recognised are highlighted with a black underlyning.   
+Entities being recognised are highlighted with a black underline.   
 
 
 .. note::
