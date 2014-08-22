@@ -49,7 +49,7 @@ Place as a type for the World WIde Web is misleading (the Web is rather a Creati
 
 .. image:: /images/wordlift-content-analysis-disambiguation-choosing-type.png
 
-Once I select *Creative Work* I will hit the save entity button to create the entity *[Web]* as *Creative Work* and to add the `semantic fingerprint <key-concepts.html#semantic-fingerprint> to my blog post.
+Once I select *Creative Work* I will hit the save entity button to create the entity *[Web]* as *Creative Work* and to add the `semantic fingerprint <key-concepts.html#semantic-fingerprint>`_ to my blog post.
 
 .. image:: /images/wordlift-content-analysis-disambiguation-selection.png
 
