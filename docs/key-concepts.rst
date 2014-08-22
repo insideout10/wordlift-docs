@@ -2,7 +2,7 @@ Key Concepts
 ===============
 Here is the terminology describing the core concepts that will help you set up and manage your contents with WordLift:
 
-Entities
+Entity
 _____________
 An **entity** is something that exists in the real-world: celebrities, cities, sports teams, buildings, geographical features, movies, celestial objects and works of art are all entities. For a long time, more than four decades, we teached computers to recognise things by simply matching keywords. 
 
@@ -62,10 +62,10 @@ WordLift re-uses these semantic fingerprints for adding Schema.org markup and fo
 
 Widget
 _____________
- **Widget** in WordLift are dynamic visualisations that can be added by the editors to a webpage via shortcodes or 
-using the WordLift menu. 
+A **widget** in WordLift is a dynamic visualisation that can be added by the editors to a page via `Shortcode <http://codex.wordpress.org/Shortcode>`_ or using the WordLift menu. 
 
-Widgets are executed by end-user when accessing a page and displays informations being stored in the knowledge graph. 
+A Widget is executed by the end-user's browser when accessing a page. 
+A Widget typically displays informations being stored in the knowledge graph and creates dynamic connections between different contents.  
 
 .. note::
 
