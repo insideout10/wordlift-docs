@@ -17,17 +17,6 @@ This means adding contextual information to web publishing contents in the form 
 to *transform WordPress into a fully dynamic semantic architecture*. 
 
 =================
-Why shall I publish my contents as Linked Open Data?
-=================
-
-Linked Open Data is a modern approach to use the Web as a platform and expose data in a format that can be
-easily shared and re-used within a larger network of intereconnected data.
-
-Much like in the nienties we created web pages with links to other pages right now it's about publishing datasets 
-that link to each other. The advantage is that right now entire verticals are adopting Linked Data Principles 
-to share knowledge within different communities. 
-
-=================
 Who is using Linked Data today?
 =================
 
@@ -62,3 +51,5 @@ that machines can understand and reference.
 
 There are a growing number of services (including Google) that try 
 to make use of this kind of information: ensuring that you are *directly* controlling the data you care about is a good thing.
+
+You can now continue to the :doc:`getting-started` page.
