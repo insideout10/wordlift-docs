@@ -28,7 +28,7 @@ have written so far in the editor. The text is sent to the cloud and named entit
 .. image:: /images/wordlift-content-analysis-results.png
 
 Entities being recognised are highlighted with a black underline. By clicking on each entity 
-I can `reconcile <https://wordlift.readthedocs.org/en/latest/key-concepts.html#reconciliation>`_ it with the same entity in DBpedia or Freebase.
+I can `reconcile <key-concepts.html#reconciliation>`_ it with the same entity in DBpedia or Freebase.
 
 .. image:: /images/wordlift-content-analysis-disambiguation-start.png
 
@@ -55,4 +55,4 @@ Once I select *Creative Work* I will hit the save entity button to create the en
 
 .. note::
 
-    `Reconciling <https://wordlift.readthedocs.org/en/latest/key-concepts.html#reconciliation>`_ entities means **linking** the entity appearing in my text with its own equivalent on other source (i.e. DBpedia or Freebase).
+    `Reconciling <key-concepts.html#reconciliation>`_ entities means **linking** the entity appearing in my text with its own equivalent on other source (i.e. DBpedia or Freebase).

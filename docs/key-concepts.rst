@@ -46,7 +46,7 @@ _____________
 
 *[Apple]* in a specific article might refer to a rather typical British psychedelic-pop group rather than to a World famous computer company or the forbidden fruit. This becomes important when third party applications like search engines need to provide valuable content for users searching for articles on *[Apple]* the psychedelic-pop band and not the other two *Apples*. 
 
-`Reconciling <https://wordlift.readthedocs.org/en/latest/key-concepts.html#reconciliation>`_ entities means providing computers with unambiguous identifications of the *entities* we talk about.  
+`Reconciling <key-concepts.html#reconciliation>`_ entities means providing computers with unambiguous identifications of the *entities* we talk about.  
 
 Semantic Fingerprint
 _____________
@@ -54,10 +54,10 @@ As result of the semantic annotation of portions of the text we write a *unique 
 
 
 Annotating contents, also known as *semantic enrichment* or *lifting*, creates metadata that computers can understand. 
-Just like in forensic science human fingerprints are used to identify humans appearing on a crime scene, in computer science we use semantic fingerprints to tell computers what `entities <https://wordlift.readthedocs.org/en/latest/key-concepts.html#entity>`_ we're referring to. 
+Just like in forensic science human fingerprints are used to identify humans appearing on a crime scene, in computer science we use semantic fingerprints to tell computers what `entities <key-concepts.html#entity>`_ we're referring to. 
 
 
-WordLift re-uses these semantic fingerprints for adding Schema.org markup and for re-purposing contents using `Widgets <https://wordlift.readthedocs.org/en/latest/key-concepts.html#widget>`_.    
+WordLift re-uses these semantic fingerprints for adding Schema.org markup and for re-purposing contents using `Widgets <key-concepts.html#widget>`_.    
 
 
 Widget
