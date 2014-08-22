@@ -14,7 +14,12 @@ All this information - collectively shared in public sources like Wikipedia and 
 
 Vocabulary
 _____________
-A **vocabulary** is a collection of things (or entities in our case). In WordLift users can create their own custom vocabulary by creating entities and describing their properties (i.e. *[Europe Day]* is held on 9 May and celebrates peace and unity in Europe). These entities might already exist in publicly available sources like Wikipedia and Freebase. In this case WordLift provides a list of suggested entities that can be *linked* to (or reconciled with). When we link entities WordLift uses the ``owl:sameAs``  (**`more details here <http://www.w3.org/TR/owl-ref/#sameAs-def>`_**) property and this means that we're talking about the same *thing* (both entities share the same "identity"). Yes, I'm talking about that same *[Europe Day]* that Freebase describes with machine id `m/04f6ymq <http://www.freebase.com/m/04f6ymq>`_. 
+A **vocabulary** is a collection of things (or entities in our case). In WordLift users can create their own custom vocabulary by creating entities and describing their properties (i.e. *[Europe Day]* is held on 9 May and celebrates peace and unity in Europe). These entities might already exist in publicly available sources like Wikipedia and Freebase. In this case WordLift provides a list of suggested entities that can be *linked* to (or reconciled with). 
+
+
+When we link entities WordLift uses the ``owl:sameAs`` property; this means that we're talking about the same *thing* (or simply that both entities share the same "identity"): "Yes, I'm talking about that same *[Europe Day]* that Freebase describes with machine id `m/04f6ymq <http://www.freebase.com/m/04f6ymq>`_". 
+
+
 This linking process is also called reconciliation or disambiguation.   
 
 Knowledge Graph
