@@ -36,6 +36,7 @@ created and published as `RDF`_ graph in the cloud.
 RDF
 _____________
 **RDF** stands for Resource Description Framework. 
+
 RDF is a W3C standard language for representing information. 
 
 Reconciliation
@@ -45,7 +46,7 @@ _____________
 
 *[Apple]* in a specific article might refer to a rather typical British psychedelic-pop group rather than to a World famous computer company or the forbidden fruit. This becomes important when third party applications like search engines need to provide valuable content for users searching for articles on *[Apple]* the psychedelic-pop band and not the other two *Apples*. 
 
-`Reconciling`_ entities means providing computers with unambiguous identifications of the *entities* we talk about.  
+`Reconciling <https://wordlift.readthedocs.org/en/latest/key-concepts.html#reconciliation>`_ entities means providing computers with unambiguous identifications of the *entities* we talk about.  
 
 Semantic Fingerprint
 _____________
