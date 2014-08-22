@@ -12,17 +12,17 @@ An **entity** is something that exists in the real-world: celebrities, cities, s
 
 Vocabulary
 _____________
-A **vocabulary** is a collection of things (or entities in our case). In WordLift users can create their own custom vocabulary by creating entities and describing their properties (i.e. [Europe Day] is held on 9 May and celebrates peace and unity in Europe). These entities might already exists in publicly available sources like Wikipedia and Freebase. In this case WordLift provides a list of suggested entities that can be *linked* to (or reconciled with). When we link entities WordLift uses the ```owl:sameAs <http://www.w3.org/TR/owl-ref/#sameAs-def>`_`` property and this means that we're talking about the same *thing* (both entities share the same "identity");yes, I'm talking about that same [Europe Day] that Freebase describes at the URI http://www.freebase.com/m/04f6ymq. 
+A **vocabulary** is a collection of things (or entities in our case). In WordLift users can create their own custom vocabulary by creating entities and describing their properties (i.e. *[Europe Day]* is held on 9 May and celebrates peace and unity in Europe). These entities might already exist in publicly available sources like Wikipedia and Freebase. In this case WordLift provides a list of suggested entities that can be *linked* to (or reconciled with). When we link entities WordLift uses the ``owl:sameAs``  (`more details here <http://www.w3.org/TR/owl-ref/#sameAs-def>`_) property and this means that we're talking about the same *thing* (both entities share the same "identity"). Yes, I'm talking about that same *[Europe Day]* that Freebase describes with machine id `m/04f6ymq <http://www.freebase.com/m/04f6ymq>`_. 
 This linking process is also called reconciliation or disambiguation.   
 
 Knowledge Graph
 _____________
 A **knowledge graph** is a network of all kind of entities that are relevant to a specific domain or to an organization. 
-They are not limited to abstract concepts and relations (as with a vocabulary) but also contain the instances of things.
+They are not limited to abstract concepts and relations (as with a vocabulary) but also contain the instances of the things they describe.
 
 Using WordLift as new entities are added in the vocabulary, properties for these entities are populated using the 
 *ease-to-use* WordPress editing interfaces and new posts are enriched with these entities a knowledge graph is 
-created as RDF Graph in the cloud.
+created and published as RDF graph the cloud.
 
 RDF
 _____________
