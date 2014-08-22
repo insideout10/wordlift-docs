@@ -85,7 +85,7 @@ by clicking on *Save Changes*.
     If you have a Redlink_ account, you can use your own settings. Refer to my.redlink.io_ for more information.
 
 
-You can now continue to the :doc:`analysis` page.
+You can now continue to the :doc:`key-concepts` page.
 
 
 .. _join.wordlift.it: http://join.wordlift.it/
