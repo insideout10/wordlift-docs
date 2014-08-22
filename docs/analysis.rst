@@ -20,8 +20,10 @@ These functions are accessible when editing blog posts or pages.
 
 .. image:: /images/wordlift-content-analysis-start.png
 
-To begin analysing the content I'm writing I need to click on the *cog icon*. By doing so I'm asking WordLift to enrich what I 
-have written so far. The text is sent to the cloud and named entities are extracted.
+To begin analysing the content I'm writing I need to click on the *cog icon*. 
+
+By doing so I'm asking WordLift to enrich what I 
+have written so far in the editor. The text is sent to the cloud and named entities are extracted.
 
 .. image:: /images/wordlift-content-analysis-results.png
 
