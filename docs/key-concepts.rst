@@ -7,13 +7,14 @@ _____________
 An **entity** is something that exists in the real-world: celebrities, cities, sports teams, buildings, geographical features, movies, celestial objects and works of art are all entities. For a long time, more than four decades, we teached computers to recognise things by simply matching keywords. 
 
 
-Now computers, just like humans do, understand that a text like *[Thubten Gyatso]* is not just made of two words but, it has a much richer meaning. 
+Now computers, just like humans do, understand that a text like *[Thubten Gyatso]* is not just made of two words but, it has a much richer meaning. *[Thubten Gyatso]* is a person, more specifically he's the 13th Dalai Lama who was born in the Tsang-Ü province in Tibet on the 12th of February 1876. 
 
-*[Thubten Gyatso]* is a person, more specifically he's the 13th Dalai Lama who was born in the Tsang-Ü province in Tibet on the 12th of February 1876. All this information - collectively shared in public sources like Wikipedia and Freebase - is organised in intelligent models known as **Graphs** that are helping computers thinking the way we do and helping us finding this information more quickly and even compute it (i.e. providing answers to question like *"Was Trinley Gyatso his predecessor?"*).   
+
+All this information - collectively shared in public sources like Wikipedia and Freebase - is organised in intelligent models known as **Graphs** that are helping computers thinking the way we do and helping us finding this information more quickly and even compute it (i.e. providing answers to question like *"Was Trinley Gyatso his predecessor?"*).   
 
 Vocabulary
 _____________
-A **vocabulary** is a collection of things (or entities in our case). In WordLift users can create their own custom vocabulary by creating entities and describing their properties (i.e. *[Europe Day]* is held on 9 May and celebrates peace and unity in Europe). These entities might already exist in publicly available sources like Wikipedia and Freebase. In this case WordLift provides a list of suggested entities that can be *linked* to (or reconciled with). When we link entities WordLift uses the ``owl:sameAs``  (`more details here <http://www.w3.org/TR/owl-ref/#sameAs-def>`_) property and this means that we're talking about the same *thing* (both entities share the same "identity"). Yes, I'm talking about that same *[Europe Day]* that Freebase describes with machine id `m/04f6ymq <http://www.freebase.com/m/04f6ymq>`_. 
+A **vocabulary** is a collection of things (or entities in our case). In WordLift users can create their own custom vocabulary by creating entities and describing their properties (i.e. *[Europe Day]* is held on 9 May and celebrates peace and unity in Europe). These entities might already exist in publicly available sources like Wikipedia and Freebase. In this case WordLift provides a list of suggested entities that can be *linked* to (or reconciled with). When we link entities WordLift uses the ``owl:sameAs``  (**`more details here <http://www.w3.org/TR/owl-ref/#sameAs-def>`_**) property and this means that we're talking about the same *thing* (both entities share the same "identity"). Yes, I'm talking about that same *[Europe Day]* that Freebase describes with machine id `m/04f6ymq <http://www.freebase.com/m/04f6ymq>`_. 
 This linking process is also called reconciliation or disambiguation.   
 
 Knowledge Graph
