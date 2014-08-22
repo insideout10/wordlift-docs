@@ -8,11 +8,11 @@ a blog post using the visual editor of WordPress.
 
 WordLift adds to the visual editor of WordPress it's own menu providing three functions:
 
-.. image:: /images/wordpress-menu.png
+.. image:: /images/wordlift-menu.png
 
-    * **Content analysis** (*cog icon*) 
-    * **New entity creation** (*pencil icon*)
-    * **WordLift graphs** 
+* **Content analysis** (*cog icon*) 
+* **New entity creation** (*pencil icon*)
+* **WordLift graphs** 
 
 These functions are accessible when editing blog posts or pages.
 
