@@ -67,8 +67,6 @@ A **widget** in WordLift is a dynamic visualisation that can be added by the edi
 A Widget is executed by the end-user's browser when accessing a page. 
 A Widget typically displays informations being stored in the `knowledge graph`_ and creates dynamic connections between different contents.  
 
-.. note::
-
-    This documentation is still under construction. 
+You can now continue to the :doc:`analysis` page.
 
 
