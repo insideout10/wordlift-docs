@@ -31,7 +31,7 @@ They are not limited to abstract concepts and relations (as with a vocabulary) b
 
 Using WordLift as new entities are added in the vocabulary, properties for these entities are populated using the 
 *ease-to-use* WordPress editing interfaces and new posts are enriched with these entities a knowledge graph is 
-created and published as RDF graph in the cloud.
+created and published as `RDF`_ graph in the cloud.
 
 RDF
 _____________
@@ -40,12 +40,12 @@ RDF is a W3C standard language for representing information.
 
 Reconciliation
 _____________
-**Reconciling** entities we store in our own vocabulary with entities available elsewhere provides computers with an unambiguous way to identify the things we're talking about. 
+**Reconciling** entities we store in our own `vocabulary`_ with entities available elsewhere provides computers with an unambiguous way to identify the things we're talking about. 
 
 
 *[Apple]* in a specific article might refer to a rather typical British psychedelic-pop group rather than to a World famous computer company or the forbidden fruit. This becomes important when third party applications like search engines need to provide valuable content for users searching for articles on *[Apple]* the psychedelic-pop band and not the other two *Apples*. 
 
-Reconciling entities means providing computers with unambiguous identifications of the *entities* we talk about.  
+`Reconciling`_ entities means providing computers with unambiguous identifications of the *entities* we talk about.  
 
 Semantic Fingerprint
 _____________
@@ -53,10 +53,10 @@ As result of the semantic annotation of portions of the text we write a *unique 
 
 
 Annotating contents, also known as *semantic enrichment* or *lifting*, creates metadata that computers can understand. 
-Just like in forensic science human fingerprints are used to identify humans in the scene, in computer science we use semantic fingerprints to tell computers what we're talking about. 
+Just like in forensic science human fingerprints are used to identify humans appearing on a crime scene, in computer science we use semantic fingerprints to tell computers what `entities`_ we're referring to. 
 
 
-WordLift re-uses these semantic fingerprints for adding Schema.org markup and for re-purposing contents using Widgets.    
+WordLift re-uses these semantic fingerprints for adding Schema.org markup and for re-purposing contents using `Widgets`_.    
 
 
 Widget
@@ -64,7 +64,7 @@ _____________
 A **widget** in WordLift is a dynamic visualisation that can be added by the editors to a page via `Shortcode <http://codex.wordpress.org/Shortcode>`_ or using the WordLift menu. 
 
 A Widget is executed by the end-user's browser when accessing a page. 
-A Widget typically displays informations being stored in the knowledge graph and creates dynamic connections between different contents.  
+A Widget typically displays informations being stored in the `knowledge graph`_ and creates dynamic connections between different contents.  
 
 .. note::
 
