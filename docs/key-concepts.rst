@@ -1,6 +1,6 @@
 Key Concepts
 ===============
-**Glossary of Terms**
+	|**Glossary of Terms**
 Here is the terminology describing the core concpets that will help you set up and manage your contents with WordLift:
 
 Entities
