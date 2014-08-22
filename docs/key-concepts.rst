@@ -19,7 +19,7 @@ A **vocabulary** is a collection of things (or entities in our case).
 In WordLift users can create their own custom vocabulary by creating entities and describing their properties (i.e. *[Europe Day]* is held on 9 May and celebrates peace and unity in Europe). These entities might already exist in publicly available sources like Wikipedia and Freebase. In this case WordLift provides a list of suggested entities that can be *linked* to (or reconciled with). 
 
 
-When we link entities WordLift uses the ``owl:sameAs`` property; this means that we're talking about the same *thing* (or simply that both entities share the same "identity"): "Yes, I'm talking about that same *[Europe Day]* that Freebase describes with machine id `m/04f6ymq <http://www.freebase.com/m/04f6ymq>`_". 
+When we link entities WordLift uses the ``owl:sameAs`` property; this means that we're talking about the same *thing* (or simply that both entities share the same "identity"): "Yes, I'm talking about that same *[Europe Day]* that Freebase describes with machine id **m/04f6ymq**". 
 
 
 This linking process is also called reconciliation or disambiguation.   
@@ -43,13 +43,13 @@ _____________
 **Reconciling** entities we store in our own vocabulary with entities available elsewhere provides computers with an unambiguous way to identify the things we're talking about. 
 
 
-*[Apple]* in a specific article might refer to a rather typical British psychedelic-pop group rather than to a World famous computer company or the forbidden fruit. This becomes important when third party applications like search engine need to provide valuable content for users searching for articles on *[Apple]* the psychedelic-pop band and not the other two *Apples*. 
+*[Apple]* in a specific article might refer to a rather typical British psychedelic-pop group rather than to a World famous computer company or the forbidden fruit. This becomes important when third party applications like search engines need to provide valuable content for users searching for articles on *[Apple]* the psychedelic-pop band and not the other two *Apples*. 
 
-Reconciling entities means providing unambiguous descriptions of the *entities* with describe in our contents.  
+Reconciling entities means providing computers with unambiguous indentifications of the *entities* we talk about.  
 
 Semantic Fingerprint
 _____________
-As result of the semantic annotation of portions of the texts we write (i.e. *[Europe Day]*, *[Thubten Gyatso]* or *[Apple]*) a unique linked indentifier is added. This identifier is known as **semantic fingerprint**. 
+As result of the semantic annotation of portions of the text we write a *unique linked indentifier* is added to the HTML code. This identifier is known as **semantic fingerprint**. 
 
 
 Annotating contents, also known as *semantic enrichment* or *lifting*, creates metadata that computers can understand. 
