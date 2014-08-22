@@ -53,10 +53,10 @@ As result of the semantic annotation of portions of the text we write a *unique 
 
 
 Annotating contents, also known as *semantic enrichment* or *lifting*, creates metadata that computers can understand. 
-Just like in forensic science human fingerprints are used to identify humans appearing on a crime scene, in computer science we use semantic fingerprints to tell computers what `entities`_ we're referring to. 
+Just like in forensic science human fingerprints are used to identify humans appearing on a crime scene, in computer science we use semantic fingerprints to tell computers what :ref:`entities <entity>` we're referring to. 
 
 
-WordLift re-uses these semantic fingerprints for adding Schema.org markup and for re-purposing contents using `Widgets`_.    
+WordLift re-uses these semantic fingerprints for adding Schema.org markup and for re-purposing contents using :ref:`Widgets <widget>`.    
 
 
 Widget
