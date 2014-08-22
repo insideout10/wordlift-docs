@@ -45,7 +45,7 @@ _____________
 
 *[Apple]* in a specific article might refer to a rather typical British psychedelic-pop group rather than to a World famous computer company or the forbidden fruit. This becomes important when third party applications like search engines need to provide valuable content for users searching for articles on *[Apple]* the psychedelic-pop band and not the other two *Apples*. 
 
-Reconciling entities means providing computers with unambiguous indentifications of the *entities* we talk about.  
+Reconciling entities means providing computers with unambiguous identifications of the *entities* we talk about.  
 
 Semantic Fingerprint
 _____________
