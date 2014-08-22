@@ -49,7 +49,7 @@ Reconciling entities means providing computers with unambiguous identifications 
 
 Semantic Fingerprint
 _____________
-As result of the semantic annotation of portions of the text we write a *unique linked indentifier* is added to the HTML code. This identifier is known as **semantic fingerprint**. 
+As result of the semantic annotation of portions of the text we write a *unique linked identifier* is added to the HTML code. This identifier is known as **semantic fingerprint**. 
 
 
 Annotating contents, also known as *semantic enrichment* or *lifting*, creates metadata that computers can understand. 
