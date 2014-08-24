@@ -15,4 +15,5 @@ Contents:
    getting-started
    key-concepts
    analysis
+   editing-entity
 
