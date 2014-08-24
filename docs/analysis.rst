@@ -42,6 +42,9 @@ have written so far in the editor. The text is sent to the cloud and named entit
 Entities being recognised are highlighted with a black underline. By clicking on each entity 
 I can `reconcile <key-concepts.html#reconciliation>`_ it with the same entity in DBpedia or Freebase.
 
+Reconciling entities
+_____________
+
 .. image:: /images/wordlift-content-analysis-disambiguation-start.png
 
 I'm now choosing as relevant entity in my test *[Web]* as my post is referring to the World Wide Web.
