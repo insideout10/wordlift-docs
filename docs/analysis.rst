@@ -18,10 +18,10 @@ The menu has three functions:
 
 * **Content analysis** (*cog icon*) 
 		*the text you're writing is sent to the cloud for being analysed.
-* **New entity creation** (*pencil icon*)
-		*concepts that don't already exist can be created as part of your own `vocabulary <key-concepts.html#vocabulary>`_ by highlighting the text and clicking on this button. 
+* **New entity creation** (*pencil icon*)*
+		*concepts that don't already exist can be created as part of your own `vocabulary <key-concepts.html#vocabulary>`_ by highlighting the text and clicking on this button.* 
 * **WordLift graphs** 
-		*a menu with different visualizations allows you to add `widgets <key-concepts.html#vocabulary>`_ in the page or in the sidebar.  
+		*a menu with different visualizations allows you to add `widgets <key-concepts.html#vocabulary>`_ in the page or in the sidebar.*  
 
 These functions are accessible when editing blog posts or pages.
 
