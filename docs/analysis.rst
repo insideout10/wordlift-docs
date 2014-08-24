@@ -21,9 +21,9 @@ The menu has three functions:
 
 * **New entity creation** (*pencil icon*)
 		|	concepts that don't already exist can be created as part of your own `vocabulary <key-concepts.html#vocabulary>`_ by highlighting the text and clicking on this button. 
-		
+
 * **WordLift graphs** 
-		|	a menu with different visualizations allows you to add `widgets <key-concepts.html#vocabulary>`_ in the page or in the sidebar.*  
+		|	a menu with different visualizations allows you to add `widgets <key-concepts.html#vocabulary>`_ in the page or in the sidebar.  
 
 These functions are accessible when editing blog posts or pages.
 
@@ -49,7 +49,7 @@ And from the list of suggested entities I received from WordLift I choose to int
 
 .. image:: /images/wordlift-content-analysis-disambiguation-selection.png
 
-When doing so I can choose the entity type for this entity using the drop-down menu. 
+When doing so I can change the entity type for this entity using the drop-down menu. 
 
 In this specific case the associated type I receive is place (as seen from the pinpoint icon). 
 Place as a type for the World WIde Web is misleading (the Web is rather a Creative Work). 
@@ -68,3 +68,5 @@ Once I select *Creative Work* I will hit the save entity button to create the en
 .. note::
 
     `Reconciling <key-concepts.html#reconciliation>`_ entities means **linking** the entity appearing in my text with its own equivalent on other source (i.e. DBpedia or Freebase).
+
+You can now continue to the :doc:`editing-entity` page.

@@ -12,6 +12,10 @@ Now computers, just like humans do, understand that a text like *[Thubten Gyatso
 
 All this information - collectively shared in public sources like Wikipedia and Freebase - is organised in intelligent models known as **Graphs** that are helping computers thinking the way we do and helping us finding this information more quickly and even compute it (i.e. providing answers to question like *"Was Trinley Gyatso his predecessor?"*).   
 
+..	note::
+
+Web pages are about all different kind of "things". WordLift uses the `Schema.org <http://schema.org>`_ vocabulary to describes a variety of entity types, each of which has its own set of properties that can be used to describe the entity. The broadest item type is **Thing**, which has four properties: *name*, *description*, *url*, and *image*. WordLift also supports: **Person**, **Place**, **Event**, **Organization** and **Creative Work** (and more types are constantly added to this list) 
+
 Vocabulary
 _____________
 A **vocabulary** is a collection of things (or entities in our case). 
