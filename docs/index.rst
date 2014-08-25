@@ -3,8 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
 Welcome to WordLift's documentation
 ====================================
+
+The main documentation for getting started with WordLift is organized in the following sections:
+
+* :ref:`site-docs`
+* :ref:`feature-docs``
+* :ref:`about``
+
+.. _site-docs:
+
+User Documentation
+------------------
 
 Contents:
 
@@ -16,4 +28,21 @@ Contents:
    key-concepts
    analysis
    editing-entity
+
+Features
+~~~~~~~~
+
+.. toctree::
+    :maxdepth: 2
+
+
+.. _about-docs:
+
+About WordLift
+-------------------
+
+.. toctree::
+    :maxdepth: 2
+
+
 
