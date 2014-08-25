@@ -26,7 +26,7 @@ User Documentation
    getting-started
    key-concepts
    analysis
-   editing-entity
+   edit-entity
    faq
 
 Features
