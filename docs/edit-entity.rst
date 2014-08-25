@@ -56,6 +56,19 @@ Here follows the list of properties that can be edited with WordLift for each en
 |              |Work(i.e. Software).|additionalType.             |                   |
 +--------------+--------------------+----------------------------+-------------------+
 
+Editing an Event
+-------------------------------
+Events, occuring in a specific time are also entities. To personalise the *startDate* and *endDate* of an event I can use the **Event duration**box and the calendar control.
+
+.. image:: /images/wordlift-edit-entity-event.png
+
+Editing a Place
+-------------------------------
+Places are also entities. To personalise the *geo coordinates* (longitude and latitude) of a place I can use the **Coordinates** box and either edit the *Latitude* and *Longitude* fields or simply place the pinpoint on the map.
+
+.. image:: /images/wordlift-edit-entity-place.png
+
+
 Updating the description
 -------------------------------
 
