@@ -95,8 +95,26 @@ As I don't need to change the type, I only need to click on the entity represent
 
 	Annotations are saved when a blog post or a page is published. The annotations and the data related to each entity being annotated remain in *draft* untill the post or page is published. 
 
-Once I click the "Publish" button to go live with my post, data is saved in WordPress and a new box appears in the editing screen showing the `related entities <key-concepts.html#related-entities>`_  of the blog post. 
+Once I click the "Publish" button of WordPress to go live with my post, data is saved in WordPress and a new box appears in the editing screen showing the `related entities <key-concepts.html#related-entities>`_  of the blog post. 
 
 .. image:: /images/wordlift-content-analysis-related-entities.png
+
+.. note::
+
+    To replace entities being used in the annotation of the blog post after publishing we need to restart the analysis by clicking on the cog icon.
+
+Creating a new entity
+_____________
+
+The purpose of using WordLift is to (1) categorize your content, (2) help people find content of interest to them, and (3) help WordLift describe your contents in *machine-readable* format so that other computers can re-use it. 
+
+In some cases key concepts that are important for (1), (2) and (3) are not automatically detected by WordLift and need to be taught by creating new entities.
+
+.. note::
+
+	A basic guideline for adding entity is: people should apply entities that a librarian would plausibly use to classify the content you're writing as if it was a book.
+
+
+
 
 You can now continue to the :doc:`editing-entity` page.
