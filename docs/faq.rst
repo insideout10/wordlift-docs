@@ -23,7 +23,7 @@ _____________
 
 A basic guideline for adding a new entity is: 
 
-	"*people should create entities that a librarian would plausibly use to classify the content you're writing as if it was a book.*"
+	"*people should create entities that a librarian would plausibly use to classify the content as if it was a book.*"
 
 The purpose of using WordLift is to (1) categorize your content, (2) help people find content of interest to them, and (3) help WordLift describe your contents in *machine-readable* format so that other computers can re-use it. 
 
