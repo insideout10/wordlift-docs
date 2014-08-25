@@ -27,6 +27,7 @@ User Documentation
    key-concepts
    analysis
    editing-entity
+   faq
 
 Features
 ~~~~~~~~
