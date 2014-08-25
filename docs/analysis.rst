@@ -7,7 +7,7 @@ _____________
 To begin working with WordLift, once the plugin has been properly installed, we can simply begin writing
 a blog post using the visual editor of WordPress.
 
-WordLift adds to the visual editor of WordPress its own menu. 
+WordLift adds to the visual editor its own menu. 
 
 .. image:: /images/wordlift-menu.png
 
@@ -65,6 +65,11 @@ Place as a type for the World WIde Web is misleading (the Web is rather a Creati
 	Data being used for the enrichments comes from openely avaialble sources
 	like DBpedia that might contain misleading information like in this case. 
 
+Changing type
+--------------
+
+To change the type of the entity I can use the drop-down menu and choose the proper type (Creative Work in this case).
+
 .. image:: /images/wordlift-content-analysis-disambiguation-choosing-type.png
 
 Once I select *Creative Work* I will hit the "save entity button" to create the entity *[Web]* as *Creative Work* and to add the `semantic fingerprint <key-concepts.html#semantic-fingerprint>`_ to my blog post.
@@ -73,18 +78,18 @@ Once I select *Creative Work* I will hit the "save entity button" to create the 
 
 .. note::
 
-    `Reconciling <key-concepts.html#reconciliation>`_ entities means **linking** the entity appearing in my text with its own equivalent on other source (i.e. DBpedia or Freebase).
+    `Reconciling <key-concepts.html#reconciliation>`_ entities means **linking** the entity appearing in my text with its own equivalent on other sources (i.e. DBpedia or Freebase).
 
 
-In this initial text another important concept worth mentioning is the Creator of the World Wide Web Sir Tim Berners-Lee.
-The entity in this case is properly identified as Person (all Person type use in WordLift the person icon and their color is pink) and information is sourced from DBpedia.   
+In this initial text another important concept worth mentioning is the creator of the World Wide Web Sir Tim Berners-Lee.
+The entity in this case is properly identified as Person (all Person type use in WordLift the person icon and the color pink) and information is sourced from DBpedia.   
 
 .. image:: /images/wordlift-content-analysis-disambiguation-berners-lee.png
 
 Proper type
 --------------
 
-As I don't need to change the type in this case I only need to click on the entity representing Tim and the annotation will be automatically saved once I published my post. 
+As I don't need to change the type, I only need to click on the entity representing Tim and the annotation will be automatically saved once I published my post. 
 
  .. note::
 
