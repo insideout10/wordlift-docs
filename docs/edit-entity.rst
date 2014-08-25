@@ -27,30 +27,30 @@ Entity types and properties Table
 +--------------+--------------------+----------------------------+-------------------+
 |     Type     |    Description     |      Edit Properties       |     Schema.org    |
 +==============+====================+============================+===================+
-| Thing        |The most generic    |*Name*,*Description*,*Image*| `/Thing`_         |
-|              |type of entity.     |,*Type*,*URL*,*SameAs       |                   |
-|              |                    |,*additionalType            |                   |
+| Thing        |The most generic    | Name , Description , Image | `/Thing`_         |
+|              |type of entity.     |, Type , URL , SameAs       |                   |
+|              |                    |, additionalType            |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Person       |A person.           |*Name*,*Description*,*Image*| `/Person`_        |
-|              |                    |,*Type*,*URL*,*SameAs       |                   |
-|              |                    |,*additionalType*           |                   |
+| Person       |A person.           | Name , Description , Image | `/Person`_        |
+|              |                    |, Type , URL , SameAs       |                   |
+|              |                    |, additionalType            |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Place        |Entities            |*Name*,*Description*,*Image*| `/Place`_         |
-|              |with a physical     |,*Type*,*URL*,*SameAs       |                   |
-|              |extension.			|,*additionalType*, *Geo*    |                   |
+| Place        |Entities            | Name , Description , Image | `/Place`_         |
+|              |with a physical     |, Type , URL , SameAs       |                   |
+|              |extension.			|, additionalType ,  Geo     |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Event        |An event happening  |*Name*,*Description*,*Image*| `/Event`_         |
-|              |in a specific time  |,*Type*,*URL*,*SameAs       |                   |
-|              |and location.       |,*additionalType*, *Geo*,   |                   |
-|              |                    |*startDate*,*endDate*       |                   |
+| Event        |An event happening  | Name , Description , Image | `/Event`_         |
+|              |in a specific time  |, Type , URL , SameAs       |                   |
+|              |and location.       |, additionalType ,  Geo ,   |                   |
+|              |                    | startDate , endDate        |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Organization |An Organization.    |*Name*,*Description*,*Image*| `/Organization`_  |
-|              |                    |,*Type*,*URL*,*SameAs       |                   |
-|              |                    |,*additionalType*           |                   |
+| Organization |An Organization.    | Name , Description , Image | `/Organization`_  |
+|              |                    |, Type , URL , SameAs       |                   |
+|              |                    |, additionalType            |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Creative     |The most generic    |*Name*,*Description*,*Image*| `/CreativeWork`_	 |
-| Work		   |kind of Creative    |,*Type*,*URL*,*SameAs       |                   |
-|              |Work (i.e. Software)|,*additionalType*           |                   |
+| Creative     |The most generic    | Name , Description , Image | `/CreativeWork`_	 |
+| Work		   |kind of Creative    |, Type , URL , SameAs       |                   |
+|              |Work (i.e. Software)|, additionalType            |                   |
 +--------------+--------------------+----------------------------+-------------------+
 
 Updating properties
