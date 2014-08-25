@@ -112,9 +112,20 @@ In some cases key concepts that are important for (1), (2) and (3) are not autom
 
 .. note::
 
-	A basic guideline for adding entity is: people should apply entities that a librarian would plausibly use to classify the content you're writing as if it was a book.
+	A basic guideline for adding entity is: people should apply entities that a librarian would plausibly use to classify the content you're writing as if it was a book. For some basic guidelines on when creating new entities `read here <faq.html#what-are-the-guidelines-for-creating-new-entities-to-annotate-a-blog-post-or-a-page>`_
 
+New entities being added will become part of the `WordLift vocabulary  <key-concepts.html#vocabulary>`_. 
 
+Once an entity as been added to the vocabulary it will be automatically detected every-time you mention it again in your contents.
 
+In our example one significant entity has not been detected and it is worth *teaching* it to WordLift. 
 
-You can now continue to the :doc:`editing-entity` page.
+.. image:: /images/wordlift-content-analysis-new-entity-highlight.png  
+
+The entity is infact *[WordLift]* itself. To create a new entity I will highlight the text ``WordLift`` and click on the pencil icon "Insert entity".
+
+.. image:: /images/wordlift-content-analysis-new-entity-creation.png
+
+I will then choose the type Creative Work (it also applies to *Software*) and hit on the "Save the entity" button. Once I publish the post again the new entity will appear in the list of the `related entities <key-concepts.html#related-entities>`_  of the blog post along with *[Web]* and *[Tim Berners-Lee]*.   
+
+You can now continue to the :doc:`edit-entity` page.
