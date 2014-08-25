@@ -37,7 +37,7 @@ Entity types and properties Table
 +--------------+--------------------+----------------------------+-------------------+
 | Place        |Entities            | Name , Description , Image | `/Place`_         |
 |              |with a physical     |, Type , URL , SameAs       |                   |
-|              |extension.			|, additionalType ,  Geo     |                   |
+|              |extension.	    |, additionalType ,  Geo     |                   |
 +--------------+--------------------+----------------------------+-------------------+
 | Event        |An event happening  | Name , Description , Image | `/Event`_         |
 |              |in a specific time  |, Type , URL , SameAs       |                   |
@@ -48,9 +48,9 @@ Entity types and properties Table
 |              |                    |, Type , URL , SameAs       |                   |
 |              |                    |, additionalType            |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Creative     |The most generic    | Name , Description , Image | `/CreativeWork`_	 |
-| Work		   |kind of Creative    |, Type , URL , SameAs       |                   |
-|              |Work (i.e. Software)|, additionalType            |                   |
+| Creative     |The most generic    | Name , Description , Image | `/CreativeWork`_  |
+| Work	       |kind of Creative    |, Type , URL , SameAs       |                   |
+|              |Work(i.e. Software).|, additionalType            |                   |
 +--------------+--------------------+----------------------------+-------------------+
 
 Updating properties
