@@ -27,9 +27,9 @@ Entity types and properties Table
 +--------------+--------------------+----------------------------+-------------------+
 |     Type     |    Description     |      Edit Properties       |     Schema.org    |
 +==============+====================+============================+===================+
-| Thing        |The most generic    | Name , Description , Image | `/Thing`_         |
-|              |type of entity.     |, Type , URL , SameAs       |                   |
-|              |                    |, additionalType            |                   |
+| Thing        |The most generic    |*Name*,*Description*,*Image*| /Thing            |
+|              |type of entity.     |,*Type*,*URL*,*SameAs*      |                   |
+|              |                    |,*additionalType*           |                   |
 +--------------+--------------------+----------------------------+-------------------+
 | Person       |A person.           | Name , Description , Image | `/Person`_        |
 |              |                    |, Type , URL , SameAs       |                   |
