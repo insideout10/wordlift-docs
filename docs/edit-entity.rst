@@ -63,6 +63,9 @@ When we have something meanigful to say on a specific concept we shall curate th
 
 .. image:: /images/wordlift-content-analysis-new-entity-update.png
 
+Linking other entities
+_____________
+
 After editing the description of *[Berners-Lee]* I can ran the analysis by clicking on the *cog icon* "Analyse" just like we would do for a blog posts. 
 
 With the analysis I can *link* an entity with other entities. WordLift will store these relationships between one entity and other entities in the `graph <key-concepts.html#knowledge-graph>`_ using the Dublin Core property ``dct:related``. This information will be used to infer new connections between the contents of the site. For more information on *entity linking* `read the faq <faq.html#when-should-i-link-one-entity-to-another>`_.   
