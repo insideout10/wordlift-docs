@@ -27,32 +27,36 @@ Entity types and properties Table
 +--------------+--------------------+----------------------------+-------------------+
 |     Type     |    Description     |         Properties         |     Schema.org    |
 +==============+====================+============================+===================+
-| Thing        |The most generic    |Name,Description,Image,     | `/Thing`_         |
+| Thing        |The most generic    |Name,Description,Image,     | Thing_            |
 |              |type of entity.     |Type,URL,SameAs,            |                   |
 |              |                    |additionalType.             |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Person       |A person.           |Name,Description,Image,     | `/Person`_        |
+| Person       |A person.           |Name,Description,Image,     | Person_           |
 |              |                    |Type,URL,SameAs,            |                   |
 |              |                    |additionalType.             |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Place        |Entities            |Name,Description,Image,     | `/Place`_         |
+| Place        |Entities            |Name,Description,Image,     | Place_            |
 |              |with a physical     |Type,URL,SameAs,            |                   |
 |              |extension.	    |additionalType,Geo.         |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Event        |An event happening  |Name,Description,Image,     | `/Event`_         |
+| Event        |An event happening  |Name,Description,Image,     | Event_            |
 |              |in a specific time  |Type,URL,SameAs,            |                   |
 |              |and location.       |additionalType,Geo,         |                   |
 |              |                    |startDate,endDate.          |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Organization |An Organization.    |Name,Description,Image,     | `/Organization`_  |
+| Organization |An Organization.    |Name,Description,Image,     | Organization_     |
 |              |                    |Type,URL,SameAs,            |                   |
 |              |                    |additionalType.             |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Creative     |The most generic    |Name,Description,Image,     | `/CreativeWork`_  |
+| Creative     |The most generic    |Name,Description,Image,     | CreativeWork_     |
 | Work	       |kind of Creative    |Type,URL,SameAs,            |                   |
 |              |Work(i.e. Software).|additionalType.             |                   |
 +--------------+--------------------+----------------------------+-------------------+
 
-Updating properties
-_____________
 
+.. _Thing: http://schema.org/Thing
+.. _Person: http://schema.org/Person
+.. _Place: http://schema.org/Place
+.. _Event: http://schema.org/Event
+.. _Organization: http://schema.org/Organization
+.. _CreativeWork: http://schema.org/CreativeWork
