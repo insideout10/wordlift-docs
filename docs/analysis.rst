@@ -90,7 +90,7 @@ As I don't need to change the type in this case I only need to click on the enti
 
 	Annotations are saved when a blog post or a page is published. The annotations and the data related to each entity being annotated remain in *draft* untill the post or page is published. 
 
-Once I click the "Publish" button to go live with my post, data is saved in WordPress and a new box appears in the editing screen showing the related entities of the blog post. 
+Once I click the "Publish" button to go live with my post, data is saved in WordPress and a new box appears in the editing screen showing the `related entities <key-concepts.html#related-entities>`_  of the blog post. 
 
 .. image:: /images/wordlift-content-analysis-related-entities.png
 
