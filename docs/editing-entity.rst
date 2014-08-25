@@ -1,2 +1,2 @@
-Entity Editing
+Editing an Entity
 ========

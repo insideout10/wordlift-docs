@@ -54,6 +54,9 @@ And from the list of suggested entities I received from WordLift I choose to int
 
 When doing so I can change the entity type for this entity using the drop-down menu. 
 
+Type mismatch
+--------------
+
 In this specific case the associated type I receive is place (as seen from the pinpoint icon). 
 Place as a type for the World WIde Web is misleading (the Web is rather a Creative Work). 
 
@@ -64,12 +67,31 @@ Place as a type for the World WIde Web is misleading (the Web is rather a Creati
 
 .. image:: /images/wordlift-content-analysis-disambiguation-choosing-type.png
 
-Once I select *Creative Work* I will hit the save entity button to create the entity *[Web]* as *Creative Work* and to add the `semantic fingerprint <key-concepts.html#semantic-fingerprint>`_ to my blog post.
+Once I select *Creative Work* I will hit the "save entity button" to create the entity *[Web]* as *Creative Work* and to add the `semantic fingerprint <key-concepts.html#semantic-fingerprint>`_ to my blog post.
 
 .. image:: /images/wordlift-content-analysis-disambiguation-selection.png
 
 .. note::
 
     `Reconciling <key-concepts.html#reconciliation>`_ entities means **linking** the entity appearing in my text with its own equivalent on other source (i.e. DBpedia or Freebase).
+
+
+In this initial text another important concept worth mentioning is the Creator of the World Wide Web Sir Tim Berners-Lee.
+The entity in this case is properly identified as Person (all Person type use in WordLift the person icon and their color is pink) and information is sourced from DBpedia.   
+
+.. image:: /images/wordlift-content-analysis-disambiguation-berners-lee.png
+
+Proper type
+--------------
+
+As I don't need to change the type in this case I only need to click on the entity representing Tim and the annotation will be automatically saved once I published my post. 
+
+ .. note::
+
+	Annotations are saved when a blog post or a page is published. The annotations and the data related to each entity being annotated remain in *draft* untill the post or page is published. 
+
+Once I click the "Publish" button to go live with my post, data is saved in WordPress and a new box appears in the editing screen showing the related entities of the blog post. 
+
+.. image:: /images/wordlift-content-analysis-related-entities.png
 
 You can now continue to the :doc:`editing-entity` page.

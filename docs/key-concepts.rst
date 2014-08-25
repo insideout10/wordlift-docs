@@ -4,6 +4,7 @@ Here is the terminology describing the core concepts that will help you set up a
 
 Entity
 _____________
+
 An **entity** is something that exists in the real-world: celebrities, cities, sports teams, buildings, geographical features, movies, celestial objects and works of art are all entities. For a long time, more than four decades, we teached computers to recognise things by simply matching keywords. 
 
 
@@ -15,6 +16,11 @@ All this information - collectively shared in public sources like Wikipedia and 
 ..	note::
 
 Web pages are about all different kind of "things". WordLift uses the `Schema.org <http://schema.org>`_ vocabulary to describes a variety of entity types, each of which has its own set of properties that can be used to describe the entity. The broadest item type is **Thing**, which has four properties: *name*, *description*, *url*, and *image*. WordLift also supports: **Person**, **Place**, **Event**, **Organization** and **Creative Work** (and more types are constantly added to this list) 
+
+Related Entities
+--------------
+
+In WordLift **related entities** are the entities being used for annotating a blog post or a page. 
 
 Vocabulary
 _____________
