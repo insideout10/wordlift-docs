@@ -22,7 +22,8 @@ Web pages are about all different kind of "things". WordLift uses the `Schema.or
 Related Entities
 --------------
 
-In WordLift **related entities** are the entities being used for annotating a blog post or a page. 
+In WordLift **related entities** are primarily the entities being used for annotating a blog post or a page. 
+Each entity we curate can be eventually *linked* to other entities by running the analysis on the property description text (that corresponds to the body of the custom post representing each entity). Entities being *linked* with other entities with the analysis are also known as **related entities**.
 
 Vocabulary
 _____________

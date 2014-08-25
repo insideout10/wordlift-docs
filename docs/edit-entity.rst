@@ -8,21 +8,24 @@ Entities are saved in the WordPress databases as `custom posts <http://codex.wor
 
 .. image:: /images/wordlift-edit-entity-referencing-posts.png
 
-In our case I can see that the entity *[Tim Berners-Lee]* is associated with the post *Hello World!*.
+In our case I can see that the entity *[Tim Berners-Lee]* is associated with the post *Hello World!*
+
+Edit entity properties
+_____________
+
 The entity page provides the following set of properties that can be edited:
 
 	- **Name:** the title of the article 
 	- **Description:** the body of the article
 	- **Image:** the featured image of the article
 	- **Entity Type:** the corresponding type (i.e. *Thing*, *Person*, *Place*, *Event*, *Organization*, *Creative Work*, ...) that can be managed via the *Entity Type* box in the editing window
-	- **Entity URL:** the URL describing the entity, the same-As label (the same entity on the different sources) and the entity-type-label (the types being associated on the external sources to the entity) that can be managed via the *Entity URL* box in the editing window.
-
-Here follows the list of properties that can be edited with WordLift for each entity type.
+	- **Entity URL:** the URL describing the entity, the same-As label (the URLs of same entity on the different sources) and the entity-type-label (the types being associated on the external sources to the entity) that can be managed via the *Entity URL* box in the editing window.
 
 .. image:: /images/wordlift-edit-entity-informations.png  
 
 Entity types and properties Table
 -------------------------------
+Here follows the list of properties that can be edited with WordLift for each entity type.
 
 +--------------+--------------------+----------------------------+-------------------+
 |     Type     |    Description     |         Properties         |     Schema.org    |
@@ -53,6 +56,20 @@ Entity types and properties Table
 |              |Work(i.e. Software).|additionalType.             |                   |
 +--------------+--------------------+----------------------------+-------------------+
 
+Updating the description
+-------------------------------
+
+When we have something meanigful to say on a specific concept we shall curate the information and edit the data that has been fetched automatically by WordLift. In our example for the entity *[Berners-Lee]* name, description, image, type,url, sameAs and additionalType have been received from DBpedia.
+
+.. image:: /images/wordlift-content-analysis-new-entity-update.png
+
+After editing the description of *[Berners-Lee]* I can ran the analysis by clicking on the *cog icon* "Analyse" just like we would do for a blog posts. 
+
+With the analysis I can *link* an entity with other entities. WordLift will store these relationships between one entity and other entities in the `graph <key-concepts.html#knowledge-graph>`_ using the Dublin Core property ``dct:related``. This information will be used to infer new connections between the contents of the site. For more information on *entity linking* `read the faq <faq.html#when-should-i-link-one-entity-to-another>`_.   
+
+Entities being *linked* are listed as **Releated Entities** in the editing screen of the entity.
+
+.. image:: /images/wordlift-content-analysis-new-entity-related-entity.png
 
 .. _Thing: http://schema.org/Thing
 .. _Person: http://schema.org/Person
