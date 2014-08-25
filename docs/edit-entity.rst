@@ -1,4 +1,4 @@
-Edit an Entity
+Edit Entity
 ========
 
 Referencing posts
