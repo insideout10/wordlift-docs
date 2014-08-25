@@ -1,3 +1,6 @@
+FAQ
+========
+
 When should I create a new entity? 
 _____________
 
