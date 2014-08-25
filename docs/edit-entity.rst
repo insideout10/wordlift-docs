@@ -87,6 +87,14 @@ Entities being *linked* are listed as **Releated Entities** in the editing scree
 
 .. image:: /images/wordlift-content-analysis-new-entity-related-entity.png
 
+Save data
+_____________
+
+In order to save the information on the entity press the "Publish" button.  
+When making changes to an already existing entity press the "Update" button. In both cases data will be stored simultaneously on the WordPress site as well as in the `graph <key-concepts.html#knowledge-graph>`_.
+
+You can now continue to the :doc:`publish` page.
+
 .. _Thing: http://schema.org/Thing
 .. _Person: http://schema.org/Person
 .. _Place: http://schema.org/Place
