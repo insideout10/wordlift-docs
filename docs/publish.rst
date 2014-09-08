@@ -8,7 +8,8 @@ Entities when saved are created as list of articles (index) that refer to that e
 
 .. note::
 
-	The URL for the entity page being http://*<name-of-your-WordPress-server>*/?entity=<*name-of-the–entity*>
+	The URL for the entity page being ::
+		http://*<name-of-your-WordPress-server>*/?entity=<*name-of-the–entity*>
 
 While this works in most cases some entities might represent significant concepts for your navigation storyboard (i.e. the webpage of an event or a person in your organisation). In these cases we shall transform the entity page from being a pure index of articles into an actual webpage describing the entity.  
 
