@@ -72,6 +72,10 @@ Just like in forensic science human fingerprints are used to identify humans app
 
 WordLift re-uses these semantic fingerprints for adding Schema.org markup and for re-purposing contents using `Widgets <key-concepts.html#widget>`_.    
 
+Dereferencing HTTP URIs
+_____________
+**URI Dereferencing** is the process of looking up a URI on the Web in order to get information about the referenced resource. WordLift uses dereferencing to obtain a snapshot of the properties describing a `named entity <key-concepts.html#entity>`_.
+
 
 Widget
 _____________

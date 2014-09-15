@@ -49,3 +49,8 @@ _____________
 By running the analysis on the property description text of an entity I can *link* it with other entities. WordLift will store these relationships between one entity and other entities in the `graph <key-concepts.html#knowledge-graph>`_ using the Dublin Core property ``dct:related``. This information will be used to suggest new connections between the contents of your site. Though is not mandatory creating links among relevant entities will create more structure for your contents. I should always link entities that can help other users discover relevant contents (i.e. the entity *[Berners-Lee]* shall be linked to entity *[Web]* as the two concepts are strictly related).
 
 Even if these connections between different entities might already exists in the openely available sources we use like DBpedia and Freebase by creating them inside our own `graph <key-concepts.html#knowledge-graph>`_ we will be able to leverage on. 
+
+What are the datasets WordLift uses for named entity recognition? 
+_____________
+
+WordLift by default uses DBpedia and Freebase to detect and link named entities. With a custom configuration of the content analysis services provided by `Redlink <http://www.redlink.co>`_ and available via our professional services, any RDF-based `graph <key-concepts.html#knowledge-graph>`_ can be used. It is also possible to use multiple graphs for named entity recognition and `graph <key-concepts.html#dereferencing-http-uris>`_.
