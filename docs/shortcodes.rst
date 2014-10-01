@@ -7,7 +7,7 @@ Entity Shortcodes
 _________________
 
 
-Load entity data:
+Load entity data::
 
     [wl_entity_view uri=... suffix=...][/wl_entity_view]
 
@@ -20,7 +20,7 @@ suffix
     *(optional)* The suffix for remote requests (e.g. '.json')
 
 
-Display the value of a property:
+Display the value of a property::
 
     [wl_entity_property name=... language=...]
 
@@ -33,7 +33,7 @@ language
     *(optional)* The language (e.g. 'en'). If it's not specified, the shortcode looks for a value without a language.
 
 
-Display an image (using the *img* tag):
+Display an image (using the *img* tag)::
 
     [wl_entity_image name=...]
 
@@ -43,7 +43,7 @@ name
     The full property name (e.g. http://schema.org/image)
 
 
-Display a date:
+Display a date::
 
     [wl_entity_date name=... format=...]
 
@@ -54,7 +54,7 @@ format
     *(optional, default 'Y m d')* The format to apply to the date (follows the PHP convention, see `PHP date`_ for more information).
 
 
-Displays a duration:
+Displays a duration::
 
     [wl_entity_duration name=... format=...]
 
