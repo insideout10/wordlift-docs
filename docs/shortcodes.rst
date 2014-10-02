@@ -65,7 +65,7 @@ format
     *(optional, default '%d day(s), %h hour(s)')* The format to apply to the duration (follows the PHP convention, see `PHP DateInterval format`_ for more information).
 
 
-Example:
+Example::
 
     [wl_entity_view uri="http://data.redlink.io/353/salzburgerland/"]</p>
         [wl_entity_property name="http://www.w3.org/2000/01/rdf-schema#label" language="en" /]
