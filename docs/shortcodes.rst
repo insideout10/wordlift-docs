@@ -1,6 +1,7 @@
 Widget Shortcodes
 _________________
 
+WordLift widgets can be inserted in a post or page to give a rich visual presentation of the entities populating the blog. As the blog grows and entities are created and mentioned, the widgets update their content without intervention from the editor.
 
 Chord widget::
 
