@@ -83,3 +83,17 @@ Example::
 .. _PHP date: http://php.net/manual/en/function.date.php
 .. _PHP DateInterval format: http://php.net/manual/en/dateinterval.format.php
 
+
+Visualization Shortcodes
+_________________
+
+
+Timeline::
+
+Chord:
+
+Geomap
+
+Related posts
+
+
