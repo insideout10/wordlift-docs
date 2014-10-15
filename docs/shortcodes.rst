@@ -14,7 +14,7 @@ Load entity data::
 The URI of the entity is determined by combining the *uri* defined in the shortcode and the current address path.
 
 uri
-    The *base* URI for remote resources (e.g. http://data.redlink.io/353/salzburgerland/
+    The *base* URI for remote resources (e.g. http://data.redlink.io/353/salzburgerland/)
 
 suffix
     *(optional)* The suffix for remote requests (e.g. '.json')
