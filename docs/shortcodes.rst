@@ -1,6 +1,3 @@
-Widget Shortcodes
-_________________
-
 
 Shortcodes
 ==========
