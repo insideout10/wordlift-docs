@@ -1,3 +1,74 @@
+Widget Shortcodes
+_________________
+
+
+Chord widget::
+
+    [wl-chord width=... height=... main_color=... depth=... global=...]
+    
+IMMAGINE
+Visualizes relations between entities, starting from the current post and the entities mentioned in it.
+
+width
+    *(optional)* Width of the chord. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
+    
+height
+    *(optional)* Height of the chord. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
+
+main_color
+    *(optional)* The chord's *base* color.
+
+depth
+    *(optional)* Maximum distance to travel in the entity graph in order to populate the chord. A small number limits the exploration in the neighborhood of the main entity.
+
+global
+    *(optional)* When *global=true* the main entity of the chord is not the current post, but the most mentioned entity in the blog.
+    
+Timeline widget::
+    
+    [wl-timeline width=... height=... global=...]
+    
+IMMAGINE
+Displays a navigable list of ordered Event entities. The window on top shows details on the clicked Events.
+
+width
+    *(optional)* Width of the timeline. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
+    
+height
+    *(optional)* Height of the timeline. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
+
+global
+    *(optional)* By default the timeline displays events (or events related to places) mentioned in the current post. When *global=true* the timeline displays events mentioned in the latest posts.
+
+Geomap widget::
+
+    [wl-geomap width=... height=... global=...]
+    
+IMMAGINE    
+Displays Place entities on a map. Each Place has its own marker with a popup containing thumbnail and link.
+    
+width
+    *(optional)* Width of the geomap. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
+    
+height
+    *(optional)* Height of the geomap. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
+
+global
+    *(optional)* By default the geomap displays places mentioned in the current post. When *global=true* the geomap displays all places mentioned in the blog.
+
+Related posts widget::
+
+    [wl-related-posts]
+
+Offers links to semantic-related posts in the blog.
+
+
+
+
+
+
+
+
 Shortcodes
 ==========
 
@@ -83,17 +154,5 @@ Example::
 .. _PHP date: http://php.net/manual/en/function.date.php
 .. _PHP DateInterval format: http://php.net/manual/en/dateinterval.format.php
 
-
-Visualization Shortcodes
-_________________
-
-
-Timeline::
-
-Chord:
-
-Geomap
-
-Related posts
 
 
