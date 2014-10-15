@@ -6,7 +6,7 @@ Chord widget::
 
     [wl-chord width=... height=... main_color=... depth=... global=...]
     
-IMMAGINE
+.. image:: /images/wordlift-shortcodes-chord.png
 Visualizes relations between entities, starting from the current post and the entities mentioned in it.
 
 width
@@ -28,7 +28,7 @@ Timeline widget::
     
     [wl-timeline width=... height=... global=...]
     
-IMMAGINE
+.. image:: /images/wordlift-shortcodes-timeline.png
 Displays a navigable list of ordered Event entities. The window on top shows details on the clicked Events.
 
 width
@@ -44,7 +44,7 @@ Geomap widget::
 
     [wl-geomap width=... height=... global=...]
     
-IMMAGINE    
+.. image:: /images/wordlift-shortcodes-geomap.png    
 Displays Place entities on a map. Each Place has its own marker with a popup containing thumbnail and link.
     
 width
