@@ -42,21 +42,29 @@ WordLift plugin.
 Configuration
 _____________
 
-.. image:: /images/wordlift-settings-menu.png
+The *Settings* are also accessible by hovering on the WordLift logo on the upper right corner; from there a menu will open. 
+Click on *Settings* to open the settings screen:
 
-The *Settings* are also accessible by hovering on the WordLift logo on the upper right corner; from there a menu will open. Click on *Settings* to open the settings screen:
+.. image:: /images/wordlift-settings-menu.png
 
 .. image:: /images/wordlift-settings-screen.png
 
-From this screen you can configure your `WordLift key <key-concepts.html#wordlift-key>`_, choose if you would like to use the color highlighting on the `entities <key-concepts.html#entity>`_ and set the language of your website. 
+From *Settings* screen you can configure:
 
-For more information on the multilingual support of WordLift `read here <faq.html#what-are-the-languages-supported-by-wordlift>`_
+Your `WordLift key <key-concepts.html#wordlift-key>`_, 
 
-If you are a developer, you might also enable the advanced settings of WordLift by adding the following line to your `wp-config.php` ::
+The option for enabling/disabling color highlighting on the `entities <key-concepts.html#entity>`_ 
+
+The main language of your website. 
+
+:: note
+    For more information on the multilingual support of WordLift `read here <faq.html#what-are-the-languages-supported-by-wordlift>`_
+
+If you are a developer, you might also enable the *Advanced Settings* of WordLift by adding the following line to your `wp-config.php` ::
 
     define('WL_ENABLE_ADVANCED_CONFIGURATION', true);
 
-In this case the following options can be also configured: 
+In this case the following options can be configured: 
 
 New Entity Posts displayed as
     If *index* new Entity Posts by default are displayed as an index of posts referencing that entity.
