@@ -42,11 +42,11 @@ WordLift plugin.
 Configuration
 _____________
 
-Hover on the WordLift logo on the upper right corner, a menu will open. Click on *Settings* to open the settings screen:
+The *Settings* are also accessible by hovering on the WordLift logo on the upper right corner; from there a menu will open. Click on *Settings* to open the settings screen:
 
 .. image:: /images/wordlift-settings-menu.png
 
-From this screen you can set the following settings:
+From this screen you can configure your `WordLift key <key-concepts.html#wordlift-key>`_, set **the main language of your website** and choose if you would like to use the color highlighting on the `entities <key-concepts.html#entity>`_. 
 
 .. image:: /images/wordlift-settings-screen.png
 

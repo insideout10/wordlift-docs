@@ -50,11 +50,14 @@ By running the analysis on the property description text of an entity I can *lin
 
 Even if these connections between different entities might already exists in the openely available sources we use like DBpedia and Freebase by creating them inside our own `graph <key-concepts.html#knowledge-graph>`_ we will be able to leverage on. 
 
-How many languages does WordLift support? 
+What are the languages supported by WordLift? 
 _____________
 
-WordLift currently supports the following languages: English, 中文 (Chinese), Español (Spanish), Русский (Russian), Português (Portuguese), Deutsch (German), Italiano (Italian), Nederlands (Dutch), Svenska (Swedish) and Dansk (Danish). However only one language at the time is supported and this can be configured on the WordLift settings. 
-Review the `Configuration settings <getting-started.html#configuration>`_ for more information. 
+WordLift currently supports the following languages: English, 中文 (Chinese), Español (Spanish), Русский (Russian), Português (Portuguese), Deutsch (German), Italiano (Italian), Nederlands (Dutch), Svenska (Swedish) and Dansk (Danish). 
+
+.. note::
+	However only one language at the time is supported and this can be configured on the WordLift settings. 
+	Review the `Configuration settings <getting-started.html#configuration>`_ for more information. 
 
 What are the datasets WordLift uses for named entity recognition? 
 _____________
