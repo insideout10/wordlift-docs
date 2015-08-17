@@ -26,11 +26,15 @@ from the command line::
 
     unzip wordlift.zip
 
+After installing WordLift you should see the logo on the top right corner of your dashboard menu. 
+
+.. image:: /images/wordpress-admin-bar.png
+
 
 Activation
 __________
 
-To activate the plugin you will need a `WordLift key <key-concepts.html#wordLift_key>`_. You might receive this key from us or from an automatic email system righ after subscribing to the service from the WordLift_ website (*coming up*). 
+To activate the plugin you will need a `WordLift key <key-concepts.html#wordlift_key>`_. You might receive this key from us or from an automatic email system righ after subscribing to the service from the WordLift_ website (*coming up*). 
 
 From the WordPress administration menu, click on *Plugins* / *Installed Plugins*. Then click on *Settings* on the
 WordLift plugin.
@@ -39,9 +43,6 @@ Configuration
 _____________
 
 Hover on the WordLift logo on the upper right corner, a menu will open. Click on *Settings* to open the settings screen:
-
-.. image:: /images/wordpress-admin-bar.png
-
 
 .. image:: /images/wordlift-settings-menu.png
 
