@@ -56,8 +56,8 @@ _____________
 WordLift currently supports the following languages: English, 中文 (Chinese), Español (Spanish), Русский (Russian), Português (Portuguese), Deutsch (German), Italiano (Italian), Nederlands (Dutch), Svenska (Swedish) and Dansk (Danish). 
 
 .. note::
-	However only one language at the time is supported and this can be configured on the WordLift settings. 
-	Review the `Configuration settings <getting-started.html#configuration>`_ for more information. 
+	WordLift supports one language at the time. The main language of the website can be configured from the WordLift settings. 
+	Review the `configuration settings <getting-started.html#configuration>`_ for more information. 
 
 What are the datasets WordLift uses for named entity recognition? 
 _____________

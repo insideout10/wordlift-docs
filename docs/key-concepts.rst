@@ -5,7 +5,7 @@ Here is the terminology describing the core concepts that will help you set up a
 Entity
 _____________
 
-An **entity** is something that exists in the real-world: celebrities, cities, sports teams, buildings, geographical features, movies, celestial objects and works of art are all entities. For a long time, more than four decades, we teached computers to recognise things by simply matching keywords. 
+An **entity** (or thing) is something that exists in the real-world: celebrities, cities, sports teams, buildings, geographical features, movies, celestial objects and works of art are all entities. For a long time, more than four decades, we teached computers to recognise things by simply matching keywords. 
 
 
 Now computers, just like humans do, understand that a text like *[Thubten Gyatso]* is not just made of two words but, it has a much richer meaning. *[Thubten Gyatso]* is a person, more specifically he's the 13th Dalai Lama who was born in the Tsang-Ü province in Tibet on the 12th of February 1876. 
