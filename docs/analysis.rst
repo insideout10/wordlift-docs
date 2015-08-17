@@ -18,7 +18,7 @@ The menu lets you add four different `widgets <key-concepts.html#vocabulary>`_ t
 .. note::
 	As the blog grows and entities are created and mentioned, the widgets update their content without intervention from the editor.
 
-These four `widgets <key-concepts.html#vocabulary>`_ are:
+The four `widgets <key-concepts.html#vocabulary>`_ are:
 
 * **Chord** 
 		|	Visualizes the relationships between all entities starting from the entities mentioned in the post.
@@ -32,7 +32,7 @@ These four `widgets <key-concepts.html#vocabulary>`_ are:
 * **Navigator** 
 		|	Provides content recommendations by presenting relevant **internal** website links (links to other blognposts on the same website).  
 
-Each widget has a corresponding shortcode: review the `widget-shortcodes <shortcodes.html#widget-shortcodes>`_ for more information on how this works.
+Each widget has a corresponding shortcode; review the `widget shortcodes page <shortcodes.html#widget-shortcodes>`_ for more information on how this works.
 
 
 Analysing the text
