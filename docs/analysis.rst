@@ -40,12 +40,12 @@ _____________
 
 As I begin to write the content on the post, WordLift automatically start analysing it. 
 
-WordLift enriches what I have written so far in the editor. The text is sent to the cloud; from the analysis named entities are extracted.
+As soon as I hit the **Save Draft** button in WordPress, WordLift enriches what I have written so far in the editor. 
+In the background, the text is sent to the cloud and the `entities <key-concepts.html#entity>`_ are extracted and highlighted with a black underline.
 
 .. image:: /images/wordlift-content-analysis-results.png
 
-Entities being recognised are highlighted with a black underline. By clicking on each entity 
-I can `reconcile <key-concepts.html#reconciliation>`_ it with the same entity in DBpedia or Freebase.
+By clicking on each entity I can `reconcile <key-concepts.html#reconciliation>`_ it with the same entity in DBpedia or Freebase.
 
 Reconciling entities
 _____________
