@@ -86,11 +86,11 @@ A Widget typically displays informations being stored in the `knowledge graph`_ 
 
 You can now continue to the :doc:`analysis` page.
 
-WordLift Key
+WordLift key
 _____________
-The **WordLift Key** is a unique value that is assigned to each user after he/she has been subscribing to the WordLift service. 
+The **WordLift key** is a *unique value* that is assigned to each user after he/she has subscribed to the WordLift service. 
 
-You can now continue to the :doc:`getting_started` page.
+You can now continue to the :doc:`getting started` page.
 
 
 
