@@ -60,7 +60,7 @@ Enable color coding on front-end
 Site Language
     The main language used on your website. 
 
-    :: note
+.. note::
         For more information on the multilingual support of WordLift `read here <faq.html#what-are-the-languages-supported-by-wordlift>`_
 
 If you have a Redlink_ account, you can use your own application settings by enabling the *Advanced Settings* of WordLift. This is done by adding the following line to your `wp-config.php` ::
@@ -88,7 +88,7 @@ Redlink Dataset Name
 
 .. note::
 
-    Please refer to the Redlink_ team if you would like to use WordLift in conjunction to your Redlink account.
+    Please refer to the Redlink_ team if you would like to use WordLift in conjunction with your Redlink account.
 
 Configure all the settings with the values that the WordLift team will provide to you. Don't forget to save the changes
 by clicking on *Save Changes*.
