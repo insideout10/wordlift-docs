@@ -30,19 +30,18 @@ from the command line::
 Activation
 __________
 
-From the WordPress administration menu, click on *Plugins* / *Installed Plugins*. Then click on *Activate* on the
+To activate the plugin you will need a `**WordLift key** <key-concepts.html#WordLift_key>`_. You might receive this key from us or from an automatic email system righ after subscribing to the service from the WordLift_ website (*coming up*). 
+
+From the WordPress administration menu, click on *Plugins* / *Installed Plugins*. Then click on *Settings* on the
 WordLift plugin.
-
-If the plugin is successfully activated you should see the WordLift logo on the upper right corner of the WordPress
-admin bar:
-
-.. image:: /images/wordpress-admin-bar.png
-
 
 Configuration
 _____________
 
 Hover on the WordLift logo on the upper right corner, a menu will open. Click on *Settings* to open the settings screen:
+
+.. image:: /images/wordpress-admin-bar.png
+
 
 .. image:: /images/wordlift-settings-menu.png
 
@@ -92,3 +91,4 @@ You can now continue to the :doc:`key-concepts` page.
 .. _my.redlink.io: http://my.redlink.io
 .. _Redlink: http://redlink.co/
 .. _WordPress: http://wordpress.org/
+.. _WordLift: http://wordlift.it/
