@@ -25,8 +25,7 @@ the World Health Organisation, in the energy sector companies like Enel. Public 
 standards to share materials at regional, national and international level. 
 
 Public administrations around the World are committed to make their data available as Linked Open Data. In more horizontal
-markets search engines like Google, Yahoo!, Bing and Yandex as well as social networks like Facebook are starting to use these technologies to increase the 
-quality of their services and to become *more meanigful* to their end users.
+markets search engines like Google, Yahoo!, Bing and Yandex as well as social networks like Facebook are starting to use these technologies to increase the quality of their services and to become *more meanigful* to their end users.
 
 =================
 Why shall I publish my contents as Linked Open Data?
@@ -49,7 +48,6 @@ No, Schema.org is worth implementing right now but might have no immediate resul
 Adding Schema.org does help creating rich snippets for your pages but most importantly it’s about creating content
 that machines can understand and reference. 
 
-There are a growing number of services (including Google) that try 
-to make use of this kind of information: ensuring that you are *directly* controlling the data you care about is a good thing.
+There are a growing number of services (including Google) that try to make use of this kind of information; ensuring that you are *directly* controlling the data you care about is a good thing.
 
 You can now continue to the :doc:`getting-started` page.
