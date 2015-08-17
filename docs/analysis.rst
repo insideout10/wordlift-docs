@@ -4,38 +4,43 @@ Analysis
 Content Writing
 _____________
 
-To begin working with WordLift, once the plugin has been properly installed, we can simply begin writing
-a blog post using the visual editor of WordPress.
+To start working with WordLift (once the plugin has been properly `installed <getting-started.html#installation>`_ and `configured <getting-started.html#configuration>`_) we can simply start writing a blog post using the standard visual editor of WordPress.
 
-WordLift adds to the visual editor its own menu. 
+WordLift adds to the visual editor a menu to add `widgets <key-concepts.html#vocabulary>`_ in the page or in the sidebar. 
 
 .. image:: /images/wordlift-menu.png
 
-WordLift Menu
+WordLift Widgets Menu
 _____________
 
-The menu has three functions:
+The menu lets you add four different `widgets <key-concepts.html#vocabulary>`_ to your blog post. `widgets <key-concepts.html#vocabulary>`_provide a rich visual presentation of the entities populating the post.  
 
-* **Content analysis** (*cog icon*) 
-		|	the text you're writing is sent to the cloud for being analysed.
+.. note::
+	As the blog grows and entities are created and mentioned, the widgets update their content without intervention from the editor.
 
-* **New entity creation** (*pencil icon*)
-		|	concepts that don't already exist can be created as part of your own `vocabulary <key-concepts.html#vocabulary>`_ by highlighting the text and clicking on this button. 
+These four `widgets <key-concepts.html#vocabulary>`_ are:
 
-* **WordLift graphs** 
-		|	a menu with different visualizations allows you to add `widgets <key-concepts.html#vocabulary>`_ in the page or in the sidebar.  
+* **Chord** 
+		|	Visualizes the relationships between all entities starting from the entities mentioned in the post.
 
-These functions are accessible when editing blog posts or pages.
+* **Timeline** 
+		|	Displays a navigable list of ordered *Event* entities mentioned in the post.  
 
-.. image:: /images/wordlift-content-analysis-start.png
+* **GeoMap** 
+		|	Displays *Place* entities on a map.  
+
+* **Navigator** 
+		|	Provides content recommendations by presenting relevant **internal** website links (links to other blognposts on the same website).  
+
+Each widget has a corresponding shortcode: review the `widget-shortcodes <shortcodes.html#widget-shortcodes>`_ for more information on how this works.
+
 
 Analysing the text
 _____________
 
-To begin analysing the content I'm writing I need to click on the *cog icon*. 
+As I begin to write the content on the post, WordLift automatically start analysing it. 
 
-By doing so I'm asking WordLift to enrich what I 
-have written so far in the editor. The text is sent to the cloud and named entities are extracted.
+WordLift enriches what I have written so far in the editor. The text is sent to the cloud; from the analysis named entities are extracted.
 
 .. image:: /images/wordlift-content-analysis-results.png
 
