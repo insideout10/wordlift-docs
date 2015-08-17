@@ -51,54 +51,47 @@ Click on *Settings* to open the settings screen:
 
 From *Settings* screen you can configure:
 
-Your `WordLift key <key-concepts.html#wordlift-key>`_, 
+WordLift Key
+    Your `WordLift Key <key-concepts.html#wordlift-key>`_, 
 
-The option for enabling/disabling color highlighting on the `entities <key-concepts.html#entity>`_ 
+Enable color coding on front-end
+    The option for enabling/disabling the color highlighting of `entities <key-concepts.html#entity>`_ in post contents. 
 
-The main language of your website. 
+Site Language
+    The main language used on your website. 
 
-:: note
-    For more information on the multilingual support of WordLift `read here <faq.html#what-are-the-languages-supported-by-wordlift>`_
+    :: note
+        For more information on the multilingual support of WordLift `read here <faq.html#what-are-the-languages-supported-by-wordlift>`_
 
-If you are a developer, you might also enable the *Advanced Settings* of WordLift by adding the following line to your `wp-config.php` ::
+If you have a Redlink_ account, you can use your own application settings by enabling the *Advanced Settings* of WordLift. This is done by adding the following line to your `wp-config.php` ::
 
     define('WL_ENABLE_ADVANCED_CONFIGURATION', true);
 
 In this case the following options can be configured: 
 
-New Entity Posts displayed as
-    If *index* new Entity Posts by default are displayed as an index of posts referencing that entity.
-    If *page* new Entity Posts by default are displayed as a page with the entity image and description.
+.. image:: /images/wordlift-settings-advanced-menu.png
 
-Enable color coding of entities
-    If enabled, entities in post content are highlighted on the front-end web.
+API URL
+    The Redlink URL base (*http://data.redlink.io/91/be2* in this case).
 
-Application Key
-    A *unique key* which uniquely identifies your blog.
+Redlink Key
+    The *Redlink key* associated to your account.
 
-User ID
-    Your user ID (numeric).
-
-Dataset Name
+Redlink Dataset name
     The name of the dataset associated with your blog.
 
-Dataset URI
+Redlink Dataset URI
     The URL of the dataset *triple store* (**no trailing slash** at the end), e.g. http://data.redlink.io/000/dataset
 
-Analysis Name
-    The name of the analysis to use to analyze the blog contents.
-
-Site Language
-    The default language for the blog, used as a language code in the *triple store*.
-
-
-Configure all the settings with the values that the WordLift team will provide to you. Don't forget to save the changes
-by clicking on *Save Changes*.
-
+Redlink Dataset Name
+    The name of the application configured in your Redlink account.
 
 .. note::
 
-    If you have a Redlink_ account, you can use your own settings. Refer to my.redlink.io_ for more information.
+    Please refer to the Redlink_ team if you would like to use WordLift in conjunction to your Redlink account.
+
+Configure all the settings with the values that the WordLift team will provide to you. Don't forget to save the changes
+by clicking on *Save Changes*.
 
 
 You can now continue to the :doc:`key-concepts` page.
