@@ -141,18 +141,9 @@ The entity is properly identified as `Person` and all `Person` and `Organization
 
 .. image:: /images/wordlift-content-analysis-disambiguation-berners-lee.png
 
-Proper type
---------------
+.. note::
 
-As I don't need to change the type, I only need to click on the entity representing Tim and the annotation will be automatically saved once I published my post. 
-
- .. note::
-
-	Annotations are saved when a blog post or a page is published. The annotations and the data related to each entity being annotated remain in *draft* untill the post or page is published. 
-
-Once I click the "Publish" button of WordPress to go live with my post, data is saved in WordPress and a new box appears in the editing screen showing the `related entities <key-concepts.html#related-entities>`_  of the blog post. 
-
-.. image:: /images/wordlift-content-analysis-related-entities.png
+	Annotations are saved when a blog post or a page is published. Annotations and data related to each entity being annotated remain in *draft* untill the post is published. 
 
 .. note::
 
