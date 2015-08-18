@@ -1,13 +1,13 @@
 Analysis
 ========
 
-WordLift adds semantic annotations and combines information publicly available as `linked open data <key-concepts.html#linked-open-data>`_ to organize and enrich contents. 
+**WordLift** adds semantic annotations and combines information publicly available as `linked open data <key-concepts.html#linked-open-data>`_ to organize and enrich contents. 
 
-WordLift suggests to the content editors relevant fact-based information, images and links.
+**WordLift** suggests to the content editors relevant fact-based information, images and links.
 
-WordLift analyses articles using *Named Entity Recognition* (NER) and *Named Entity Disambiguation* (NED) to extract `Named Entities <key-concepts.html#entity>`_ from posts and pages. 
+**WordLift** analyses articles using *Named Entity Recognition* (NER) and *Named Entity Disambiguation* (NED) to extract `Named Entities <key-concepts.html#entity>`_ from posts and pages. 
 
-Entities, used for annotating contents, belong to different `knowledge graphs <key-concepts.html#knowledge-graph>`_ or to `custom vocabularies <key-concepts.html#vocabulary>`_ including but not limited to DBpedia, GeoNames and Freebase.
+Entities, used for annotating contents, belong to different `knowledge graphs <key-concepts.html#knowledge-graph>`_ or `custom vocabularies <key-concepts.html#vocabulary>`_ including but not limited to DBpedia, GeoNames and Freebase.
 
 WordLift creates and publishes annotations as `linked open data <key-concepts.html#linked-open-data>`_.
 
@@ -16,7 +16,7 @@ _____________
 
 To start working with WordLift (once the plugin has been properly `installed <getting-started.html#installation>`_ and `configured <getting-started.html#configuration>`_) we can simply start writing a blog post using the `standard visual editor of WordPress <https://en.support.wordpress.com/visual-editor>`_.
 
-WordLift adds to the visual editor a menu to add `widgets <key-concepts.html#vocabulary>`_ in the page or in the sidebar. 
+WordLift adds to the visual editor a menu to add `widgets <key-concepts.html#widget>`_ in the page or in the sidebar. 
 
 .. image:: /images/wordlift-menu.png
 
@@ -28,12 +28,12 @@ WordLift adds to the visual editor a menu to add `widgets <key-concepts.html#voc
 WordLift Widgets Menu
 _____________
 
-The menu lets you add four different `widgets <key-concepts.html#vocabulary>`_ to your blog post. `widgets <key-concepts.html#vocabulary>`_ provide a rich visual presentation of the entities populating the post and help readers find more relevant contents.  
+The menu lets you add four different `widgets <key-concepts.html#widget>`_ to your blog post. `widgets <key-concepts.html#widget>`_ provide a rich visual presentation of the entities populating the post and help readers find more relevant contents.  
 
 .. note::
 	As the blog grows and entities are created and mentioned, the widgets update their content without intervention from the editor.
 
-The four `widgets <key-concepts.html#vocabulary>`_ are:
+The four `widgets <key-concepts.html#widget>`_ are:
 
 * **Chord** 
 		|	Visualizes the relationships between all entities starting from the entities mentioned in the post.
