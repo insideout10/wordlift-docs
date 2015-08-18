@@ -91,25 +91,29 @@ article and structure information around it by creating new entities in the `cus
 
 Top down post annotation
 --------------
+The content editor, from the list of entities being detected in the text, uses these entities to describe his/her post without selecting any specific text annotations. 
+Entities being selected, in this case, describe the entire post (and not the single occurrence of the entity in the text).
+
 .. image:: /images/wordlift-edit-post-widget-01.png 
-The content editor, from the list of entities being detected in the text, has not choosen any specific text annotations. 
-Entities selected, in this case, will describe the entire post (not the single occurrence of the entity in the text).
 
 Bottom up entity annotation
 --------------
+The content editor has choosen the “Expo 2015” occurence in the text. In this case, this specific occurrence, is annotated with the entity "Expo 2015". 
+
 .. image:: /images/wordlift-edit-post-widget-02.png
-The content editor has choosen the “Expo 2015” occurence in the text. In this case this specific occurrence is marked-up with the entity "Expo 2015". 
+
 
 Edit Entity Properties
 --------------
-.. image:: /images/wordlift-edit-post-widget-03.png
-The content editor is editing the main properties for the entity "Expo 2015" while composing the post. 
+The content editor is editing the main properties for the entity "Expo 2015" while writing the post. 
 The complete list of properties can be edited from the :doc:`edit-entity` page.
+
+.. image:: /images/wordlift-edit-post-widget-03.png
 
 Image Suggestor
 --------------
 .. image:: /images/wordlift-edit-post-widget-04.png 
-Images for each entity can be dragged and dropped in the visual editor. 
+Images for each entity appear in the WordLift Edit Post Widget and can be dragged and dropped in the visual editor. 
 
 WordLift key
 _____________
