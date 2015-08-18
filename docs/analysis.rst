@@ -78,14 +78,14 @@ Articles can be annotated in two ways:
 
 * **Bottom up**: entities are annotated and organized using the '*who*, *what*, *when* and *where*' categories **starting from each specific occurence of the entity in the text**. When I choose an entity using the **bottom up** approach **only the choosen occurrence of that entity is annotated**. 
 
-Top down post annotation
+Top down annotation
 ^^^^^^^^^^^^^^
 The content editor, from the list of entities being detected in the text, uses these entities to describe his/her post without selecting any specific text annotations. 
 Entities being selected, in this case, describe the entire post (and not the single occurrence of the entity in the text).
 
 .. image:: /images/wordlift-edit-post-widget-01.png 
 
-Bottom up entity annotation
+Bottom up annotation
 ^^^^^^^^^^^^^^
 The content editor has choosen the “Expo 2015” occurence in the text. In this case, this specific occurrence, is annotated with the entity "Expo 2015". 
 
