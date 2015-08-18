@@ -109,12 +109,26 @@ _____________
 
 .. image:: /images/wordlift-content-analysis-disambiguation-start.png
 
-I'm now choosing as relevant entity in my test *[Web]* as my post is referring to the World Wide Web.
-And from the list of suggested entities I received from WordLift I choose to interlink the equivalent concept on DBpedia.
+I'm now choosing as relevant entity in my test *[Web]* as the post is referring to the World Wide Web. As the entity type for *[Web]* is `Thing` the entity appears under the *what* category. 
 
-.. image:: /images/wordlift-content-analysis-disambiguation-selection.png
+.. note::
 
-When doing so I can change the entity type for this entity using the drop-down menu. 
+    `Reconciling <key-concepts.html#reconciliation>`_ entities means **linking** the entity appearing in my text with its own equivalent on other sources (i.e. DBpedia or Freebase).
+
+.. image:: /images/wordlift-edit-post-widget-05.png 
+
+Using the `WordLift Edit Post Widget`_ I can now read the following parameters:
+
+* **Entity Label** the name of the entity
+* **Entity Type** the type of entity according to the `schema.org` vocabulary
+* **Entity Description** the description of the entity
+* **Entity Id** The URI of the entity (in this case the entity is coming from DBpedia)
+* **Entity Same as** The URI of a corresponding entity (in this case the same entity is also present in Freebase)  
+
+All parameters but **Entity Id** can be edited directly from the `WordLift Edit Post Widget`_
+
+Once I hit **Save** on the `WordLift Edit Post Widget`_ I annotate this post (this means adding a `semantic fingerprint <key-concepts.html#semantic-fingerprint>`_ to this piece of content).
+
 
 Type mismatch
 --------------
