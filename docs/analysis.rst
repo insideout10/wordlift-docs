@@ -4,8 +4,8 @@ Analysis
 Content Writing
 _____________
 
-To start working with WordLift (once the plugin has been properly `installed <getting-started.html#installation>`_ and `configured <getting-started.html#configuration>`_) we can simply start writing a blog post using the **`standard visual editor of WordPress <
-https://en.support.wordpress.com/visual-editor/>`_**.
+To start working with WordLift (once the plugin has been properly `installed <getting-started.html#installation>`_ and `configured <getting-started.html#configuration>`_) we can simply start writing a blog post using the ** `standard visual editor of WordPress <
+https://en.support.wordpress.com/visual-editor/>`_ **.
 
 WordLift adds to the visual editor a menu to add `widgets <key-concepts.html#vocabulary>`_ in the page or in the sidebar. 
 
@@ -13,7 +13,8 @@ WordLift adds to the visual editor a menu to add `widgets <key-concepts.html#voc
 
 .. warning::
 
-    WordLift works only with the WordPress default editing mode: the visual editor. WordLift cannot be used with the Visual Composer (WorPress page builder). 
+    WordLift works only with the **WordPress visual editor**. 
+    WordLift cannot be used with the Visual Composer (WorPress page builder) or any other customised page editor.
 
 WordLift Widgets Menu
 _____________
