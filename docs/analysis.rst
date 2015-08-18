@@ -130,12 +130,14 @@ All parameters but **Entity Id** can be edited directly from the `WordLift Edit 
 .. note::
 
 	Data being used for the enrichments comes from openely avaialble sources
-	like DBpedia that might contain misleading information like in this case. 
+	like DBpedia that might contain misleading information that the editor can alwasy edit.
+
+	Entity properties can also be edited from  
 
 Once I hit **Save** on the `WordLift Edit Post Widget`_ I annotate this post (this means adding a `semantic fingerprint <key-concepts.html#semantic-fingerprint>`_ to this piece of content).
 
 In this test post another important concept worth mentioning is the creator of the World Wide Web Sir Tim Berners-Lee.
-The entity is properly identified as Person (all Person and Organization types are available under the *who* category).   
+The entity is properly identified as `Person` and all `Person` and `Organization` types are available under the *who* category.   
 
 .. image:: /images/wordlift-content-analysis-disambiguation-berners-lee.png
 
