@@ -89,18 +89,27 @@ _____________
 Contents editors using WordLift can identify the basic '*who*, *what*, *when* and *where*' of an
 article and structure information around it by creating new entities in the `custom vocabulary <key-concepts.html#vocabulary>`_. These annotations are added to the posts using the **WordLift Edit Post Widget**.
 
-Analysis
+Top down post annotation
 --------------
 .. image:: /images/wordlift-edit-post-widget-01.png 
-Selection
+The content editor, from the list of entities being detected in the text, has not choosen any specific text annotations. 
+Entities selected, in this case, will describe the entire post (not the single occurrence of the entity in the text).
+
+Bottom up entity annotation
 --------------
 .. image:: /images/wordlift-edit-post-widget-02.png
+The content editor has choosen the “Expo 2015” occurence in the text. In this case this specific occurrence is marked-up with the entity "Expo 2015". 
+
 Edit Entity Properties
 --------------
-.. image:: /images/wordlift-edit-post-widget-03.png  
+.. image:: /images/wordlift-edit-post-widget-03.png
+The content editor is editing the main properties for the entity "Expo 2015" while composing the post. 
+The complete list of properties can be edited from the :doc:`edit-entity` page.
+
 Image Suggestor
 --------------
 .. image:: /images/wordlift-edit-post-widget-04.png 
+Images for each entity can be dragged and dropped in the visual editor. 
 
 WordLift key
 _____________
