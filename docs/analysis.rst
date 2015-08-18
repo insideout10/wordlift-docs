@@ -3,7 +3,7 @@ Analysis
 
 **WordLift** adds semantic annotations and combines information publicly available as `linked open data <key-concepts.html#linked-open-data>`_ to organize and enrich contents. 
 
-**WordLift** suggests to the content editors relevant fact-based information, images and links.
+**WordLift** suggests to the content editor relevant fact-based information, images and links.
 
 **WordLift** analyses articles using *Named Entity Recognition* (NER) and *Named Entity Disambiguation* (NED) to extract `Named Entities <key-concepts.html#entity>`_ from posts and pages. 
 
@@ -16,14 +16,14 @@ _____________
 
 To start working with WordLift (once the plugin has been properly `installed <getting-started.html#installation>`_ and `configured <getting-started.html#configuration>`_) we can simply start writing a blog post using the `standard visual editor of WordPress <https://en.support.wordpress.com/visual-editor>`_.
 
-WordLift adds to the visual editor a menu to add `widgets <key-concepts.html#widget>`_ in the page or in the sidebar. 
+WordLift adds to the visual editor a menu to embed `widgets <key-concepts.html#widget>`_ in page. 
 
 .. image:: /images/wordlift-menu.png
 
 .. warning::
 
     WordLift works only with the **WordPress visual editor**. 
-    WordLift cannot be used with the Visual Composer (WorPress page builder) or any other customised page editor.
+    WordLift cannot be used with *Visual Composer* (WorPress page builder) or any other customised page editor.
 
 WordLift Widgets Menu
 _____________
@@ -53,14 +53,56 @@ Each widget has a corresponding shortcode; review the `widget shortcodes page <s
 Analysing the text
 _____________
 
-As I begin to write the content on the post, WordLift automatically start analysing it. 
+As I begin to write the content on the post, WordLift automatically starts analysing it. 
 
-As soon as I hit the **Save Draft** button in WordPress, WordLift enriches what I have written so far in the editor. 
-In the background, the text is sent to the cloud and the `entities <key-concepts.html#entity>`_ are extracted and highlighted with a gray underline.
+Once I hit the **Save Draft** button *for the first time*, `entities <key-concepts.html#entity>`_ are extracted and highlighted with a gray underline.
 
 .. image:: /images/wordlift-content-analysis-results.png
 
-By clicking on each entity I can `reconcile <key-concepts.html#reconciliation>`_ it with the same entity in DBpedia or Freebase using the `WordLift Edit Post widget <key-concepts.html#wordlift-edit-post-widget>`_. The entities that I will choose will be linked to this blog post. 
+By clicking on each entity I can `reconcile <key-concepts.html#reconciliation>`_ it with the same entity in DBpedia or Freebase using the **WordLift Edit Post widget**. The entities that I choose will annotate this blog post.
+
+.. note::
+
+	Text annotation in WordLift is *semi-automatic*. `Entities <key-concepts.html#entity>`_ being extracted automatically are validated by the editor before being stored.
+
+With WordLift I can identify the basic '*who*, *what*, *when* and *where*' of an
+article. I can also further structure the contextual information by creating new entities in the `custom vocabulary <key-concepts.html#vocabulary>`_. Annotations are added to posts and pages using the **WordLift Edit Post Widget**.
+
+
+WordLift Edit Post Widget
+--------------
+
+Articles can be annotated in two ways: 
+
+* **Top down**: entities are organized using the '*who*, *what*, *when* and *where*' categories regardless of where each entity appears in the text. When I choose an entity using the **top down** approach all occurrences of that entity are annotated. 
+
+* **Bottom up**: entities are annotated and organized using the '*who*, *what*, *when* and *where*' categories starting from each specific occurence of the entity in the text. When I choose an entity using the **bottom up** approach only the choosen occurrence of that entity is annotated. 
+
+Top down post annotation
+^^^^^^^^^^^^^^
+The content editor, from the list of entities being detected in the text, uses these entities to describe his/her post without selecting any specific text annotations. 
+Entities being selected, in this case, describe the entire post (and not the single occurrence of the entity in the text).
+
+.. image:: /images/wordlift-edit-post-widget-01.png 
+
+Bottom up entity annotation
+^^^^^^^^^^^^^^
+The content editor has choosen the “Expo 2015” occurence in the text. In this case, this specific occurrence, is annotated with the entity "Expo 2015". 
+
+.. image:: /images/wordlift-edit-post-widget-02.png
+
+
+Edit Entity Properties
+^^^^^^^^^^^^^^
+The content editor is editing the main properties for the entity "Expo 2015" while writing the post. 
+The complete list of properties can be edited from the :doc:`edit-entity` page.
+
+.. image:: /images/wordlift-edit-post-widget-03.png
+
+Image Suggestor
+^^^^^^^^^^^^^^
+.. image:: /images/wordlift-edit-post-widget-04.png 
+Images for each entity appear in the WordLift Edit Post Widget and can be dragged and dropped in the visual editor. 
 
 Reconciling entities
 _____________
