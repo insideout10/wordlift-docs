@@ -54,7 +54,7 @@ RDF is a W3C standard language for representing information.
 
 Linked Open Data
 _____________
-**Linked Open Data** is linked data that is made available as open content. 
+**Linked Open Data** is `Linked Data <http://en.wikipedia.org/wiki/Linked_data>`_ that is made available as **open content**. 
 Large linked open datasets (or `Knowledge Graph`_) include DBpedia and Freebase.
 
 Reconciliation

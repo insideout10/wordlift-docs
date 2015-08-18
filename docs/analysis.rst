@@ -1,15 +1,15 @@
 Analysis
 ========
 
-WordLift adds semantic annotations and combines information publicly available as `linked open data <key-concepts.html#linked-open-data>`_ to enrich contents. 
+WordLift adds semantic annotations and combines information publicly available as `linked open data <key-concepts.html#linked-open-data>`_ to organize and enrich contents. 
 
 WordLift suggests to the content editors relevant fact-based information, images and links.
 
-WordLift analyses articles using Named Entity Recognition (NER) and Named Entity Disambiguation (NED). 
+WordLift analyses articles using *Named Entity Recognition* (NER) and *Named Entity Disambiguation* (NED) to extract `Named Entities <key-concepts.html#entity>`_ from posts and pages. 
 
-Entities, used in the annotation, may belong to different vocabularies or `knowledge graphs <key-concepts.html#knowledge-graph> including but not limited to DBpedia, GeoNames and Freebase.
+Entities, used for annotating contents, belong to different `knowledge graphs <key-concepts.html#knowledge-graph>`_ or to `custom vocabularies <key-concepts.html#vocabulary>`_ including but not limited to DBpedia, GeoNames and Freebase.
 
-WordLift provides UIs for creating and curating custom vocabularies that are published as `linked open data <key-concepts.html#linked-open-data>`_.
+WordLift creates and publishes annotations as `linked open data <key-concepts.html#linked-open-data>`_.
 
 Content Writing
 _____________
