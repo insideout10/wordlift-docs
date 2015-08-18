@@ -82,15 +82,26 @@ _____________
 A **widget** in WordLift is a dynamic visualisation that can be added by the editors to a page via `Shortcode <http://codex.wordpress.org/Shortcode>`_ or using the WordLift menu. 
 
 A Widget is executed by the end-user's browser when accessing a page. 
-A Widget typically displays informations being stored in the `knowledge graph`_ and creates dynamic connections between different contents.  
+A Widget typically displays informations being stored in the `knowledge graph`_ and creates dynamic connections between different posts or provides additional information about entities in the post.  
 
-You can now continue to the :doc:`analysis` page.
+WordLift Edit Post Widget
+_____________
+Contents editors using WordLift can identify the basic '*who*, *what*, *when* and *where*' of an
+article and structure information around it by creating new entities in the `custom vocabulary <key-concepts.html#vocabulary>`_. These annotations are added to the posts using the **WordLift Edit Post Widget**.
+
+.. image:: /images/wordlift-edit-post-widget-01.png 
+
+.. image:: /images/wordlift-edit-post-widget-02.png
+
+.. image:: /images/wordlift-edit-post-widget-03.png  
+
+.. image:: /images/wordlift-edit-post-widget-04.png 
 
 WordLift key
 _____________
 The **WordLift key** is a *unique value* that is assigned to each user after he/she has subscribed to the WordLift service. 
 
-You can now continue to the :doc:`getting-started` page.
+You can now continue to the :doc:`analysis` page.
 
 
 

@@ -4,16 +4,21 @@ Analysis
 Content Writing
 _____________
 
-To start working with WordLift (once the plugin has been properly `installed <getting-started.html#installation>`_ and `configured <getting-started.html#configuration>`_) we can simply start writing a blog post using the **standard visual editor of WordPress**.
+To start working with WordLift (once the plugin has been properly `installed <getting-started.html#installation>`_ and `configured <getting-started.html#configuration>`_) we can simply start writing a blog post using the **`standard visual editor of WordPress <
+https://en.support.wordpress.com/visual-editor/>`_**.
 
 WordLift adds to the visual editor a menu to add `widgets <key-concepts.html#vocabulary>`_ in the page or in the sidebar. 
 
 .. image:: /images/wordlift-menu.png
 
+.. warning::
+
+    WordLift works only with the WordPress default editing mode: the visual editor. WordLift cannot be used with the Visual Composer (WorPress page builder). 
+
 WordLift Widgets Menu
 _____________
 
-The menu lets you add four different `widgets <key-concepts.html#vocabulary>`_ to your blog post. `widgets <key-concepts.html#vocabulary>`_provide a rich visual presentation of the entities populating the post.  
+The menu lets you add four different `widgets <key-concepts.html#vocabulary>`_ to your blog post. `widgets <key-concepts.html#vocabulary>`_ provide a rich visual presentation of the entities populating the post and help readers find more relevant contents.  
 
 .. note::
 	As the blog grows and entities are created and mentioned, the widgets update their content without intervention from the editor.
@@ -41,11 +46,11 @@ _____________
 As I begin to write the content on the post, WordLift automatically start analysing it. 
 
 As soon as I hit the **Save Draft** button in WordPress, WordLift enriches what I have written so far in the editor. 
-In the background, the text is sent to the cloud and the `entities <key-concepts.html#entity>`_ are extracted and highlighted with a black underline.
+In the background, the text is sent to the cloud and the `entities <key-concepts.html#entity>`_ are extracted and highlighted with a gray underline.
 
 .. image:: /images/wordlift-content-analysis-results.png
 
-By clicking on each entity I can `reconcile <key-concepts.html#reconciliation>`_ it with the same entity in DBpedia or Freebase.
+By clicking on each entity I can `reconcile <key-concepts.html#reconciliation>`_ it with the same entity in DBpedia or Freebase using the `WordLift Edit Post widget <key-concepts.html#wordlift-edit-post-widget>`_. The entities that I will choose will be linked to this blog post. 
 
 Reconciling entities
 _____________

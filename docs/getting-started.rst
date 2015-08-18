@@ -94,7 +94,7 @@ Configure all the settings with the values that the WordLift team will provide t
 by clicking on *Save Changes*.
 
 
-You can now continue to the :doc:`key-concepts` page.
+You can now continue to the :doc:`key-concepts` page or head directly to the :doc:`analysis` page.
 
 
 .. _join.wordlift.it: http://join.wordlift.it/
