@@ -74,9 +74,9 @@ WordLift Edit Post Widget
 
 Articles can be annotated in two ways: 
 
-* **Top down**: entities are organized using the '*who*, *what*, *when* and *where*' categories regardless of where each entity appears in the text. When I choose an entity using the **top down** approach all occurrences of that entity are annotated. 
+* **Top down**: entities are organized using the '*who*, *what*, *when* and *where*' categories **regardless of where each entity appears in the text**. When I choose an entity using the **top down** approach **all occurrences of that entity are annotated**. 
 
-* **Bottom up**: entities are annotated and organized using the '*who*, *what*, *when* and *where*' categories starting from each specific occurence of the entity in the text. When I choose an entity using the **bottom up** approach only the choosen occurrence of that entity is annotated. 
+* **Bottom up**: entities are annotated and organized using the '*who*, *what*, *when* and *where*' categories **starting from each specific occurence of the entity in the text**. When I choose an entity using the **bottom up** approach **only the choosen occurrence of that entity is annotated**. 
 
 Top down post annotation
 ^^^^^^^^^^^^^^
