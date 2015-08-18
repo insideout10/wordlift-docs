@@ -52,6 +52,11 @@ _____________
 
 RDF is a W3C standard language for representing information. 
 
+Linked Open Data
+_____________
+**Linked Open Data** is linked data that is made available as open content. 
+Large linked open datasets (or `Knowledge Graph`_) include DBpedia and Freebase.
+
 Reconciliation
 _____________
 **Reconciling** entities we store in our own `vocabulary`_ with entities available elsewhere provides computers with an unambiguous way to identify the things we're talking about. 
