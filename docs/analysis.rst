@@ -127,38 +127,15 @@ Using the `WordLift Edit Post Widget`_ I can now read the following parameters:
 
 All parameters but **Entity Id** can be edited directly from the `WordLift Edit Post Widget`_
 
-Once I hit **Save** on the `WordLift Edit Post Widget`_ I annotate this post (this means adding a `semantic fingerprint <key-concepts.html#semantic-fingerprint>`_ to this piece of content).
-
-
-Type mismatch
---------------
-
-In this specific case the associated type I receive is place (as seen from the pinpoint icon). 
-Place as a type for the World WIde Web is misleading (the Web is rather a Creative Work). 
-
 .. note::
 
 	Data being used for the enrichments comes from openely avaialble sources
 	like DBpedia that might contain misleading information like in this case. 
 
-Changing type
---------------
+Once I hit **Save** on the `WordLift Edit Post Widget`_ I annotate this post (this means adding a `semantic fingerprint <key-concepts.html#semantic-fingerprint>`_ to this piece of content).
 
-To change the type of the entity I can use the drop-down menu and choose the proper type (Creative Work in this case).
-
-.. image:: /images/wordlift-content-analysis-disambiguation-choosing-type.png
-
-Once I select *Creative Work* I will hit the "save entity button" to create the entity *[Web]* as *Creative Work* and to add the `semantic fingerprint <key-concepts.html#semantic-fingerprint>`_ to my blog post.
-
-.. image:: /images/wordlift-content-analysis-disambiguation-selection.png
-
-.. note::
-
-    `Reconciling <key-concepts.html#reconciliation>`_ entities means **linking** the entity appearing in my text with its own equivalent on other sources (i.e. DBpedia or Freebase).
-
-
-In this initial text another important concept worth mentioning is the creator of the World Wide Web Sir Tim Berners-Lee.
-The entity in this case is properly identified as Person (all Person type use in WordLift the person icon and the color pink) and information is sourced from DBpedia.   
+In this test post another important concept worth mentioning is the creator of the World Wide Web Sir Tim Berners-Lee.
+The entity is properly identified as Person (all Person and Organization types are available under the *who* category).   
 
 .. image:: /images/wordlift-content-analysis-disambiguation-berners-lee.png
 
