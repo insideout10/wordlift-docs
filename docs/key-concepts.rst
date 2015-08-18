@@ -92,15 +92,12 @@ article and structure information around it by creating new entities in the `cus
 Analysis
 --------------
 .. image:: /images/wordlift-edit-post-widget-01.png 
-
 Selection
 --------------
 .. image:: /images/wordlift-edit-post-widget-02.png
-
 Edit Entity Properties
 --------------
 .. image:: /images/wordlift-edit-post-widget-03.png  
-
 Image Suggestor
 --------------
 .. image:: /images/wordlift-edit-post-widget-04.png 
