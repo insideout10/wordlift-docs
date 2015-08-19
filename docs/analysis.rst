@@ -168,10 +168,12 @@ In our example one significant entity has not been detected and it is worth *tea
 
 .. image:: /images/wordlift-content-analysis-new-entity-highlight.gif  
 
-The entity is infact *[WordLift]* itself. To create a new entity I will highlight the text ``WordLift``, the button **Add Entity** will appear in the `WordLift Edit Post Widget`_ and by clicking it I will be able to edit the properties of the new entity. 
+The entity is *[WordLift]* itself. To create a new entity I will highlight the text ``WordLift``, the button **Add Entity** will appear in the `WordLift Edit Post Widget`_ and by clicking it I will be able to edit the properties of the new entity. 
 
 .. image:: /images/wordlift-content-analysis-new-entity-creation.png
 
-I will then choose the type Creative Work (it also applies to *Software*) and hit on the "Save the entity" button. Once I publish the post again the new entity will appear in the list of the `related entities <key-concepts.html#related-entities>`_  of the blog post along with *[Web]* and *[Tim Berners-Lee]*.   
+I will then choose as type *Creative Work* (it also applies to *Software*) and hit the "Save" button. Now I can associate the new entity in the *what* category. Now the new entity will appear as `related entities <key-concepts.html#related-entities>`_  of the blog post along with *[Web]* and *[Tim Berners-Lee]*.   
+
+.. image:: /images/wordlift-content-analysis-new-entity-creation2.png
 
 You can now continue to the :doc:`edit-entity` page.
