@@ -1,6 +1,5 @@
 Welcome to WordLift Documentation
 ========================
-|build-status| |docs|
 
 Purpose
 -------
