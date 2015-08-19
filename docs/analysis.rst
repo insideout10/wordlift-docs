@@ -16,13 +16,13 @@ _____________
 
 To start working with WordLift (once the plugin has been properly `installed <getting-started.html#installation>`_ and `configured <getting-started.html#configuration>`_) we can simply start writing a blog post using the `standard visual editor of WordPress <https://en.support.wordpress.com/visual-editor>`_.
 
-WordLift adds to the visual editor a menu to embed `widgets <key-concepts.html#widget>`_ in page. 
+WordLift adds to the visual editor the `WordLift Widgets Menu`_ to embed `widgets <key-concepts.html#widget>`_ in page. 
 
 .. image:: /images/wordlift-menu.png
 
 .. warning::
 
-    WordLift works only with the **WordPress visual editor**. 
+    WordLift works only with the standard **WordPress visual editor**. 
     WordLift cannot be used with *Visual Composer* (WorPress page builder) or any other customised page editor.
 
 WordLift Widgets Menu
@@ -31,21 +31,21 @@ _____________
 The menu lets you add four different `widgets <key-concepts.html#widget>`_ to your blog post. `widgets <key-concepts.html#widget>`_ provide a rich visual presentation of the entities populating the post and help readers find more relevant contents.  
 
 .. note::
-	As the blog grows and entities are created and mentioned, the widgets update their content without intervention from the editor.
+	As the site grows with new articles, new entities are created and contents are annotated, the graphical widgets automatically reflect the changes **without requiring any intervention from the editor**. This brings fresh new updates on your contents. 
 
 The four `widgets <key-concepts.html#widget>`_ are:
 
 * **Chord** 
-		|	Visualizes the relationships between all entities starting from the entities mentioned in the post.
+		|	Visualizes the relationships between all entities starting from entities mentioned in the post.
 
 * **Timeline** 
-		|	Displays a navigable list of ordered *Event* entities mentioned in the post.  
+		|	Displays a navigable list of ordered entities of type *Event* mentioned in the post.  
 
 * **GeoMap** 
-		|	Displays *Place* entities on a map.  
+		|	Displays all entities of type *Place* mentioned in the post on a map.  
 
 * **Navigator** 
-		|	Provides content recommendations by presenting relevant **internal** website links (links to other blognposts on the same website).  
+		|	Provides content recommendations by presenting relevant **internal** website links (links to other blog posts on the same website).  
 
 Each widget has a corresponding shortcode; review the `widget shortcodes page <shortcodes.html#widget-shortcodes>`_ for more information on how this works.
 
@@ -59,11 +59,11 @@ Once I hit the **Save Draft** button *for the first time*, `entities <key-concep
 
 .. image:: /images/wordlift-content-analysis-results.png
 
-By clicking on each entity I can `reconcile <key-concepts.html#reconciliation>`_ it with the same entity in DBpedia or Freebase using the **WordLift Edit Post widget**. The entities that I choose will annotate this blog post.
+By clicking on each entity I can `reconcile <key-concepts.html#reconciliation>`_ it with the same entity in DBpedia or Freebase using the `WordLift Edit Post widget`_. The entities that I choose will annotate this blog post.
 
 .. note::
 
-	Text annotation in WordLift is *semi-automatic*. `Entities <key-concepts.html#entity>`_ being extracted automatically are validated by the editor before being stored.
+	Text annotation in WordLift is *semi-automatic*. `Entities <key-concepts.html#entity>`_ being extracted automatically are validated by the editor before being recorded.
 
 With WordLift I can identify the basic '*who*, *what*, *when* and *where*' of an
 article. I can also further structure the contextual information by creating new entities in the `custom vocabulary <key-concepts.html#vocabulary>`_. Annotations are added to posts and pages using the **WordLift Edit Post Widget**.
@@ -80,7 +80,7 @@ Articles can be annotated in two ways:
 
 Top down annotation
 ^^^^^^^^^^^^^^
-The content editor, from the list of entities being detected in the text, uses these entities to describe his/her post without selecting any specific text annotations. 
+The content editor, from the list of entities being detected in the text, uses these entities to describe his/her post without selecting any specific occurrence in the text. 
 Entities being selected, in this case, describe the entire post (and not the single occurrence of the entity in the text).
 
 .. image:: /images/wordlift-edit-post-widget-01.png 
@@ -102,7 +102,7 @@ The complete list of properties can be edited from the :doc:`edit-entity` page.
 Image Suggestor
 ^^^^^^^^^^^^^^
 .. image:: /images/wordlift-edit-post-widget-04.png 
-Images for each entity appear in the WordLift Edit Post Widget and can be dragged and dropped in the visual editor. 
+Images for each entity appear in the WordLift Edit Post Widget and can be embedded in the visual editor. 
 
 Reconciling entities
 _____________
@@ -136,7 +136,7 @@ All parameters but **Entity Id** can be edited directly from the `WordLift Edit 
 
 Once I hit **Save** on the `WordLift Edit Post Widget`_ I annotate this post (this means adding a `semantic fingerprint <key-concepts.html#semantic-fingerprint>`_ to this piece of content).
 
-In this test post another important concept worth mentioning is the creator of the World Wide Web Sir Tim Berners-Lee.
+In this post another important concept worth mentioning is the creator of the World Wide Web Sir Tim Berners-Lee.
 The entity is properly identified as `Person` and all `Person` and `Organization` types are available under the *who* category.   
 
 .. image:: /images/wordlift-content-analysis-disambiguation-berners-lee.png
@@ -145,9 +145,9 @@ The entity is properly identified as `Person` and all `Person` and `Organization
 
 	Annotations are saved when a blog post or a page is published. Annotations and data related to each entity being annotated remain in *draft* untill the post is published. 
 
-.. note::
+.. warning::
 
-    To replace entities being used in the annotation of the blog post after publishing we need to restart the analysis by clicking on the cog icon.
+    When the text from the Visual Editor is edited or removed all annotations being saved are lost. WordLift stores the editor's selection of entities in the content of the Visual Editor. 
 
 Creating a new entity
 _____________
@@ -158,7 +158,7 @@ In some cases key concepts that are important for (1), (2) and (3) are not autom
 
 .. note::
 
-	A basic guideline for adding entity is: people should apply entities that a librarian would plausibly use to classify the content you're writing as if it was a book. For some basic guidelines on when creating new entities `read here <faq.html#what-are-the-guidelines-for-creating-new-entities-to-annotate-a-blog-post-or-a-page>`_
+	A basic guideline for adding entity is: people should apply entities that a librarian would plausibly use to classify the content you're writing as if it was a book. For some basic guidelines on when creating new entities `read here <faq.html#what-are-the-guidelines-for-creating-new-entities-to-annotate-a-blog-post-or-a-page>`_.
 
 New entities being added will become part of the `WordLift vocabulary  <key-concepts.html#vocabulary>`_. 
 
@@ -166,9 +166,9 @@ Once an entity as been added to the vocabulary it will be automatically detected
 
 In our example one significant entity has not been detected and it is worth *teaching* it to WordLift. 
 
-.. image:: /images/wordlift-content-analysis-new-entity-highlight.png  
+.. image:: /images/wordlift-content-analysis-new-entity-highlight.gif  
 
-The entity is infact *[WordLift]* itself. To create a new entity I will highlight the text ``WordLift`` and click on the pencil icon "Insert entity".
+The entity is infact *[WordLift]* itself. To create a new entity I will highlight the text ``WordLift``, the button **Add Entity** will appear in the `WordLift Edit Post Widget`_ and by clicking it I will be able to edit the properties of the new entity. 
 
 .. image:: /images/wordlift-content-analysis-new-entity-creation.png
 
