@@ -23,7 +23,7 @@ _____________
 WordLift is **happily developed** by InsideOut10_.
 
 InsideOut10_ is a start­up and consulting firm based in Rome, Italy. 
-InsideOut10_ is also major shareholder of Insideout Today_ a startup based in Cairo, Egypt.
+InsideOut10_ is major shareholder of `Insideout Today <http://insideout.today>`_ a startup based in Cairo, Egypt.
 
 WordLift infrastructure runs on the semantic platform of Redlink_. 
 
@@ -31,4 +31,3 @@ Redlink_ is commercial spin-off based in Salzburg, Austria focused on Semantic T
 
 .. _InsideOut10: http://insideout.io/
 .. _Redlink: http://redlink.co/
-.. _Insideout Today: http://insideout.today/
