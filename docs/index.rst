@@ -10,7 +10,7 @@ Welcome to WordLift's documentation
 The main documentation for getting started with WordLift is organized in the following sections:
 
 * :ref:`site-docs`
-* :ref:`feature-docs` (under development)
+* :ref:`features`
 * :ref:`about` (under development)
 
 .. _site-docs:
@@ -35,6 +35,8 @@ Features
 
 .. toctree::
     :maxdepth: 2
+
+    features
 
 
 .. _about-docs:
