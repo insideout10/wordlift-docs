@@ -47,7 +47,7 @@ About WordLift
 -------------------
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
     about
 
