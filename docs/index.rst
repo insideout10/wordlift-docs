@@ -43,7 +43,7 @@ Features
 
 .. _about-docs:
 
-About WordLift
+About
 -------------------
 
 .. toctree::
