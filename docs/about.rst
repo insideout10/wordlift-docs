@@ -18,7 +18,7 @@ Presentations
 
 
 About InsideOut10
-_____________
+===============
 
 WordLift is **happily developed** by InsideOut10_.
 
