@@ -1,24 +1,41 @@
 Edit Entity
 ========
+**WordLift** uses `entities <key-concepts.html#entity>`_ to annotate and organize blog posts and pages. 
+All entities can be edited using the `WordLift Edit Post widget <analysis.html#wordLift-edit-post-widget>`_ or from the **Edit Entity Page**. To access all entities or add a new entity click on the **Vocabolary** icon on the dashboard menu. 
 
-Referencing posts
-_____________
+.. image:: /images/wordlift-edit-entity-vocabulary.png
 
-Entities are saved in the WordPress databases as `custom posts <http://codex.wordpress.org/Post_Types>`_. Entities are related to blog posts and pages that are listed as **Referencing Posts** in the editing screen.  
+When annotating a post with an entity WordLift adds a link to the **entity page**. 
+These links are useful for three reasons:
 
-.. image:: /images/wordlift-edit-entity-referencing-posts.png
+1. They allow users to navigate the website
+2. They help establish information hierarchy using the network of entities
+3. They could help spread link juice (ranking power) around the websites for better SEO.
 
-In our case I can see that the entity *[Tim Berners-Lee]* is associated with the post *Hello World!*
+Curating **entity pages** with WordLift is similar to writing an article on `Wikipedia <http://wikipedia.org>`_. These *entity posts* are useful for: 
+
+* Providing contextual information to articles
+* Aggregate all contents referring to the same entity  
+
+..
+	Referencing posts
+	_____________
+
+	Entities are saved in the WordPress databases as `custom posts <http://codex.wordpress.org/Post_Types>`_. Entities are related to blog posts and pages that are listed as **Referencing Posts** in the editing screen.  
+
+	.. image:: /images/wordlift-edit-entity-referencing-posts.png
+
+	In our case I can see that the entity *[Tim Berners-Lee]* is associated with the post *Hello World!*
 
 Edit entity properties
 _____________
 
-The entity page provides the following set of properties that can be edited:
+The entity page provides the following set of properties that can be edited from the corresponding *meta box*:
 
 	- **Name:** the title of the article 
 	- **Description:** the body of the article
 	- **Image:** the featured image of the article
-	- **Entity Type:** the corresponding type (i.e. *Thing*, *Person*, *Place*, *Event*, *Organization*, *Creative Work*, ...) that can be managed via the *Entity Type* box in the editing window
+	- **Entity Types:** the corresponding type (i.e. *Thing*, *Person*, *Place*, *Event*, *Organization*, *Creative Work*, ...) that can be managed via the *Entity Type* box in the editing window
 	- **Entity URL:** the URL describing the entity, the same-As label (the URLs of same entity on the different sources) and the entity-type-label (the types being associated on the external sources to the entity) that can be managed via the *Entity URL* box in the editing window.
 
 .. image:: /images/wordlift-edit-entity-informations.png  
@@ -72,20 +89,19 @@ Places are also entities. To personalise the *geo coordinates* (longitude and la
 Updating the description
 _____________
 
-When we have something meanigful to say on a specific concept we shall curate the information and edit the data that has been fetched automatically by WordLift. In our example for the entity *[Berners-Lee]* name, description, image, type,url, sameAs and additionalType have been received from DBpedia.
-
-.. image:: /images/wordlift-content-analysis-new-entity-update.png
+When we have something meanigful to say on a specific concept we shall curate the information and edit the data that has been fetched automatically by WordLift. In our example for the entity *[World-Wide-Web]* name, description, image, type,url, sameAs and additionalType have been received from DBpedia.
 
 Linking other entities
 _____________
 
-After editing the description of *[Berners-Lee]* I can ran the analysis by clicking on the *cog icon* "Analyse" just like we would do for a blog posts. 
+After editing the description of *[World-Wide-Web]* I can annotate the entity page just like I would do with a blog posts. 
 
 With the analysis I can *link* an entity with other entities. WordLift will store these relationships between one entity and other entities in the `graph <key-concepts.html#knowledge-graph>`_ using the Dublin Core property ``dct:related``. This information will be used to infer new connections between the contents of the site. For more information on *entity linking* `read the faq <faq.html#when-should-i-link-one-entity-to-another>`_.   
 
-Entities being *linked* are listed as **Releated Entities** in the editing screen of the entity.
+..
+	Entities being *linked* are listed as **Releated Entities** in the editing screen of the entity.
 
-.. image:: /images/wordlift-content-analysis-new-entity-related-entity.png
+	.. image:: /images/wordlift-content-analysis-new-entity-related-entity.png
 
 Save data
 _____________
