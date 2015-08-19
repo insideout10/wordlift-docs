@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 
-Welcome to WordLift's documentation
+Welcome to WordLift's Documentation
 ====================================
 
 The main documentation for getting started with WordLift is organized in the following sections:
