@@ -11,7 +11,7 @@ The main documentation for getting started with WordLift is organized in the fol
 
 * :ref:`site-docs`
 * :ref:`features`
-* :ref:`About` (under development)
+* :ref:`about-docs` (under development)
 
 .. _site-docs:
 
