@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 
-Welcome to WordLift's Documentation
+Welcome to WordLift Documentation
 ====================================
 
 The main documentation for getting started with WordLift is organized in the following sections:
@@ -48,6 +48,8 @@ About WordLift
 
 .. toctree::
     :maxdepth: 2
+
+    about
 
 
 

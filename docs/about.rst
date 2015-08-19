@@ -1,0 +1,34 @@
+About WordLift
+===============
+**WordLift** brings the power of *Artificial Intelligence* to web publishers around the World. 
+
+**WordLift** is a **semantic editor** for WordPress.
+
+**WordLift** turning editorial contents into actionable knowledge and helps bloggers and site owners reach their maximum potential audiences.
+
+Presentations
+^^^^^^^^^^^^^^^
+* `WordLift for Digital Publishers and how to create an Open Database of Knowledge <http://www.slideshare.net/cyberandy/wordlift-for-digital-publishers-and-how-to-create-an-open-database-of-knowledge>`_ - 6th July 2015 - *Università La Sapienza* | Rome, Italy
+
+* `Web Storytelling and Open Data Publishing for Tourism <http://www.slideshare.net/cyberandy/web-storytelling-and-open-data-publishing-for-tourism>`_ - 17th February 2015 - *Semantic Technology Institute* | Innsbruck, Austria 	   
+
+* `Semantic SEO in the post Hummingbird Era and WordLift <http://www.slideshare.net/cyberandy/semantic-seo-wordpressenglish>`_ - 23rd April 2014 - *Rome WordPress Meetup* | Rome, Italy 
+
+* `WordLift 3 Dynamic Semantic Publishing for WordPress <http://www.slideshare.net/cyberandy/wordlift-30-dynamic-semantic-publishing-for-wordpress>`_ - 20th February 2014 - *W3C* | Rome, Italy 	  
+
+
+About InsideOut10
+_____________
+
+WordLift is **happily developed** by InsideOut10_.
+
+InsideOut10_ is a start­up and consulting firm based in Rome, Italy. 
+InsideOut10_ is also major shareholder of Insideout Today_ a startup based in Cairo, Egypt.
+
+WordLift infrastructure runs on the semantic platform of Redlink_. 
+
+Redlink_ is commercial spin-off based in Salzburg, Austria focused on Semantic Technologies and Free Open Source Software co-founded by InsideOut10_.
+
+.. _InsideOut10: http://insideout.io/
+.. _Redlink: http://redlink.co/
+.. _Insideout Today: http://insideout.today/
