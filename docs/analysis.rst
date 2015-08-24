@@ -176,4 +176,10 @@ I will then choose as type *Creative Work* (it also applies to *Software*) and h
 
 .. image:: /images/wordlift-content-analysis-new-entity-creation2.png
 
+.. warning::
+
+    When creating a new entity over **an existing annotation**: a) remove the annotated entity, b) re-write the entity and c) create a new one (as described above). 
+ 
+
+
 You can now continue to the :doc:`edit-entity` page.
