@@ -13,8 +13,6 @@ The main documentation for getting started with WordLift is organized in the fol
 * :ref:`features`
 * :ref:`about-docs`
 
-[![Documentation Status](https://readthedocs.org/projects/wordlift/badge/?version=latest)](https://readthedocs.org/projects/wordlift/?badge=latest)
-
 .. _site-docs:
 
 User Documentation
@@ -29,6 +27,7 @@ User Documentation
    key-concepts
    analysis
    edit-entity
+   publish
    shortcodes
    faq
 
