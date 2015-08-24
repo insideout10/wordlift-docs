@@ -1,6 +1,8 @@
 Welcome to WordLift Documentation
 ========================
 
+[![Documentation Status](https://readthedocs.org/projects/wordlift/badge/?version=latest)](https://readthedocs.org/projects/wordlift/?badge=latest)
+
 Purpose
 -------
 
