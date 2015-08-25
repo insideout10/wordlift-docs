@@ -67,6 +67,6 @@ As of today, the data being represented in RDF for each post or page include:
 
 	In the RDF representation of the posts I can find all entities related to a post (or a page) by looking at the ``dcterms:references`` attribute
 
-The attributes describing the posts can be browsed. In this example by clicking on the entity *[Solar System]* I will be able (directly from `LodView <http://lodview.it/>`_) to consult and read the data publish on the entity a  
+The attributes describing the posts can be browsed. In this example by clicking on the entity *[Solar System]* I will be able (directly from `LodView <http://lodview.it/>`_) to consult and read the data publish on that entity by **WordLift**.  
 
 You can now continue to the :doc:`discover` page.
