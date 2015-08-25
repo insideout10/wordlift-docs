@@ -57,7 +57,7 @@ Here follows the list of properties that can be edited with WordLift for each en
 +--------------+--------------------+----------------------------+-------------------+
 | Place        |Entities            |Name,Description,Image,     | Place_            |
 |              |with a physical     |Type,URL,SameAs,            |                   |
-|              |extension.	      	|additionalType,Geo.         |                   |
+|              |extension.	      |additionalType,Geo.         |                   |
 +--------------+--------------------+----------------------------+-------------------+
 | Event        |An event happening  |Name,Description,Image,     | Event_            |
 |              |in a specific time  |Type,URL,SameAs,            |                   |
