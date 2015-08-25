@@ -13,7 +13,7 @@ Using the `graph <key-concepts.html#knowledge-graph>`_ created by **WordLift** i
 	* Links to Entity Pages descrbing the basic '*who*, *what*, *when* and *where*' of the article
 	* Links to other posts related to the article  
 * **Faceted Search Widget**: from each Entity Pages presents all articles being related to that concept and helps users drill down on the list by filtering the interesting concepts. 
-* **Chord Widget**: provides an overview of the network of concepts related to an article and links to other similar articles (articles that share the same entity) 
+* **Chord Widget**: provides an overview of the network of concepts related to an article and links to other similar articles (articles that share the same entity).
 
 Links to Entity Pages
 _____________
@@ -34,7 +34,7 @@ The **Navigator Widget** provides content recommendations by presenting relevant
 
 .. image:: /images/wordlift-discover-navigator.png
 
-Each tile presents a **link to the entity** and a **link to a related post**.   
+Each tile presents a **link to the entity** (*[NASA]* and *[Earth]* in this example) and a **link to a related post**.   
 
 The Faceted Search Widget
 _____________
@@ -52,3 +52,4 @@ The **Chord Widget** visualizes the relations between entities, starting from th
 
 .. image:: /images/wordlift-shortcodes-chord.png
 
+In this case also a user might chose to navigate to an entity page or to another blog post.
