@@ -19,7 +19,7 @@ The Widget can be added on the entity page using the **Faceted Search** option f
 
 .. image:: /images/wordlift-edit-entity-faceted-search-widget.png
 
-Alternatively, the `[wl_faceted_search]` shortcode can be used.
+Alternatively, the ``[wl_faceted_search]`` shortcode can be used.
 
 * **Faceted Search** 
 		|	Provides a faceted search user interface to help readers find relevant articles using the network of entities.  

@@ -57,7 +57,7 @@ Here follows the list of properties that can be edited with WordLift for each en
 +--------------+--------------------+----------------------------+-------------------+
 | Place        |Entities            |Name,Description,Image,     | Place_            |
 |              |with a physical     |Type,URL,SameAs,            |                   |
-|              |extension.	    |additionalType,Geo.             |                   |
+|              |extension.	        |additionalType,Geo.         |                   |
 +--------------+--------------------+----------------------------+-------------------+
 | Event        |An event happening  |Name,Description,Image,     | Event_            |
 |              |in a specific time  |Type,URL,SameAs,            |                   |
@@ -106,6 +106,22 @@ With the analysis I can *link* an entity with other entities. WordLift will stor
 	Entities being *linked* are listed as **Releated Entities** in the editing screen of the entity.
 
 	.. image:: /images/wordlift-content-analysis-new-entity-related-entity.png
+
+
+The Faceted Search Widget
+_____________
+
+**Entity pages** can be used for helping users browse the content of your website. This is done using the **Faceted Search Widget**. 
+The Widget can be added on the entity page using the **Faceted Search** option from the `WordLift Widgets Menu <analysis.html#wordlift-widgets-menu>`_ 
+
+.. image:: /images/wordlift-edit-entity-faceted-search-widget.png
+
+Alternatively, the ``[wl_faceted_search]`` shortcode can be used.
+
+* **Faceted Search** 
+		|	Provides a faceted search user interface to help readers find relevant articles using the network of entities.  
+
+.. image:: /images/wordlift-edit-entity-faceted-search-widget-frontend.gif
 
 Save data
 _____________
