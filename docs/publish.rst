@@ -12,20 +12,6 @@ Entities when saved are created as `custom posts` in the local WordPress install
 		http://*<name-of-your-WordPress-server>*/?entity=<*name-of-the–entity*>
 
 
-The Faceted Search Widget 
--------------------------------
-**Entity pages** can be used for helping users browse the content of your website. This is done using the **Faceted Search Widget**. 
-The Widget can be added on the entity page using the **Faceted Search** option from the `WordLift Widgets Menu <analysis.html#wordlift-widgets-menu>`_ 
-
-.. image:: /images/wordlift-edit-entity-faceted-search-widget.png
-
-Alternatively, the ``[wl_faceted_search]`` shortcode can be used.
-
-* **Faceted Search** 
-		|	Provides a faceted search user interface to help readers find relevant articles using the network of entities.  
-
-.. image:: /images/wordlift-edit-entity-faceted-search-widget-frontend.gif
-
 Metadata being added to Entity pages 
 -------------------------------
 
