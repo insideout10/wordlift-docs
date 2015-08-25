@@ -61,7 +61,7 @@ As of today, the data being represented in RDF for each post or page include:
 * dcterms:**references**
 * schema-org:**author**
 
-.. image:: /images/wordlift-publish-post-test-structured-data.png
+.. image:: /images/wordlift-publish-post-lodview.png
 
 .. note::
 
