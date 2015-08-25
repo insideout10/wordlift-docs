@@ -38,15 +38,35 @@ The *schema markup* is a code (semantic vocabulary) to help search engines retur
 
 Metadata being added to Post/Page 
 -------------------------------
-By clicking on the **Test Google Rich Snippets** button (right after the *Permalink* in the editor) we can see the list of entities being added to the content.
+By clicking on the **Test Google Rich Snippets** button (right after the *Permalink* in the editor) we can see the list of entities being added to the content from the **Google Structured Data Testing Tool**.
+
+.. image:: /images/wordlift-publish-post-test-structured-data.png
 
 .. image:: /images/wordlift-publish-structured-data-testing.png 
 
-In this example we're telling search engines that this post is relevant for search around the concept of *[Solar System]* (here represented as *Place*).   
+In this example we're telling search engines that this post could be relevant for searches related to the *[Solar System]*.   
 
 RDF representation of the Post/Page 
 -------------------------------
 By clicking on the **View on Linked Data** button (right after the *Permalink* in the editor) the **RDF representation of the post** is displayed using `LodView <http://lodview.it/>`_. 
 
+As of today, the data being represented in RDF for each post or page include: 
+
+* schema-org:**datePublished**
+* schema-org:**dateModified**
+* schema-org:**interactionCount**
+* rdfs:**label**
+* rdf:**type**
+* schema-org:**url**
+* dcterms:**references**
+* schema-org:**author**
+
+.. image:: /images/wordlift-publish-post-test-structured-data.png
+
+.. note::
+
+	In the RDF representation of the posts I can find all entities related to a post (or a page) by looking at the ``dcterms:references`` attribute
+
+The attributes describing the posts can be browsed. In this example by clicking on the entity *[Solar System]* I will be able (directly from `LodView <http://lodview.it/>`_) to consult and read the data publish on the entity a  
 
 You can now continue to the :doc:`discover` page.
