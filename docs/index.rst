@@ -28,6 +28,7 @@ User Documentation
    analysis
    edit-entity
    publish
+   discover
    shortcodes
    faq
 

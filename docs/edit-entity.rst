@@ -47,33 +47,33 @@ Here follows the list of properties that can be edited with WordLift for each en
 +--------------+--------------------+----------------------------+-------------------+
 |     Type     |    Description     |         Properties         |     Schema.org    |
 +==============+====================+============================+===================+
-| Thing        |The most generic    |Name,Description,Image,     | Thing_            |
-|              |type of entity.     |Type,URL,SameAs,            |                   |
+| Thing        |The most generic    |name,description,image,     | Thing_            |
+|              |type of entity.     |type,URL,sameAs,            |                   |
 |              |                    |additionalType.             |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Person       |A person.           |Name,Description,Image,     | Person_           |
-|              |                    |Type,URL,SameAs,            |                   |
+| Person       |A person.           |name,description,image,     | Person_           |
+|              |                    |type,URL,sameAs,            |                   |
 |              |                    |additionalType.             |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Place        |Entities            |Name,Description,Image,     | Place_            |
-|              |with a physical     |Type,URL,SameAs,            |                   |
-|              |extension.          |additionalType,Geo.         |                   |
+| Place        |Entities            |name,description,image,     | Place_            |
+|              |with a physical     |type,URL,sameAs,            |                   |
+|              |extension.          |additionalType,geo.         |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Event        |An event happening  |Name,Description,Image,     | Event_            |
-|              |in a specific time  |Type,URL,SameAs,            |                   |
-|              |and location.       |additionalType,Geo,         |                   |
+| Event        |An event happening  |name,description,image,     | Event_            |
+|              |in a specific time  |type,URL,sameAs,            |                   |
+|              |and location.       |additionalType,location,    |                   |
 |              |                    |startDate,endDate.          |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Organization |An Organization.    |Name,Description,Image,     | Organization_     |
-|              |                    |Type,URL,SameAs,            |                   |
-|              |                    |additionalType.             |                   |
+| Organization |An organization.    |name,description,image,     | Organization_     |
+|              |                    |type,URL,sameAs,            |                   |
+|              |                    |additionalType,founder.     |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Local        |A physical business |Name,Description,Image,     | LocalBusiness_    |
-| business     |or branch of an     |Type,URL,SameAs,Address     |                   |
-|              |organization.       |Founder,Geo.                |                   |
+| Local        |A physical business |name,description,image,     | LocalBusiness_    |
+| business     |or branch of an     |type,URL,sameAs,address     |                   |
+|              |organization.       |founder,geo.                |                   |
 +--------------+--------------------+----------------------------+-------------------+
-| Creative     |The most generic    |Name,Description,Image,     | CreativeWork_     |
-| Work	       |kind of Creative    |Type,URL,SameAs,            |                   |
+| Creative     |The most generic    |name,description,image,     | CreativeWork_     |
+| Work	       |kind of Creative    |type,URL,sameAs,            |                   |
 |              |Work(i.e. Software).|additionalType.             |                   |
 +--------------+--------------------+----------------------------+-------------------+
 
