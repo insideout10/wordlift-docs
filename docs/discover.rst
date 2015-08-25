@@ -4,14 +4,14 @@ Discover
 
 **WordLift** leverages on the semantic network of concepts (or `entities <key-concepts.html#entity>`_) being discovered to help users explore the contents of your site. 
 
-Using the `graph <key-concepts.html#knowledge-graph>`_ created by **WordLift** innovative ways of navigating the contents of your site can be implemented (this is particularly true if you are a developer). 
+Using the `graph <key-concepts.html#knowledge-graph>`_ created by **WordLift** innovative ways of navigating the contents can be implemented (this is particularly true if you are a developer). 
 
-**WordLift** out-of-the-box helps users discover contents in four different ways:
+**WordLift** *out-of-the-box* helps users discover contents in four different ways:
 
 * **Links to Entity Pages**: these are places on posts and pages and corresponds to the concept being annotated, 
 * **Navigator Widget**: it is designed to provide a quick overview of the article providing two types of links: 
-** Links to Entity Pages descrbing the basic '*who*, *what*, *when* and *where*' of the article
-** Links to other posts related to the article  
+	* Links to Entity Pages descrbing the basic '*who*, *what*, *when* and *where*' of the article
+	* Links to other posts related to the article  
 * **Faceted Search Widget**: from each Entity Pages presents all articles being related to that concept and helps users drill down on the list by filtering the interesting concepts. 
 * **Chord Widget**: provides an overview of the network of concepts related to an article and links to other similar articles (articles that share the same entity) 
 
