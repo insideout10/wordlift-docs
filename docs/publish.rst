@@ -20,9 +20,11 @@ RDF representation of the Entity
 -------------------------------
 By clicking on the **View on Linked Data** button (right after the *Permalink* in the editor) the **RDF representation of the entity** is displayed using `LodView <http://lodview.it/>`_. 
 
+.. image:: /images/wordlift-publish-entity-view-linked-data.png
+
 .. image:: /images/wordlift-publish-entity-lodview.png
 
-In this example I can see the relation being created between the entity *[Mars]* and the entity *[Solar System]* (`dcterms:relation`). This relation has been created from the :doc:`edit-entity` page by annotating the description of the entity. 
+In this example I can see the relation being created between the entity *[Mars]* and the entity *[Solar System]* (``dcterms:relation``). This relation has been created from the `edit entity page <edit-entity.html#linking-other-entities>`_ page by annotating the description of the entity. 
 
 .. image:: /images/wordlift-publish-entity-lodlive.png
 

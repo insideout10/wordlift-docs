@@ -79,7 +79,7 @@ Here follows the list of properties that can be edited with WordLift for each en
 
 Edit an Event
 -------------------------------
-Events, occuring in a specific time are also entities. To personalise the *startDate* and *endDate* of an event I can use the **Event duration**box and the calendar control.
+Events, occuring in a specific time are also entities. To personalise the *startDate* and *endDate* of an event I can use the **Event duration** box and the calendar control.
 
 .. image:: /images/wordlift-edit-entity-event.png
 
@@ -93,7 +93,9 @@ Places are also entities. To personalise the *geo coordinates* (longitude and la
 Updating the description
 _____________
 
-When we have something meanigful to say on a specific concept we shall curate the information and edit the data that has been fetched automatically by WordLift. In our example for the entity *[World-Wide-Web]* name, description, image, type,url, sameAs and additionalType have been received from DBpedia.
+When we have something meanigful to say on a specific concept **we shall curate the information and edit the data that has been fetched automatically by WordLift** (*this will create our own version of Wikipedia*). 
+
+In our example for the entity *[World-Wide-Web]* name, description, image, type,url, sameAs and additionalType have been received from DBpedia.
 
 Linking other entities
 _____________
@@ -123,6 +125,8 @@ Alternatively, the ``[wl_faceted_search]`` shortcode can be used.
 
 .. image:: /images/wordlift-edit-entity-faceted-search-widget-frontend.gif
 
+The example above represents the widget displayed in the front-end. The reader can select multiple concepts and drill down the list of articles related to the entity. 
+
 Save data
 _____________
 
@@ -137,3 +141,4 @@ You can now continue to the :doc:`publish` page.
 .. _Event: http://schema.org/Event
 .. _Organization: http://schema.org/Organization
 .. _CreativeWork: http://schema.org/CreativeWork
+.. _LocalBusiness: http://schema.org/LocalBusiness
