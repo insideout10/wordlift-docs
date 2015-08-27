@@ -106,7 +106,7 @@ depth
     *(optional)* Maximum distance to travel in the entity graph in order to populate the chord. A small number limits the exploration in the neighborhood of the main entity.
 
 global
-    *(optional)* When *global=true* the main entity of the chord is not the current post, but the most mentioned entity in the blog.
+    *(optional)* When *global=true* the main entity of the chord is not the current post, but the most mentioned entity in the latest posts.
     
 Timeline widget::
     
