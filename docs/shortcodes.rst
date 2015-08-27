@@ -88,7 +88,7 @@ WordLift widgets can be inserted in a post or page to give a rich visual present
 
 Chord widget::
 
-    [wl-chord width=... height=... main_color=... depth=... global=...]
+    [wl_chord width=... height=... main_color=... depth=... global=...]
     
 .. image:: /images/wordlift-shortcodes-chord.png
 Visualizes relations between entities, starting from the current post and the entities mentioned in it.
@@ -110,7 +110,7 @@ global
     
 Timeline widget::
     
-    [wl-timeline width=... height=... global=...]
+    [wl_timeline width=... height=... global=...]
     
 .. image:: /images/wordlift-shortcodes-timeline.png
 Displays a navigable list of ordered Event entities. The window on top shows details on the clicked Events.
@@ -126,7 +126,7 @@ global
 
 Geomap widget::
 
-    [wl-geomap width=... height=... global=...]
+    [wl_geomap width=... height=... global=...]
     
 .. image:: /images/wordlift-shortcodes-geomap.png    
 Displays Place entities on a map. Each Place has its own marker with a popup containing thumbnail and link.
@@ -140,11 +140,17 @@ height
 global
     *(optional)* By default the geomap displays places mentioned in the current post. When *global=true* the geomap displays all places mentioned in the blog.
 
-Related posts widget::
+Navigator widget::
 
-    [wl-related-posts]
+    [wl_navigtor]
 
-Offers links to semantic-related posts in the blog.
+Offers links to semantic-related posts in the blog. The search is made by considering the entities mentioned in the current post (in the order WHO, WHAT, WHERE, WHEN) and finding other blog posts mentioning the same entity. Useful for `content discovery <discover.html#the-faceted-search-widget>`_.
+
+Faceted search widget::
+
+    [wl_faceted_search]
+
+The faceted search can be used on entity pages to display and filter the posts related to the current and other entities. Useful for `content discovery <discover.html#the-navigator-widget>`_.
 
 
 .. _PHP date: http://php.net/manual/en/function.date.php
