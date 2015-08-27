@@ -142,7 +142,7 @@ global
 
 Navigator widget::
 
-    [wl_navigtor]
+    [wl_navigator]
 
 Offers links to semantic-related posts in the blog. The search is made by considering the entities mentioned in the current post (in the order WHO, WHAT, WHERE, WHEN) and finding other blog posts mentioning the same entity. Useful for `content discovery <discover.html#the-faceted-search-widget>`_.
 
