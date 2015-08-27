@@ -146,12 +146,15 @@ Navigator widget::
 
 Offers links to semantic-related posts in the blog. The search is made by considering the entities mentioned in the current post (in the order WHO, WHAT, WHERE, WHEN) and finding other blog posts mentioning the same entity. Useful for `content discovery <discover.html#the-faceted-search-widget>`_.
 
+.. image:: /images/wordlift-discover-navigator.png
+
 Faceted search widget::
 
     [wl_faceted_search]
 
 The faceted search can be used on entity pages to display and filter the posts related to the current and other entities. Useful for `content discovery <discover.html#the-navigator-widget>`_.
 
+.. image:: /images/wordlift-edit-entity-faceted-search-widget-frontend.gif
 
 .. _PHP date: http://php.net/manual/en/function.date.php
 .. _PHP DateInterval format: http://php.net/manual/en/dateinterval.format.php
