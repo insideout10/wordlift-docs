@@ -6,6 +6,18 @@ _____________
 
 The purpose of using WordLift is to (1) categorize your content, (2) help people find content of interest to them, and (3) help WordLift describe your contents in *machine-readable* format so that other computers can re-use it. 
 
+Why shall I publish my contents as Linked Data?
+_____________
+
+Richer metadata helps making content discoverable, searchable, and provides new means to reaching your audience.
+Organising web contents around concepts or entities rather than traditional web pages helps improve navigation, content re-use, content re-purposing and search engine rankings.
+
+Having content aggregations based on semantic annotations that use unambiguous Linked Data identifiers creates a richer navigation bringing the user experience to new levels of engagement. 
+
+Who is using Linked Data today in the Media Industry?
+_____________
+Companies like BBC, Financial Times, New York Times, Washington Post, Reuters and Associated Press are investing in dynamic semantic publishing and use linked open data to organise their news portals and applications.
+
 What entity types are supported and how they map to Schema.org? 
 _____________
 *Thing*, *Person*, *Place*, *Event*, *Organization*, *LocalBusiness* and *Creative Work* are the supported types. 
