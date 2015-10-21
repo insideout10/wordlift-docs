@@ -31,4 +31,8 @@ Presentations
 
 * `WordLift 3 Dynamic Semantic Publishing for WordPress <http://www.slideshare.net/cyberandy/wordlift-30-dynamic-semantic-publishing-for-wordpress>`_ - 20th February 2014 - *W3C* | Rome, Italy 	  
 
+* `WordLift 2 Pitch at the JBoye conference <http://www.slideshare.net/cyberandy/wordlift-20-pitch-at-jboye11-in-aarhus>`_ - 08th November 2011 - *JBoye11* | Aarhus, Denmark 
+
+
+
 
