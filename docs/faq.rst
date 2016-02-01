@@ -18,6 +18,11 @@ Who is using Linked Data today in the Media Industry?
 _____________
 Companies like BBC, Financial Times, New York Times, Washington Post, Reuters and Associated Press are investing in dynamic semantic publishing and use linked open data to organise their news portals and applications.
 
+What is content enrichment? 
+_____________
+
+Content enrichment is a processes used to refine and improve textual content by embedding structured data (*metadata*) on web pages. This *metadata* is made available to search engines and other data consumers. 
+
 What entity types are supported and how they map to Schema.org? 
 _____________
 *Thing*, *Person*, *Place*, *Event*, *Organization*, *LocalBusiness* and *Creative Work* are the supported types. 
@@ -55,6 +60,19 @@ Content should not be overloaded with entities to increase its distribution onli
 
 All entities shall be matched to the proper language of the content. 
 
+What factors determine the rating of an entity?
+_____________
+
+The entity rating in WordLift takes under account the following factors:
+
+- Every entity should be linked to one or more related posts. 
+- Every entity should have its own description. 
+- Every entity should link to other entities - when we select other entities to enrich the description of an entity we create a relationships in the site's `knowledge graph <key-concepts.html#knowledge-graph>`_.
+- Entities, just like any post in WordPress, can be kept as draft. Only when we publish them they become available in the analysis and we can use them to classify our contents.
+- Entities shall have a feautured image. When we add a featured image to an entity we’re adding the `schema-org:image` attribute to the entity.
+- Every entity (unless we’re creating something completely new) should be interlinked with the same entity on at least one other dataset. This is called data interlinking and can be done by adding a link to the equivalent entity using the `sameAs` attribute.
+- Every entity has a type (i.e. Person, Place, Organization, …) and every type has its own set of properties. When we complete all the properties of an entity we increase the entity visibility and usefulness.  
+
 When should I link one entity to another? 
 _____________
 
@@ -74,4 +92,9 @@ WordLift currently supports the following languages: English, 中文 (Chinese), 
 What are the datasets WordLift uses for named entity recognition? 
 _____________
 
-WordLift by default uses DBpedia and Freebase to detect and link named entities. With a custom configuration, the content analysis services provided by `Redlink <http://www.redlink.co>`_ and available via our professional services, can use any RDF-based `graph <key-concepts.html#knowledge-graph>`_. It is also possible to use *multiple graphs* for named entity recognition and `dereferencing <key-concepts.html#dereferencing-http-uris>`_. New entities being created with WordLift represent a custom vocabulary the analysis re-use for 
+WordLift by default uses DBpedia and Freebase to detect and link named entities. With a custom configuration, the content analysis services provided by `Redlink <http://www.redlink.co>`_ and available via our professional services, can use any RDF-based `graph <key-concepts.html#knowledge-graph>`_. It is also possible to use *multiple graphs* for named entity recognition and `dereferencing <key-concepts.html#dereferencing-http-uris>`_. 
+
+What is a triple? 
+_____________
+
+A triple is a set of three elements: a subject, a predicate, and an object. Triples are linked together to form a `graph <key-concepts.html#knowledge-graph>`_ that is without hierarchy, is machine readable, and can be used to infer new facts. Triples in WordLift describe facts as metadata about an article or an entity. 
