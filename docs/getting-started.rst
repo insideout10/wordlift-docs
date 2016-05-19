@@ -1,11 +1,6 @@
 Getting Started
 ===============
 
-.. note::
-
-    WordLift 3 is currently in active development, and is being tested by a restricted team of testers. If you'd like to
-    join the team, subscribe on join.wordlift.it_.
-
 .. warning::
 
     Even though we're already using WordLift 3 on some production web sites and there's no harm to data, we **strongly
@@ -15,7 +10,7 @@ Getting Started
 Compatibility
 _____________
 
-WordLift is currently being tested with WordPress_ 4.2.4 and later.
+WordLift is currently available on WordPress_ 4.2.4 and later.
 
 
 Installation
@@ -34,7 +29,7 @@ After installing WordLift you should see the logo on the top right corner of you
 Activation
 __________
 
-To activate the plugin you will need a `WordLift key <key-concepts.html#wordlift-key>`_. You might receive this key from us or from an automatic email system righ after subscribing to the service from the WordLift_ website (*coming up*). 
+To activate the plugin you need a `WordLift key <key-concepts.html#wordlift-key>`_. You might receive this key from us or from an automatic email system righ after subscribing to the service from the `WordLift_ website <https://wordlift.io>`. 
 
 From the WordPress administration menu, click on *Plugins* / *Installed Plugins*. Then click on *Settings* on the
 WordLift plugin.
