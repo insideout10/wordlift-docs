@@ -1,38 +1,39 @@
 Key Concepts
 ===============
-Here is the terminology describing the core concepts that will help you set up and manage your contents with WordLift:
+Here is the terminology describing the core concepts that will help you set up and manage your content with WordLift:
 
 Entity
 _____________
 
-An **entity** (or thing) is something that exists in the real-world: celebrities, cities, sports teams, buildings, geographical features, movies, celestial objects and works of art are all entities. For a long time, more than four decades, we teached computers to recognise things by simply matching keywords. 
+An **entity** (or thing) is something that exists in the real-world: celebrities, cities, sport teams, buildings, geographical features, movies, celestial objects and works of art are all entities. For a long time, more than four decades, we've been teaching computers to recognise things by simply matching keywords. 
 
 
 Now computers, just like humans do, understand that a text like *[Thubten Gyatso]* is not just made of two words but, it has a much richer meaning. *[Thubten Gyatso]* is a person, more specifically he's the 13th Dalai Lama who was born in the Tsang-Ü province in Tibet on the 12th of February 1876. 
 
 
-All this information - collectively shared in public sources like Wikipedia and Freebase - is organised in intelligent models known as **Graphs** that are helping computers thinking the way we do and helping us finding this information more quickly and even compute it (i.e. providing answers to question like *"Was Trinley Gyatso his predecessor?"*).   
+All this information - collectively shared in public sources like Wikipedia and Freebase - is organised in intelligent models known as **Graphs** that are helping computers think the way we do and helping us find this information more quickly and even compute it (i.e. providing answers to question like *"Was Trinley Gyatso his predecessor?"*).   
 
 Entity Types
 --------------
 
-Web pages are about all different kind of "things". WordLift uses the `Schema.org <http://schema.org>`_ vocabulary to describes a variety of entity types, each of which has its own set of properties that can be used to describe the entity. The broadest item type is **Thing**, which has four properties: *name*, *description*, *url*, and *image*. WordLift also supports: **Person**, **Place**, **Event**, **Organization** and **Creative Work** (and more types are constantly added to this list).
+Web pages are about many different kind of "things". WordLift uses the `Schema.org <http://schema.org>`_ vocabulary to describe a variety of entity types, each of which has its own set of properties that can be used to describe the entity. The broadest item type is **Thing**, which has four properties: *name*, *description*, *url*, and *image*. WordLift also supports: **Person**, **Place**, **Event**, **Organization** and **Creative Work** (and more types are constantly added to this list).
 
 
 Related Entities
 --------------
 
 In WordLift **related entities** are primarily the entities being used for annotating a blog post or a page. 
-Each entity we curate can be eventually *linked* to other entities by running the analysis on the property description text (that corresponds to the body of the custom post representing each entity). Entities being *linked* with other entities with the analysis are also known as **related entities**.
+Each entity we curate can be eventually *linked* to other entities by running the analysis on its description text. 
+Entities being *linked* with other entities with the analysis are also known as **related entities**.
 
 Vocabulary
 _____________
 A **vocabulary** is a collection of things (or entities). 
 
-In WordLift users can create their own custom vocabulary by creating entities and describing their properties (i.e. *[Europe Day]* is held on 9 May and celebrates peace and unity in Europe). These entities might already exist in publicly available sources like Wikipedia and Freebase. In this case WordLift provides a list of suggested entities that can be *linked* to (or reconciled with). 
+With WordLift, users can create their own custom vocabulary by creating entities and describing their properties (i.e. *[Europe Day]* is held on 9 May and celebrates peace and unity in Europe). These entities might already exist in publicly available sources like Wikipedia and Freebase. In this case WordLift provides a list of suggested entities that can be *linked* to (or reconciled with). 
 
 
-When we link entities WordLift uses the ``owl:sameAs`` property; this means that we're talking about the same *thing* (or simply that both entities share the same "identity"): "Yes, I'm talking about that same *[Europe Day]* that Freebase describes with machine id **m/04f6ymq**". 
+When linking entities to each other, WordLift uses the ``owl:sameAs`` property; this means that we're talking about the same *thing* (or simply that both entities share the same "identity"): "Yes, I'm talking about that same *[Europe Day]* that Freebase describes with machine id **m/04f6ymq**". 
 
 
 This linking process is also called `reconciliation`_ or disambiguation.   
@@ -62,13 +63,13 @@ _____________
 **Reconciling** entities we store in our own `vocabulary`_ with entities available elsewhere provides computers with an unambiguous way to identify the things we're talking about. 
 
 
-*[Apple]* in a specific article might refer to a rather typical British psychedelic-pop group rather than to a World famous computer company or the forbidden fruit. This becomes important when third party applications like search engines need to provide valuable content for users searching for articles on *[Apple]* the psychedelic-pop band and not the other two *Apples*. 
+*[Apple]* in a specific article might refer to a rather typical British psychedelic-pop band rather than to a World famous computer company or the forbidden fruit. This becomes important when third party applications like search engines need to provide valuable content for users searching for articles on *[Apple]* the psychedelic-pop band and not the other two *Apples*. 
 
 `Reconciling <key-concepts.html#reconciliation>`_ entities means providing computers with unambiguous identifications of the *entities* we talk about.  
 
 Semantic Fingerprint
 _____________
-As result of the semantic annotation of portions of the text we write a *unique linked identifier* is added to the HTML code. This identifier is known as **semantic fingerprint**. 
+The result of semantic annotation of a text is a *unique linked identifier* added to the HTML code. This identifier is known as **semantic fingerprint**. 
 
 
 Annotating contents, also known as *semantic enrichment* or *lifting*, creates metadata that computers can understand. 
