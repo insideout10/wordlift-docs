@@ -3,7 +3,7 @@ Getting Started
 
 .. warning::
 
-    Even though we're already using WordLift 3 on some production web sites and there's no harm to data, we **strongly
+    Even though we've been using WordLift v. 3 on production web sites for quite some times and there's no harm to data, we **strongly
     suggest** to make a full back-up of your site data before installing WordLift.
 
 
@@ -21,15 +21,10 @@ from the command line::
 
     unzip wordlift.zip
 
-After installing WordLift you should see the logo on the top right corner of your dashboard menu. 
-
-.. image:: /images/wordpress-admin-bar.png
-
-
 Activation
 __________
 
-To activate the plugin you need a `WordLift key <key-concepts.html#wordlift-key>`_. You might receive this key from us or from an automatic email system righ after subscribing to the service from the `WordLift website <https://wordlift.io>`. 
+To activate the plugin you need a `WordLift key <key-concepts.html#wordlift-key>`_. You might receive this key from us or from an automatic email system righ after subscribing to the service from the WordLift_ website. 
 
 From the WordPress administration menu, click on *Plugins* / *Installed Plugins*. Then click on *Settings* on the
 WordLift plugin.
@@ -96,4 +91,4 @@ You can now continue to the :doc:`key-concepts` page or head directly to the :do
 .. _my.redlink.io: http://my.redlink.io
 .. _Redlink: http://redlink.co/
 .. _WordPress: http://wordpress.org/
-.. _WordLift: http://wordlift.it/
+.. _WordLift: http://wordlift.io/
