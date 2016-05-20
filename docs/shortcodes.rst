@@ -2,7 +2,7 @@
 Shortcodes
 ==========
 
-WordLift provides several useful shortcodes to provide enhanced visualization on your web site.
+WordLift provides several useful shortcodes to provide enhanced visualizations on your web site.
 
 Entity Shortcodes
 _________________
@@ -55,7 +55,7 @@ format
     *(optional, default 'Y m d')* The format to apply to the date (follows the PHP convention, see `PHP date`_ for more information).
 
 
-Displays a duration::
+Display a duration::
 
     [wl_entity_duration name=... format=...]
 
@@ -91,7 +91,7 @@ Chord widget::
     [wl_chord width=... height=... main_color=... depth=... global=...]
     
 .. image:: /images/wordlift-shortcodes-chord.png
-Visualizes relations between entities, starting from the current post and the entities mentioned in it.
+The Chord widget visualizes relations between entities, starting from the current post and the entities mentioned in it.
 
 width
     *(optional)* Width of the chord. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
@@ -103,7 +103,7 @@ main_color
     *(optional)* The chord's *base* color.
 
 depth
-    *(optional)* Maximum distance to travel in the entity graph in order to populate the chord. A small number limits the exploration in the neighborhood of the main entity.
+    *(optional)* Maximum distance to travel in the entity graph in order to populate the chord. A small number limits the exploration of the main entity.
 
 global
     *(optional)* When *global=true* the main entity of the chord is not the current post, but the most mentioned entity in the latest posts.
@@ -113,7 +113,7 @@ Timeline widget::
     [wl_timeline width=... height=... global=...]
     
 .. image:: /images/wordlift-shortcodes-timeline.png
-Displays a navigable list of ordered Event entities. The window on top shows details on the clicked Events.
+The Timeline widget displays a navigable list of chronologically ordered Event entities. The window on top shows details of the selected Events.
 
 width
     *(optional)* Width of the timeline. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
@@ -129,7 +129,7 @@ Geomap widget::
     [wl_geomap width=... height=... global=...]
     
 .. image:: /images/wordlift-shortcodes-geomap.png    
-Displays Place entities on a map. Each Place has its own marker with a popup containing thumbnail and link.
+The Geomap widget displays "Place" entities on a map. Each Place has its own marker with a popup containing a thumbnail and links of the place.
     
 width
     *(optional)* Width of the geomap. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
@@ -144,7 +144,7 @@ Navigator widget::
 
     [wl_navigator]
 
-Offers links to semantic-related posts in the blog. The search is made by considering the entities mentioned in the current post (in the order WHO, WHAT, WHERE, WHEN) and finding other blog posts mentioning the same entity. Useful for `content discovery <discover.html#the-faceted-search-widget>`_.
+The Navigator widget offers links to semantic-related posts in the blog. The search is made by considering the entities mentioned in the current post (in the order WHO, WHAT, WHERE, WHEN) and finding other blog posts mentioning the same entities. It is useful for `content discovery <discover.html#the-faceted-search-widget>`_.
 
 .. image:: /images/wordlift-discover-navigator.png
 
@@ -152,7 +152,7 @@ Faceted search widget::
 
     [wl_faceted_search]
 
-The faceted search can be used on entity pages to display and filter the posts related to the current and other entities. Useful for `content discovery <discover.html#the-navigator-widget>`_.
+The Faceted Search widget can be used on entity pages to display and filter the posts related to the current and other entities. It is useful for `content discovery <discover.html#the-navigator-widget>`_.
 
 .. image:: /images/wordlift-edit-entity-faceted-search-widget-frontend.gif
 
