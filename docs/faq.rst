@@ -4,15 +4,15 @@ FAQ
 Why shall I use WordLift? 
 _____________
 
-The purpose of using WordLift is to (1) categorize your content, (2) help people find content of interest to them, and (3) help WordLift describe your contents in *machine-readable* format so that other computers can re-use it. 
+The purpose of using WordLift is to (1) categorize your content, (2) help people find content of interest to them, and (3) help WordLift describe your content in *machine-readable* format so that other computers can re-use it. 
 
 Why shall I publish my contents as Linked Data?
 _____________
 
-Richer metadata helps making content discoverable, searchable, and provides new means to reaching your audience.
-Organising web contents around concepts or entities rather than traditional web pages helps improve navigation, content re-use, content re-purposing and search engine rankings.
+Richer metadata helps making content discoverable, searchable, and provides new ways of reaching your audience.
+Organising web contents around concepts or entities rather than traditional web pages helps improving navigation, content re-use, content re-purposing and search engine rankings.
 
-Having content aggregations based on semantic annotations that use unambiguous Linked Data identifiers creates a richer navigation bringing the user experience to new levels of engagement. 
+Organizing content based on semantic annotations, using unambiguous Linked Data identifiers, creates a richer navigation experience, bringing your user to a new level of engagement. 
 
 Who is using Linked Data today in the Media Industry?
 _____________
@@ -31,9 +31,9 @@ Review the `Edit Entity page <edit-entity.html#entity-types-and-properties-table
 When should I create a new entity? 
 _____________
 
-You should create a new entity when this is directly relevant to the content you're writing and doesn't already exist. When an entity is properly recognised by WordLift you shall edit this entity rather then creating a new one. 
+You should create a new entity when this is directly relevant to the content you're writing and it doesn't already exist. When an entity is properly recognised by WordLift you shall edit this entity rather then creating a new one. 
 
-You can add as many entity as you like.
+You can add as many entities as you like.
 
 What are the guidelines for creating new entities to annotate a blog post or a page?
 _____________
@@ -50,9 +50,7 @@ In some cases key concepts that are important for (1), (2) and (3) are not autom
 
 	When entities already exist we shall always avoid creating a new entity.
 
-People should add entities that are accurate and directly relevant to the content they're writing, making it more likely that the content is seen by people who would be interested in it. 
-
-A topic is directly relevant if the blog post (or page) is about the entity. If an article is not enriched with the main entity(ies) that it is about, people should add those entities.
+People should add entities that are accurate and directly relevant to the content they're writing. 
 
 Excessively broad entities should not be added to content. 
 
@@ -60,25 +58,23 @@ Content should not be overloaded with entities to increase its distribution onli
 
 All entities shall be matched to the proper language of the content. 
 
-What factors determine the rating of an entity?
+What factors determine Wordlift's rating of an entity?
 _____________
 
 The entity rating in WordLift takes under account the following factors:
 
 - Every entity should be linked to one or more related posts. 
 - Every entity should have its own description. 
-- Every entity should link to other entities - when we select other entities to enrich the description of an entity we create a relationships in the site's `knowledge graph <key-concepts.html#knowledge-graph>`_.
+- Every entity should link to other entities - when we select other entities to enrich the description of an entity we create relationships in the site's `knowledge graph <key-concepts.html#knowledge-graph>`_.
 - Entities, just like any post in WordPress, can be kept as draft. Only when we publish them they become available in the analysis and we can use them to classify our contents.
-- Entities shall have a feautured image. When we add a featured image to an entity we’re adding the `schema-org:image` attribute to the entity.
-- Every entity (unless we’re creating something completely new) should be interlinked with the same entity on at least one other dataset. This is called data interlinking and can be done by adding a link to the equivalent entity using the `sameAs` attribute.
+- Entities shall have a feautured image. When we add a featured image to an entity we’re adding the `schema-org:image` attribute to it.
+- Every entity (unless we’re creating something completely new) should be interlinked with the same entity containedin at least one other dataset. This is called data interlinking and can be done by adding a link to the equivalent entity using the `sameAs` attribute.
 - Every entity has a type (i.e. Person, Place, Organization, …) and every type has its own set of properties. When we complete all the properties of an entity we increase the entity visibility and usefulness.  
 
 When should I link one entity to another? 
 _____________
 
-By running the analysis on the property description text of an entity I can *link* it with other entities. WordLift will store these relationships between one entity and other entities in the `graph <key-concepts.html#knowledge-graph>`_ using the Dublin Core property ``dct:related``. This information will be used to suggest new connections between the contents of your site. Though is not mandatory creating links among relevant entities will create more structure for your contents. I should always link entities that can help other users discover relevant contents (i.e. the entity *[Berners-Lee]* shall be linked to entity *[Web]* as the two concepts are strictly related).
-
-Even if these connections between different entities might already exists in the openely available sources we use like DBpedia and Freebase by creating them inside our own `graph <key-concepts.html#knowledge-graph>`_ we will be able to leverage on. 
+By running the analysis on the property description text of an entity you can *link* it to other entities. WordLift will store these relationships between one entity and other entities in the `graph <key-concepts.html#knowledge-graph>`_ using the Dublin Core property ``dct:related``. This information will be used to suggest new connections between the contents of your site. Creating links among relevant entities will create more structure for your content, even though it is not mandatory to do so. You should always link entities that can help other users discover relevant contents (i.e. the entity *[Berners-Lee]* shall be linked to entity *[Web]* as the two concepts are strictly related.)
 
 What are the languages supported by WordLift? 
 _____________
