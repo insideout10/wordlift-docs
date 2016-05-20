@@ -1,7 +1,7 @@
 Edit Entity
 ========
 **WordLift** uses `entities <key-concepts.html#entity>`_ to annotate and organize blog posts and pages. 
-All entities can be edited using the `WordLift Edit Post widget <analysis.html#wordLift-edit-post-widget>`_ or from the **Edit Entity Page**. To access all entities or add a new entity click on the **Vocabolary** icon on the dashboard menu. 
+All entities can be edited using the `WordLift Edit Post widget <analysis.html#wordLift-edit-post-widget>`_ or from the **Entity Page** itself. To access all entities or add a new entity click on the **Vocabolary** icon on the dashboard menu. 
 
 .. image:: /images/wordlift-edit-entity-vocabulary.png
 
@@ -35,8 +35,9 @@ The entity page provides the following set of properties that can be edited from
 	- **Name:** the title of the article 
 	- **Description:** the body of the article
 	- **Image:** the featured image of the article
-	- **Entity Types:** the corresponding type (i.e. *Thing*, *Person*, *Place*, *Event*, *Organization*, *Creative Work*, ...) that can be managed via the *Entity Type* box in the editing window
-	- **Entity URL:** the URL describing the entity, the same-As label (the URLs of same entity on the different sources) and the entity-type-label (the types being associated on the external sources to the entity) that can be managed via the *Entity URL* box in the editing window.
+	- **Entity Types:** the corresponding type (i.e. *Thing*, *Person*, *Place*, *Event*, *Organization*, *Creative Work*, ...) that can be managed via the *WordLift - Entity Type* box in the editing window
+	- **Permalink:** the URL describing the entity
+	- **Same-As:** the URLs of same entity on the different sources
 
 .. image:: /images/wordlift-edit-entity-informations.png  
 
@@ -79,7 +80,7 @@ Here follows the list of properties that can be edited with WordLift for each en
 
 Edit an Event
 -------------------------------
-Events, occuring in a specific time are also entities. To personalise the *startDate* and *endDate* of an event I can use the **Event duration** box and the calendar control.
+Events, occuring in a specific time are also entities. To personalise the *startDate*, *endDate* and *location* of an event you can use the **Event Properties** box.
 
 .. image:: /images/wordlift-edit-entity-event.png
 
@@ -95,14 +96,12 @@ _____________
 
 When we have something meanigful to say on a specific concept **we shall curate the information and edit the data that has been fetched automatically by WordLift** (*this will create our own version of Wikipedia*). 
 
-In our example for the entity *[World-Wide-Web]* name, description, image, type,url, sameAs and additionalType have been received from DBpedia.
-
 Linking other entities
 _____________
 
-After editing the description of *[World-Wide-Web]* I can annotate the entity page just like I would do with a blog posts. 
+Entity pages can be annotated just like you would do with a blog posts. 
 
-With the analysis I can *link* an entity with other entities. WordLift will store these relationships between one entity and other entities in the `graph <key-concepts.html#knowledge-graph>`_ using the Dublin Core property ``dct:related``. This information will be used to infer new connections between the contents of the site. For more information on *entity linking* `read the faq <faq.html#when-should-i-link-one-entity-to-another>`_.   
+After saving the new description you wrote, WordLift will analyze the text and suggest related entities. You can now *link* an entity with other entities. WordLift will store these relationships between one entity and other entities in the `graph <key-concepts.html#knowledge-graph>`_ using the Dublin Core property ``dct:related``. This information will be used to infer new connections between the contents of the site. For more information on *entity linking* `read the faq <faq.html#when-should-i-link-one-entity-to-another>`_.   
 
 ..
 	Entities being *linked* are listed as **Releated Entities** in the editing screen of the entity.
@@ -114,7 +113,7 @@ The Faceted Search Widget
 _____________
 
 **Entity pages** can be used for helping users browse the content of your website. This is done using the **Faceted Search Widget**. 
-The Widget can be added on the entity page using the **Faceted Search** option from the `WordLift Widgets Menu <analysis.html#wordlift-widgets-menu>`_ 
+The Widget can be added on the entity page using the **Faceted Search** option from the `Widgets Dropodown Menu <analysis.html#wordlift-widgets-menu>`_ 
 
 .. image:: /images/wordlift-edit-entity-faceted-search-widget.png
 
