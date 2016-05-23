@@ -28,7 +28,10 @@ Online publishers and broadcasters like BBC, Financial Times, New York Times, Wa
 How does it work?
 _____________
 
-To know more about how **WordLift** works, please `watch the step by step video tutorials <https://wordlift.io/#how-it-works>`_ on our `website <https://wordlift.io>`_. 
+.. note::
+
+	To know more about how **WordLift** works, please `watch the step by step video tutorials <https://wordlift.io/#how-it-works>`_ on our `website <https://wordlift.io>`_. 
+
 **WordLift** works in subsequent stages. The first step provides a full text analysis and suggests entities and relationships to the user, classifying contents according to concepts stored in the *semantic graph* (DBpedia, Wikidata, GeoNames, etc.) and using schema.org vocabulary. Textual contents are structured: they can now be processed by machines and be connected to other datasets. Users can also create new entities, to complement the entities suggested automatically and form a proprietary vocabulary, according to the editorial plans. 
 
 **WordLift** also assists writers suggesting links, media and providing a set of powerful visualization widgets to connect and recommend alternative content. 
