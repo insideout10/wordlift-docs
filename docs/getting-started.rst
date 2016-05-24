@@ -67,6 +67,10 @@ Site Language
 .. note::
         For more information on the multilingual support of WordLift `read here <faq.html#what-are-the-languages-supported-by-wordlift>`_.
 
+=================
+Using WordLift with a Redlink account
+=================
+
 If you have a Redlink_ account, you can use your own application settings by enabling the *Advanced Settings* of WordLift. This is done by adding the following line to your `wp-config.php` ::
 
     define('WL_ENABLE_ADVANCED_CONFIGURATION', true);
