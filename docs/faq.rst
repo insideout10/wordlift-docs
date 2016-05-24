@@ -112,7 +112,7 @@ By running the analysis on the property description text of an entity you can *l
 What are the languages supported by WordLift? 
 _____________
 
-WordLift currently supports the following languages: English, 中文 (Chinese), Español (Spanish), Русский (Russian), Português (Portuguese), Deutsch (German), Italiano (Italian), Nederlands (Dutch), Svenska (Swedish) and Dansk (Danish). 
+WordLift currently supports the following languages: English, 中文 (Chinese), Español (Spanish), Русский (Russian), Português (Portuguese), Français (French), Deutsch (German), Italiano (Italian), Nederlands (Dutch), Svenska (Swedish) and Dansk (Danish). 
 
 .. note::
 	WordLift supports one language at the time. The main language of the website can be configured from the WordLift settings. 
