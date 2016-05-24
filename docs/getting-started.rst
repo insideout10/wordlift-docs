@@ -10,32 +10,49 @@ Getting Started
 Compatibility
 _____________
 
-WordLift is currently available on WordPress_ 4.2.4 and later.
+WordLift is currently available on WordPress_ 4.2 and later.
 
 
 Installation
 ____________
 
+You can install **WordPress** from the `WordPress plugin directory <https://wordpress.org/plugins/wordlift/>`_ or manually by uploading the files to your server.
+
+=================
+Automatic Installation
+=================
+Automatic installation is the easiest way to install WordLift. WordPress handles the file transfers itself and you don’t need to leave your web browser. To do an automatic install of WordLift, log in to your WordPress dashboard, navigate to the Plugins menu and click Add New.
+
+In the search field type “WordLift” and click Search Plugins. Once you’ve found our plugin you can view details about it such as the point release, rating and description. Most importantly of course, you can install it by simply clicking “Install Now”.
+
+=================
+Manual Installation
+=================
+The manual installation method involves *downloading our plugin* and *uploading it to your webserver* using your favourite FTP application. 
+
 Download the provided zip file to the `wp-content/plugins` directory of your WordPress_ installation. Unzip the file,
+
 from the command line::
 
+
     unzip wordlift.zip
+
+More information on the manual installation are available on the `WordPress Codex <http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation>`_ website.   
 
 Activation
 __________
 
-To activate the plugin you need a `WordLift key <key-concepts.html#wordlift-key>`_. You might receive this key from us or from an automatic email system righ after subscribing to the service from the WordLift_ website. 
+To activate the plugin you need a `WordLift key <key-concepts.html#wordlift-key>`_. You receive this key after `purchasing a subscription plan <https://wordlift.io/#plan-and-price>`_ the WordLift_ website. An automatic email is sent containing your key and account information. 
 
 From the WordPress administration menu, click on *Plugins* / *Installed Plugins*. Then click on *Settings* on the
 WordLift plugin.
+
 
 Configuration
 _____________
 
 The *Settings* are also accessible by hovering on the WordLift logo on the upper right corner; from there a menu will open. 
 Click on *Settings* to open the settings screen:
-
-.. image:: /images/wordlift-settings-menu.png
 
 .. image:: /images/wordlift-settings-screen.png
 
@@ -44,11 +61,8 @@ From *Settings* screen you can configure:
 WordLift Key
     Your `WordLift Key <key-concepts.html#wordlift-key>`_, 
 
-Enable color coding on front-end
-    The option for enabling/disabling the color highlighting of `entities <key-concepts.html#entity>`_ in post contents. 
-
 Site Language
-    The main language used on your website. 
+    The main language used on your website. This is the language that will be used by WordLift when creating the editorial metadata of your content.  
 
 .. note::
         For more information on the multilingual support of WordLift `read here <faq.html#what-are-the-languages-supported-by-wordlift>`_.
@@ -58,8 +72,6 @@ If you have a Redlink_ account, you can use your own application settings by ena
     define('WL_ENABLE_ADVANCED_CONFIGURATION', true);
 
 In this case the following options can be configured: 
-
-.. image:: /images/wordlift-settings-advanced-menu.png
 
 API URL
     The Redlink URL base (*http://data.redlink.io/91/be2* in this case).
