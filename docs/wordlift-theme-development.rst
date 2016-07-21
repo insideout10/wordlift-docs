@@ -16,8 +16,8 @@ _____________
 3. Entity types are managed through a `custom taxonomy <https://codex.wordpress.org/Taxonomies#Custom_Taxonomies>`_;
 4. When a property references another entity:
 
-	* a. Its value is the entity ID (if the entity is inside the same WordPress site),
-	* b. Its value is the entity URI (if the entity is outside the WordPress site).
+	* Its value is the entity ID (if the entity is inside the same WordPress site),
+	* Its value is the entity URI (if the entity is outside the WordPress site).
 
 5. The 4Ws classification, i.e. the relationships among posts and entities, are stored in a custom table called *wl_relation_instances*.
 
