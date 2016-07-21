@@ -11,7 +11,7 @@ The main documentation for getting started with WordLift is organized in the fol
 
 * :ref:`site-docs`
 * :ref:`features`
-* :ref:`wordlift theme development`
+* :ref:`wordlift-theme-development`
 * :ref:`about-docs`
 
 .. _site-docs:
@@ -43,6 +43,15 @@ Features
 
     features
 
+.. _wordlift-theme-development: 
+
+WordLift Theme Development
+------------------
+
+.. toctree::
+    :maxdepth: 3
+
+    wordlift-theme-development
 
 .. _about-docs:
 
