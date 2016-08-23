@@ -51,6 +51,20 @@ _____________
 **You do!** We believe content creators should retain the commercial value of their content and all the data they create, and exploit it through new business models based on **content syndication**, **data-as-a-service** and a stronger **relationship with their audience**. 
 This is stated in our `Terms of Service <https://wordlift.io/terms-of-service>`_ and our `Privacy Policy <https://wordlift.io/privacy/>`_ as well!
 
+What happens if I stop using WordLift? 
+_____________
+
+1. If you stop paying for your subscription, but keep the plugin on your site, all the entities, metadata and pages you created with wordlift will still be available on your site - you won't be able to update it any longer, but they will still work just fine as they were at the moment you removed the key. The data you’ve created belongs to you and you can always request to us a data dump that is available in various machine-readable formats.
+
+2. if you deactivate the plugin instead, the vocabulary (metadata, entity and pages) will disappear from your dashboard, but everything you created is stored in your website Database in WordPress, and you will be able to download it, transfer it or re-activate it again anytime from the plugin menu. 
+
+3. Turning off WordLift on our side, it would be like turning off all the keys and un-publish all the linked data you’ve created, not the plug-in itself, so it will be like #1 - you could get the data back from us and re-publish it as `linked data <http://docs.wordlift.it/en/latest/key-concepts.html#linked-open-data>`_ on your own infrastructure.
+
+4. WordLift's technology is entirely open source: it takes development skills, infrastructure and some wisdom to nicely bring all the pieces together without our support.
+
+5. Your vocabulary (article metadata and entities) are published as `linked data <http://docs.wordlift.it/en/latest/key-concepts.html#linked-open-data>`_ and you can always request a data dump in any of the following formats: RDF/XML, Turtle, N3, JSON-LD.
+
+
 What is content enrichment? 
 _____________
 
