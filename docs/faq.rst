@@ -1,29 +1,21 @@
-FAQ
+Frequently Asked Questions
 ========
-
-Why shall I use WordLift? 
-_____________
-
-Throwing content online without context and analysis simply doesn’t work when the focus for digital news is on *interactivity*, *engagement* and *community*. 
-**WordLift** organizes knowledge, **reducing the complexity of content management and digital marketing operations**, letting bloggers and site owner **focus on stories and communities**. It offers meaningful *cross-media discovery* and *recommendations* that **increases content quality, exposure, trustworthiness and readership engagement**. 
-**WordLift** also publishes *linked data* as a new way to syndicate content and create new business models.
-
-Why is it important to organize my content and publish it as Linked Data?
-_____________
-
-Organizing web content around concepts rather than traditional web pages helps both users and machines finding and accessing it, improves **navigation**, **content re-use**, **content repurposing** and **search engine rankings**. 
-**Enriching content** with *contextual information*, *links* and *media*, from custom vocabularies and/or the wealth of **open data** available on the web, brings the user experience to a new level of engagement. 
-Structuring content with **richer metadata** and publishing it as `linked data <http://docs.wordlift.it/en/latest/key-concepts.html#linked-open-data>`_ makes it **discoverable and searchable**, providing new ways of reaching targets.
 
 Who is WordLift for?
 _____________
 
-**WordLift** is for all *bloggers*, *journalists*, and *content creators* publishing and fighting for readers’ attention on the web.  
-Online publishers and broadcasters like BBC, Financial Times, New York Times, Washington Post, Reuters and Associated Press are investing in **dynamic semantic publishing** and use `linked open data <key-concepts.html#linked-open-data>`_ to organise their news portals and content applications. 
+**WordLift** is for all *bloggers*, *journalists*, and *content marketers* publishing and fighting for readers’ attention on the web.
+**WordLift** democratizes the field, bringing to the hands of all web content creators the technology that web publisher giants such as *Google*, *Facebook* and the *BBC* are using to organize and monetize their content.
+**WordLift** helps you create richer and more engaging content, optimizes it for all search engines and efficiently organizes your content creation process, allowing you to reach and speak directly to your tribe.
 
-**WordLift** democratizes the field, bringing to the hands of all web content creators and publishers the technology to efficiently organize their content creation process and reach their tribes. 
+Why shall I use WordLift? 
+_____________
 
-**WordLift** helps you create your own **knowledge graph** using the same technologies that giants like *Facebook*, *IBM* and *Google* are using to monetise their vast amount of data.
+Organizing web content around an internal vocabulary rather than traditional web pages helps both users and machines finding and accessing it, improving navigation, content re-use, content repurposing, and search engine rankings.
+**WordLift** **organizes** content, reducing the complexity of content management and content marketing operations, letting bloggers and site owners focus on stories and communities.
+**WordLift** **enriches** your content with *contextual information*, *links*, and *media*, from custom vocabularies and/or the wealth of open data available on the web, bringing your user experience to a new level of engagement.
+**WordLift** **connects** content with cross-media *discovery* and *recommendations* widgets, increasing content quality, exposure, trustworthiness and readership engagement.
+**WordLift** **optimizes** content, complementing the offer of plug-ins such as *SEO Ultimate* or *Yoast*, automatically adding schema.org markups to your text, allowing all search engines to properly index your pages and deliver more traffic to your site.
 
 How does it work?
 _____________
@@ -32,24 +24,35 @@ _____________
 
 	To know more about how **WordLift** works, please `watch the step by step video tutorials <https://wordlift.io/#how-it-works>`_ on our `website <https://wordlift.io>`_. 
 
-**WordLift** works in subsequent stages. The first step provides a full text analysis and suggests entities and relationships to the user, classifying contents according to concepts stored in the *semantic graph* (DBpedia, Wikidata, GeoNames, etc.) and using schema.org vocabulary. Textual contents are structured: they can now be processed by machines and be connected to other datasets. Users can also create new entities, to complement the entities suggested automatically and form a proprietary vocabulary, according to the editorial plans. 
+**WordLift** works in subsequent stages. 
 
-**WordLift** also assists writers suggesting links, media and providing a set of powerful visualization widgets to connect and recommend alternative content. 
+1. The first step provides a **full text analysis** and suggests concepts and relationships found in open vocabularies (such as *DBpedia*, *Wikidata*, *GeoNames*, etc) to help writers **classify** and **enrich** their content and structure it for search engines like Google, according to schema.org vocabulary.
 
-Finally **WordLift** provides means to record all these relationships in a graph database combining structured, semistructured and unstructured data, which allows queries like *“find all contents related to concept_y and relevant for target_z”*. 
+2. Writers can then create new entities, to complement the ones suggested automatically, and to be published as part of a **proprietary vocabulary**, acting both as a **reference** and a **search magnet** for their readers, according to the editorial plans.
 
-Why is WordLift innovative
+3. **WordLift** also assists writers suggesting **links**, **media** and providing a set of powerful **visualization widgets** to connect and recommend alternative content, to boost readers’ engagement. 
+
+4. Finally **WordLift** provides means to record all these relationships in a graph database allowing search queries like *“find all contents related to concept_y and relevant for target_z”*. 
+
+What are the languages supported by WordLift? 
 _____________
 
-**WordLift** is **first-to-market** following a **“content organization” approach** which allows the classification and direct exploitation of proprietary content and structured metadata. 
-**Wordlift** helps publishers create their **knowledge graph**, *exploit it* and *monetize it*. 
-Finally **WordLift** complements the offer of plug-ins such as *SEO Ultimate* or *Yoast* **automatically adding schema.org mark-ups** to content, allowing search engines to properly index pages, increasing traffic from organic searches.
+WordLift currently supports the following languages: English, 中文 (Chinese), Español (Spanish), Русский (Russian), Português (Portuguese), Français (French), Deutsch (German), Italiano (Italian), Nederlands (Dutch), Svenska (Swedish) and Dansk (Danish). 
+
+.. note::
+	WordLift supports one language at the time. The main language of the website can be configured from the WordLift settings. 
+	Review the `configuration settings <getting-started.html#configuration>`_ for more information. 
+
+Is there a free trial? 
+_____________
+
+No. We do not offer a *free trial* but your monthly subscription comes with a **14-day 100% money back guarantee**. If after two weeks you are not happy with WordLift, `contact us <mailto:support@wordlift.io>`_ and we will refund you right away, no questions asked.
+We do offer **free additional months** though, with the purchase of our 6-month or 12-month packages. `Check it out <https://wordlift.io/#plan-and-price>`_
 
 Who owns the structured metadata created with WordLift?
 _____________ 
 
-**You do!** We believe content creators should retain the commercial value of their content and all the data they create, and exploit it through new business models based on **content syndication**, **data-as-a-service** and a stronger **relationship with their audience**. 
-This is stated in our `Terms of Service <https://wordlift.io/terms-of-service>`_ and our `Privacy Policy <https://wordlift.io/privacy/>`_ as well!
+**You do!** We believe content creators should retain the commercial value of their content and all the data they create and exploit it through **new business models** based on **content syndication**, **data-as-a-service** and a stronger **relationship with their audience**. You can open your datasets to the public, attaching to it a free or a commercial licence. Otherwise, use your data to feed **chat boxes** such as Facebook Messenger or Telegram, providing live feed updates on your activity and/or automatic customer service in real time.
 
 What happens if I stop using WordLift? 
 _____________
@@ -64,6 +67,20 @@ _____________
 
 5. Your vocabulary (article metadata and entities) are published as `linked data <http://docs.wordlift.it/en/latest/key-concepts.html#linked-open-data>`_ and you can always request a data dump in any of the following formats: RDF/XML, Turtle, N3, JSON-LD.
 
+
+Why is it important to organize my content and publish it as Linked Data?
+_____________
+
+Organizing web content around concepts rather than traditional web pages helps both users and machines finding and accessing it, improves **navigation**, **content re-use**, **content repurposing** and **search engine rankings**. 
+**Enriching content** with *contextual information*, *links* and *media*, from custom vocabularies and/or the wealth of **open data** available on the web, brings the user experience to a new level of engagement. 
+Structuring content with **richer metadata** and publishing it as `linked data <http://docs.wordlift.it/en/latest/key-concepts.html#linked-open-data>`_ makes it **discoverable and searchable**, providing new ways of reaching targets.
+
+Why is WordLift innovative
+_____________
+
+**WordLift** is **first-to-market** following a **“content organization” approach** which allows the classification and direct exploitation of proprietary content and structured metadata. 
+**Wordlift** helps publishers create their **knowledge graph**, *exploit it* and *monetize it*. 
+Finally **WordLift** complements the offer of plug-ins such as *SEO Ultimate* or *Yoast* **automatically adding schema.org mark-ups** to content, allowing search engines to properly index pages, increasing traffic from organic searches.
 
 What is content enrichment? 
 _____________
@@ -122,15 +139,6 @@ When should I link one entity to another?
 _____________
 
 By running the analysis on the property description text of an entity you can *link* it to other entities. WordLift will store these relationships between one entity and other entities in the `graph <key-concepts.html#knowledge-graph>`_ using the Dublin Core property ``dct:related``. This information will be used to suggest new connections between the contents of your site. Creating links among relevant entities will create more structure for your content, even though it is not mandatory to do so. You should always link entities that can help other users discover relevant contents (i.e. the entity *[Berners-Lee]* shall be linked to entity *[Web]* as the two concepts are strictly related.)
-
-What are the languages supported by WordLift? 
-_____________
-
-WordLift currently supports the following languages: English, 中文 (Chinese), Español (Spanish), Русский (Russian), Português (Portuguese), Français (French), Deutsch (German), Italiano (Italian), Nederlands (Dutch), Svenska (Swedish) and Dansk (Danish). 
-
-.. note::
-	WordLift supports one language at the time. The main language of the website can be configured from the WordLift settings. 
-	Review the `configuration settings <getting-started.html#configuration>`_ for more information. 
 
 What are the datasets WordLift uses for named entity recognition? 
 _____________
