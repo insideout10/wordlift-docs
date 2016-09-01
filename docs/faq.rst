@@ -52,7 +52,7 @@ We do offer **free additional months** though, with the purchase of our 6-month 
 Who owns the structured metadata created with WordLift?
 _____________ 
 
-**You do!** We believe content creators should retain the commercial value of their content and all the data they create and exploit it through **new business models** based on **content syndication**, **data-as-a-service** and a stronger **relationship with their audience**. You can open your datasets to the public, attaching to it a free or a commercial licence. Otherwise, use your data to feed **chat boxes** such as Facebook Messenger or Telegram, providing live feed updates on your activity and/or automatic customer service in real time.
+**You do!** We believe content creators should retain the commercial value of their content and all the data they create and exploit it through **new business models** based on **content syndication**, **data-as-a-service** and a stronger **relationship with their audience**. You can open your datasets to the public, attaching to it a free or a commercial licence. Otherwise, use your data to feed **chat bots** such as Facebook Messenger or Telegram, providing live feed updates on your activity and/or automatic customer service in real time.
 
 What happens if I stop using WordLift? 
 _____________
