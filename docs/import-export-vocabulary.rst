@@ -1,4 +1,4 @@
-How To Import and Export the User Vocabulary 
+How To Export and Import the User Vocabulary 
 ========
 
 There are several cases where a user decides to export or import the vocabulary of terms created with WordLift. Let’s see them in details: 
