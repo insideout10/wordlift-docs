@@ -56,7 +56,7 @@ WordLift Theme Development
 
 .. _import-export-vocabulary: 
 
-Import Export of the Vocabulary
+Export & Import of the Vocabulary
 ------------------
 
 .. toctree::
@@ -73,3 +73,6 @@ About
     :maxdepth: 3
 
     about
+
+
+
