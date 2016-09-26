@@ -126,7 +126,3 @@ _____________
 The **WordLift key** is a *unique value* that is assigned to each user after he/she has subscribed to the WordLift service. 
 
 You can now continue to the :doc:`analysis` page.
-
-
-
-

@@ -58,6 +58,4 @@ Sharing terms among different websites
 **WordLift** allows the user to configure the NLP so that it will use multiple datasets for *content analysis* and *`entity reconciliation <key-concepts.html#reconciliation>`_*. An enterprise, for instance, could chose to have a product website that uses, besides the terms created within its internal vocabulary, all the terms created in the vocabulary of the corporate website. This way when an entity is created on the corporate website for describing a new team member, this entity is immediately made available on the product website. 
 
 Moreover **WordLift** automatically performs the *`entity reconciliation <key-concepts.html#reconciliation>`_* without asking the editor any further action (the entity on the product website will have the *sameAs* links pointing to the entity’s URL on the corporate website). In this way all the terms created on one site can be used for annotating content on another websites. When constructing the product website the developer might also chose to redirect the traffic to the entity pages on the source site by using the *sameAs* links (this will avoid content duplication and will increase the interlinking between the different websites).
-    
-
        
