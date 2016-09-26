@@ -35,7 +35,7 @@ When importing the vocabulary on a website with a different URL (this would be c
 Entity interlinking and why is so important
 --------------
 
-This process is called *entity interlinking* (or *`entity reconciliation <key-concepts.html#reconciliation>`_*) and it is beneficial for the metadata being published as it provides further means of data reuse.
+This process is called *entity interlinking* (or `entity reconciliation <key-concepts.html#reconciliation>`_) and it is beneficial for the metadata being published as it provides further means of data reuse.
 
 Let’s say a developer is writing an application to display events and that these events are created with **WordLift** in two different website (one website for English and the other one for German) - the application will be able to use the *sameAs* links to retrive the content in the required language: English if let’s say the users are in the UK and German if the users are from Germany. The otherwise separate datasets will be effectively combined.    
 
@@ -55,7 +55,7 @@ When the vocabulary grows on one site and we need to re-use it in another site t
 Sharing terms among different websites 
 --------------
 
-**WordLift** allows the user to configure the NLP so that it will use multiple datasets for *content analysis* and *`entity reconciliation <key-concepts.html#reconciliation>`_*. An enterprise, for instance, could chose to have a product website that uses, besides the terms created within its internal vocabulary, all the terms created in the vocabulary of the corporate website. This way when an entity is created on the corporate website for describing a new team member, this entity is immediately made available on the product website. 
+**WordLift** allows the user to configure the NLP so that it will use multiple datasets for *content analysis* and `entity reconciliation <key-concepts.html#reconciliation>`_. An enterprise, for instance, could chose to have a product website that uses, besides the terms created within its internal vocabulary, all the terms created in the vocabulary of the corporate website. This way when an entity is created on the corporate website for describing a new team member, this entity is immediately made available on the product website. 
 
-Moreover **WordLift** automatically performs the *`entity reconciliation <key-concepts.html#reconciliation>`_* without asking the editor any further action (the entity on the product website will have the *sameAs* links pointing to the entity’s URL on the corporate website). In this way all the terms created on one site can be used for annotating content on another websites. When constructing the product website the developer might also chose to redirect the traffic to the entity pages on the source site by using the *sameAs* links (this will avoid content duplication and will increase the interlinking between the different websites).
+Moreover **WordLift** automatically performs the `entity reconciliation <key-concepts.html#reconciliation>`_ without asking the editor any further action (the entity on the product website will have the *sameAs* links pointing to the entity’s URL on the corporate website). In this way all the terms created on one site can be used for annotating content on another websites. When constructing the product website the developer might also chose to redirect the traffic to the entity pages on the source site by using the *sameAs* links (this will avoid content duplication and will increase the interlinking between the different websites).
        
