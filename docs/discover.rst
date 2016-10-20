@@ -41,7 +41,11 @@ Using the **Faceted Search Widget** readers, selecting concepts they are interes
 
 .. image:: /images/wordlift-edit-entity-faceted-search-widget-frontend.gif
 
-Users can choose multiple concepts to drill down the list of articles related to them.
+Users can choose multiple concepts to drill down the list of articles related to them. The default title for this widget - when it is added to a page - is "Related articles". This can be customised by adding any custom title in the shortcode. 
+
+.. code-block:: html
+
+	[wl_faceted_search title="this is my title"]  
 
 The Chord Widget
 _____________
