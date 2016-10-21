@@ -59,11 +59,19 @@ _____________
 .. note::
         In order for an event to appear in the timeline the event properties *startDate* shall be present as illustrated `here <edit-entity.html#edit-an-event>`_.
 
-It is possible to personalise the layout of the timeline using any of `the variety of the presentation options of TimelineJS <https://timeline.knightlab.com/docs/options.html>`_. See below an example where also the *excerpt_length* property is added to reduce the lenght of text displayed for each event:  
+It is possible to personalise the layout of the timeline using any of `the variety of the presentation options of TimelineJS <https://timeline.knightlab.com/docs/options.html>`_ plus two additional options provided by WordLift:
+
+1. **excerpt_length** let's you control the lenght of text (in number of characters) displayed for each event (this corresponds to the description of the entity)
+2. **display_images_as** the default value is *media* or alternatively *background* can be used to use the thumbnail of the entity as background   
 
 .. code-block:: html
 
 	[wl_timeline display_images_as='background' height='600px' excerpt_length=25]  
+
+This shortcode produces the following result: 
+
+.. image:: /images/wordlift-shortcodes-timeline-02.png
+
 
 The Chord Widget
 _____________
