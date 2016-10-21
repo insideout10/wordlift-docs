@@ -49,6 +49,22 @@ The default title for this widget - when it is added to a page - is "**Related a
 
 	[wl_faceted_search title="this is my new title"]  
 
+The Timeline Widget
+_____________
+
+*WordLift** uses the powerful `TimelineJS <https://timeline.knightlab.com/>`_ to create beautiful, interactive timelines. The timeline widget in WordLift uses nothing more than all `entities of type event <edit-entity.html#edit-an-event>`_ that are mentioned in the article. 
+
+.. image:: /images/wordlift-shortcodes-timeline.png
+
+.. note::
+        In order for an event to appear in the timeline the event properties *startDate* shall be present as illustrated `here <edit-entity.html#edit-an-event>`_.
+
+It is possible to personalise the layout of the timeline using any of `the variety of the presentation options of TimelineJS <https://timeline.knightlab.com/docs/options.html>`_. See below an example where also the *excerpt_length* property is added to reduce the lenght of text displayed for each event:  
+
+.. code-block:: html
+
+	[wl_timeline display_images_as='background' height='600px' excerpt_length=25]  
+
 The Chord Widget
 _____________
 
