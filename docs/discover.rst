@@ -9,8 +9,9 @@ Using the `graph <key-concepts.html#knowledge-graph>`_ created by **WordLift** i
 **WordLift** helps users discover content in four different ways:
 
 * **Links to Entity Pages**: placed on posts and pages and corresponding to the entities being annotated; 
-* **Navigator Widget**: providing links to other blog posts related to the article  
-* **Faceted Search Widget**: helping users discovering related content filtering by related entities. 
+* **Navigator Widget**: providing links to other blog posts related to the article;  
+* **Faceted Search Widget**: helping users discovering related content filtering by related entities; 
+* **Timeline Widget**: creating beautiful and interactive timelines; 
 * **Chord Widget**: providing a quick overview of the network of concepts related to an article and links to other similar articles sharing the same entities.
 
 Links to Entity Pages
@@ -52,7 +53,7 @@ The default title for this widget - when it is added to a page - is "**Related a
 The Timeline Widget
 _____________
 
-*WordLift** uses the powerful `TimelineJS <https://timeline.knightlab.com/>`_ to create beautiful, interactive timelines. The timeline widget in WordLift uses nothing more than all `entities of type event <edit-entity.html#edit-an-event>`_ that are mentioned in the article. 
+**WordLift** uses the powerful `TimelineJS <https://timeline.knightlab.com/>`_ to create beautiful, interactive timelines. The timeline widget in WordLift uses nothing more than all `entities of type event <edit-entity.html#edit-an-event>`_ that are mentioned in the article. 
 
 .. image:: /images/wordlift-shortcodes-timeline.png
 
