@@ -56,19 +56,26 @@ _____________
 **WordLift** uses the powerful `TimelineJS <https://timeline.knightlab.com/>`_ to create beautiful, interactive timelines. 
 The timeline widget in **WordLift** uses nothing more than `entities of type event <edit-entity.html#edit-an-event>`_ mentioned and annotated in the article. 
 
+`Entities of type event <edit-entity.html#edit-an-event>`_ can be linked to entities of type place via the property *location* (this describe where the event is taking place). If a place is mentioned in the article and it is linked to an event the timeline will display this event also.
+
 .. image:: /images/wordlift-shortcodes-timeline.png
 
 .. note::
         In order for an event to appear in the timeline the event property *startDate* shall be present as illustrated `here <edit-entity.html#edit-an-event>`_.
 
-It is possible to personalise the layout of the timeline using any of `the presentation options of TimelineJS <https://timeline.knightlab.com/docs/options.html>`_ plus two additional parameters provided by WordLift:
+.. note::
+
+
+It is possible to personalise the layout of the timeline using any of `the presentation options of TimelineJS <https://timeline.knightlab.com/docs/options.html>`_ plus three additional parameters provided by WordLift:
 
 1. **excerpt_length** let's you control the lenght of text (in number of characters) displayed for each event (this corresponds to the description of the entity)
 2. **display_images_as** the default value is *media*, alternatively you can use *background* and the fetured image of the entity will be used as background    
+3. **global** when set to *true* the timeline displays events mentioned in the latest posts (no need to add mentions to places or events in this case).
+
 
 .. code-block:: html
 
-	[wl_timeline display_images_as='background' height='600px' excerpt_length=25]  
+	[wl_timeline display_images_as='background' height='600px' excerpt_length=25 global='true']  
 
 This shortcode above produces the following result: 
 
