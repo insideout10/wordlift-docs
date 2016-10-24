@@ -70,7 +70,7 @@ It is possible to personalise the layout of the timeline using any of `the prese
 
 	[wl_timeline display_images_as='background' height='600px' excerpt_length=25]  
 
-This shortcode produces the following result: 
+This shortcode above produces the following result: 
 
 .. image:: /images/wordlift-shortcodes-timeline-02.png
 
