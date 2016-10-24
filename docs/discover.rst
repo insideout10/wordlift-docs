@@ -53,17 +53,18 @@ The default title for this widget - when it is added to a page - is "**Related a
 The Timeline Widget
 _____________
 
-**WordLift** uses the powerful `TimelineJS <https://timeline.knightlab.com/>`_ to create beautiful, interactive timelines. The timeline widget in WordLift uses nothing more than all `entities of type event <edit-entity.html#edit-an-event>`_ that are mentioned in the article. 
+**WordLift** uses the powerful `TimelineJS <https://timeline.knightlab.com/>`_ to create beautiful, interactive timelines. 
+The timeline widget in **WordLift** uses nothing more than `entities of type event <edit-entity.html#edit-an-event>`_ mentioned and annotated in the article. 
 
 .. image:: /images/wordlift-shortcodes-timeline.png
 
 .. note::
-        In order for an event to appear in the timeline the event properties *startDate* shall be present as illustrated `here <edit-entity.html#edit-an-event>`_.
+        In order for an event to appear in the timeline the event property *startDate* shall be present as illustrated `here <edit-entity.html#edit-an-event>`_.
 
-It is possible to personalise the layout of the timeline using any of `the variety of the presentation options of TimelineJS <https://timeline.knightlab.com/docs/options.html>`_ plus two additional options provided by WordLift:
+It is possible to personalise the layout of the timeline using any of `the presentation options of TimelineJS <https://timeline.knightlab.com/docs/options.html>`_ plus two additional parameters provided by WordLift:
 
 1. **excerpt_length** let's you control the lenght of text (in number of characters) displayed for each event (this corresponds to the description of the entity)
-2. **display_images_as** the default value is *media* or alternatively *background* can be used to use the thumbnail of the entity as background   
+2. **display_images_as** the default value is *media*, alternatively you can use *background* and the fetured image of the entity will be used as background    
 
 .. code-block:: html
 
