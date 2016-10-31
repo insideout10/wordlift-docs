@@ -130,7 +130,7 @@ People should add entities that are accurate and directly relevant to the conten
 
 Excessively broad entities should not be added to content. 
 
-Content should not be overloaded with entities to increase its distribution online. As a general guideline, 8–16 entities should be adequate for most blog posts (based on the lenght of the article). If an article has too many entities it may be that some of the entities could be replaced with a single broader entity.
+Content should not be overloaded with entities to increase its distribution online. As a general guideline, 6–8 entities should be adequate for most blog posts (based on the lenght of the article). If an article has too many entities it may be that some of the entities could be replaced with a single broader entity.
 
 All entities shall be matched to the proper language of the content. 
 
