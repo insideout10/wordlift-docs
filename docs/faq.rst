@@ -155,9 +155,10 @@ While on an average length blog post (> 500 words) we shall use a limited number
 In SEO the link juice is transferred equally from every single link: if Google transfers let's say 85% of your article's Page Rank each link will equally get its own share. Five links pointing to the same page will therefore transfer the same amount of link juice of one single link. If I link too many different pages by annotating the blog post with too many entities the link juice will be diluted (and this is why we don't expect to have too many entities per article).   
 
 Now we need to consider the following: 
+
 - if on the UI you have too many links already (not your case) - you easily might hit the `100 link limit <https://moz.com/blog/how-many-links-is-too-many>`_; there is no penalty for that but still it is a good rule to keep the number of links (both internal and external) below the *100-link mark*;
 
-- WordLift is keen on helping you create a good internal linking structure to reduce the bounce rate on your site and to increase the number of pages visited during each browsing session by your readers; if your internal links for the same entity are too many they simply become irrelevant. On the contrary if your article is long enough it is probably good to have 2-3 links pointing to the same entity page (as a reader I might miss the first one and might instead find useful the second or third one)
+- WordLift is keen on helping you create a good internal linking structure to reduce the bounce rate on your site and to increase the number of pages visited during each browsing session by your readers; if your internal links for the same entity are too many they simply become irrelevant. On the contrary if your article is long enough it is probably good to have 2-3 links pointing to the same entity page (as a reader I might miss the first one and might instead find useful the second or third one).
 
 When should I link one entity to another? 
 _____________
