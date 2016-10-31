@@ -67,6 +67,18 @@ _____________
 
 5. Your vocabulary (article metadata and entities) are published as `linked data <http://docs.wordlift.it/en/latest/key-concepts.html#linked-open-data>`_ and you can always request a data dump in any of the following formats: RDF/XML, Turtle, N3, JSON-LD.
 
+Why and how should I customize the url of the entity pages created in my vocabulary? 
+_____________
+
+When selecting or creating new entities with WordLift, you are actively `building your internal vocabulary <https://wordlift.io/8-rules-create-vocabulary-wordpress-website/>`_, adding pages to your website. When you first built your website, you chose a pattern for the url of the pages you were going to add, such as www.domain.com/name-of-the-page or www.domain.com/seo-keyword/name-of-the-page.
+The same applies with all the pages created with WordLift inside your vocabulary.
+
+1. By default WordLift will add the word “vocabulary” between your root domain and the name of the page: www.domain.com/vocabulary/name-of-the-entity-page.
+
+2. You can delete the word vocabulary if you want the new entity page to be inside your root domain folder: www.domain.com/name-of-the-entity-page.
+
+3. Or you can replace vocabulary with another keyword (or keywords) of your choice, for SEO or branding reason: www.domain.com/seo-keyword/name-of-the-entity-page.
+
 
 Why is it important to organize my content and publish it as Linked Data?
 _____________
@@ -134,6 +146,18 @@ The entity rating in WordLift takes under account the following factors:
 - Entities shall have a feautured image. When we add a featured image to an entity we’re adding the `schema-org:image` attribute to it.
 - Every entity (unless we’re creating something completely new) should be interlinked with the same entity containedin at least one other dataset. This is called data interlinking and can be done by adding a link to the equivalent entity using the `sameAs` attribute.
 - Every entity has a type (i.e. Person, Place, Organization, …) and every type has its own set of properties. When we complete all the properties of an entity we increase the entity visibility and usefulness.  
+
+I have a vocabulary term appearing several times in a page, should I link all of the occurrences to the term, or just once per page? 
+_____________
+
+While on an average length blog post (> 500 words) we shall use a limited number of entities to classify the content, there is not an actual limit for the number of internal links pointing to the same entity page. 
+
+In SEO the link juice is transferred equally from every single link: if Google transfers let's say 85% of your article's Page Rank each link will equally get its own share. Five links pointing to the same page will therefore transfer the same amount of link juice of one single link. If I link too many different pages by annotating the blog post with too many entities the link juice will be diluted (and this is why we don't expect to have too many entities per article).   
+
+Now we need to consider the following: 
+- if on the UI you have too many links already (not your case) - you easily might hit the `100 link limit <https://moz.com/blog/how-many-links-is-too-many>`_; there is no penalty for that but still it is a good rule to keep the number of links (both internal and external) below the *100-link mark*;
+
+- WordLift is keen on helping you create a good internal linking structure to reduce the bounce rate on your site and to increase the number of pages visited during each browsing session by your readers; if your internal links for the same entity are too many they simply become irrelevant. On the contrary if your article is long enough it is probably good to have 2-3 links pointing to the same entity page (as a reader I might miss the first one and might instead find useful the second or third one)
 
 When should I link one entity to another? 
 _____________
