@@ -7,6 +7,7 @@ Overview
         <iframe src="https://www.youtube-nocookie.com/embed/AR2pBOTLsy4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
+
 **WordLift** is a plugin for WordPress designed to create, structure and visualize your content.
 **WordLift** helps content creators to build *beautifully structured web sites* and to 
 publish their content as `Linked Open Data <key-concepts.html#linked-open-data>`_ following **Tim Berners-Lee**'s 
