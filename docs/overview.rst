@@ -1,6 +1,12 @@
 Overview
 ===============
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube-nocookie.com/embed/AR2pBOTLsy4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
 **WordLift** is a plugin for WordPress designed to create, structure and visualize your content.
 **WordLift** helps content creators to build *beautifully structured web sites* and to 
 publish their content as `Linked Open Data <key-concepts.html#linked-open-data>`_ following **Tim Berners-Lee**'s 
@@ -17,13 +23,13 @@ This means adding contextual information to web content in the form of universal
 to *transform WordPress into a fully dynamic semantic architecture*. 
 
 =================
-Who is using metadata publishing systems today?
+Who is using enriched metadata in the form of linked data today?
 =================
 
 In the media industries companies like BBC, The Financial Times and Associated Press are investing in these technologies.
 In the Public Health Care the World Health Organisation, in the energy sector companies like Enel. 
 Public libraries are adopting these  standards to share content at regional, national and international level. 
-Public administrations around the world are committed to make their data available as Linked Open Data. 
+Public administrations around the world are committed to make their data available as `Linked Open Data <key-concepts.html#linked-open-data>`_. 
 Search engines like Google, Yahoo!, Bing and Yandex, as well as social networks like Facebook, use these technologies to increase the quality of their services and to become *more meaningful* to their end users.
 
 =================
@@ -45,4 +51,5 @@ Schema markup added to all your content will ensure Google will properly index a
 Internal linking based on semantic concepts more than anchor texts will increase the SEO value of your pages;
 A properly curated vocabulary will act as search magnet on higher traffic queries to be then connected to your blog posts and your pages;
 Connecting your content semantically has a terrific effect on engagement metrics as well and good engagement metrics are of course an important signal for Google as well. Thanks to the contextual info added to your content and the connections between pages and posts that can be made through the 5 visualization widgets available, you will enjoy double digit growth for all your usability metrics.
+
 You can now continue to the :doc:`getting-started` page.
