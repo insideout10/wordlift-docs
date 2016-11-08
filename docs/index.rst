@@ -26,13 +26,14 @@ User Documentation
 
    overview
    getting-started
-   key-concepts
    analysis
    edit-entity
    publish
    discover
    shortcodes
    faq
+   key-concepts
+
 
 .. _features:
 
