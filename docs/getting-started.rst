@@ -23,7 +23,7 @@ Automatic Installation
 =================
 Automatic installation is the easiest way to install WordLift. WordPress handles the file transfers itself and you don’t need to leave your web browser. To do an automatic install of WordLift, log in to your WordPress dashboard, navigate to the Plugins menu and click Add New.
 
-In the search field type “WordLift” and click Search Plugins. Once you’ve found our plugin you can view details about it such as the point release, rating and description. Most importantly of course, you can install it by simply clicking “Install Now”.
+In the search field type “WordLift” and click Search Plugins. Once you’ve found our plugin you can view details about it such as the description, the features, and user reviews. Most importantly of course, you can install it by simply clicking “Install Now”.
 
 =================
 Manual Installation
@@ -34,7 +34,6 @@ Download the provided zip file to the `wp-content/plugins` directory of your Wor
 
 from the command line::
 
-
     unzip wordlift.zip
 
 More information on the manual installation are available on the `WordPress Codex <http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation>`_ website.   
@@ -42,7 +41,7 @@ More information on the manual installation are available on the `WordPress Code
 Activation
 __________
 
-To activate the plugin you need a `WordLift key <key-concepts.html#wordlift-key>`_. You receive this key after `purchasing a subscription plan <https://wordlift.io/#plan-and-price>`_ the WordLift_ website. An automatic email is sent containing your key and account information. 
+To activate the plugin you need a `WordLift key <key-concepts.html#wordlift-key>`_. You receive this key after `purchasing a subscription plan <https://wordlift.io/#plan-and-price>`_ the WordLift_ website. An automatic email will be then sent to you containing your key and account information. 
 
 From the WordPress administration menu, click on *Plugins* / *Installed Plugins*. Then click on *Settings* on the
 WordLift plugin.
@@ -59,45 +58,21 @@ Click on *Settings* to open the settings screen:
 From *Settings* screen you can configure:
 
 WordLift Key
-    Your `WordLift Key <key-concepts.html#wordlift-key>`_, 
+    Your `WordLift Key <key-concepts.html#wordlift-key>`_, is needed to activate the plug-in.
+    
+Entity Path
+    When selecting or creating new entities with WordLift, you are actively building your internal vocabulary, adding pages to  your website. When you first built your website, you chose a pattern for the url of the pages you were going to add, such as www.domain.com/name-of-the-page or www.domain.com/seo-keyword/name-of-the-page.
+The same applies with all the pages created with WordLift inside your vocabulary.
+
+By default WordLift will add the word “vocabulary” between your root domain and the name of the page: www.domain.com/vocabulary/name-of-the-entity-page.
+You can delete the word vocabulary if you want the new entity page to be inside your root domain folder: www.domain.com/name-of-the-entity-page.
+Or you can replace vocabulary with another keyword (or keywords) of your choice, for SEO or branding reason: www.domain.com/seo-keyword/name-of-the-entity-page.
 
 Site Language
-    The main language used on your website. This is the language that will be used by WordLift when creating the editorial metadata of your content.  
+    The main language used on your website. This is the language that will be used by WordLift when creating the editorial metadata of your content. Be aware, each key should be use for one language only.
 
 .. note::
         For more information on the multilingual support of WordLift `read here <faq.html#what-are-the-languages-supported-by-wordlift>`_.
-
-=================
-Using WordLift with a Redlink account
-=================
-
-If you have a Redlink_ account, you can use your own application settings by enabling the *Advanced Settings* of WordLift. This is done by adding the following line to your `wp-config.php` ::
-
-    define('WL_ENABLE_ADVANCED_CONFIGURATION', true);
-
-In this case the following options can be configured: 
-
-API URL
-    The Redlink URL base (*http://data.redlink.io/91/be2* in this case).
-
-Redlink Key
-    The *Redlink key* associated to your account.
-
-Redlink Dataset name
-    The name of the dataset associated with your blog.
-
-Redlink Dataset URI
-    The URL of the dataset *triple store* (**no trailing slash** at the end), e.g. http://data.redlink.io/000/dataset
-
-Redlink Dataset Name
-    The name of the application configured in your Redlink account.
-
-.. note::
-
-    Please refer to the Redlink_ team if you would like to use WordLift in conjunction with your Redlink account.
-
-Configure all the settings with the values that the WordLift team will provide to you. Don't forget to save the changes
-by clicking on *Save Changes*.
 
 
 You can now continue to the :doc:`key-concepts` page or head directly to the :doc:`analysis` page.
