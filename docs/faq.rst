@@ -174,3 +174,8 @@ What is a triple?
 _____________
 
 A triple is a set of three elements: a subject, a predicate, and an object. Triples are linked together to form a `graph <key-concepts.html#knowledge-graph>`_ that is without hierarchy, is machine readable, and can be used to infer new facts. Triples in WordLift describe facts as metadata about an article or an entity. 
+
+Are there any integrations with Neo4j?
+_____________
+
+Neo4j is a graph database. WordLift stores data in a Linked Data store (`Apache Marmotta <https://marmotta.apache.org>`_) which provides linked data and SPARQL end-points. As long as Neo4j provides connectors for those interfaces, then an integration is possible.
