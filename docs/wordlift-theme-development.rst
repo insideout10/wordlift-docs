@@ -27,6 +27,7 @@ _____________
 2. `get_post_terms <https://codex.wordpress.org/Function_Reference/wp_get_post_terms>`_ can be used to extract topics from posts see the example below;
 
 .. code-block:: php
+
 	wp_get_post_terms( <post_id>, Wordlift_Topic_Taxonomy_Service::TAXONOMY_NAME, <args> )
 
 3. WordLift's *Properties API* can be used to read/write entity properties using schema.org property names. See `here <https://github.com/insideout10/wordlift-plugin/blob/master/src/modules/core/wordlift_core_schema_api.php>`_; 
