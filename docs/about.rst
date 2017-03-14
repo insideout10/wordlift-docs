@@ -1,10 +1,10 @@
 About WordLift
 ===============
-**WordLift_** brings the power of *Artificial Intelligence* to web publishers around the World. 
+**WordLift** brings the power of *Artificial Intelligence* to web publishers around the World. 
 
-**WordLift_** is a **semantic editor** for WordPress.
+**WordLift** is a **semantic editor** for WordPress.
 
-**WordLift_** turns editorial contents into actionable knowledge and helps bloggers and site owners reach their maximum potential audiences.
+**WordLift** turns editorial contents into actionable knowledge and helps bloggers and site owners reach their maximum potential audiences.
 
 About InsideOut10
 _____________
