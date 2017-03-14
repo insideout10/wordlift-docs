@@ -72,6 +72,9 @@ It is possible to personalise the layout of the timeline using any of `the prese
 2. **display_images_as** the default value is *media*, alternatively you can use *background* and the fetured image of the entity will be used as background    
 3. **global** when set to *true* the timeline displays events mentioned in the latest posts (no need to add mentions to places or events in this case).
 
+.. note::
+        When you create a timeline with WordLift you can pass in the shortcode optional parameters to set a variety of presentation options. These are derived from the TimelineJS library `read more here <https://timeline.knightlab.com/docs/options.html>`_.
+
 
 .. code-block:: html
 
