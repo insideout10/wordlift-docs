@@ -124,6 +124,15 @@ height
 global
     *(optional)* By default the timeline displays events (or events related to places) mentioned in the current post. When *global=true* the timeline displays events mentioned in the latest posts.
 
+display_images_as
+    *(optional)* When *display_images_as='background'* the timeline displays for each event the featured image of the entity as background.
+
+excerpt_length
+    *(optional)* Allows you to set the number of words that appear in the the excerpts of the timeline. 
+
+.. note::
+        When you create a timeline with WordLift you can pass in the shortcode optional parameters to set a variety of presentation options. These are derived from the TimelineJS library `read more here <https://timeline.knightlab.com/docs/options.html>`_.
+
 Geomap widget::
 
     [wl_geomap width=... height=... global=...]
