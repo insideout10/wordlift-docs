@@ -9,19 +9,26 @@ Overview
 
 
 **WordLift** is a plugin for WordPress designed to create, structure and visualize your content.
-**WordLift** helps content creators to build *beautifully structured web sites* and to 
-publish their content as `Linked Open Data <key-concepts.html#linked-open-data>`_ following **Tim Berners-Lee**'s 
+
+**WordLift** is a content marketing tool to help content creators build *beautifully structured web sites* and grow their audience. 
+
+**WordLift** publishes content metadata using `Linked Data technlogies <key-concepts.html#linked-open-data>`_ and following **Tim Berners-Lee**'s 
 `Linked Data Principles <http://www.w3.org/DesignIssues/LinkedData.html>`_.
 
-WordLift understands the text you write and structures it to allow you to create effective navigation storyboards 
-and make sure *commercial search* engines like Google, Bing, Yandex and Yahoo! receive the structured data 
-they need to properly index and rank your content.
+Linked Data is the language machines can read and understand in order to seamlessly analyze content, index it and fetch answers back to users. 
+
+Linked Data technologies allow software agents and search crawlers find, share and integrate information across different resources.
+
+**WordLift** understands the text you write and structures it to help you grow the visibility of your content in organic (non-paid) search engine results.
 
 **WordLift** enriches the content of blog posts and pages with **facts, links and images**, tagging, categorising, 
 and classifying them in relationship to each other, to internal vocabularies, and to other openly 
 available open data sources like DBpedia and Freebase. 
 This means adding contextual information to web content in the form of universal identifier 
 to *transform WordPress into a fully dynamic semantic architecture*. 
+
+**WordLift** is available to all for a monthly fee. Find out more and get your activation key directly `on our website <https://wordlift.io>`_. 
+
 
 =================
 Who is using enriched metadata in the form of linked data today?
