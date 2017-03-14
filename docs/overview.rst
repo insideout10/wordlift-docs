@@ -10,7 +10,7 @@ Overview
 
 **WordLift** is a plugin for WordPress designed to create, structure and visualize your content.
 
-**WordLift** is a content marketing tool to help content creators build *beautifully structured web sites* and grow their audience. 
+**WordLift** is a **content marketing tool** to help content creators build *beautifully structured web sites* and grow their audience. 
 
 **WordLift** publishes content metadata using `Linked Data technlogies <key-concepts.html#linked-open-data>`_ and following **Tim Berners-Lee**'s 
 `Linked Data Principles <http://www.w3.org/DesignIssues/LinkedData.html>`_.
@@ -22,12 +22,10 @@ Linked Data technologies allow software agents and search crawlers find, share a
 **WordLift** understands the text you write and structures it to help you grow the visibility of your content in organic (non-paid) search engine results.
 
 **WordLift** enriches the content of blog posts and pages with **facts, links and images**, tagging, categorising, 
-and classifying them in relationship to each other, to internal vocabularies, and to other openly 
-available open data sources like DBpedia and Freebase. 
-This means adding contextual information to web content in the form of universal identifier 
-to *transform WordPress into a fully dynamic semantic architecture*. 
+and classifying them in relationship to each other, to internal vocabularies, and to other openly available data sources like DBpedia, Wikidata and the Google Knowledge Graph. By adding contextual information to web content **WordLift** *transforms WordPress into a fully dynamic semantic content management system*. 
 
-**WordLift** is available to all for a monthly fee. Find out more and get your activation key directly `on our website <https://wordlift.io>`_. 
+.. note::
+        **WordLift** is available to all for a monthly fee. Find out more and get your activation key directly `on our website <https://wordlift.io>`_.
 
 
 =================
