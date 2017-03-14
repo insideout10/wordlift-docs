@@ -4,81 +4,82 @@ Shortcodes
 
 WordLift provides several useful shortcodes to provide enhanced visualizations on your web site.
 
-Entity Shortcodes
-_________________
+.. 
+    Entity Shortcodes
+    _________________
 
 
-Load entity data::
+    Load entity data::
 
-    [wl_entity_view uri=... suffix=...][/wl_entity_view]
+        [wl_entity_view uri=... suffix=...][/wl_entity_view]
 
-The URI of the entity is determined by combining the *uri* defined in the shortcode and the current address path.
+    The URI of the entity is determined by combining the *uri* defined in the shortcode and the current address path.
 
-uri
-    The *base* URI for remote resources (e.g. http://data.redlink.io/353/salzburgerland/)
+    uri
+        The *base* URI for remote resources (e.g. http://data.redlink.io/353/salzburgerland/)
 
-suffix
-    *(optional)* The suffix for remote requests (e.g. '.json')
-
-
-Display the value of a property::
-
-    [wl_entity_property name=... language=...]
-
-It must be used inside a *wl_entity_view*.
-
-name
-    The full property name (e.g. http://www.w3.org/2000/01/rdf-schema#label)
-
-language
-    *(optional)* The language (e.g. 'en'). If it's not specified, the shortcode looks for a value without a language.
+    suffix
+        *(optional)* The suffix for remote requests (e.g. '.json')
 
 
-Display an image (using the *img* tag)::
+    Display the value of a property::
 
-    [wl_entity_image name=...]
+        [wl_entity_property name=... language=...]
 
-It must be used inside a *wl_entity_view*.
+    It must be used inside a *wl_entity_view*.
 
-name
-    The full property name (e.g. http://schema.org/image)
+    name
+        The full property name (e.g. http://www.w3.org/2000/01/rdf-schema#label)
 
-
-Display a date::
-
-    [wl_entity_date name=... format=...]
-
-name
-    The full property name (e.g. http://www.w3.org/2002/12/cal#dtstart)
-
-format
-    *(optional, default 'Y m d')* The format to apply to the date (follows the PHP convention, see `PHP date`_ for more information).
+    language
+        *(optional)* The language (e.g. 'en'). If it's not specified, the shortcode looks for a value without a language.
 
 
-Display a duration::
+    Display an image (using the *img* tag)::
 
-    [wl_entity_duration name=... format=...]
+        [wl_entity_image name=...]
 
-name
-    The full property name (e.g. http://www.w3.org/2002/12/cal#dtstart)
+    It must be used inside a *wl_entity_view*.
 
-format
-    *(optional, default '%d day(s), %h hour(s)')* The format to apply to the duration (follows the PHP convention, see `PHP DateInterval format`_ for more information).
+    name
+        The full property name (e.g. http://schema.org/image)
 
 
-Example::
+    Display a date::
 
-    [wl_entity_view uri="http://data.redlink.io/353/salzburgerland/"]</p>
-        [wl_entity_property name="http://www.w3.org/2000/01/rdf-schema#label" language="en" /]
-        [wl_entity_property name="http://linkedevents.org/ontology/atPlace&gt;http://www.w3.org/2000/01/rdf-schema#label" language="en" /]
-        [wl_entity_property name="http://linkedevents.org/ontology/atPlace&gt;http://www.geonames.org/ontology#parentFeature&gt;http://www.w3.org/2000/01/rdf-schema#label" language="en" /]
-        [wl_entity_date name="http://www.w3.org/2002/12/cal#dtstart" format="d/m/Y H:i" /]
-        [wl_entity_date name="http://www.w3.org/2002/12/cal#dtend" format="d/m/Y" /]
-        [wl_entity_duration name="http://schema.org/duration" /]
-        [wl_entity_property name="http://www.w3.org/2002/12/cal#location" language="en" /]
-        [wl_entity_property name="http://www.w3.org/2000/01/rdf-schema#comment" language="en"]
-        [wl_entity_image name="http://schema.org/image" /]
-    [/wl_entity_view]
+        [wl_entity_date name=... format=...]
+
+    name
+        The full property name (e.g. http://www.w3.org/2002/12/cal#dtstart)
+
+    format
+        *(optional, default 'Y m d')* The format to apply to the date (follows the PHP convention, see `PHP date`_ for more information).
+
+
+    Display a duration::
+
+        [wl_entity_duration name=... format=...]
+
+    name
+        The full property name (e.g. http://www.w3.org/2002/12/cal#dtstart)
+
+    format
+        *(optional, default '%d day(s), %h hour(s)')* The format to apply to the duration (follows the PHP convention, see `PHP DateInterval format`_ for more information).
+
+
+    Example::
+
+        [wl_entity_view uri="http://data.redlink.io/353/salzburgerland/"]</p>
+            [wl_entity_property name="http://www.w3.org/2000/01/rdf-schema#label" language="en" /]
+            [wl_entity_property name="http://linkedevents.org/ontology/atPlace&gt;http://www.w3.org/2000/01/rdf-schema#label" language="en" /]
+            [wl_entity_property name="http://linkedevents.org/ontology/atPlace&gt;http://www.geonames.org/ontology#parentFeature&gt;http://www.w3.org/2000/01/rdf-schema#label" language="en" /]
+            [wl_entity_date name="http://www.w3.org/2002/12/cal#dtstart" format="d/m/Y H:i" /]
+            [wl_entity_date name="http://www.w3.org/2002/12/cal#dtend" format="d/m/Y" /]
+            [wl_entity_duration name="http://schema.org/duration" /]
+            [wl_entity_property name="http://www.w3.org/2002/12/cal#location" language="en" /]
+            [wl_entity_property name="http://www.w3.org/2000/01/rdf-schema#comment" language="en"]
+            [wl_entity_image name="http://schema.org/image" /]
+        [/wl_entity_view]
 
 
 Widget Shortcodes
