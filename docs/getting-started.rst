@@ -43,33 +43,41 @@ __________
 
 To activate the plugin you need a `WordLift key <key-concepts.html#wordlift-key>`_. You receive this key after `purchasing a subscription plan <https://wordlift.io/#plan-and-price>`_ the WordLift_ website. An automatic email will be then sent to you containing your key and account information. 
 
-From the WordPress administration menu, click on *Plugins* / *Installed Plugins*. Then click on *Settings* on the
+You can use the setup Wizard upon startup to activate your subscription. 
+
+.. image:: /images/wordlift-setup-wizard.gif
+
+When doing so you are able to configure the `key <key-concepts.html#wordlift-key>`_, the entity base path (the URL pattern of the WordLift internal vocabulary), the languange used on the website and the publisher of the website. 
+
+Alternatively, from the WordPress administration menu, click on *Plugins* / *Installed Plugins*. Then click on *Settings* on the
 WordLift plugin.
 
 
 Configuration
 _____________
 
-The *Settings* are also accessible by hovering on the WordLift logo on the upper right corner; from there a menu will open. 
+The *Settings* are also accessible by hovering on the WordLift logo on the WordPress dashboard menu; from there a menu will open. 
 Click on *Settings* to open the settings screen:
 
 .. image:: /images/wordlift-settings-screen.png
 
-From *Settings* screen you can configure:
+From *Settings* screen, as from the Wizard, you can configure:
 
 WordLift Key
-    Your `WordLift Key <key-concepts.html#wordlift-key>`_, is needed to activate the plug-in.
+    The `WordLift Key <key-concepts.html#wordlift-key>`_, required to activate the plug-in that can be purchased from the `website <https://wordlift.io/#plan-and-price>`_.
     
-Entity Path
-    When selecting or creating new entities with WordLift, you are actively building your internal vocabulary, adding pages to  your website. When you first built your website, you chose a pattern for the url of the pages you were going to add, such as www.domain.com/name-of-the-page or www.domain.com/seo-keyword/name-of-the-page.
-The same applies with all the pages created with WordLift inside your vocabulary.
-
-By default WordLift will add the word “vocabulary” between your root domain and the name of the page: www.domain.com/vocabulary/name-of-the-entity-page.
-You can delete the word vocabulary if you want the new entity page to be inside your root domain folder: www.domain.com/name-of-the-entity-page.
-Or you can replace vocabulary with another keyword (or keywords) of your choice, for SEO or branding reason: www.domain.com/seo-keyword/name-of-the-entity-page.
+Entity Base Path
+    When selecting or creating new entities with WordLift, you are actively building your internal vocabulary, adding pages to  your website. When you first built your website, you chose a pattern for the url of the pages you were going to add, such as www.domain.com/name-of-the-page or www.domain.com/seo-keyword/name-of-the-page. 
+    The same applies with all the pages created with WordLift inside your vocabulary.
+    By default WordLift will add the word “vocabulary” between your root domain and the name of the page: www.domain.com/vocabulary/name-of-the-entity-page.
+    You can delete the word vocabulary if you want the new entity page to be inside your root domain folder: www.domain.com/name-of-the-entity-page.
+    Or you can replace vocabulary with another keyword (or keywords) of your choice, for SEO or branding reason: www.domain.com/seo-keyword/name-of-the-entity-page.
 
 Site Language
-    The main language used on your website. This is the language that will be used by WordLift when creating the editorial metadata of your content. Be aware, each key should be use for one language only.
+    The main language used on your website. This is the language that will be used by WordLift when creating the editorial metadata of your content. Be aware, each key should be used for one language only.
+
+Publisher
+    The person or the organization publishing the content of the website. This is also an entity that can be created directly from this setting screen. This information is used to enrich the metadata on your website.  
 
 .. note::
         For more information on the multilingual support of WordLift `read here <faq.html#what-are-the-languages-supported-by-wordlift>`_.
