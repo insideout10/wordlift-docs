@@ -60,6 +60,9 @@ _____________
 * an **intuitive overview of all content being written** *on the site* and *around a specific topic* or cluster of topics
 * meaningful **content recommendations** 
 
+A solution designed to delight every content editor
+_____________
+
 ^^^^^^^^^^^^^^^^^
 Built for WordPress
 ^^^^^^^^^^^^^^^^^
