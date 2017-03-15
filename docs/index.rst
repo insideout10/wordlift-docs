@@ -10,7 +10,6 @@ Welcome to WordLift Documentation
 The main documentation for getting started with WordLift is organized in the following sections:
 
 * :ref:`site-docs`
-* :ref:`features`
 * :ref:`wordlift-theme-development`
 * :ref:`import-export-vocabulary`
 * :ref:`about-docs`
@@ -33,17 +32,6 @@ User Documentation
    shortcodes
    faq
    key-concepts
-
-
-.. _features:
-
-Features
-------------------
-
-.. toctree::
-    :maxdepth: 2
-
-    features
 
 .. _wordlift-theme-development: 
 
