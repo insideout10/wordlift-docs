@@ -8,21 +8,19 @@ Overview
     </div>
 
 
-**WordLift** is a plugin for WordPress designed to create, structure and visualize your content.
+WordLift brings the power of Artificial Intelligence to web publishers around the World.
+WordLift is a plugin for WordPress designed to help you create, structure and visualize your content and to publish it as Linked Open Data following Tim Berners-Lee‘s Linked Data Principles.
 
-**WordLift** is a **content marketing tool** to help content creators build *beautifully structured web sites* and grow their audience. 
-
-**WordLift** publishes content metadata using `Linked Data technlogies <key-concepts.html#linked-open-data>`_ and following **Tim Berners-Lee**'s 
-`Linked Data Principles <http://www.w3.org/DesignIssues/LinkedData.html>`_.
+**WordLift** brings the power of *Artificial Intelligence* to web publishers around the World.
+**WordLift** is a plugin for WordPress designed to help you create, structure and visualize your content and to publish it as `Linked Open Data <key-concepts.html#linked-open-data>`_ following **Tim Berners-Lee**'s `Linked Data Principles <http://www.w3.org/DesignIssues/LinkedData.html>`_.
 
 Linked Data is the language machines can read and understand in order to seamlessly analyze content, index it and fetch answers back to users. 
-
 Linked Data technologies allow software agents and search crawlers find, share and integrate information across different resources.
 
-**WordLift** understands the text you write and structures it to help you grow the visibility of your content in organic (non-paid) search engine results.
+WordLift supports bloggers and site owners building *beautifully structured web sites* and reach their maximum potential audiences:
+- It understands the text you write and structures it to allow you to create effective navigation flows and make sure commercial search engines like Google, Bing, Yandex and Yahoo! receive the structured data they need to properly index and rank your content.
+- It  enriches your blog posts and pages with facts, links and images, and organizes them in relationship to each other, to internal vocabularies, and to other openly available data sources like DBpedia and Wikidata, increasing your readers’ engagement.
 
-**WordLift** enriches the content of blog posts and pages with **facts, links and images**, tagging, categorising, 
-and classifying them in relationship to each other, to internal vocabularies, and to other openly available data sources like DBpedia, Wikidata and the Google Knowledge Graph. By adding contextual information to web content **WordLift** *transforms WordPress into a fully dynamic semantic content management system*. 
 
 .. note::
         **WordLift** is available to all for a monthly fee. Find out more and get your activation key directly `on our website <https://wordlift.io>`_.
