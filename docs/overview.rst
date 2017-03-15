@@ -104,6 +104,7 @@ WordLift currently supports 32 languages: Chinese, Danish, German, English, Fren
 Data Querying
 ^^^^^^^^^^^^^^^^^
 WordLift provides means to record all the relationships created in a graph database, combining structured, semi-structured and unstructured data, and allowing queries like “find all content related to concept_y and relevant for target_z”. Such as:
+
 1. all content related to Gazprom
 2. all content related to Gazprom mentioning Putin
 3. all content related to renewables industry sector in Italy
