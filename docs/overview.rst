@@ -7,10 +7,6 @@ Overview
         <iframe src="https://www.youtube-nocookie.com/embed/AR2pBOTLsy4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-
-WordLift brings the power of Artificial Intelligence to web publishers around the World.
-WordLift is a plugin for WordPress designed to help you create, structure and visualize your content and to publish it as Linked Open Data following Tim Berners-Lee‘s Linked Data Principles.
-
 **WordLift** brings the power of *Artificial Intelligence* to web publishers around the World.
 **WordLift** is a plugin for WordPress designed to help you create, structure and visualize your content and to publish it as `Linked Open Data <key-concepts.html#linked-open-data>`_ following **Tim Berners-Lee**'s `Linked Data Principles <http://www.w3.org/DesignIssues/LinkedData.html>`_.
 
@@ -18,13 +14,13 @@ Linked Data is the language machines can read and understand in order to seamles
 Linked Data technologies allow software agents and search crawlers find, share and integrate information across different resources.
 
 WordLift supports bloggers and site owners building *beautifully structured web sites* and reach their maximum potential audiences:
-- It understands the text you write and structures it to allow you to create effective navigation flows and make sure commercial search engines like Google, Bing, Yandex and Yahoo! receive the structured data they need to properly index and rank your content.
-- It  enriches your blog posts and pages with facts, links and images, and organizes them in relationship to each other, to internal vocabularies, and to other openly available data sources like DBpedia and Wikidata, increasing your readers’ engagement.
 
+- It understands the text you write and structures it to allow you to create effective navigation flows and make sure commercial search engines like Google, Bing, Yandex and Yahoo! receive the structured data they need to properly index and rank your content.
+
+- It  enriches your blog posts and pages with facts, links and images, and organizes them in relationship to each other, to internal vocabularies, and to other openly available data sources like DBpedia and Wikidata, increasing your readers’ engagement.
 
 .. note::
         **WordLift** is available to all for a monthly fee. Find out more and get your activation key directly `on our website <https://wordlift.io>`_.
-
 
 =================
 Who is using enriched metadata in the form of linked data today?
