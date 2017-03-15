@@ -1,10 +1,9 @@
 Getting Started
 ===============
 
-.. warning::
+.. note::
 
-    Even though we've been using WordLift v. 3 on production web sites for quite some times and there's no harm to data, we **strongly
-    suggest** to make a full back-up of your site data before installing WordLift.
+    We **suggest** our users to make a full back-up of their website data before installing WordLift.
 
 
 Compatibility
