@@ -1,5 +1,12 @@
 Features
 ===============
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/TzsIz-mjY94" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
 **WordLift** is a **semantic editor** for WordPress to help writing, organizing, tagging and sharing content online. 
 **WordLift** is designed for bloggers, journalists and content creators to inspire and make writing more productive.
 
