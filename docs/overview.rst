@@ -105,10 +105,10 @@ Data Querying
 ^^^^^^^^^^^^^^^^^
 WordLift provides means to record all the relationships created in a graph database, combining structured, semi-structured and unstructured data, and allowing queries like “find all content related to concept_y and relevant for target_z”. Such as:
 
-1. all content related to Gazprom
-2. all content related to Gazprom mentioning Putin
-3. all content related to renewables industry sector in Italy
-4. all content related to fishery interesting for a given user or for a cluster of users
+	1. all content related to *Gazprom*
+	2. all content related to *Gazprom* mentioning *Putin*
+	3. all content related to *renewables industry sector* in *Italy*
+	4. all content related to *fishery* interesting for a given user or for a cluster of users
 
 =================
 Who is using enriched metadata in the form of linked data today?
