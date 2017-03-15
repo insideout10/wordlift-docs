@@ -93,3 +93,23 @@ The **Chord Widget** visualizes the relations between entities within a given ar
 .. image:: /images/wordlift-shortcodes-chord.png
 
 User might choose to navigate to an entity page or to another blog post.
+
+
+The WordLift Entities Cloud WordPress Widget
+_____________
+
+The **WordLift Entities Cloud WordPress Widget** is a site-wide Widget that displays entities related to the current post/entity in a tag cloud. WordPress Widgets like this one add content and features to your Sidebars. To add the widget:
+
+1. Go to **Appearance > Customize** in the WordPress Administration Screens.
+2. Click the **Widget** menu in the Theme Customizer to access to the Widget Customize Screen.
+
+.. image:: /images/wordlift-entities-cloud-widget.png
+
+It is possible, just like for other WordPress Widgets to personalize the title of the Widget.  
+
+The Timeline WordPress Widget
+_____________
+
+The **Timeline WordPress Widget** is a site-wide Widget that displays events being saved as entities (type event) using the `interactive timeline <discover.html#the-timeline-widget>`_.
+
+.. image:: /images/wordlift-timeline-wordpress-widget.png
