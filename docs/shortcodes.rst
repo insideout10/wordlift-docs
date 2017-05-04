@@ -166,6 +166,14 @@ The Faceted Search widget can be used on entity pages to display and filter the 
 
 .. image:: /images/wordlift-edit-entity-faceted-search-widget-frontend.gif
 
+Entity cloud widget::
+
+    [wl_cloud]
+
+The **WordLift Entities Cloud Widget** is also available as a shortcode. The widget displays entities related to the current post/entity in a tag cloud.
+
+.. image:: /images/wordlift-entities-cloud-widget.png
+
 .. _PHP date: http://php.net/manual/en/function.date.php
 .. _PHP DateInterval format: http://php.net/manual/en/dateinterval.format.php
 
