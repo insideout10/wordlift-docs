@@ -145,7 +145,7 @@ A published datasets like the knowledge graph that users create with WordLift sh
 
 Specifically the **4th linked data principle** is meant to ensure a Web of data and not just a set of unconnected data islands. WordLift during the analysis automatically interlinks all detected entities with several datasets (DBpedia, Yago, Freebase etc.) but what if we are creating a new entity from scratch? How can we find an equivalent resource in the Web of linked data?
 
-There are basically three ways of doing it without writing a complicated SPARQL query. The goal is to provide an information that can be understood by semantic search engienes like Google, Bing and Yandex: 
+There are basically three ways of doing it without writing a complicated SPARQL query. The goal is to provide an information that can be understood by semantic search engines like Google, Bing and Yandex: 
 
 1. **ask Google Search** a query by adding "site:dbpedia.org" to the name of the entity (ie "*site:dbpedia.org apache marmotta*"). Google will provide a list of results, chose the URL that start with *dbpedia.org/page/* (ie *dbpedia.org/page/Apache_Marmotta*), replace ``/page/`` with ``/resource/`` and you will have the ``owl:sameAs`` link to be added to your entity;
 
