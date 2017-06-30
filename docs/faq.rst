@@ -156,7 +156,7 @@ There are basically three ways of doing it without writing a complicated SPARQL 
 
 .. note::
 
-	While Freebase no longer exists the ``machine id`` remains valid. We prefer to have such links in the ``owl:sameAs`` property of entities created with WordLift as these links points to RDF resources. As a matter of fact DBpedia, to interlink with Freebase, still uses these type of links rather than just the ``machine id``.
+	While Freebase no longer exists the ``machine id`` remains valid. We prefer to have such links in the ``owl:sameAs`` property of entities created with WordLift as these links point to RDF resources. As a matter of fact DBpedia, to interlink with Freebase, still uses these type of links rather than just the ``machine id``.
 
 
 What factors determine Wordlift's rating of an entity?
