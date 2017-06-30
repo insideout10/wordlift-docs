@@ -136,22 +136,27 @@ All entities shall be matched to the proper language of the content.
 
 How can I search for the equivalent entity in the web of data?
 _____________
-A published datasets like the knowledge graph that users create with WordLift shall link to other existing datasets using the OWL `owl:sameAs` property. This property creates an equivalence class between two nodes of an RDF graph. `Tim Berners Lee <https://wordlift.io/blog/en/entity/tim-berners-lee/>`_ in his "Linked Data" note of 2006 outlined 4 principles of `linked data <https://wordlift.io/blog/en/entity/linked-data/>`_
+A published datasets like the knowledge graph that users create with WordLift shall link to other existing datasets using the OWL ``owl:sameAs`` property. This property creates an equivalence class between two nodes of an RDF graph. `Tim Berners Lee <https://wordlift.io/blog/en/entity/tim-berners-lee/>`_ in his "Linked Data" note of 2006 outlined 4 principles of `linked data <https://wordlift.io/blog/en/entity/linked-data/>`_:
 
 1. Use URIs to name (identify) things.
 2. Use HTTP URIs so that these things can be looked up (interpreted, "dereferenced").
 3. Provide useful information about what a name identifies when it's looked up, using open standards such as RDF, SPARQL, etc.
 4. Refer to other things using their HTTP URI-based names when publishing data on the Web.
 
-Specifically the 4th linked data principle is meant to ensure a Web of data and not just a set of unconnected data islands. WordLift during the analysis automatically interlinks detected entities with various datasets (DBpedia, Yago, Freebase etc.) but what if we are creating a new entity from scratch? How can we find an equivalent resource in the Web of linked data?
+Specifically the **4th linked data principle** is meant to ensure a Web of data and not just a set of unconnected data islands. WordLift during the analysis automatically interlinks all detected entities with several datasets (DBpedia, Yago, Freebase etc.) but what if we are creating a new entity from scratch? How can we find an equivalent resource in the Web of linked data?
 
 There are basically three ways of doing it without writing a complicated SPARQL query. The goal is to provide an information that can be understood by semantic search engienes like Google, Bing and Yandex: 
 
-1. **ask Google Search** a query by adding "site:dbpedia.org" to the name of the entity (ie "*site:dbpedia.org apache marmotta*"). Google will provide a list of results, chose the URL that start with *dbpedia.org/page/* (ie *dbpedia.org/page/Apache_Marmotta*), replace */page/* with */resource/* and you will have the `sameAs` link to be added to your entity;
+1. **ask Google Search** a query by adding "site:dbpedia.org" to the name of the entity (ie "*site:dbpedia.org apache marmotta*"). Google will provide a list of results, chose the URL that start with *dbpedia.org/page/* (ie *dbpedia.org/page/Apache_Marmotta*), replace ``/page/`` with ``/resource/`` and you will have the ``owl:sameAs`` link to be added to your entity;
 
-2. **look for the entity in Wikidata by using the search bar on the `wikidata.org <https://wikidata.org>`_ website. The search bar is on the top right corner. The URL for the equivalent entity of Apache Marmotta in Wikidata is *https://www.wikidata.org/wiki/Q16928009*
+2. **look for the entity in Wikidata** by using the search bar on the `wikidata <https://wikidata.org>`_ website. The search bar is on the top right corner. The URL for the equivalent entity of Apache Marmotta in Wikidata is *https://www.wikidata.org/wiki/Q16928009*;
 
-3. **use the Google Knowledge Graph Search API** (here is `a link <https://developers.google.com/knowledge-graph/>`_ to the documentation by Google). You will need an API Key from Google. Using your personal API key you will be able to search the Google Knowledge Graph with simple HTTP request. Here is an example `https://kgsearch.googleapis.com/v1/entities:search?query=andrea+volpini&key=API_KEY&limit=1&indent=True` (simply replace API_KEY with your own API Key). The API responds with a JSON-LD; look for the `machine id` that is located under `itemListElement` > `result` > `@id`. This should be something like `kg:/m/0djtw2h` now take the id and rewrite it by adding *http://rdf.freebase.com/ns/* than replace `/m/` with `/m.` and you should have something like: *http://rdf.freebase.com/ns/m.0ndhxqz* - while Freebase no longer exists the `machine id` remains valid and we prefer to have such a link for the `owl:sameAs`. This link points to a RDF resource and this is how DBpedia still reference entities in Freebase.   
+3. **use the Google Knowledge Graph Search API** (here is `a link <https://developers.google.com/knowledge-graph/>`_ to the documentation by Google). You will need an API Key from Google. Using your personal API key you will be able to search the Google Knowledge Graph with simple HTTP request. Here is an example ``https://kgsearch.googleapis.com/v1/entities:search?query=andrea+volpini&key=API_KEY&limit=1&indent=True`` (simply replace ``API_KEY`` with your personal API Key). The API responds with a `JSON LD <https://wordlift.io/blog/en/entity/json-ld/>`_; look for the ``machine id`` that is located under ``itemListElement`` > ``result`` > ``@id``. This should be something like ``kg:/m/0djtw2h`` now take the id and rewrite it by adding in front *http://rdf.freebase.com/ns/* than replace ``/m/`` with ``/m.`` and you should have something like: *http://rdf.freebase.com/ns/m.0ndhxqz*.
+
+
+.. note::
+
+	While Freebase no longer exists the ``machine id`` remains valid. We prefer to have such links in the ``owl:sameAs`` property of entities created with WordLift as these links points to RDF resources. As a matter of fact DBpedia, to interlink with Freebase, still uses these type of links rather than just the ``machine id``.
 
 
 What factors determine Wordlift's rating of an entity?
