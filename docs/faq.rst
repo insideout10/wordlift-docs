@@ -37,7 +37,7 @@ _____________
 What are the languages supported by WordLift? 
 _____________
 
-WordLift currently supports the following languages: English, 中文 (Chinese), Español (Spanish), Русский (Russian), Português (Portuguese), Français (French), Deutsch (German), Italiano (Italian), Nederlands (Dutch), Svenska (Swedish) and Dansk (Danish). 
+WordLift currently supports 32 languages: Chinese, Danish, German, English, French, Italian, Dutch, Russian, Spanish, Portuguese, Swedish, Turkish, Albanian, Belarusian, Bulgarian, Catalan, Croatian, Czech, Estonian, Finnish, Hungarian, Icelandic, Indonesian, Latvian, Lithuanian, Norwegian, Polish, Romanian, Serbian, Slovak, Slovenian, Ukrainian.
 
 .. note::
 	WordLift supports one language at the time. The main language of the website can be configured from the WordLift settings. 
@@ -46,8 +46,8 @@ WordLift currently supports the following languages: English, 中文 (Chinese), 
 Is there a free trial? 
 _____________
 
-No. We do not offer a *free trial* but your monthly subscription comes with a **14-day 100% money back guarantee**. If after two weeks you are not happy with WordLift, `contact us <mailto:support@wordlift.io>`_ and we will refund you right away, no questions asked.
-We do offer **free additional months** though, with the purchase of our 6-month or 12-month packages. `Check it out <https://wordlift.io/#plan-and-price>`_
+Yes! All of our subscriptions come with a **14-day free trial**. If after two weeks you are not happy with WordLift, `contact us <mailto:support@wordlift.io>`_ and we will cancel your subscription, no questions asked.
+In addition, with the purchase of our 6-month or 12-month packages, we offer free additional months. `Check it out <https://wordlift.io/pricing>`_!
 
 Who owns the structured metadata created with WordLift?
 _____________ 
@@ -133,6 +133,26 @@ Excessively broad entities should not be added to content.
 Content should not be overloaded with entities to increase its distribution online. As a general guideline, 6–8 entities should be adequate for most blog posts (based on the lenght of the article). If an article has too many entities it may be that some of the entities could be replaced with a single broader entity.
 
 All entities shall be matched to the proper language of the content. 
+
+How can I search for the equivalent entity in the web of data?
+_____________
+A published datasets like the knowledge graph that users create with WordLift shall link to other existing datasets. `Tim Berners Lee <https://wordlift.io/blog/en/entity/tim-berners-lee/>`_ in his "Linked Data" note of 2006 outlined 4 principles of `linked data <https://wordlift.io/blog/en/entity/linked-data/>`_
+
+1. Use URIs to name (identify) things.
+2. Use HTTP URIs so that these things can be looked up (interpreted, "dereferenced").
+3. Provide useful information about what a name identifies when it's looked up, using open standards such as RDF, SPARQL, etc.
+4. Refer to other things using their HTTP URI-based names when publishing data on the Web.
+
+Specifically the 4th linked data principle is meant to ensure a Web of data and not just a set of unconnected data islands. WordLift during the analysis automatically interlinks detected entities with various datasets (DBpedia, Yago, Freebase etc.) but what if you're creating a new entity from scratch? How can we find  an equivalent resource for a newly created entity on the Web of linked data?
+
+There are basically three ways of doing it in such a way that semantic search engienes like Google, Bing and Yandex can benefit from: 
+
+1. ask Google a query by adding "site:dbpedia.org" to the name of the entity (ie "*site:dbpedia.org apache marmotta*"). Google will provide a list of results, chose the URL that start with *dbpedia.org/page/* (ie *dbpedia.org/page/Apache_Marmotta*), replace */page/* with */resource/* and you have the `sameAs` link to be added to your entity
+
+2. look for the entity in Wikidata by using the search bar on the `wikidata.org <https://wikidata.org>`_ website. The search bar is on the top right corner. The URL for the equivalent entity of Apache Marmotta in Wikidata is `https://www.wikidata.org/wiki/Q16928009`
+
+3. use the Google Knowledge Graph Search (here is `a link <https://developers.google.com/knowledge-graph/>`_ to the documentation by Google). You will need an API Key from Google. Using your personal API key you will be able to search the Google Knowledge Graph by using a simple HTTP request. Here is an example `https://kgsearch.googleapis.com/v1/entities:search?query=andrea+volpini&key=API_KEY&limit=1&indent=True` (simply replace API_KEY with your own API Key). The API responds with a JSON-LD and you will need to look for the `machine id` located under ``itemListElement` > `result` > `@id`. This should be something like `kg:/m/0djtw2h` now take the id and rewrite it by adding *http://rdf.freebase.com/ns/* and by replacing `/m/` with `/m.` see here: *http://rdf.freebase.com/ns/m.0ndhxqz* - while Freebase no longer exists the `machine id` remains valid and we prefer to add as `sameAs` a link to a RDF resource just like dbpedia does.  
+
 
 What factors determine Wordlift's rating of an entity?
 _____________
