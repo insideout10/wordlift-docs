@@ -87,7 +87,7 @@ Organizing web content around concepts rather than traditional web pages helps b
 **Enriching content** with *contextual information*, *links* and *media*, from custom vocabularies and/or the wealth of **open data** available on the web, brings the user experience to a new level of engagement. 
 Structuring content with **richer metadata** and publishing it as `linked data <http://docs.wordlift.it/en/latest/key-concepts.html#linked-open-data>`_ makes it **discoverable and searchable**, providing new ways of reaching targets.
 
-Why is WordLift innovative
+Why is WordLift innovative?
 _____________
 
 **WordLift** is **first-to-market** following a **“content organization” approach** which allows the classification and direct exploitation of proprietary content and structured metadata. 
