@@ -36,7 +36,8 @@ Have a look to the full `changelog on GitHub <https://github.com/insideout10/wor
 
 
 Helpful links
-^^^^^^^^^^^^^^^
+_____________
+
 * `WordLift Plugin on GitHub <https://github.com/insideout10/wordlift-plugin>`_ 
 
 * `Contributing guidelines of the repository <https://github.com/insideout10/wordlift-plugin/blob/develop/CONTRIBUTING.md>`_ 
