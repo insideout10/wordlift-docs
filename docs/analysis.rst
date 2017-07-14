@@ -26,7 +26,8 @@ WordLift adds to the visual editor the `Widgets Menu`_ to embed `widgets <key-co
 .. note::
 
     You can decide to switch WordLift's analysis ON and OFF by clicking on the *open|close* arrow on the top right corner of the WordLift's Edit widget. 
-    .. image:: /images/wl_toggle_3-13-3.gif
+
+.. image:: /images/wl_toggle_3-13-3.gif
 
 WordLift Widgets Menu
 _____________
