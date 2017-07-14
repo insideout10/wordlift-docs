@@ -55,7 +55,7 @@ Export & Import of the Vocabulary
 
     import-export-vocabulary
 
-.. _about-docs:
+.. _releases:
 
 Releases
 -------------------
