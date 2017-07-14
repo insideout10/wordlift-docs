@@ -12,7 +12,9 @@ The main documentation for getting started with WordLift is organized in the fol
 * :ref:`site-docs`
 * :ref:`wordlift-theme-development`
 * :ref:`import-export-vocabulary`
+* :ref:`releases`
 * :ref:`about-docs`
+
 
 .. _site-docs:
 
@@ -52,6 +54,16 @@ Export & Import of the Vocabulary
     :maxdepth: 2
 
     import-export-vocabulary
+
+.. _about-docs:
+
+Releases
+-------------------
+
+.. toctree::
+    :maxdepth: 3
+
+    releases
 
 .. _about-docs:
 
