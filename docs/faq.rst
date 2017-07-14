@@ -158,6 +158,11 @@ There are basically three ways of doing it without writing a complicated SPARQL 
 
 	While Freebase no longer exists the ``machine id`` remains valid. We prefer to have such links in the ``owl:sameAs`` property of entities created with WordLift as these links point to RDF resources. As a matter of fact DBpedia, to interlink with Freebase, still uses these type of links rather than just the ``machine id``.
 
+Can I prevent the analysis to run?
+_____________
+
+Yes. You can switch WordLift's analysis ON and OFF by clicking on the *open|close* arrow on the top right corner of the WordLift's Edit widget. See the *.gif* below:
+.. image:: /images/wl_toggle_3-13-3.gif
 
 What factors determine Wordlift's rating of an entity?
 _____________
