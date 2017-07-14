@@ -162,6 +162,7 @@ Can I prevent the analysis to run?
 _____________
 
 Yes. You can switch WordLift's analysis ON and OFF by clicking on the *open|close* arrow on the top right corner of the WordLift's Edit widget. See the *.gif* below:
+
 .. image:: /images/wl_toggle_3-13-3.gif
 
 What factors determine Wordlift's rating of an entity?
