@@ -22,7 +22,7 @@ _____________
 
 .. note::
 
-	To know more about how **WordLift** works, please `watch the step by step video tutorials <https://wordlift.io/#how-it-works>`_ on our `website <https://wordlift.io>`_. 
+	To know more about how **WordLift** works, please `watch the step by step video tutorials <https://wordlift.io/how-it-works/>`_ on our `website <https://wordlift.io>`_. 
 
 **WordLift** works in subsequent stages. 
 
@@ -61,7 +61,7 @@ _____________
 
 2. if you deactivate the plugin instead, the vocabulary (metadata, entity and pages) will disappear from your dashboard, but everything you created is stored in your website Database in WordPress, and you will be able to download it, transfer it or re-activate it again anytime from the plugin menu. 
 
-3. Turning off WordLift on our side, it would be like turning off all the keys and un-publish all the linked data you’ve created, not the plug-in itself, so it will be like #1 - you could get the data back from us and re-publish it as `linked data <http://docs.wordlift.it/en/latest/key-concepts.html#linked-open-data>`_ on your own infrastructure.
+3. Turning off WordLift on our side, it would be like turning off all the keys and un-publish all the linked data you’ve created, not the plug-in itself, so it will be like #1 - you could get the data back from us and re-publish it as `linked data <https://wordlift.io/blog/en/entity/linked-data/>`_ on your own infrastructure.
 
 4. WordLift's technology is entirely open source: it takes development skills, infrastructure and some wisdom to nicely bring all the pieces together without our support.
 
@@ -85,7 +85,7 @@ _____________
 
 Organizing web content around concepts rather than traditional web pages helps both users and machines finding and accessing it, improves **navigation**, **content re-use**, **content repurposing** and **search engine rankings**. 
 **Enriching content** with *contextual information*, *links* and *media*, from custom vocabularies and/or the wealth of **open data** available on the web, brings the user experience to a new level of engagement. 
-Structuring content with **richer metadata** and publishing it as `linked data <http://docs.wordlift.it/en/latest/key-concepts.html#linked-open-data>`_ makes it **discoverable and searchable**, providing new ways of reaching targets.
+Structuring content with **richer metadata** and publishing it as `linked data <https://wordlift.io/blog/en/entity/linked-data/>`_ makes it **discoverable and searchable**, providing new ways of reaching targets.
 
 Why is WordLift innovative?
 _____________

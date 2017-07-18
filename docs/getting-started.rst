@@ -40,7 +40,7 @@ More information on the manual installation are available on the `WordPress Code
 Activation
 __________
 
-To activate the plugin you need a `WordLift key <key-concepts.html#wordlift-key>`_. You receive this key after `purchasing a subscription plan <https://wordlift.io/#plan-and-price>`_ the WordLift_ website. An automatic email will be then sent to you containing your key and account information. 
+To activate the plugin you need a `WordLift key <key-concepts.html#wordlift-key>`_. You receive this key after `purchasing a subscription plan <https://wordlift.io/pricing/>`_ the WordLift_ website. An automatic email will be then sent to you containing your key and account information. 
 
 You can use the setup Wizard upon startup to activate your subscription. 
 
@@ -63,7 +63,7 @@ Click on *Settings* to open the settings screen:
 From *Settings* screen, as from the Wizard, you can configure:
 
 WordLift Key
-    The `WordLift Key <key-concepts.html#wordlift-key>`_, required to activate the plug-in that can be purchased from the `website <https://wordlift.io/#plan-and-price>`_.
+    The `WordLift Key <key-concepts.html#wordlift-key>`_, required to activate the plug-in that can be purchased from the `website <https://wordlift.io/pricing/>`_.
     
 Entity Base Path
     When selecting or creating new entities with WordLift, you are actively building your internal vocabulary, adding pages to  your website. When you first built your website, you chose a pattern for the url of the pages you were going to add, such as www.domain.com/name-of-the-page or www.domain.com/seo-keyword/name-of-the-page. 
@@ -88,5 +88,5 @@ You can now continue to the :doc:`key-concepts` page or head directly to the :do
 .. _join.wordlift.it: http://join.wordlift.it/
 .. _my.redlink.io: http://my.redlink.io
 .. _Redlink: http://redlink.co/
-.. _WordPress: http://wordpress.org/
-.. _WordLift: http://wordlift.io/
+.. _WordPress: https://wordpress.org/
+.. _WordLift: https://wordlift.io/
