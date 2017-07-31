@@ -51,31 +51,72 @@ Here follows the list of properties that can be edited with WordLift for each en
 | Thing        |The most generic    |name,description,image,     | Thing_            |
 |              |type of entity.     |type,URL,sameAs,            |                   |
 |              |                    |additionalType.             |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
 +--------------+--------------------+----------------------------+-------------------+
 | Person       |A person.           |name,description,image,     | Person_           |
 |              |                    |type,URL,sameAs,            |                   |
 |              |                    |additionalType.             |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
 +--------------+--------------------+----------------------------+-------------------+
 | Place        |Entities            |name,description,image,     | Place_            |
 |              |with a physical     |type,URL,sameAs,            |                   |
 |              |extension.          |additionalType,geo.         |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
 +--------------+--------------------+----------------------------+-------------------+
 | Event        |An event happening  |name,description,image,     | Event_            |
 |              |in a specific time  |type,URL,sameAs,            |                   |
 |              |and location.       |additionalType,location,    |                   |
 |              |                    |startDate,endDate.          |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
 +--------------+--------------------+----------------------------+-------------------+
 | Organization |An organization.    |name,description,image,     | Organization_     |
 |              |                    |type,URL,sameAs,            |                   |
 |              |                    |additionalType,founder.     |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
 +--------------+--------------------+----------------------------+-------------------+
 | Local        |A physical business |name,description,image,     | LocalBusiness_    |
 | business     |or branch of an     |type,URL,sameAs,address     |                   |
 |              |organization.       |founder,geo.                |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
 +--------------+--------------------+----------------------------+-------------------+
 | Creative     |The most generic    |name,description,image,     | CreativeWork_     |
 | Work	       |kind of Creative    |type,URL,sameAs,            |                   |
 |              |Work(i.e. Software).|additionalType.             |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
+|              |                    |                            |                   |
 +--------------+--------------------+----------------------------+-------------------+
 | Recipe       |A food recipe.      |name,description,image,     | Recipe_           |
 |              |                    |type,URL,sameAs,            |                   |
