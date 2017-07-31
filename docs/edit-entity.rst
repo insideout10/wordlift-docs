@@ -78,14 +78,14 @@ Here follows the list of properties that can be edited with WordLift for each en
 |              |Work(i.e. Software).|additionalType.             |                   |
 +--------------+--------------------+----------------------------+-------------------+
 | Recipe       |A food recipe.      |name,description,image,     | Recipe_           |
-|  		       |         		    |type,URL,sameAs,            |                   |
-|              |					|additionalType, cookTime,   |                   |
-|              |					|prepTime, totalTime,  	     |                   |
-|              |					|recipeCuisine,      	     |                   |
-|              |					|recipeIngredient,   	     |                   |
-|              |					|recipeInstructions,   	     |                   |
-|              |					|recipeYield,		   	     |                   |
-|              |					|author, nutrition.calories. |                   |
+|              |                    |type,URL,sameAs,            |                   |
+|              |                    |additionalType, cookTime,   |                   |
+|              |                    |prepTime, totalTime,        |                   |
+|              |                    |recipeCuisine,              |                   |
+|              |                    |recipeIngredient,           |                   |
+|              |                    |recipeInstructions,         |                   |
+|              |                    |recipeYield,                |                   |
+|              |                    |author, nutrition.calories. |                   |
 +--------------+--------------------+----------------------------+-------------------+
 
 
