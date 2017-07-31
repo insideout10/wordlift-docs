@@ -101,7 +101,7 @@ Content enrichment is a processes used to refine and improve textual content by 
 
 What entity types are supported and how they map to Schema.org? 
 _____________
-*Thing*, *Person*, *Place*, *Event*, *Organization*, *LocalBusiness* and *Creative Work* are the supported types. 
+*Thing*, *Person*, *Place*, *Event*, *Organization*, *LocalBusiness*, *Creative Work* and *Recipe* are the supported types. 
 Review the `Edit Entity page <edit-entity.html#entity-types-and-properties-table>`_ for more information.   
 
 When should I create a new entity? 

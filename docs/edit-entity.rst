@@ -77,6 +77,17 @@ Here follows the list of properties that can be edited with WordLift for each en
 | Work	       |kind of Creative    |type,URL,sameAs,            |                   |
 |              |Work(i.e. Software).|additionalType.             |                   |
 +--------------+--------------------+----------------------------+-------------------+
+| Recipe       |A food recipe.      |name,description,image,     | Recipe_           |
+|  		       |         		    |type,URL,sameAs,            |                   |
+|              |					|additionalType, cookTime,   |                   |
+|              |					|prepTime, totalTime,  	     |                   |
+|              |					|recipeCuisine,      	     |                   |
+|              |					|recipeIngredient,   	     |                   |
+|              |					|recipeInstructions,   	     |                   |
+|              |					|recipeYield,		   	     |                   |
+|              |					|author, nutrition.calories. |                   |
++--------------+--------------------+----------------------------+-------------------+
+
 
 Edit an Event
 -------------------------------
@@ -90,6 +101,13 @@ Places are also entities. To personalise the *geo coordinates* (longitude and la
 
 .. image:: /images/wordlift-edit-entity-place.png
 
+Edit a Recipe
+-------------------------------
+Recipes are also considered entities. To personalise *ingredients*, *cuisine*, *preparation time*, *cooking time*, *total time*, *number of portions*, *author* and *calories* I can edit the data using the Recipe meta boxes (make sure to choose the entity type *Recipe* in order to see these additional fields).   
+
+.. image:: /images/wordlift-edit-entity-recipe-01.png
+
+.. image:: /images/wordlift-edit-entity-recipe-02.png
 
 Updating the description
 _____________
@@ -141,3 +159,4 @@ You can now continue to the :doc:`publish` page.
 .. _Organization: http://schema.org/Organization
 .. _CreativeWork: http://schema.org/CreativeWork
 .. _LocalBusiness: http://schema.org/LocalBusiness
+.. _Recipe: http://schema.org/Recipe

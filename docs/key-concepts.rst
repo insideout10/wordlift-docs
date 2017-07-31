@@ -16,7 +16,7 @@ All this information - collectively shared in public sources like Wikipedia and 
 Entity Types
 --------------
 
-Web pages are about many different kind of "things". WordLift uses the `Schema.org <http://schema.org>`_ vocabulary to describe a variety of entity types, each of which has its own set of properties that can be used to describe the entity. The broadest item type is **Thing**, which has four properties: *name*, *description*, *url*, and *image*. WordLift also supports: **Person**, **Place**, **Event**, **Organization** and **Creative Work** (and more types are constantly added to this list).
+Web pages are about many different kind of "things". WordLift uses the `Schema.org <http://schema.org>`_ vocabulary to describe a variety of entity types, each of which has its own set of properties that can be used to describe the entity. The broadest item type is **Thing**, which has four properties: *name*, *description*, *url*, and *image*. WordLift also supports: **Person**, **Place**, **Event**, **Organization**, **Creative Work** and **Recipe** (and more types are constantly added to this list).
 
 
 Related Entities
