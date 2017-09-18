@@ -199,11 +199,11 @@ By running the analysis on the property description text of an entity you can *l
 Why do I get 404 error on pages linked by WordLift?
 _____________
 
-WordPress is a powerful CMS. Nevertheless, in some cases, posts or pages newly created might return a *scary* **404 Error**. Pages created with WordLift are not an exception and you might end up in a situation where WordLift is creating links to pages that *apparently* do not exist. Don't worry this is a well-known WordPress issue and it can be easily fixed. Head into the dashbord of your website, click *Settings* » *Permalinks* and than press the *Save Changes* button. WordPress will re-generate all permalinks and the error will be fixed. 
+WordPress is a powerful CMS. Nevertheless, in some cases, posts or pages newly created might return a *scary* **404 Error**. Pages created with WordLift are not an exception and you might end up in a situation where WordLift is creating links to pages that *apparently* do not exist. Don't worry this is a well-known WordPress issue and it can be easily fixed. Head into the dashboard of your website, click *Settings* » *Permalinks* and than press the *Save Changes* button. WordPress will re-generate all the permalinks and the error will be fixed. 
 
 .. image:: /images/wordlift-updatepermalinks.png
 
-Read `this article <http://www.wpbeginner.com/wp-tutorials/how-to-fix-wordpress-posts-returning-404-error/>`_ to learn more about this issue. 
+Read `this article <http://www.wpbeginner.com/wp-tutorials/how-to-fix-wordpress-posts-returning-404-error/>`_ to learn more about this issue from the WPbeginner website. 
 
 What are the datasets WordLift uses for named entity recognition? 
 _____________
