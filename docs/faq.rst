@@ -196,6 +196,15 @@ _____________
 
 By running the analysis on the property description text of an entity you can *link* it to other entities. WordLift will store these relationships between one entity and other entities in the `graph <key-concepts.html#knowledge-graph>`_ using the Dublin Core property ``dct:related``. This information will be used to suggest new connections between the contents of your site. Creating links among relevant entities will create more structure for your content, even though it is not mandatory to do so. You should always link entities that can help other users discover relevant contents (i.e. the entity *[Berners-Lee]* shall be linked to entity *[Web]* as the two concepts are strictly related.)
 
+Why do I get 404 error on pages linked by WordLift?
+_____________
+
+WordPress is a powerful CMS. Nevertheless, in some cases, posts or pages newly created might return a *scary* **404 Error**. Pages created with WordLift are not an exception and you might end up in a situation where WordLift is creating links to pages that *apparently* do not exist. Don't worry this is a well-known WordPress issue and it can be easily fixed. Head into the dashbord of your website, click *Settings* » *Permalinks* and than press the *Save Changes* button. WordPress will re-generate all permalinks and the error will be fixed. 
+
+.. image:: /images/wordlift-updatepermalinks.png
+
+Read `this article <http://www.wpbeginner.com/wp-tutorials/how-to-fix-wordpress-posts-returning-404-error/>`_ to learn more about this issue. 
+
 What are the datasets WordLift uses for named entity recognition? 
 _____________
 
@@ -210,3 +219,4 @@ Are there any integrations with Neo4j?
 _____________
 
 Neo4j is a graph database. WordLift stores data in a Linked Data store (`Apache Marmotta <https://marmotta.apache.org>`_) which provides linked data and SPARQL end-points. As long as Neo4j provides connectors for those interfaces, then an integration is possible.
+
