@@ -145,13 +145,15 @@ A published datasets like the knowledge graph that users create with WordLift sh
 
 Specifically the **4th linked data principle** is meant to ensure a Web of data and not just a set of unconnected data islands. WordLift during the analysis automatically interlinks all detected entities with several datasets (DBpedia, Yago, Freebase etc.) but what if we are creating a new entity from scratch? How can we find an equivalent resource in the Web of linked data?
 
-There are basically three ways of doing it without writing a complicated SPARQL query. The goal is to provide an information that can be understood by semantic search engines like Google, Bing and Yandex: 
+There are basically four ways of doing it. The goal is to provide an information that can be understood by semantic search engines like Google, Bing and Yandex: 
 
-1. **ask Google Search** a query by adding "site:dbpedia.org" to the name of the entity (ie "*site:dbpedia.org apache marmotta*"). Google will provide a list of results, chose the URL that start with *dbpedia.org/page/* (ie *dbpedia.org/page/Apache_Marmotta*), replace ``/page/`` with ``/resource/`` and you will have the ``owl:sameAs`` link to be added to your entity;
+1. **use WordLift sameAs search box**. WordLift will look for entities in Wikidata, DBpedia and on the datasets configured behind the WordLift key for the equivalent entity. This feature has been introduced with WordLift 3.15 `learn more about this feature here <https://wordlift.io/blog/en/wordlift-3-15/>`_. 
 
-2. **look for the entity in Wikidata** by using the search bar on the `wikidata <https://wikidata.org>`_ website. The search bar is on the top right corner. The URL for the equivalent entity of Apache Marmotta in Wikidata is *https://www.wikidata.org/wiki/Q16928009*;
+2. **ask Google Search** a query by adding "site:dbpedia.org" to the name of the entity (ie "*site:dbpedia.org apache marmotta*"). Google will provide a list of results, chose the URL that start with *dbpedia.org/page/* (ie *dbpedia.org/page/Apache_Marmotta*), replace ``/page/`` with ``/resource/`` and you will have the ``owl:sameAs`` link to be added to your entity;
 
-3. **use the Google Knowledge Graph Search API** (here is `a link <https://developers.google.com/knowledge-graph/>`_ to the documentation by Google). You will need an API Key from Google. Using your personal API key you will be able to search the Google Knowledge Graph with simple HTTP request. Here is an example ``https://kgsearch.googleapis.com/v1/entities:search?query=andrea+volpini&key=API_KEY&limit=1&indent=True`` (simply replace ``API_KEY`` with your personal API Key). The API responds with a `JSON LD <https://wordlift.io/blog/en/entity/json-ld/>`_; look for the ``machine id`` that is located under ``itemListElement`` > ``result`` > ``@id``. This should be something like ``kg:/m/0djtw2h`` now take the id and rewrite it by adding in front *http://rdf.freebase.com/ns/* than replace ``/m/`` with ``/m.`` and you should have something like: *http://rdf.freebase.com/ns/m.0ndhxqz*.
+3. **look for the entity in Wikidata** by using the search bar on the `wikidata <https://wikidata.org>`_ website. The search bar is on the top right corner. The URL for the equivalent entity of Apache Marmotta in Wikidata is *https://www.wikidata.org/wiki/Q16928009*;
+
+4. **use the Google Knowledge Graph Search API** (here is `a link <https://developers.google.com/knowledge-graph/>`_ to the documentation by Google). You will need an API Key from Google. Using your personal API key you will be able to search the Google Knowledge Graph with simple HTTP request. Here is an example ``https://kgsearch.googleapis.com/v1/entities:search?query=andrea+volpini&key=API_KEY&limit=1&indent=True`` (simply replace ``API_KEY`` with your personal API Key). The API responds with a `JSON LD <https://wordlift.io/blog/en/entity/json-ld/>`_; look for the ``machine id`` that is located under ``itemListElement`` > ``result`` > ``@id``. This should be something like ``kg:/m/0djtw2h`` now take the id and rewrite it by adding in front *http://rdf.freebase.com/ns/* than replace ``/m/`` with ``/m.`` and you should have something like: *http://rdf.freebase.com/ns/m.0ndhxqz*.
 
 
 .. note::
@@ -164,6 +166,17 @@ _____________
 Yes. You can switch WordLift's analysis ON and OFF by clicking on the *open|close* arrow on the top right corner of the WordLift's Edit widget. See the *.gif* below:
 
 .. image:: /images/wl_toggle_3-13-3.gif
+
+What factors determine Wordlift's rating of an entity?
+
+Can I prevent WordLift from loading Wikimedia images?
+_____________
+
+Yes. You can prevent WordLift from loading images that come from Wikipedia by adding a line to your ``wp-config.php`` file. 
+The line of code below shall be added **before** the line ``/* That's all, stop editing! Happy blogging. */``:
+
+	``define( 'WL_EXCLUDE_IMAGES_REGEX', 'https?://[^.]*\.wikimedia\.org/.*' );``
+
 
 What factors determine Wordlift's rating of an entity?
 _____________
