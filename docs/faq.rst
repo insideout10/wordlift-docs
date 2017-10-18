@@ -172,10 +172,12 @@ What factors determine Wordlift's rating of an entity?
 Can I prevent WordLift from loading Wikimedia images?
 _____________
 
-Yes. You can prevent WordLift from loading images that come from Wikipedia by adding a line to your ``wp-config.php`` file. 
-Add the line below **before** the line that says ``/* That's all, stop editing! Happy blogging. */``:
-
+Yes. You can prevent WordLift from loading images that come from Wikipedia. In your ``wp-config.php``, add the following line:
 ``define( 'WL_EXCLUDE_IMAGES_REGEX', 'https?://[^.]*\.wikimedia\.org/.*' );``
+
+**before** the line
+
+``/* That's all, stop editing! Happy blogging. */``
 
 
 What factors determine Wordlift's rating of an entity?
