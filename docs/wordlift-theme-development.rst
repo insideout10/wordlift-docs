@@ -33,4 +33,9 @@ _____________
 3. WordLift's *Properties API* can be used to read/write entity properties using schema.org property names. See `here <https://github.com/insideout10/wordlift-plugin/blob/master/src/modules/core/wordlift_core_schema_api.php>`_; 
 4. WordLift's *Relations API* can be used to access 4W relationships. See `here <https://github.com/insideout10/wordlift-plugin/blob/master/src/modules/core/wordlift_core_post_entity_relations.php>`_.
 
+Personalization of Entity pages - Single Post  
+_____________
+
+Entities are configured in WordPress as `Custom Post Types <https://codex.wordpress.org/Post_Types#Custom_Post_Types>`_ and the post type is called **entity**. 
+To personalise the design of entity pages the template file to be used is called `Single Post <https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post>`_. Template files in WordPress are modular, reusable files, to create the web pages on your web site. To learn more how to customize an existing WordPress theme or create a new one read the `template hirarchy page <https://developer.wordpress.org/themes/basics/template-hierarchy/>`_ on the WordPress website or visualise the `WordPress template hierarchy <https://wphierarchy.com/>`_ from here.
 
