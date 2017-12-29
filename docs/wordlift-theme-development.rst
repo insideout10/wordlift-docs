@@ -46,3 +46,24 @@ Template files in WordPress are modular, reusable files, to create web pages on 
 
 	When `articles or pages are turned into entities <https://wordlift.io/blog/en/wordlift-3-15/>`_ they mantain their existing post type.
 
+To personalise the template based on the entity type use the following:
+
+.. code-block:: php
+
+	Wordlift_Entity_Type_Service::get_instance()->get( $post_id )
+
+This returns:
+
+.. code-block:: php
+
+	* @return array|null {
+     * An array of type properties or null if no term is associated
+     *
+     * @type string css_class     The css class, e.g. `wl-thing`.
+     * @type string uri           The schema.org class URI, e.g. `http://schema.org/Thing`.
+     * @type array  same_as       An array of same as attributes.
+     * @type array  custom_fields An array of custom fields.
+     * @type array  linked_data   An array of {@link Wordlift_Sparql_Tuple_Rendition}.
+     * }
+
+
