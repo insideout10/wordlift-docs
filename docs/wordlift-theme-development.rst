@@ -52,11 +52,11 @@ To personalise the template based on the entity type use the following:
 
 	Wordlift_Entity_Type_Service::get_instance()->get( $post_id )
 
-This returns:
+This will return:
 
 .. code-block:: php
 
-	* @return array|null {
+	 * @return array|null {
      * An array of type properties or null if no term is associated
      *
      * @type string css_class     The css class, e.g. `wl-thing`.
