@@ -118,3 +118,9 @@ _____________
 The **Timeline WordPress Widget** is a site-wide Widget that displays events being saved as entities (type event) using the `interactive timeline <discover.html#the-timeline-widget>`_.
 
 .. image:: /images/wordlift-timeline-wordpress-widget.png
+
+The Glossary
+_____________
+The **Glossary** is a site-wide Widget that showcases all the entities listed in alphabetical order.
+
+.. image:: /images/wordlift_glossary.png
