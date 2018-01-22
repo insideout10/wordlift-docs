@@ -174,8 +174,12 @@ The **WordLift Entities Cloud Widget** is also available as a shortcode. The wid
 
 .. image:: /images/wordlift-entities-cloud-widget.png
 
+Glossary widget::
+
+    [wl_cloud]  
+
+The **Glossary** is a site-wide Widget that displays all the entities in alphabetical order. Here you can see an example of the `Semantic SEO Glossary <https://wordlift.io/blog/en/glossary>`_ 
+
 .. _PHP date: http://php.net/manual/en/function.date.php
 .. _PHP DateInterval format: http://php.net/manual/en/dateinterval.format.php
-
-
 

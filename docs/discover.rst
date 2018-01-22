@@ -121,6 +121,11 @@ The **Timeline WordPress Widget** is a site-wide Widget that displays events bei
 
 The Glossary
 _____________
-The **Glossary** is a site-wide Widget that showcases all the entities listed in alphabetical order.
 
-.. image:: /images/wordlift_glossary.png
+The **Glossary** is a site-wide Widget that displays all the entities in alphabetical order.
+
+.. code-block:: html
+
+	[wl_vocabulary]  
+
+.. image:: /images/wordlift-discover-vocabulary.gif
