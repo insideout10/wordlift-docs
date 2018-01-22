@@ -180,6 +180,8 @@ Glossary widget::
 
 The **Glossary** is a site-wide Widget that displays all the entities in alphabetical order. Here you can see an example of the `Semantic SEO Glossary <https://wordlift.io/blog/en/glossary>`_ 
 
+.. image:: /images/wordlift-discover-vocabulary.gif
+
 .. _PHP date: http://php.net/manual/en/function.date.php
 .. _PHP DateInterval format: http://php.net/manual/en/dateinterval.format.php
 

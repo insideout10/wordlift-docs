@@ -129,3 +129,5 @@ The **Glossary** is a site-wide Widget that displays all the entities in alphabe
 	[wl_vocabulary]  
 
 .. image:: /images/wordlift-discover-vocabulary.gif
+
+Here you can see an example of the `Semantic SEO Glossary <https://wordlift.io/blog/en/glossary>`_.
