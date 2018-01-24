@@ -126,7 +126,7 @@ The **Glossary** is a site-wide Widget that displays all the entities in alphabe
 
 .. code-block:: html
 
-    [wl_vocabulary type=..., limit=..., orderby=...]  
+    [wl_vocabulary limit=... type=... orderby=...]  
 
 By default the widget takes into account the latest 100 entities from all types (i.e. Person, Place, Organization, ...). 
 The following paramenters can be used to personalise the entities beind displayed in the vocabulary:
