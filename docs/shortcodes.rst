@@ -182,6 +182,13 @@ The **Glossary** is a site-wide Widget that displays all the entities in alphabe
 
 .. image:: /images/wordlift-discover-vocabulary.gif
 
+By default the widget takes into account the latest 100 entities from all types (i.e. Person, Place, Organization, ...). 
+The following paramenters can be used to personalise the entities beind displayed in the vocabulary:
+
+1. **limit** the total number of entities to displaye (*100* is the defualt value). Use `-1` to remove the limit.
+2. **type** the type of entities to display (*all* is the default value). Use `Person`to display only entities of type Person.     
+3. **orderby** the selection is by default related to the alphabetical order (*title* is the default value). Selected entities can be ordered using different parameters. `Read more here <https://developer.wordpress.org/reference/classes/WP_Query/parse_query/>`_
+
 .. _PHP date: http://php.net/manual/en/function.date.php
 .. _PHP DateInterval format: http://php.net/manual/en/dateinterval.format.php
 
