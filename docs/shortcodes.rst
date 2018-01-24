@@ -176,7 +176,7 @@ The **WordLift Entities Cloud Widget** is also available as a shortcode. The wid
 
 Glossary widget::
 
-    [wl_vocabulary]  
+    [wl_vocabulary type=..., limit=..., orderby=...]  
 
 The **Glossary** is a site-wide Widget that displays all the entities in alphabetical order. Here you can see an example of the `Semantic SEO Glossary <https://wordlift.io/blog/en/glossary>`_ 
 
