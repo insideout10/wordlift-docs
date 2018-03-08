@@ -15,7 +15,7 @@ Organizing web content around an internal vocabulary rather than traditional web
 **WordLift** **organizes** content, reducing the complexity of content management and content marketing operations, letting bloggers and site owners focus on stories and communities.
 **WordLift** **enriches** your content with *contextual information*, *links*, and *media*, from custom vocabularies and/or the wealth of open data available on the web, bringing your user experience to a new level of engagement.
 **WordLift** **connects** content with cross-media *discovery* and *recommendations* widgets, increasing content quality, exposure, trustworthiness and readership engagement.
-**WordLift** **optimizes** content, complementing the offer of plug-ins such as *SEO Ultimate* or *Yoast*, automatically adding schema.org markups to your text, allowing all search engines to properly index your pages and deliver more traffic to your site.
+**WordLift** **optimizes** content, complementing the offer of plug-ins such as *SEO Ultimate +* or *Yoast*, automatically adding `schema markup <https://wordlift.io/blog/en/entity/schema-org/>`_ to your text, allowing all search engines to properly index your pages and deliver more traffic to your site.
 
 How does it work?
 _____________
@@ -92,7 +92,8 @@ _____________
 
 **WordLift** is **first-to-market** following a **“content organization” approach** which allows the classification and direct exploitation of proprietary content and structured metadata. 
 **Wordlift** helps publishers create their **knowledge graph**, *exploit it* and *monetize it*. 
-Finally **WordLift** complements the offer of plug-ins such as *SEO Ultimate* or *Yoast* **automatically adding schema.org mark-ups** to content, allowing search engines to properly index pages, increasing traffic from organic searches.
+
+Finally **WordLift** complements the offer of plug-ins such as *SEO Ultimate +* or *Yoast* automatically adding `schema markup <https://wordlift.io/blog/en/entity/schema-org/>`_ to content, allowing search engines to properly index pages, increasing traffic from organic searches.
 
 What is content enrichment? 
 _____________
