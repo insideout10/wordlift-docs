@@ -94,7 +94,7 @@ Here follows the list of properties that can be edited with WordLift for each en
 |              |                    |availabilityStarts,         |                   |
 |              |                    |availabilityEnds,           |                   |
 |              |                    |inventoryLevel,validFrom,   |                   |
-|              |                    |priceValidUntil,itemOffered.|                   |
+|              |                    |priceValidUntil,itemOffered |                   |
 |              |                    |                            |                   |
 |              |                    |                            |                   |
 +--------------+--------------------+----------------------------+-------------------+
