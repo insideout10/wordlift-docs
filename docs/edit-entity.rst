@@ -146,6 +146,10 @@ Events, occuring in a specific time are also entities. To personalise the *start
 
 .. image:: /images/wordlift-edit-entity-event.png
 
+It is also possible to link an event with the *performer* (a presenter, a musician, or a group of speakers) by adding a reference to either a Person or an Organization. 
+
+Event can also be linked with an Offer - *this is an entity type* - that help us define for example the price for the tickets to an event.  
+
 Edit a Place
 -------------------------------
 Places are also entities. To personalise the *geo coordinates* (longitude and latitude) of a place I can use the **Coordinates** box and either edit the *Latitude* and *Longitude* fields or simply place the pinpoint on the map.
@@ -159,6 +163,13 @@ Recipes are also considered entities. To personalise *ingredients*, *cuisine*, *
 .. image:: /images/wordlift-edit-entity-recipe-01.png
 
 .. image:: /images/wordlift-edit-entity-recipe-02.png
+
+Edit a Offer
+-------------------------------
+An offer can be linked from an event and it helps us define for instance the pricing of an event.
+
+.. image:: /images/wordlift-edit-entity-offer.png
+
 
 Updating the description
 _____________
