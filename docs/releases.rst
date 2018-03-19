@@ -6,6 +6,18 @@ This section is dedicated to the latest *versions* of the plugin. Here you can k
 
 Just spotted any *creeping bug* or some *bothering issue*? Help us to smash it down: `report bugs and issues to us in detail on GitHub <https://github.com/insideout10/wordlift-plugin/issues/new>`_. Thank you 💙
 
+WordLift 3.18 (2018-03-20) 
+_____________
+
+The WordLift 3.18 release is now available. We have introduced the new entity type for `Offer <http://docs.wordlift.io/en/latest/edit-entity.html#edit-a-offer>`_ and the support for the property `performer` on the entity type `Event <http://docs.wordlift.io/en/latest/edit-entity.html#edit-an-event>`_. The `glossary widget <http://docs.wordlift.io/en/latest/discover.html#the-glossary-widget>`_ has also been improved and it now supports a new option to let you display all the entities that belong to a specific WordPress Category. Above all, WordLift's Knowledge Graph got better 😉 the plugin now stores in RDF the link between entities and articles. 
+
+`Download the latest release <https://wordpress.org/plugins/wordlift/>`_ now from WordPress.org or update it automatically from the administration panel of your website.
+
+Have a look to the full `changelog on GitHub <https://github.com/insideout10/wordlift-plugin/issues?q=is%3Aopen+is%3Aissue+milestone%3A3.18>`_ for this release.
+
+Read the latest article on our blog on how a `smarter knowledge graph can improve SEO on your website <https://wordlift.io/blog/en/knowledge-graph-seo/>`_.
+
+
 WordLift 3.13.3 (2017-07-12) 
 _____________
 
