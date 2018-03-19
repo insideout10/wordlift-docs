@@ -133,7 +133,8 @@ The following paramenters can be used to personalise the entities beind displaye
 
 1. **limit** the total number of entities to displaye (*100* is the defualt value). Use ``limit='-1'`` to remove the limit.
 2. **type** the type of entities to display (*all* is the default value). Use ``type='Person'`` to display only entities of type Person.     
-3. **orderby** the selection is by default related to the alphabetical order (*title* is the default value). Selected entities can be ordered using different parameters. `Read more here <https://developer.wordpress.org/reference/classes/WP_Query/parse_query/>`_
+3. **orderby** the selection is by default related to the alphabetical order (*title* is the default value). 
+4. **cat** the selection is done using the WordPress Category ID (the category shall be associated to a set of entities). Read here `how to find the Category ID <http://www.wpbeginner.com/beginners-guide/how-to-find-post-category-tag-comments-or-user-id-in-wordpress/>`_ 
 
 
 .. image:: /images/wordlift-discover-vocabulary.gif
