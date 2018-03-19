@@ -81,10 +81,20 @@ Here follows the list of properties that can be edited with WordLift for each en
 | Event        |An event happening  |name,description,image,     | Event_            |
 |              |in a specific time  |type,URL,sameAs,            |                   |
 |              |and location.       |additionalType,location,    |                   |
-|              |                    |startDate,endDate.          |                   |
+|              |                    |startDate,endDate,performer,|                   |
+|              |                    |offers.                     |                   |
 |              |                    |                            |                   |
 |              |                    |                            |                   |
 |              |                    |                            |                   |
+|              |                    |                            |                   |
++--------------+--------------------+----------------------------+-------------------+
+| Offer        |An offer. 		    |name,description,image,     | Offer_            |
+|              |                    |availability,price,URL,     |                   |
+|              |                    |priceCurrency,			     |                   |
+|              |                    |availabilityStarts,         |                   |
+|              |                    |availabilityEnds,           |                   |
+|              |                    |inventoryLevel,validFrom,   |                   |
+|              |                    |priceValidUntil,itemOffered.|                   |
 |              |                    |                            |                   |
 |              |                    |                            |                   |
 +--------------+--------------------+----------------------------+-------------------+
@@ -201,3 +211,4 @@ You can now continue to the :doc:`publish` page.
 .. _CreativeWork: http://schema.org/CreativeWork
 .. _LocalBusiness: http://schema.org/LocalBusiness
 .. _Recipe: http://schema.org/Recipe
+.. _Offer: http://schema.org/Offer
