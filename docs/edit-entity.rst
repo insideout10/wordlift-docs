@@ -81,7 +81,7 @@ Here follows the list of properties that can be edited with WordLift for each en
 | Event        |An event happening  |name,description,image,     | Event_            |
 |              |in a specific time  |type,URL,sameAs,            |                   |
 |              |and location.       |additionalType,location,    |                   |
-|              |                    |startDate,endDate,performer |                   |
+|              |                    |startDate,endDate,performer,|                   |
 |              |                    |offers.                     |                   |
 |              |                    |                            |                   |
 |              |                    |                            |                   |
@@ -90,11 +90,11 @@ Here follows the list of properties that can be edited with WordLift for each en
 +--------------+--------------------+----------------------------+-------------------+
 | Offer        |An offer.           |name,description,image,     | Offer_            |
 |              |                    |availability,price,URL,     |                   |
-|              |                    |priceCurrency,		 |                   |
+|              |                    |priceCurrency,              |                   |
 |              |                    |availabilityStarts,         |                   |
 |              |                    |availabilityEnds,           |                   |
 |              |                    |inventoryLevel,validFrom,   |                   |
-|              |                    |priceValidUntil,itemOffered |                   |
+|              |                    |priceValidUntil,itemOffered.|                   |
 |              |                    |                            |                   |
 |              |                    |                            |                   |
 +--------------+--------------------+----------------------------+-------------------+
