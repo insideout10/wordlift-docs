@@ -10,6 +10,7 @@ Welcome to WordLift Documentation
 The main documentation for getting started with WordLift is organized in the following sections:
 
 * :ref:`site-docs`
+* :ref:`wordlift-cloud`
 * :ref:`wordlift-theme-development`
 * :ref:`import-export-vocabulary`
 * :ref:`releases`
