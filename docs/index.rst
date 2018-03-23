@@ -45,6 +45,16 @@ WordLift Theme Development
 
     wordlift-theme-development
 
+.. _wordlift-cloud: 
+
+WordLift Cloud
+------------------
+
+.. toctree::
+    :maxdepth: 2
+
+    wordlift-cloud
+
 .. _import-export-vocabulary: 
 
 Export & Import of the Vocabulary
