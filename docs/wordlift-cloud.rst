@@ -19,14 +19,11 @@ _____________
 
 1. A launcher JavaScript which must be loaded on the 3rd party Website, this will load, for authenticated users, the WordLift Sidebar alongside the page content. 
 2. A WordLift Sidebar, similar to the WordLift classification metabox in WordPress, appears. This is the area where, after WordLift has analyzed the content, the list of entities is presented. The sidebar can be opened/closed using a switch.
-3. Using the the WordLift Sidebar the user can point and click to the area in the page that shall be analyzed by WordLift. 
-4. Entities Selection, the editor can choose from the list of the detected entities the entities that represent at best the content of the page. 
+3. Using the WordLift Sidebar the user can point and click to the area in the page that shall be analyzed by WordLift. 
+4. The editor chooses from the list of the detected entities those that represent at best the content of the page.. 
 5. The linked metadata for the article is published in `JSON Linked Data <https://wordlift.io/blog/en/entity/json-ld>`_ and can be checked using the `Structured Data Testing Tool of Google <https://search.google.com/structured-data/testing-tool>`_.
 
 
 .. note::
 
-	 To get started with the **WordLift Cloud**: 
-
-          1. request a WordLift access key by sending an email to hello@wordlift.io 
-          2. get in contact with our *concierge team* that will help you to get the best out of the service.
+	 To get started with the **WordLift Cloud** get in contact with our *concierge team* and request a WordLift access key. Our team will help you to get the best out of the service.
