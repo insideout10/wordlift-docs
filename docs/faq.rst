@@ -67,6 +67,26 @@ _____________
 
 5. Your vocabulary (article metadata and entities) are published as `linked data <http://docs.wordlift.it/en/latest/key-concepts.html#linked-open-data>`_ and you can always request a data dump in any of the following formats: RDF/XML, Turtle, N3, JSON-LD.
 
+Is WordLift Secure?
+_____________
+
+Security has been a consideration from day one. We have worked for many years in high-security environments such as parliaments and telco operators and we leverage on all of our experience to protect the data of our users.  
+
+So, what are some of the ways we do this?
+^^^^^^^^^^^^^
+
+- WordLift plugin and front end only use `SSL <http://info.ssl.com/article.aspx?id=10241>`_.
+- Your data from the WordLift store is in a dedicated database, with access granted only to the WordLift store web site account originating from the WordLift store network address.
+- Keys for accessing your account page are transmitted securely over SSL and encrypted from the moment we receive them.
+- Any data transmitted between WordLift and our server farm is done over SSL.
+- Your data is **not shared with or handled by** any other services or companies, with the exception of the data published as open data.
+- WordLift itself is a small team, which limits the number of people with any access to your data. 
+- There are regular security reviews of all WordLift servers and components.
+- You can ask us to delete your account information at any time. Contact us by by `email <mailto:hello-gdpr@wordlift.io>`_, or by `making a request here <https://wordlift.gdprform.io/>`_.
+
+If you have any other questions, concerns, or want to clarify anything listed on this page, please let us know.
+
+
 Why and how should I customize the url of the entity pages created in my vocabulary? 
 _____________
 
