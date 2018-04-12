@@ -9,7 +9,6 @@ Learn how to use WordLift Cloud to improve the **organic traffic** of your websi
           <iframe src="https://www.youtube.com/embed/DF4HQENosfo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
      </div>
 
-</br>
 
 Introduction
 _____________
