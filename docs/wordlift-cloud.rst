@@ -29,10 +29,10 @@ The markup can be checked using the `Structured Data Testing Tool of Google <htt
 To start enriching your content using WordLift Cloud:
 
 1. `Contact us <https://wordlift.io/contact-us/>`_ to get your account.
-
 2. Add the following script in the `HEAD` section of all the pages:
 
 .. raw:: html
+
 
      <!-- WL Cloud -->
           <script async type="text/javascript" src="https://cloud.wordlift.io/app/bootstrap.js"></script>
