@@ -31,11 +31,11 @@ To start enriching your content using WordLift Cloud:
 1. `Contact us <https://wordlift.io/contact-us/>`_ to get your account.
 2. Add the following script in the `HEAD` section of all the pages:
 
-``
+.. code-block:: html
+
      <!-- WL Cloud -->
           <script async type="text/javascript" src="https://cloud.wordlift.io/app/bootstrap.js"></script>
      <!-- End WL Cloud -->
-``
 
 3. Visit the page that you want to enrich with your favorite browser.
 4. Activate the WordLift Sidebar widget by pressing the "W" key while holding the Control and Alt keys: Ctrl + Alt + "W".
