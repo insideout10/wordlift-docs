@@ -9,7 +9,7 @@ Getting Started
 Compatibility
 _____________
 
-WordLift is currently available on WordPress_ 4.2 and later.
+WordLift is currently available on WordPress_ 4.4 and later.
 
 
 Installation
