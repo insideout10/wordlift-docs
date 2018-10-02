@@ -6,6 +6,14 @@ This section is dedicated to the latest *versions* of the plugin. Here you can k
 
 Just spotted any *creeping bug* or some *bothering issue*? Help us to smash it down: `report bugs and issues to us in detail on GitHub <https://github.com/insideout10/wordlift-plugin/issues/new>`_. Thank you 💙
 
+WordLift 3.19 (2018-05-26) 
+_____________
+
+The WordLift 3.19 release has been published in May 2018 and we had minor sub-releases since then. WordLift now works very well with *Accelerated Mobile Pages* and you can read all about it from our blog `AMP and Structured Data <https://wordlift.io/blog/en/amp-structured-data/>`_. A lot has been done also to optimise the structured data for images and to keep in sync the knowledge graph. 
+
+`Download the latest release <https://wordpress.org/plugins/wordlift/>`_ now from WordPress.org or update it automatically from the administration panel of your website.
+
+
 WordLift 3.18 (2018-03-20) 
 _____________
 
