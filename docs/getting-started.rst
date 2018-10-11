@@ -15,7 +15,7 @@ WordLift is currently available on WordPress_ 4.4 and later.
 Installation
 ____________
 
-You can install **WordPress** from the `WordPress plugin directory <https://wordpress.org/plugins/wordlift/>`_ or manually by uploading the files to your server.
+You can install **WordLift** from the `WordPress plugin directory <https://wordpress.org/plugins/wordlift/>`_ or manually by uploading the files to your server.
 
 =================
 Automatic Installation
