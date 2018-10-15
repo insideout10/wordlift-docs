@@ -210,8 +210,8 @@ The entity rating in WordLift takes under account the following factors:
 - Every entity should have its own description. 
 - Every entity should link to other entities - when we select other entities to enrich the description of an entity we create relationships in the site's `knowledge graph <key-concepts.html#knowledge-graph>`_.
 - Entities, just like any post in WordPress, can be kept as draft. Only when we publish them they become available in the analysis and we can use them to classify our contents.
-- Entities shall have a feautured image. When we add a featured image to an entity we’re adding the `schema-org:image` attribute to it.
-- Every entity (unless we’re creating something completely new) should be interlinked with the same entity containedin at least one other dataset. This is called data interlinking and can be done by adding a link to the equivalent entity using the `sameAs` attribute.
+- Entities shall have a featured image. When we add a featured image to an entity we’re adding the `schema-org:image` attribute to it.
+- Every entity (unless we’re creating something completely new) should be interlinked with the same entity contained in at least one other dataset. This is called data interlinking and can be done by adding a link to the equivalent entity using the `sameAs` attribute.
 - Every entity has a type (i.e. Person, Place, Organization, …) and every type has its own set of properties. When we complete all the properties of an entity we increase the entity visibility and usefulness.  
 
 I have a vocabulary term appearing several times in a page, should I link all of the occurrences to the term, or just once per page? 
