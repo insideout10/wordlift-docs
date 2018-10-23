@@ -47,7 +47,7 @@ Is there a free trial?
 _____________
 
 Yes! All of our subscriptions come with a **14-day free trial**. If after two weeks you are not happy with WordLift, `contact us <mailto:support@wordlift.io>`_ and we will cancel your subscription, no questions asked.
-In addition, with the purchase of our 6-month or 12-month packages, we offer free additional months. `Check it out <https://wordlift.io/pricing>`_!
+In addition, with the purchase of our 12-month packages, we offer 20% discount. `Check it out <https://wordlift.io/pricing>`_!
 
 Who owns the structured metadata created with WordLift?
 _____________ 
