@@ -158,6 +158,33 @@ The Navigator widget offers links to semantic-related posts in the blog. The sea
 
 .. image:: /images/wordlift-discover-navigator.png
 
+title
+    *(optional)* Title to be displayed above navigator. Defaults to 'Related articles'.
+
+limit
+    *(optional)* The total number of posts to display. Defaults to 4.
+
+template_id 
+    *(optional)* The id of the script element which has mustache template. For example if the template is in `<script id="wordlift_navigator_sidebar_template" type="text/mustache">...</script>` then `template_id` would be `wordlift_navigator_sidebar_template`.
+
+post_id
+    *(optional)* The post ID of a post of which navigator you want to display. Defaults to the current post. This is helpful if you want to display the navigator of post 'A' on post 'B' or add the navigator shortcode for a specific post in a non-post page.
+
+Here is a sample code for personalizing the template to be used as reference:
+
+.. code-block:: html
+
+    <script id="wordlift_navigator_sidebar_template" type="text/mustache">
+    {{#items}}
+    <div class="related-articles__item">
+        <a class="related-articles__img" href="{{post.permalink}}"><img src="{{{post.thumbnail}}}" alt="{{{post.title}}}" title="{{{post.title}}}"></a>
+        <div class="related-articles__content">
+            <h4 class="related-articles__title"><a href="{{post.permalink}}">{{{post.title}}}</a></h4>
+        </div>
+    </div>
+    {{/items}}
+    </script>
+
 Faceted search widget::
 
     [wl_faceted_search]
