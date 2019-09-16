@@ -26,8 +26,27 @@ _____________
 
 These links can be personalised using the CSS class ``wl-entity-page-link``. As seen in the example NASA is a link to an entity page while Mars is a normal link to an external webpage.
 
+Context Cards
+^^^^^^^^^^^^^^
+**Context Cards** provide an immediate preview of an entity. If the entity has been annotated and if links are active, on desktop devices,
+WordLift will show a preview of the content of the entity page.  
+
+By default context cards will show up on *hovering* if Links to Entity Pages are enabled. 
+To disable context cards, add the following code to your theme: 
+
+.. code-block:: php
+
+   add_filter('wl_show_context_cards' '__return_false')
+
+.. image:: https://user-images.githubusercontent.com/5725682/60662170-f4ee9600-9e5b-11e9-8a06-368eede8b89e.png
+
+.. note::
+        Based on the original work of `Wikipedia Context Cards <https://github.com/joakin/context-cards>`_.
+
+.. note::
+
 The Navigator Widget
-_____________
+_____________ 
 
 The **Navigator Widget** provides content recommendations by presenting relevant links to other blog posts on your website. 
 
