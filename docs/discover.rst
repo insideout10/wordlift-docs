@@ -31,7 +31,7 @@ Context Cards
 **Context Cards** provide an immediate preview of an entity. If the entity has been annotated and, if links are active,
 WordLift will show a preview of the annotated entity. 
 
-By default context cards will show up on *hovering* if `Links to Entity Pages` <discover.html?highlight=navigator#links-to-entity-pages>`_ are enabled. 
+By default context cards will show up on *hovering* if `Links to Entity Pages <discover.html?highlight=navigator#links-to-entity-pages>`_ are enabled. 
 To disable context cards, add the following code to your theme: 
 
 .. code-block:: php
