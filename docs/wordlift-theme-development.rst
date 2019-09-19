@@ -69,11 +69,12 @@ This will return:
 Personalization of the Navigator Widget  
 _____________
 
-The Navigator widget by default is wrapped in a `wl-navigator` class. You can style this class and the child element classes via CSS.
+The Navigator widget by default is wrapped in a `wl-navigator` class. You can style this class and the child element classes using CSS.
 
-Optionally, while using the navigator you also have the option of specifying a `template_id` of the script element to be associated to a specific **mustache template**.
+Optionally, while using the navigator, you can also specify a `template_id` to style a specific instance with its own template. 
+The template can be written using `Mustache <https://github.com/Mustache/Mustache>`_: a framework-agnostic way to style web components.
 
-Here's sample code for a typical template for reference:
+Here's a sample code that you can use as reference:
 
 .. code-block:: html
 
@@ -88,5 +89,5 @@ Here's sample code for a typical template for reference:
     {{/items}}
     </script>
 
-As a theme developer you have complete flexibility on the contents of the template and on the CSS styling. 
-Read here the list of the `supported parameters <shortcodes.html#navigator-widget>`_ that you can use for this widget.
+As a theme developer you have complete flexibility on both: the contents of these templates and the CSS styling. 
+Read here the `parameters supported <shortcodes.html#navigator-widget>`_ by the Navigator widget.
