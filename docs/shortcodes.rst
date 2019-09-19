@@ -164,11 +164,17 @@ title
 limit
     *(optional)* The total number of posts to display. Defaults to 4.
 
+offset
+    *(optional)* Offset for posts to display. It helps you break the list of recommended articles in different blocks (to add advertising and/or CTAs). Defaults to 0. Defaults to 4.
+
 template_id 
     *(optional)* The id of the script element which has mustache template. For example if the template is in `<script id="wordlift_navigator_sidebar_template" type="text/mustache">...</script>` then `template_id` would be `wordlift_navigator_sidebar_template`.
 
 post_id
     *(optional)* The post ID of a post of which navigator you want to display. Defaults to the current post. This is helpful if you want to display the navigator of post 'A' on post 'B' or add the navigator shortcode for a specific post in a non-post page.
+
+uniqid
+    *(optional)* The Unique ID for the navigator. This can be used to style or to apply navigator filters that are specific to an instance of the navigator (instead of acting on multiple navigators).
 
 Here is a sample code for personalizing the template to be used as reference:
 
