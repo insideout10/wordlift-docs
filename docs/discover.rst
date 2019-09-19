@@ -28,10 +28,10 @@ These links can be personalised using the CSS class ``wl-entity-page-link``. As 
 
 Context Cards
 ^^^^^^^^^^^^^^
-**Context Cards** provide an immediate preview of an entity. If the entity has been annotated and if links are active, on desktop devices,
-WordLift will show a preview of the content of the entity page.  
+**Context Cards** provide an immediate preview of an entity. If the entity has been annotated and, if links are active,
+WordLift will show a preview of the annotated entity. 
 
-By default context cards will show up on *hovering* if Links to Entity Pages are enabled. 
+By default context cards will show up on *hovering* if `Links to Entity Pages` <discover.html?highlight=navigator#links-to-entity-pages>`_ are enabled. 
 To disable context cards, add the following code to your theme: 
 
 .. code-block:: php
@@ -52,7 +52,8 @@ The **Navigator Widget** provides content recommendations by presenting relevant
 
 .. image:: /images/wordlift-discover-navigator.png
 
-Each tile presents a **link to an entity** (*[NASA]* and *[Earth]* in this example) and/or a **link to a related post**.   
+Each tile presents a **link to a semantically related blog post** (and optionally a **link to an entity**). 
+The template for the **Navigator Widget** can be modified and styled as per the theme UI.   
 
 The Faceted Search Widget
 _____________
