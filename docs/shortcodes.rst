@@ -87,70 +87,10 @@ _________________
 
 WordLift widgets can be inserted in a post or page to give a rich visual presentation of the entities populating the blog. As the blog grows and entities are created and mentioned, the widgets update their content without intervention from the editor.
 
-Chord widget::
+Navigator Widget
+^^^^^^^^^^^^^^
 
-    [wl_chord width=... height=... main_color=... depth=... global=...]
-    
-.. image:: /images/wordlift-shortcodes-chord.png
-The Chord widget visualizes relations between entities, starting from the current post and the entities mentioned in it.
-
-width
-    *(optional)* Width of the chord. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
-    
-height
-    *(optional)* Height of the chord. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
-
-main_color
-    *(optional)* The chord's *base* color.
-
-depth
-    *(optional)* Maximum distance to travel in the entity graph in order to populate the chord. A small number limits the exploration of the main entity.
-
-global
-    *(optional)* When *global=true* the main entity of the chord is not the current post, but the most mentioned entity in the latest posts.
-    
-Timeline widget::
-    
-    [wl_timeline width=... height=... global=...]
-    
-.. image:: /images/wordlift-shortcodes-timeline.png
-The Timeline widget displays a navigable list of chronologically ordered Event entities. The window on top shows details of the selected Events.
-
-width
-    *(optional)* Width of the timeline. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
-    
-height
-    *(optional)* Height of the timeline. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
-
-global
-    *(optional)* By default the timeline displays events (or events related to places) mentioned in the current post. When *global=true* the timeline displays events mentioned in the latest posts.
-
-display_images_as
-    *(optional)* When *display_images_as='background'* the timeline displays for each event the featured image of the entity as background.
-
-excerpt_length
-    *(optional)* Allows you to set the number of words that appear in the the excerpts of the timeline. 
-
-.. note::
-        When you create a timeline with WordLift you can pass in the shortcode optional parameters to set a variety of presentation options. These are derived from the TimelineJS library `read more here <https://timeline.knightlab.com/docs/options.html>`_.
-
-Geomap widget::
-
-    [wl_geomap width=... height=... global=...]
-    
-.. image:: /images/wordlift-shortcodes-geomap.png    
-The Geomap widget displays "Place" entities on a map. Each Place has its own marker with a popup containing a thumbnail and links of the place.
-    
-width
-    *(optional)* Width of the geomap. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
-    
-height
-    *(optional)* Height of the geomap. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
-
-global
-    *(optional)* By default the geomap displays places mentioned in the current post. When *global=true* the geomap displays all places mentioned in the blog.
-
-Navigator widget::
+Navigator Widget::
 
     [wl_navigator]
 
@@ -191,7 +131,16 @@ Here is a sample code for personalizing the template to be used as reference:
     {{/items}}
     </script>
 
-Faceted search widget::
+The filters available for the navigator widget are:
+
+- `wl_navigator_data_post`: Gets each navigator post item, post ID and uniqid. Returns the customized post item.
+- `wl_navigator_data_entity`: Gets each entity post item, post ID and uniqid. Returns the customized entity item.
+- `wl_navigator_data_placeholder`: Gets the complete result array and uniqid. Returns the customized result array. Can be used to seed navigator with placeholder and/or similar data.
+
+Faceted Search Widget
+^^^^^^^^^^^^^^
+
+Faceted Search Widget::
 
     [wl_faceted_search]
 
@@ -199,7 +148,82 @@ The Faceted Search widget can be used on entity pages to display and filter the 
 
 .. image:: /images/wordlift-edit-entity-faceted-search-widget-frontend.gif
 
-Entity cloud widget::
+Timeline Widget
+^^^^^^^^^^^^^^
+
+Timeline Widget::
+    
+    [wl_timeline width=... height=... global=...]
+    
+.. image:: /images/wordlift-shortcodes-timeline.png
+The Timeline widget displays a navigable list of chronologically ordered Event entities. The window on top shows details of the selected Events.
+
+width
+    *(optional)* Width of the timeline. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
+    
+height
+    *(optional)* Height of the timeline. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
+
+global
+    *(optional)* By default the timeline displays events (or events related to places) mentioned in the current post. When *global=true* the timeline displays events mentioned in the latest posts.
+
+display_images_as
+    *(optional)* When *display_images_as='background'* the timeline displays for each event the featured image of the entity as background.
+
+excerpt_length
+    *(optional)* Allows you to set the number of words that appear in the the excerpts of the timeline. 
+
+.. note::
+        When you create a timeline with WordLift you can pass in the shortcode optional parameters to set a variety of presentation options. These are derived from the TimelineJS library `read more here <https://timeline.knightlab.com/docs/options.html>`_.
+
+Geomap Widget
+^^^^^^^^^^^^^^
+
+Geomap Widget::
+
+    [wl_geomap width=... height=... global=...]
+    
+.. image:: /images/wordlift-shortcodes-geomap.png    
+The Geomap widget displays "Place" entities on a map. Each Place has its own marker with a popup containing a thumbnail and links of the place.
+    
+width
+    *(optional)* Width of the geomap. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
+    
+height
+    *(optional)* Height of the geomap. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
+
+global
+    *(optional)* By default the geomap displays places mentioned in the current post. When *global=true* the geomap displays all places mentioned in the blog.
+
+Chord Widget
+^^^^^^^^^^^^^^
+
+Chord Widget::
+
+    [wl_chord width=... height=... main_color=... depth=... global=...]
+    
+.. image:: /images/wordlift-shortcodes-chord.png
+The Chord widget visualizes relations between entities, starting from the current post and the entities mentioned in it.
+
+width
+    *(optional)* Width of the chord. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
+    
+height
+    *(optional)* Height of the chord. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
+
+main_color
+    *(optional)* The chord's *base* color.
+
+depth
+    *(optional)* Maximum distance to travel in the entity graph in order to populate the chord. A small number limits the exploration of the main entity.
+
+global
+    *(optional)* When *global=true* the main entity of the chord is not the current post, but the most mentioned entity in the latest posts.
+
+Entity Cloud Widget
+^^^^^^^^^^^^^^
+
+Entity cloud Widget::
 
     [wl_cloud]
 
@@ -207,7 +231,10 @@ The **WordLift Entities Cloud Widget** is also available as a shortcode. The wid
 
 .. image:: /images/wordlift-entities-cloud-widget.png
 
-Glossary widget::
+Glossary Widget
+^^^^^^^^^^^^^^
+
+Glossary Widget::
 
     [wl_vocabulary limit=... type=... orderby=...]  
 

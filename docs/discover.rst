@@ -6,13 +6,16 @@ Discover
 
 Using the `graph <key-concepts.html#knowledge-graph>`_ created by **WordLift** innovative ways of navigating the contents can be implemented (this is particularly true if you are a developer.)
 
-**WordLift** helps users discover content in four different ways:
+**WordLift** helps users discover content in **nine different ways**:
 
-* **Links to Entity Pages**: placed on posts and pages and corresponding to the entities being annotated; 
-* **Navigator Widget**: providing links to other blog posts related to the article;  
-* **Faceted Search Widget**: helping users discovering related content filtering by related entities; 
-* **Timeline Widget**: creating beautiful and interactive timelines; 
-* **Chord Widget**: providing a quick overview of the network of concepts related to an article and links to other similar articles sharing the same entities.
+1. **Links to Entity Pages**: linking annotated entities, now also features a Context Card presenting a preview of the concept; 
+2. **Navigator Widget**: providing links to other blog posts related to the article;  
+3. **Faceted Search Widget**: helping users discover related content using other entities; 
+4. **Timeline Widget**: creating beautiful and interactive timelines; 
+5. **Geomap widget**: displaying entities of type "Place" on a map; 
+6. **Chord Widget**: providing a quick overview of the network of concepts related to an article;
+8. **Entity Cloud Widget**: presenting the list of entities mentioned in the article;
+9. **Glossary Widget**: presenting entities in alphabetical order.
 
 Links to Entity Pages
 _____________
@@ -104,6 +107,19 @@ This shortcode above produces the following result:
 
 .. image:: /images/wordlift-shortcodes-timeline-02.png
 
+The Timeline WordPress Widget
+^^^^^^^^^^^^^^
+
+The **Timeline WordPress Widget** is a site-wide Widget that displays events being saved as entities (type event) using the `interactive timeline <discover.html#the-timeline-widget>`_.
+
+.. image:: /images/wordlift-timeline-wordpress-widget.png
+
+The Geomap Widget
+_____________
+
+The **Geomap Widget** displays entities of type "Place" mentioned in the article on a Geomap.
+
+.. image:: /images/wordlift-shortcodes-geomap.png
 
 The Chord Widget
 _____________
@@ -115,10 +131,10 @@ The **Chord Widget** visualizes the relations between entities within a given ar
 User might choose to navigate to an entity page or to another blog post.
 
 
-The WordLift Entities Cloud WordPress Widget
+The Entity Cloud Widget
 _____________
 
-The **WordLift Entities Cloud WordPress Widget** is a site-wide Widget and a shortcode that displays entities related to the current post/entity in a tag cloud. WordPress Widgets like this one add content and features to your Sidebars. To add the widget:
+The **Entity Cloud Widget** is a site-wide Widget and a shortcode that displays entities related to the current post/entity in a tag cloud. WordPress Widgets like this one add content and features to your Sidebars. To add the widget:
 
 1. Go to **Appearance > Customize** in the WordPress Administration Screens.
 2. Click the **Widget** menu in the Theme Customizer to access to the Widget Customize Screen.
@@ -131,13 +147,6 @@ It is possible, just like for other WordPress Widgets to personalize the title o
 
 	[wl_cloud]  
 
-
-The Timeline WordPress Widget
-_____________
-
-The **Timeline WordPress Widget** is a site-wide Widget that displays events being saved as entities (type event) using the `interactive timeline <discover.html#the-timeline-widget>`_.
-
-.. image:: /images/wordlift-timeline-wordpress-widget.png
 
 The Glossary Widget
 _____________
