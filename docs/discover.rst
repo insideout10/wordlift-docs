@@ -169,3 +169,5 @@ The following paramenters can be used to personalise the entities beind displaye
 .. image:: /images/wordlift-discover-vocabulary.gif
 
 Here you can see an example of the `Semantic SEO Glossary <https://wordlift.io/blog/en/glossary>`_.
+
+In the next section, you can read all about the parameters that you can use to personalize each widget via `shortcodes <shortcodes.html>`_.

@@ -90,13 +90,16 @@ WordLift widgets can be inserted in a post or page to give a rich visual present
 Navigator Widget
 ^^^^^^^^^^^^^^
 
-Navigator Widget::
+.. code-block:: html
 
     [wl_navigator]
 
-The Navigator widget offers links to semantic-related posts in the blog. The search is made by considering the entities mentioned in the current post (in the order WHO, WHAT, WHERE, WHEN) and finding other blog posts mentioning the same entities. It is useful for `content discovery <discover.html#the-faceted-search-widget>`_.
+The Navigator widget offers links to **semantic-related posts** in the blog. 
+The search is made by considering the entities mentioned in the current post and by finding other blog posts that mentions the same entities. It is useful for `content discovery <discover.html#the-faceted-search-widget>`_.
 
 .. image:: /images/wordlift-discover-navigator.png
+
+Here follows the list of the supported parameters: 
 
 title
     *(optional)* Title to be displayed above navigator. Defaults to 'Related articles'.
@@ -140,7 +143,7 @@ The filters available for the navigator widget are:
 Faceted Search Widget
 ^^^^^^^^^^^^^^
 
-Faceted Search Widget::
+.. code-block:: html
 
     [wl_faceted_search]
 
@@ -151,12 +154,13 @@ The Faceted Search widget can be used on entity pages to display and filter the 
 Timeline Widget
 ^^^^^^^^^^^^^^
 
-Timeline Widget::
+.. code-block:: html
     
     [wl_timeline width=... height=... global=...]
     
 .. image:: /images/wordlift-shortcodes-timeline.png
 The Timeline widget displays a navigable list of chronologically ordered Event entities. The window on top shows details of the selected Events.
+Here follows the list of the supported parameters:
 
 width
     *(optional)* Width of the timeline. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
@@ -179,12 +183,12 @@ excerpt_length
 Geomap Widget
 ^^^^^^^^^^^^^^
 
-Geomap Widget::
+.. code-block:: html
 
     [wl_geomap width=... height=... global=...]
     
 .. image:: /images/wordlift-shortcodes-geomap.png    
-The Geomap widget displays "Place" entities on a map. Each Place has its own marker with a popup containing a thumbnail and links of the place.
+The Geomap widget displays "Place" entities on a map. Each Place has its own marker with a popup containing a thumbnail and links of the place. Here are the parameters:
     
 width
     *(optional)* Width of the geomap. Can be expressed in pixels or percentages (e.g. *120px* or *70%*).
@@ -198,7 +202,7 @@ global
 Chord Widget
 ^^^^^^^^^^^^^^
 
-Chord Widget::
+.. code-block:: html
 
     [wl_chord width=... height=... main_color=... depth=... global=...]
     
@@ -223,7 +227,7 @@ global
 Entity Cloud Widget
 ^^^^^^^^^^^^^^
 
-Entity cloud Widget::
+.. code-block:: html
 
     [wl_cloud]
 
@@ -234,7 +238,7 @@ The **WordLift Entities Cloud Widget** is also available as a shortcode. The wid
 Glossary Widget
 ^^^^^^^^^^^^^^
 
-Glossary Widget::
+.. code-block:: html
 
     [wl_vocabulary limit=... type=... orderby=...]  
 
@@ -245,9 +249,14 @@ The **Glossary** is a site-wide Widget that displays all the entities in alphabe
 By default the widget takes into account the latest 100 entities from all types (i.e. Person, Place, Organization, ...). 
 The following paramenters can be used to personalise the entities beind displayed in the vocabulary:
 
-1. **limit** the total number of entities to displaye (*100* is the defualt value). Use `-1` to remove the limit.
-2. **type** the type of entities to display (*all* is the default value). Use `Person`to display only entities of type Person.     
-3. **orderby** the selection is by default related to the alphabetical order (*title* is the default value). Selected entities can be ordered using different parameters. `Read more here <https://developer.wordpress.org/reference/classes/WP_Query/parse_query/>`_
+limit 
+    the total number of entities to displaye (*100* is the defualt value). Use `-1` to remove the limit.
+
+type
+    the type of entities to display (*all* is the default value). Use `Person`to display only entities of type Person.     
+
+orderby
+    the selection is by default related to the alphabetical order (*title* is the default value). Selected entities can be ordered using different parameters. `Read more here <https://developer.wordpress.org/reference/classes/WP_Query/parse_query/>`_
 
 .. _PHP date: http://php.net/manual/en/function.date.php
 .. _PHP DateInterval format: http://php.net/manual/en/dateinterval.format.php

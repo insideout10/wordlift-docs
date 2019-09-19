@@ -66,4 +66,27 @@ This will return:
      * @type array  linked_data   An array of {@link Wordlift_Sparql_Tuple_Rendition}.
      * }
 
+Personalization of the Navigator Widget  
+_____________
 
+The Navigator widget by default is wrapped in a `wl-navigator` class. You can style this class and the child element classes via CSS.
+
+Optionally, while using the navigator you also have the option of specifying a `template_id` of the script element to be associated to a specific **mustache template**.
+
+Here's sample code for a typical template for reference:
+
+.. code-block:: html
+
+    <script id="wordlift_navigator_sidebar_template" type="text/mustache">
+    {{#items}}
+    <div class="related-articles__item">
+    <a class="related-articles__img" href="{{post.permalink}}"><img src="{{{post.thumbnail}}}" alt="{{{post.title}}}" title="{{{post.title}}}"></a>
+    <div class="related-articles__content">
+        <h4 class="related-articles__title"><a href="{{post.permalink}}">{{{post.title}}}</a></h4>
+    </div>
+    </div>
+    {{/items}}
+    </script>
+
+As a theme developer you have complete flexibility on the contents of the template and on the CSS styling. 
+Read here the list of the `supported parameters <shortcodes.html#navigator-widget>`_ that you can use for this widget.
