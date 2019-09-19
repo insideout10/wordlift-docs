@@ -6,7 +6,7 @@ Discover
 
 Using the `graph <key-concepts.html#knowledge-graph>`_ created by **WordLift** innovative ways of navigating the contents can be implemented (this is particularly true if you are a developer.)
 
-**WordLift** helps users discover content in **nine different ways**:
+**WordLift** helps users discover content in **eight different ways**:
 
 1. **Links to Entity Pages**: linking annotated entities, now also features a Context Card presenting a preview of the concept; 
 2. **Navigator Widget**: providing links to other blog posts related to the article;  
@@ -14,8 +14,8 @@ Using the `graph <key-concepts.html#knowledge-graph>`_ created by **WordLift** i
 4. **Timeline Widget**: creating beautiful and interactive timelines; 
 5. **Geomap widget**: displaying entities of type "Place" on a map; 
 6. **Chord Widget**: providing a quick overview of the network of concepts related to an article;
-8. **Entity Cloud Widget**: presenting the list of entities mentioned in the article;
-9. **Glossary Widget**: presenting entities in alphabetical order.
+7. **Entity Cloud Widget**: presenting the list of entities mentioned in the article;
+8. **Glossary Widget**: presenting entities in alphabetical order.
 
 Links to Entity Pages
 _____________
