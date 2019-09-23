@@ -168,4 +168,10 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
     font-family: 'Open Sans', sans-serif;;
 }
 
+@font-face {
+    font-family: 'Open Sans';
+    src: url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
+    font-weight:400;
+}
+
 © 2019 GitHub, Inc.
