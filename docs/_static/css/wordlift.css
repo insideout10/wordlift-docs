@@ -1,5 +1,46 @@
 wordlift.css
 
+/* FONTS */
+
+@font-face {
+  font-family: "Gotham";
+  src: url('../assets/fonts/gotham/gotham-light.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url('../assets/fonts/gotham/gotham-book.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url('../assets/fonts/gotham/gotham-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+body{
+    font-family: 'Gotham', sans-serif;
+    font-size: 16px;
+}
+
+h1, h3, h3, h4, h5, h6 {
+  font-family: 'Gotham', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.rst-content .toctree-wrapper p.caption, legend {
+    font-family: 'Gotham', sans-serif;
+}
+
 /* The literal code blocks */
 .rst-content tt.literal, .rst-content tt.literal, .rst-content code.literal {
     color: #0A61FE;
@@ -39,11 +80,11 @@ wordlift.css
 /* The text items on the toc tree */
 .wy-menu-vertical a {
     color: #FFFFDD;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Gotham', sans-serif;;
 }
 .wy-menu-vertical header, .wy-menu-vertical p.caption{
     color: white;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Gotham', sans-serif;;
 }
 
 /* The color inside the selected toc tree block */
@@ -131,14 +172,14 @@ a {
 
 /* class and method names in doc */
 .rst-content dl:not(.docutils) tt.descname, .rst-content dl:not(.docutils) tt.descclassname, .rst-content dl:not(.docutils) tt.descname, .rst-content dl:not(.docutils) code.descname, .rst-content dl:not(.docutils) tt.descclassname, .rst-content dl:not(.docutils) code.descclassname{
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Gotham', sans-serif;;
     font-size: 20px !important;
 }
 
 /* class name in doc*/
 .rst-content dl:not(.docutils) tt.descname, .rst-content dl:not(.docutils) tt.descname, .rst-content dl:not(.docutils) code.descname{
     margin-right: 10px;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Gotham', sans-serif;;
 }
 
 /* Method and class parameters */
@@ -150,28 +191,6 @@ a {
 .rst-content dl:not(.docutils) .property{
     font-size: 18px;
     color: black;
-}
-
-
-/* FONTS */
-body{
-    font-family: 'Open Sans', sans-serif;;
-    font-size: 16px;
-}
-
-h1 {
-    font-family: 'Open Sans', sans-serif;;
-    font-size: 70px;
-}
-
-h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
-    font-family: 'Open Sans', sans-serif;;
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
-    font-weight:400;
 }
 
 © 2019 GitHub, Inc.
