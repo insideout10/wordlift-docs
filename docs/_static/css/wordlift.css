@@ -121,7 +121,7 @@ a {
     border-right: solid 2px #FF4A4A;
     border-left: solid 2px #FF4A4A;
     color: #FF4A4A;
-    font-family: Arial;
+    font-family: 'Gotham', sans-serif;;;
     border-top: none;
     font-style: normal !important;
 }
