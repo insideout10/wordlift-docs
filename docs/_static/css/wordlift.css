@@ -51,11 +51,11 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
     color: #0A61FE;
 }
 
-/* Logo width/height */
-.logo {
-  width: 152px;
-  height: 76px;
+/* Change 'latest' text color
+.wy-side-nav-search>div.version {
+  color: rgba(0,0,0,1);
 }
+
 
 /* To keep the logo centered */
 .wy-side-scroll {
