@@ -34,7 +34,12 @@ h1, h3, h3, h4, h5, h6 {
 }
 
 h1 {
+    font-family: 'Gotham', sans-serif;;
     font-size: 70px;
+}
+
+h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
+    font-family: 'Gotham', sans-serif;;
 }
 
 .rst-content .toctree-wrapper p.caption, legend {
@@ -44,6 +49,12 @@ h1 {
 /* The literal code blocks */
 .rst-content tt.literal, .rst-content tt.literal, .rst-content code.literal {
     color: #0A61FE;
+}
+
+/* Logo width/height */
+.logo {
+  width: 152px;
+  height: 76px;
 }
 
 /* To keep the logo centered */
@@ -94,15 +105,15 @@ h1 {
 
 /* Inside the depth-2 selected toc tree block */
 .wy-menu-vertical li.toctree-l2.current>a {
-    background-color: #2E92FF
+    background-color: #bdbdbd
 }
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
-    background-color: #2E92FF
+    background-color: #bdbdbd
 }
 
 /* Inside the depth-3 selected toc tree block */
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4>a{
-    background-color: #2E92FF
+    background-color: #bdbdbd
 }
 
 /* Inside code snippets */
