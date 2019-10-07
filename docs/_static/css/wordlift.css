@@ -51,13 +51,9 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
     color: #0A61FE;
 }
 
-<<<<<<< HEAD
 /* Change 'latest' text color */
-=======
-/* Change 'latest' text color
->>>>>>> 61f413f4776bc217eca587a3d0d5720ee6991756
 .wy-side-nav-search>div.version {
-  color: rgba(0,0,0,1);
+  color: rgb(64, 64, 64);
 }
 
 
