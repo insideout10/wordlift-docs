@@ -114,23 +114,25 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 
 .wy-menu-vertical li.current>a {
     background-color: rgba(0, 0, 0, .07);
+    border-right: none;
+}
+
+li.current + a {
+    border-right: 5px solid #007aff;
 }
 
 /* Inside the depth-2 selected toc tree block */
 .wy-menu-vertical li.toctree-l2.current>a {
     background-color: rgba(0, 0, 0, .04);
-    border-right: 5px solid #007aff;
 }
 
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
     background-color: rgba(0, 0, 0, .03);
-    border-right: 5px solid #007aff;
 }
 
 /* Inside the depth-3 selected toc tree block */
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4>a{
     background-color: rgba(0, 0, 0, .02);
-    border-right: 5px solid #007aff;
 }
 
 /* Inside code snippets */
