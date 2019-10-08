@@ -53,7 +53,7 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
 
 /* Change 'latest' text color */
 .wy-side-nav-search>div.version {
-  color: rgb(64, 64, 64);
+  color: #333;
 }
 
 
@@ -147,7 +147,7 @@ a {
 .wy-menu-vertical li.toctree-l2 span.toctree-expand,
 .wy-menu-vertical li.on a span.toctree-expand, .wy-menu-vertical li.current>a span.toctree-expand,
 .wy-menu-vertical li.toctree-l3 span.toctree-expand{
-    color: black;
+    color: #333;
 }
 
 /* Max window size */
