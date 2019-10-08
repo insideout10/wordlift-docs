@@ -159,7 +159,11 @@ a {
 .wy-menu-vertical li.on a span.toctree-expand,
 .wy-menu-vertical li.current>a span.toctree-expand,
 .wy-menu-vertical li.toctree-l3 span.toctree-expand {
-    color: #333;
+    color: #fff;
+}
+
+.wy-menu-vertical li.toctree-l2 a {
+  font-weight: bold;
 }
 
 /* Max window size */
