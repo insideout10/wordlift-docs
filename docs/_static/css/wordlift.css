@@ -69,24 +69,14 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
   width: 170px;
 }
 
-/* The research field on top of the toc tree */
-.wy-side-nav-search{
-    background-color: #007aff;
-}
-
 /* The toc tree */
 .wy-nav-side{
     background-color: rgba(0, 0, 0, .05);
 }
 
-/* The selected items in the toc tree */
-.wy-menu-vertical li.current{
-    background-color: #2E92FF;
-}
-
 /* When a list item that does belong to the selected block from the toc tree is hovered */
 .wy-menu-vertical li.current a:hover{
-    background-color: #007aff;
+    background-color: rgba(255, 255, 255, .05);
 }
 
 /* When a list item that does NOT belong to the selected block from the toc tree is hovered. */
