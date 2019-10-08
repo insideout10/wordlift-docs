@@ -86,9 +86,14 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 
 /* The text items on the toc tree */
 .wy-menu-vertical a {
-    color: #007aff;
+    color: rgba(51, 51, 51, 1);
     font-size: 16px;
 }
+
+.wy-menu-vertical a:hover {
+    color: rgba(51, 51, 51, .8);
+}
+
 .wy-menu-vertical header, .wy-menu-vertical p.caption{
     color: white;
     font-family: 'Gotham', sans-serif;
@@ -100,7 +105,7 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 }
 
 /* The color inside the selected toc tree block */
-.wy-menu-vertical li.toctree-l2 a,
+/* .wy-menu-vertical li.toctree-l2 a,
 .wy-menu-vertical li.toctree-l3 a,
 .wy-menu-vertical li.toctree-l4 a {
    color: rgba(51, 51, 51, 1);
@@ -110,30 +115,30 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 .wy-menu-vertical li.toctree-l3 a:hover,
 .wy-menu-vertical li.toctree-l4 a:hover {
     color: rgba(51, 51, 51, .8);
-}
+} */
 
 .wy-menu-vertical li.current>a {
     background-color: rgba(0, 0, 0, .07);
     border-right: none;
 }
 
-li.current + a {
+.my-menu-vertical li.current + a {
     border-right: 5px solid #007aff;
 }
 
 /* Inside the depth-2 selected toc tree block */
-.wy-menu-vertical li.toctree-l2.current>a {
+/* .wy-menu-vertical li.toctree-l2.current>a {
     background-color: rgba(0, 0, 0, .04);
-}
+} */
 
-.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
+/* .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
     background-color: rgba(0, 0, 0, .03);
-}
+} */
 
 /* Inside the depth-3 selected toc tree block */
-.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a{
+/* .wy-menu-vertical li.toctree-l3.current li.toctree-l4>a{
     background-color: rgba(0, 0, 0, .02);
-}
+} */
 
 /* Inside code snippets */
 .rst-content dl:not(.docutils) dt{
