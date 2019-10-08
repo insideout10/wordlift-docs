@@ -35,6 +35,7 @@ h1, h3, h3, h4, h5, h6 {
 
 h1 {
     font-family: 'Gotham', sans-serif;
+    font-size: 48px;
 }
 
 h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
@@ -60,6 +61,11 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
 .wy-side-scroll {
     width: auto;
     font-size: 20px;
+}
+
+/* set logo width */
+.logo {
+  width: 170px;
 }
 
 /* The research field on top of the toc tree */
