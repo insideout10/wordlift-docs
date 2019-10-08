@@ -48,7 +48,7 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
 
 /* The literal code blocks */
 .rst-content tt.literal, .rst-content tt.literal, .rst-content code.literal {
-    color: #0A61FE;
+    color: #007aff;
 }
 
 /* Change 'latest' text color */
@@ -71,12 +71,12 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
 
 /* The research field on top of the toc tree */
 .wy-side-nav-search{
-    background-color: #0A61FE;
+    background-color: #007aff;
 }
 
 /* The toc tree */
 .wy-nav-side{
-    background-color: #0A61FE;
+    background-color: #007aff;
 }
 
 /* The selected items in the toc tree */
@@ -86,12 +86,12 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
 
 /* When a list item that does belong to the selected block from the toc tree is hovered */
 .wy-menu-vertical li.current a:hover{
-    background-color: #0A61FE;
+    background-color: #007aff;
 }
 
 /* When a list item that does NOT belong to the selected block from the toc tree is hovered. */
 .wy-menu-vertical li a:hover{
-    background-color: #0A61FE;
+    background-color: #007aff;
 }
 
 /* The text items on the toc tree */
@@ -129,7 +129,7 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
 
 /* Links */
 a {
-    color: #0A61FE;
+    color: #007aff;
 }
 
 /* Content bars */
@@ -157,13 +157,13 @@ a {
 
 /* Mobile header */
 .wy-nav-top{
-    background-color: #0A61FE;
+    background-color: #007aff;
 }
 
 
 /* Source spans */
 .rst-content .viewcode-link, .rst-content .viewcode-back{
-    color: #0A61FE;
+    color: #007aff;
     font-size: 110%;
     letter-spacing: 2px;
     text-transform: uppercase;
