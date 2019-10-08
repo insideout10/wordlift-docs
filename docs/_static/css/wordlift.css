@@ -76,7 +76,7 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 
 /* The toc tree */
 .wy-nav-side{
-    background-color: #007aff;
+    background-color: rgba(0, 0, 0, .5);
 }
 
 /* The selected items in the toc tree */
@@ -91,13 +91,13 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 
 /* When a list item that does NOT belong to the selected block from the toc tree is hovered. */
 .wy-menu-vertical li a:hover{
-    background-color: #007aff;
+    background-color: rgba(0, 0, 0, .7);
 }
 
 /* The text items on the toc tree */
 .wy-menu-vertical a {
-    color: #FFFFDD;
-    font-family: 'Gotham', sans-serif;
+    color: #007aff;
+    font-size: 16px;
 }
 .wy-menu-vertical header, .wy-menu-vertical p.caption{
     color: white;
