@@ -74,11 +74,6 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
     background-color: rgba(0, 0, 0, .05);
 }
 
-/* When a list item that does belong to the selected block from the toc tree is hovered */
-.wy-menu-vertical li.current a:hover{
-    background-color: rgba(255, 255, 255, .05);
-}
-
 /* When a list item that does NOT belong to the selected block from the toc tree is hovered. */
 .wy-menu-vertical li a:hover{
     background-color: rgba(0, 0, 0, .07);
