@@ -104,7 +104,7 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
     border-top: none;
 }
 
-.wy-menu-vertical li.current a {
+.wy-menu-vertical li.current > a {
   color: #007aff;
 }
 
