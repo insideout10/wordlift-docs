@@ -79,18 +79,13 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
     background-color: rgba(255, 255, 255, .05);
 }
 
-/* When a list item that does NOT belong to the selected block from the toc tree is hovered. */
-.wy-menu-vertical li a:hover{
-    background-color: rgba(0, 0, 0, .07);
-}
-
 /* The text items on the toc tree */
 .wy-menu-vertical a {
     color: rgba(51, 51, 51, 1);
     font-size: 16px;
 }
 
-.wy-menu-vertical a:hover {
+.wy-menu-vertical li a:hover {
     color: rgba(51, 51, 51, .8);
 }
 
@@ -102,10 +97,6 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 .wy-menu-vertical li.toctree-l1.current>a {
     border-bottom: none;
     border-top: none;
-}
-
-.wy-menu-vertical li.current > a {
-  color: #007aff;
 }
 
 /* The color inside the selected toc tree block */
@@ -126,9 +117,7 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
     border-right: none;
 }
 
-.my-menu-vertical li.current + a {
-    border-right: 5px solid #007aff;
-}
+
 
 /* Inside the depth-2 selected toc tree block */
 /* .wy-menu-vertical li.toctree-l2.current>a {
