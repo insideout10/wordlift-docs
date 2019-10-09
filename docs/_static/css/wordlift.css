@@ -102,6 +102,7 @@ h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 .wy-menu-vertical li.toctree-l1.current>a {
     border-bottom: none;
     border-top: none;
+    color: #007aff;
 }
 
 /* The color inside the selected toc tree block */
