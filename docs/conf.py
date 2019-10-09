@@ -132,7 +132,11 @@ html_logo = 'images/logo-wordlift.png'
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
+<<<<<<< HEAD
 html_favicon = 'images/favicon.png'
+=======
+html_favicon = 'images/
+>>>>>>> a7ae60f32ef42ec2588274c05b322e15f51cd38c
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
