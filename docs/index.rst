@@ -10,8 +10,9 @@ Welcome to WordLift Documentation
 The main documentation for getting started with WordLift is organized in the following sections:
 
 * :ref:`site-docs`
-* :ref:`wordlift-cloud`
 * :ref:`wordlift-theme-development`
+* :ref:`wordlift-cloud`
+* :ref:`semantic-analytics`
 * :ref:`import-export-vocabulary`
 * :ref:`troubleshooting`
 * :ref:`releases`
@@ -57,6 +58,16 @@ WordLift Cloud
 
     wordlift-cloud
 
+.. _semantic-analytics: 
+
+Semantics Analytics
+------------------
+
+.. toctree::
+    :maxdepth: 2
+
+    semantic-analytics
+
 .. _import-export-vocabulary: 
 
 Export & Import of the Vocabulary
@@ -97,6 +108,3 @@ About
     :maxdepth: 3
 
     about
-
-
-
