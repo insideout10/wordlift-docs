@@ -64,7 +64,7 @@ Semantics Analytics
 ------------------
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
     semantic-analytics
 
