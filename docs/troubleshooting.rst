@@ -18,3 +18,11 @@ Complete the identification procedure via SMS by adding your phone number.
 .. image:: /images/wordlift-troubleshooting-altervista-3.png
 
 Now add `*.wordlift.it` in the whitelist (*.it*) and you are all set. WordLift can now interact with the backend APIs, your key gets validated and you are ready to WordLift your website.
+
+========
+
+While running the analysis I am receiving a Bad Request error
+_____________
+
+Typically this happens when the dataset of your website is corrupted (ie the post URI lacks the domain name).
+`Contact the support <mailto:support@wordlift.io>`_ and we will rebuild your dataset. 
