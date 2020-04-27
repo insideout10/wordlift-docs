@@ -37,6 +37,7 @@ User Documentation
    shortcodes
    faq
    key-concepts
+   mappings
 
 .. _wordlift-theme-development: 
 
