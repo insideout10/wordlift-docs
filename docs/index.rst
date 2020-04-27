@@ -13,6 +13,7 @@ The main documentation for getting started with WordLift is organized in the fol
 * :ref:`wordlift-theme-development`
 * :ref:`wordlift-cloud`
 * :ref:`semantic-analytics`
+* :ref:`mappings`
 * :ref:`import-export-vocabulary`
 * :ref:`troubleshooting`
 * :ref:`releases`
@@ -37,7 +38,6 @@ User Documentation
    shortcodes
    faq
    key-concepts
-   mappings
 
 .. _wordlift-theme-development: 
 
@@ -68,6 +68,16 @@ Semantics Analytics
     :maxdepth: 2
 
     semantic-analytics
+
+.. _mappings: 
+
+Mappings
+------------------
+
+.. toctree::
+    :maxdepth: 2
+
+    mappings
 
 .. _import-export-vocabulary: 
 
