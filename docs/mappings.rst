@@ -20,10 +20,10 @@ WordLift mappings have been developed as an integration for the `Advanced Custom
 WordLift loads automatically the latest version of schema.org and allows you to personalize your content model easily while taking care of the injection of the json-ld on your pages. 
 
 Getting Started
-========
+_____________
 
 Requirements
-_____________
+^^^^^^^^^^^^^^^
 
 * `Advanced Custom Fields <https://wordpress.org/plugins/advanced-custom-fields/>`_ (ACF)
 
@@ -32,7 +32,7 @@ _____________
 * Advanced Custom Fields for schema.org by WordLift (`Contact our SEO team to get started <https://wordlift.io/customize-your-plan/>`_) 
 
 Add Custom Fields
-_____________
+^^^^^^^^^^^^^^^
 First create a **new custom field** by clicking on **Field Group** and choosing a title.
 
 .. image::
@@ -74,7 +74,7 @@ This is how it looks for authors while creating or editing a post:
 .. image::
 
 Add New mapping
-_____________
+^^^^^^^^^^^^^^^
 
 First go on **Schema.org Types** and **Sync Schema.org classes**
 
@@ -92,4 +92,3 @@ Add at least one **Property**:
 * **Field Type**, select ACF to use Custom Fields
 * **Field Text**, choose which *custom field* to use for that property
 * **Transform Function**
-
