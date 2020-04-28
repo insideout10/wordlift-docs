@@ -92,7 +92,7 @@ Choose a **title** and at least one **Rule**
 
 Add at least one **Property**:
 
-.. image:: /images/mapping.step-4.png
+.. image:: /images/mapping.step-5.png
 
 * **Property name** 
 * **Field Type**, select ACF to use Custom Fields
