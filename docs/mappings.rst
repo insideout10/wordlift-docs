@@ -27,7 +27,7 @@ Requirements
 
 * `Advanced Custom Fields <https://wordpress.org/plugins/advanced-custom-fields/>`_ (ACF)
 
-.. image:: /images/mappings-acf.png
+.. image:: /docs/images/mappings-acf.png
 
 * Advanced Custom Fields for schema.org by WordLift (`Contact our SEO team to get started <https://wordlift.io/customize-your-plan/>`_) 
 
@@ -35,23 +35,23 @@ Add Custom Fields
 ^^^^^^^^^^^^^^^
 First create a **new custom field** by clicking on **Field Group** and choosing a title.
 
-.. image:: /images/mapping-custom-fields.png
-.. image:: /images/mappings-field-group.png
+.. image:: /docs/images/mapping-custom-fields.png
+.. image:: /docs/images/mappings-field-group.png
 
 Then add your first **field**
 
-.. image:: /images/mappings-field-step-1.png
+.. image:: /docs/images/mappings-field-step-1.png
 
 * **Field Label** is what the user will see editing a post
 * **Field Name** from schema.org (e.g. endDate)
 * **Field Type** “Date time picker” in the case of endDate
 
-.. image:: /images/mappings-field-type.png
+.. image:: /docs/images/mappings-field-type.png
 
 * **Instructions** for authors. Shown when submitting data
 * **Required?** whether this field is needed or not in order to publish a post
 
-.. image:: /images/mappings-field-example-1.png
+.. image:: /docs/images/mappings-field-example-1.png
 
 * **Default Value**, you can fill this box if you want a default data when creating a post
 * **Placeholder Text**, appears within the input
@@ -61,17 +61,17 @@ Then add your first **field**
 * **Conditional Logic**
 * **Wrapper Attributes**
 
-.. image:: /images/mappings-field-example-2.png
+.. image:: /docs/images/mappings-field-example-2.png
 
 * **Location**
 		**Rules**, here you can choose to use this ACF if for example your Post Type is equal or not equal to one of your Post Types
 
 
-.. image:: /images/mappings-rules.png
+.. image:: /docs/images/mappings-rules.png
 
 This is how it looks for authors while creating or editing a post:
 
-.. image:: images/mappings-draft-example.png
+.. image:: /docs/images/mappings-draft-example.png
 
 
 Add New mapping
@@ -79,20 +79,20 @@ Add New mapping
 
 First go on **Schema.org Types** and **Sync Schema.org classes**
 
-.. image:: /images/mappings-schema.png
-.. image:: /images/mappings-sync-schema.png
+.. image:: /docs/images/mappings-schema.png
+.. image:: /docs/images/mappings-sync-schema.png
 
 Then go on **Mappings** and add a new one.
 
-.. image:: /images/mappings-step-1.png
+.. image:: /docs/images/mappings-step-1.png
 
 Choose a **title** and at least one **Rule**
 
-.. image:: /images/mappings-step-2.png
+.. image:: /docs/images/mappings-step-2.png
 
 Add at least one **Property**:
 
-.. image:: /images/mappings-step-5.png
+.. image:: /docs/images/mappings-step-5.png
 
 * **Property name**, give a name to your property
 * **Field Type**, select ACF to use Custom Fields
