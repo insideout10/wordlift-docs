@@ -94,7 +94,7 @@ Add at least one **Property**:
 
 .. image:: /images/mapping.step-5.png
 
-* **Property name** 
+* **Property name**, give a name to your property
 * **Field Type**, select ACF to use Custom Fields
 * **Field Text**, choose which *custom field* to use for that property
 * **Transform Function**
