@@ -84,15 +84,15 @@ First go on **Schema.org Types** and **Sync Schema.org classes**
 
 Then go on **Mappings** and add a new one.
 
-.. image:: /images/mapping-step-1.png
+.. image:: /images/mappings-step-1.png
 
 Choose a **title** and at least one **Rule**
 
-.. image:: /images/mapping-step-2.png
+.. image:: /images/mappings-step-2.png
 
 Add at least one **Property**:
 
-.. image:: /images/mapping-step-5.png
+.. image:: /images/mappings-step-5.png
 
 * **Property name**, give a name to your property
 * **Field Type**, select ACF to use Custom Fields
