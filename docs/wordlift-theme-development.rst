@@ -91,3 +91,70 @@ Here's a sample code that you can use as reference:
 
 As a theme developer you have complete flexibility on both: the contents of these templates and the CSS styling. 
 Read here the `parameters supported <shortcodes.html#navigator-widget>`_ by the Navigator widget.
+
+Personalization of the Context Cards  
+_____________
+
+Javascript Filter `wl_context_cards_load_fn_supplier`
+^^^^^^^^^^^^^^^
+
+This is a function supplier filter that the context card applies if provided. This filter can be used to supply a function that overrides the the default function that returns a fetch (or any other request library) promise. 
+
+This filter receives two arguments: 
+
+1. Endpoint of the context cards (`url`) 
+2. DOM element that triggered the context card (`el`)
+
+The filter is expected to return a fetch (or any other request library) promise with the desired request.
+
+Here's a sample implementation of this filter:
+
+.. code-block:: Javascript
+
+    const settings = global["_wlEntityRedirectSettings"];
+
+    addFilter("wl_context_cards_load_fn_supplier", "wordlift", (defaultFn) => {
+        return (url, el) => {
+            const enabled = el.getAttribute("data-entity-redirect-enabled");
+
+            // If entity redirect isn't enabled for this target, then return the defaultFn.
+            if ("true" !== enabled) return defaultFn(url, el);
+
+            const join = -1 === url.indexOf("?") ? "?" : "&";
+            // should load things
+            const ids = el
+                .getAttribute("data-id")
+                .split(";")
+                .map((s) => encodeURIComponent(s));
+
+            const params =
+                `${join}website=1&entity-redirect=true&id[]=` + ids.join("&id[]=");
+
+            return fetch(`${settings.url}${params}`)
+                .then((response) => response.json())
+                .then((json) => {
+                    // Return the JSON if it contains at least 2 elements (i.e. an entity and the web site).
+                    if (1 < json.length) return json;
+
+                    // Otherwise return the default function.
+                    return defaultFn(url, el);
+                });
+        };
+    });
+
+
+PHP Filter `wl_anchor_data_attributes`
+^^^^^^^^^^^^^^^
+
+This filter lets you add custom data attributes to `<a class="wl-anchor" />` links in the post. This received existing `attributes` and the `post_id`. Here's a sample implementation of this filter:
+
+.. code-block:: PHP
+
+    add_filter( 'wl_anchor_data_attributes', function ( $attributes, $post_id ) {
+
+        return $attributes + array(
+                'entity-redirect-enabled' =>
+                    ( Wordlift_Entity_Redirect_Status::is_enabled( $post_id ) ? 'true' : 'false' )
+            );
+    }, 10, 2 );
+
