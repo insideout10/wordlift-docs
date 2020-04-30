@@ -69,7 +69,7 @@ This will return:
 Personalization of the Navigator Widget  
 _____________
 
-The Navigator widget by default is wrapped in a `wl-navigator` class. You can style this class and the child element classes using CSS.
+The `Navigator widget <discover.html#the-navigator-widget>`_ by default is wrapped in a `wl-navigator` class. You can style this class and the child element classes using CSS.
 
 Optionally, while using the navigator, you can also specify a `template_id` to style a specific instance with its own template. 
 The template can be written using `Mustache <https://github.com/Mustache/Mustache>`_: a framework-agnostic way to style web components.
@@ -95,7 +95,7 @@ Read here the `parameters supported <shortcodes.html#navigator-widget>`_ by the 
 Personalization of the Context Cards  
 _____________
 
-Context Cards provide an immediate preview of an entity. If the entity has been annotated and, if links are active, WordLift will show a preview of the annotated entity.
+`Context Cards <discover.html#context-cards>`_ provide an immediate preview of an entity. If the entity has been annotated and, if links are active, WordLift will show a preview of the annotated entity.
 
 By default context cards will show up on hovering if Links to Entity Pages are enabled. To disable context cards, add the following code to your theme:
 
@@ -104,10 +104,10 @@ By default context cards will show up on hovering if Links to Entity Pages are e
 
 The context card itself is wrapped within a class `wl-context-card` You can style this class and the child element classes using CSS. Other classes that you can use to style the context cards:
 
-`wl-context-card__image` - Image element
-`wl-context-card__description` - Wrapper element around complete description
-`wl-context-card__description__logo` - Publisher logo image element
-`wl-context-card__description__text` - Wrapper element around description text
+- `wl-context-card__image` - Image element
+- `wl-context-card__description` - Wrapper element around complete description
+- `wl-context-card__description__logo` - Publisher logo image element
+- `wl-context-card__description__text` - Wrapper element around description text
 
 Advanced Filters to override default behaviour
 ^^^^^^^^^^^^^^^
