@@ -95,8 +95,25 @@ Read here the `parameters supported <shortcodes.html#navigator-widget>`_ by the 
 Personalization of the Context Cards  
 _____________
 
-Javascript Filter `wl_context_cards_load_fn_supplier`
+Context Cards provide an immediate preview of an entity. If the entity has been annotated and, if links are active, WordLift will show a preview of the annotated entity.
+
+By default context cards will show up on hovering if Links to Entity Pages are enabled. To disable context cards, add the following code to your theme:
+
+.. code-block:: PHP
+    add_filter('wl_show_context_cards' '__return_false')
+
+The context card itself is wrapped within a class `wl-context-card` You can style this class and the child element classes using CSS. Other classes that you can use to style the context cards:
+
+`wl-context-card__image` - Image element
+`wl-context-card__description` - Wrapper element around complete description
+`wl-context-card__description__logo` - Publisher logo image element
+`wl-context-card__description__text` - Wrapper element around description text
+
+Advanced Filters to override default behaviour
 ^^^^^^^^^^^^^^^
+
+Javascript Filter `wl_context_cards_load_fn_supplier`
+"""""""""""""""
 
 This is a function supplier filter that the context card applies if provided. This filter can be used to supply a function that overrides the the default function that returns a fetch (or any other request library) promise. 
 
@@ -144,7 +161,7 @@ Here's a sample implementation of this filter:
 
 
 PHP Filter `wl_anchor_data_attributes`
-^^^^^^^^^^^^^^^
+"""""""""""""""
 
 This filter lets you add custom data attributes to `<a class="wl-anchor" />` links in the post. This received existing `attributes` and the `post_id`. Here's a sample implementation of this filter:
 
