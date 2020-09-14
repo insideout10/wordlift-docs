@@ -9,6 +9,11 @@ Welcome to WordLift Documentation
 
 The main documentation for getting started with WordLift is organized in the following sections:
 
+
+
+Old Table of Contents
+=====================
+
 * :ref:`site-docs`
 * :ref:`wordlift-theme-development`
 * :ref:`wordlift-cloud`
