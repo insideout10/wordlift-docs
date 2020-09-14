@@ -36,6 +36,7 @@ User Documentation
 
    overview
    getting-started
+   installation
    analysis
    edit-entity
    publish
