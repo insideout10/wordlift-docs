@@ -34,16 +34,11 @@ User Documentation
 .. toctree::
    :maxdepth: 2
 
-   overview
-   getting-started
-   installation
-   analysis
-   edit-entity
-   publish
-   discover
-   shortcodes
-   faq
-   key-concepts
+Getting Started
+User Manual
+Advanced Topics
+Customization and Development 
+Support
 
 .. _wordlift-theme-development: 
 
