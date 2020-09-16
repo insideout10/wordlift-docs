@@ -18,6 +18,9 @@ The main documentation for getting started with WordLift is organized in the fol
 
 User Documentation
 ---------------
+
+Getting Started
+---------------
 .. _getting-started:
 
 .. toctree::
@@ -25,6 +28,8 @@ User Documentation
    
    getting-started
 
+User Manual
+---------------
 .. _user-manual:
 
 .. toctree::
