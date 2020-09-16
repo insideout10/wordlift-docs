@@ -9,8 +9,7 @@ Editors
 ===============
 Sidebar
 ===============
-.. toctree::
-   :maxdepth: 2
+.. include::
    
    sidebar
 
