@@ -1,10 +1,6 @@
 User Manual
 ===============
 
-* :ref:`editors`
-* :ref:`sidebar`
-* :ref:`publishing`
-
 ===============
 Editors
 ===============
@@ -12,15 +8,13 @@ Editors
 ===============
 Sidebar
 ===============
-.. toctree::
-   :maxdepth: 2
+
    
    sidebar
 ===============
 Publishing
 ===============
-.. toctree::
-   :maxdepth: 2
+
    
    publishing
 ===============
