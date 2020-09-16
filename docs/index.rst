@@ -12,6 +12,17 @@ The main documentation for getting started with WordLift is organized in the fol
 * :ref:`getting-started`
 * :ref:`user-manual`
 
+
+.. _getting-started:
+
+Getting Started
+---------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   getting-started
+
 .. _user-manual:
 
 User Manual
@@ -20,6 +31,11 @@ User Manual
 .. toctree::
    :maxdepth: 2
    
+   editors
+   sidebar
+   publishing
+   mappings
+   woocommerce
 
 
 Old Table of Contents
