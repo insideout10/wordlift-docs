@@ -12,11 +12,9 @@ The main documentation for getting started with WordLift is organized in the fol
 * :ref:`getting-started`
 * :ref:`user-manual`
 
-
-.. _getting-started:
-
-Getting Started
+User Documentation
 ---------------
+.. _getting-started:
 
 .. toctree::
    :maxdepth: 2
@@ -24,9 +22,6 @@ Getting Started
    getting-started
 
 .. _user-manual:
-
-User Manual
------------
 
 .. toctree::
    :maxdepth: 2
