@@ -31,11 +31,11 @@ User Manual
 .. toctree::
    :maxdepth: 2
    
-   editors
-   sidebar
-   publishing
-   mappings
-   woocommerce
+   Editors <editors> 
+   Sidebar <sidebar>
+   Publishing <publishing>
+   Mappings <mappings>
+   WooCommerce <woocommerce>
 
 
 Old Table of Contents
