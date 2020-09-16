@@ -1,39 +1,11 @@
 User Manual
-===============
+===========
 
-===============
-Editors
-===============
-
-
-===============
-Sidebar
-===============
-.. include::
+.. toctree::
+   :maxdepth: 2
    
+   editors
    sidebar
-
-   
-===============
-Publishing
-===============
-
-.. toctree::
-   :maxdepth: 2
-   
    publishing
-  
-
-===============
-Mappings
-===============
-
-.. toctree::
-   :maxdepth: 2
-   
-   mapping
-
-===============
-WooCommerce
-===============
-
+   mappings
+   woocommerce
