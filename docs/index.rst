@@ -17,14 +17,17 @@ The main documentation for getting started with WordLift is organized in the fol
 * :ref:`support`
 
 
+.. _getting-started:
+
 Getting Started
 ---------------
-.. _getting-started:
 
 .. toctree::
    :maxdepth: 2
    
    getting-started
+
+.. _user-manual:
 
 User Manual
 ---------------
@@ -38,6 +41,8 @@ User Manual
    Mappings <mappings>
    WooCommerce <woocommerce>
    
+.. _advancedtopics:
+
 Advanced Topics
 ---------------
 .. toctree::
@@ -45,7 +50,9 @@ Advanced Topics
    
    advancedtopics
 
-Customization and Development
+.. _widgets:
+
+Widgets
 ---------------
 
 .. toctree::
@@ -53,6 +60,8 @@ Customization and Development
    
    widgets
    
+.. _support:
+
 Support
 ---------------
 
