@@ -9,8 +9,12 @@ Welcome to WordLift Documentation
 
 The main documentation for getting started with WordLift is organized in the following sections:
 
-* :ref:`getting-started`
+
+* :ref:`gettung-started`
 * :ref:`user-manual`
+* :ref:`advancedtopics`
+* :ref:`widgets`
+* :ref:`support`
 
 User Documentation
 ---------------
