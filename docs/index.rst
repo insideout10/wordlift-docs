@@ -44,9 +44,13 @@ User Documentation
 
 .. toctree::
    :maxdepth: 2
-
-Sidebar
-
+   
+   editors
+   sidebar
+   publishing
+   mappings
+   woocommerce
+   
 .. _wordlift-theme-development: 
 
 WordLift Theme Development
