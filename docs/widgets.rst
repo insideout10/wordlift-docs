@@ -132,3 +132,47 @@ Read here the `parameters supported <shortcodes.html#navigator-widget>`_ by the 
 
 Examples
 _____________
+
+Personalization of the Navigator Widget  
+----------
+
+The `Navigator widget <discover.html#the-navigator-widget>`_ by default is wrapped in a `wl-navigator` class. You can style this class and the child element classes using CSS.
+
+Optionally, while using the navigator, you can also specify a `template_id` to style a specific instance with its own template. 
+The template can be written using `Mustache <https://github.com/Mustache/Mustache>`_: a framework-agnostic way to style web components.
+
+Here's a sample code that you can use as reference:
+
+.. code-block:: html
+
+    <script id="wordlift_navigator_sidebar_template" type="text/mustache">
+    {{#items}}
+    <div class="related-articles__item">
+    <a class="related-articles__img" href="{{post.permalink}}"><img src="{{{post.thumbnail}}}" alt="{{{post.title}}}" title="{{{post.title}}}"></a>
+    <div class="related-articles__content">
+        <h4 class="related-articles__title"><a href="{{post.permalink}}">{{{post.title}}}</a></h4>
+    </div>
+    </div>
+    {{/items}}
+    </script>
+
+As a theme developer you have complete flexibility on both: the contents of these templates and the CSS styling. 
+Read here the `parameters supported <shortcodes.html#navigator-widget>`_ by the Navigator widget.
+
+Personalization of the Context Cards  
+----------
+
+`Context Cards <discover.html#context-cards>`_ provide an immediate preview of an entity. If the entity has been annotated and, if links are active, WordLift will show a preview of the annotated entity.
+
+By default context cards will show up on hovering if Links to Entity Pages are enabled. To disable context cards, add the following code to your theme:
+
+.. code-block:: PHP
+    add_filter('wl_show_context_cards' '__return_false')
+
+The context card itself is wrapped within a class `wl-context-card` You can style this class and the child element classes using CSS. Other classes that you can use to style the context cards:
+
+- `wl-context-card__image` - Image element
+- `wl-context-card__description` - Wrapper element around complete description
+- `wl-context-card__description__logo` - Publisher logo image element
+- `wl-context-card__description__text` - Wrapper element around description text
+
