@@ -50,6 +50,7 @@ Customization and Development
 
 .. toctree::
    :maxdepth: 2
+   
    widgets
    
 Support
