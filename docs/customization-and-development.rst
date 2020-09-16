@@ -5,5 +5,5 @@ Customization and Development
    :maxdepth: 2
    
    APIs
-   Widgets
+   widgets
 
