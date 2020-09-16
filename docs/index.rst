@@ -31,6 +31,8 @@ User Manual
 .. toctree::
    :maxdepth: 2
    
+   user-manual
+   
    Editors <editors> 
    Sidebar <sidebar>
    Publishing <publishing>
