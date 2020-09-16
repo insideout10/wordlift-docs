@@ -15,6 +15,9 @@ The main documentation for getting started with WordLift is organized in the fol
 * :ref:`advancedtopics`
 * :ref:`widgets`
 * :ref:`support`
+* :ref:`troubleshooting`
+* :ref:`releases`
+* :ref:`about`
 
 
 .. _getting-started:
@@ -69,86 +72,6 @@ Support
    :maxdepth: 2
    
    support
-
-
-Old Table of Contents
-=====================
-
-* :ref:`site-docs`
-* :ref:`wordlift-theme-development`
-* :ref:`wordlift-cloud`
-* :ref:`semantic-analytics`
-* :ref:`mappings`
-* :ref:`import-export-vocabulary`
-* :ref:`troubleshooting`
-* :ref:`releases`
-* :ref:`about-docs`
-
-
-.. _site-docs:
-
-User Documentation
-------------------
-
-
-.. toctree::
-   :maxdepth: 2
-   
-   editors
-   sidebar
-   publishing
-   mappings
-   woocommerce
-   
-.. _wordlift-theme-development: 
-
-WordLift Theme Development
-------------------
-
-.. toctree::
-    :maxdepth: 2
-
-    wordlift-theme-development
-
-.. _wordlift-cloud: 
-
-WordLift Cloud
-------------------
-
-.. toctree::
-    :maxdepth: 2
-
-    wordlift-cloud
-
-.. _semantic-analytics: 
-
-Semantics Analytics
-------------------
-
-.. toctree::
-    :maxdepth: 2
-
-    semantic-analytics
-
-.. _mappings: 
-
-Mappings
-------------------
-
-.. toctree::
-    :maxdepth: 2
-
-    mappings
-
-.. _import-export-vocabulary: 
-
-Export & Import of the Vocabulary
-------------------
-
-.. toctree::
-    :maxdepth: 2
-
-    import-export-vocabulary
 
 .. _troubleshooting: 
 
