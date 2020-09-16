@@ -1,6 +1,10 @@
 User Manual
 ===============
 
+* :ref:`editors`
+* :ref:`sidebar`
+* :ref:`publishing`
+
 ===============
 Editors
 ===============
