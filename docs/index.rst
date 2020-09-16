@@ -30,12 +30,9 @@ Getting Started
 
 User Manual
 ---------------
-.. _user-manual:
 
 .. toctree::
    :maxdepth: 2
-   
-   user-manual
    
    Editors <editors> 
    Sidebar <sidebar>
