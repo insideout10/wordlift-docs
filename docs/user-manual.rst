@@ -10,13 +10,10 @@ Sidebar
 ===============
 
    
-   sidebar
 ===============
 Publishing
 ===============
 
-   
-   publishing
 ===============
 Mappings
 ===============
