@@ -9,6 +9,17 @@ Welcome to WordLift Documentation
 
 The main documentation for getting started with WordLift is organized in the following sections:
 
+* :ref:`getting-started`
+* :ref:`user-manual`
+
+.. _user-manual:
+
+User Manual
+-----------
+
+.. toctree::
+   :maxdepth: 2
+   
 
 
 Old Table of Contents
@@ -34,11 +45,7 @@ User Documentation
 .. toctree::
    :maxdepth: 2
 
-Getting Started
-User Manual
-Advanced Topics
-Customization and Development 
-Support
+Sidebar
 
 .. _wordlift-theme-development: 
 
