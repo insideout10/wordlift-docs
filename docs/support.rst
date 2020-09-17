@@ -263,9 +263,9 @@ Neo4j is a graph database. WordLift stores data in a Linked Data store (`Apache 
 ========
 Where to ask for support
 ========
-**`Stack Overflow <https://stackoverflow.com/questions/tagged/wordlift>`_**
+`**Stack Overflow** <https://stackoverflow.com/questions/tagged/wordlift>`_
 
-**`Bug tracker <https://github.com/insideout10/wordlift-plugin/issues>`_**
+`**Bug tracker** <https://github.com/insideout10/wordlift-plugin/issues>`_
 
-**`Support Chatbot <https://webchat.botframework.com/embed/wordlift-support-bot/gemini?b=wordlift-support-bot&s=MXS0aT43OIQ.lLguhxEPkeN6CIqyumAfCOY0PCevgggHFoRaXNoObi0&username=You>`_**
+`**Support Chatbot** <https://webchat.botframework.com/embed/wordlift-support-bot/gemini?b=wordlift-support-bot&s=MXS0aT43OIQ.lLguhxEPkeN6CIqyumAfCOY0PCevgggHFoRaXNoObi0&username=You>`_
 
