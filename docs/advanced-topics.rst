@@ -114,7 +114,7 @@ Read this article on our blog (`Web Analytics Dashboard <https://wordlift.io/blo
 ==========
 Automatic Pagination and Table of Contents
 ==========
-Pagination allows website editors to split long content into different pages. This technique really belongs to the ABC of web design and information architecture, but — still — **pagination SEO best practices are debated**. Therefore, dealing with it is not that easy as it could seem.
+**Pagination** allows website editors to split long content into different pages. This technique really belongs to the ABC of web design and information architecture, but — still — **pagination SEO best practices are debated**. Therefore, dealing with it is not that easy as it could seem.
 
 Want to learn more about it? Head over to our blog post that covers the application of an `SEO friendly pagination <https://wordlift.io/blog/en/pagination-seo-wordpress-plugin/>`_ .
 
