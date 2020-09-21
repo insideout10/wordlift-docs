@@ -23,7 +23,7 @@ WordLift uses the summarized content for the description property of schema `(sc
 
 Here is how it works: first of all make sure that excerpts are visible in your WordPress installation. Excerpts are used in WordPress to add summaries of your content. WordLift will generate the summary when you hit the Refresh button. By clicking on the Use button you will be able to edit the provided summary and save it as an excerpt for your blog post. 
 
-.. image:: /images/automatic.summarization.gif
+.. image:: /images/automatic-summarization.gif
 
 Want to learn more about text summarization for SEO? Here is a video tutorial on `how to use content summarization to create meta descriptions <https://wordlift.io/academy-entries/generating-meta-descriptions-bert/>`_ . 
 
