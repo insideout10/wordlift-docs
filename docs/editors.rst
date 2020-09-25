@@ -5,9 +5,41 @@ Editors
 Classic Editors
 ===============
 
+WordLift works on the Classic Editor in WordPress.
+
+**New post**
+
+Create a new post, add its title, start writing content.
+
+Once the article is finished, save the draft.
+
+
+.. image:: /images/classic-editor.png
+
+Go back to the article draft and select entities you wish to annotate your article with, just by clicking on each tile in the WordLift sidebar on the right.
+
+Once you’ve finished annotating and curating the article's metadata publish and you’re  set.
+
+
 ===============
 Block Editors
 ===============
+
+WordLift works on the Block Editor in WordPress.
+
+**New post**
+
+Create a new post, add its title, start writing content.
+
+Once the article is finished, save the draft.
+
+.. image:: /images/block-editor.gif
+
+Go back to the article draft and click on the W.
+
+Clicking on W the WordLift sidebar will appear, from there you can select entities you wish to annotate your article with, just by clicking on each tile.
+
+Once you’ve finished annotating and curating the article's metadata, publish and you’re  set.
 
 ===============
 Automatic Summarization
