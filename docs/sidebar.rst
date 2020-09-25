@@ -48,7 +48,21 @@ The entity is properly identified as `Person` and all `Person` and `Organization
 ===============
 Manual Entity Selection
 ===============
-    
+
+
+If you are looking to annotate an entity that hasn’t been suggested by the semantic analysis you still can do it manually.
+
+Here is how it works: 
+
+First select the entity that you want to annotate
+
+* Go to WordLift Edit Post Widget.
+* Click on Add.
+* Choose the entities that you want to annotate form the suggested list.
+
+
+.. image:: /images/manual-entity-selection.gif
+
 ===============
 Adding Entities
 ===============
