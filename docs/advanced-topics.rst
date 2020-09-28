@@ -122,6 +122,10 @@ Want to learn more about it? Head over to our blog post that covers the applicat
 Image SEO
 ==========
 
+Images greatly contribute to a website’s SEO and improve the overall user experience. Fully optimizing images is about helping users, and search engines, better understand the content of an article.
+
+Head over to our blog that tackles `the optimization of images using machine learning <https://wordlift.io/blog/en/image-seo-using-ai/>`_
+
 ==========
 Sharing the Vocabulary with other Web Sites
 ==========
