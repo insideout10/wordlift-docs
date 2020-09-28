@@ -33,7 +33,7 @@ Create a new post, add its title, start writing content.
 
 Once the article is finished, save the draft.
 
-.. image:: /images/block-editor.gif
+.. image:: /images/block-editor.png
 
 Go back to the article draft and click on the W.
 
