@@ -123,6 +123,9 @@ After saving the new description you wrote, WordLift will analyze the text and s
 Synonyms
 ===============
 
+You can add synonyms in WordLift for any entity. Synonyms are marked up in the structured data using the schema property `alternateName <https://schema.org/alternateName>`_
+. WordLift will automatically add the synonyms it knows for a given entity. WordLift also uses synonyms for its content analysis: if you want an entity to be detected in the future you shall add all the available synonyms (ie. “WWW” is a synonyms for “World Wide Web” - capitalization will be ignored so “WWW” is the same as “www).
+
 ===============
 Entity Types
 ===============
