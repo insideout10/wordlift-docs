@@ -59,6 +59,4 @@ Here is how it works: first of all make sure that excerpts are visible in your W
 
 Want to learn more about text summarization for SEO? Here is a video tutorial on `how to use content summarization to create meta descriptions <https://wordlift.io/academy-entries/generating-meta-descriptions-bert/>`_ . 
 
-===============
-Content Properties and sameAs
-===============
+
