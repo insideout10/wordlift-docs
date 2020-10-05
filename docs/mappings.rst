@@ -17,10 +17,34 @@ WordLift mappings have been developed as an integration for the `Advanced Custom
 * re-use fields that you might have already configured with ACF on your CMS or,
 * create new fields based on the schema.org taxonomy
 
+Supported Schema types 
+_____________
+
 WordLift loads automatically the latest version of schema.org and allows you to personalize your content model easily while taking care of the injection of the json-ld on your pages. 
 
-Getting Started
+Advanced Schema types
 _____________
+
+HowTo
+^^^^^^^^^^^^^^^
+HowTo Schema allows you to explain exact instructions to achieving a wanted result by performing a sequence of steps. This can range from guides explaining "How to start your own business" or simple DIY recipes.
+
+Recipe
+^^^^^^^^^^^^^^^
+A recipe schema allows you to specify steps in your recipe, varying from nutritional information to the method of cooking. This can all be done by choosing specific keywords under the properties. 
+
+FAQ
+^^^^^^^^^^^^^^^
+FAQ stands for "Frequently Asked Questions", where the questions that most people ask you about your activities can be listed on this webpage. Some properties include breadcrumbs and lastreviewed, which is the date on which the content on this web page was last reviewed for accuracy and/or completeness.
+
+Review
+^^^^^^^^^^^^^^^
+Review schema shows you the opinions and feedback regarding an item, a movie or a service.
+
+Advanced Custom Fields
+_____________
+
+To follow a step-by-step tutorial head on to our blogpost where our specialist shows you `how to enhance your content model using Wordlift mappings. <https://wordlift.io/academy-entries/wordlift-mappings-tutorial/>`_
 
 Requirements
 ^^^^^^^^^^^^^^^
