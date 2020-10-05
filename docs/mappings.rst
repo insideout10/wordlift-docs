@@ -44,7 +44,7 @@ Review schema shows you the opinions and feedback regarding an item, a movie or 
 Advanced Custom Fields
 _____________
 
-To follow a step-by-step tutorial head on to our blogpost where our specialist explains `how to enhance your content model using Wordlift mappings. <https://wordlift.io/academy-entries/wordlift-mappings-tutorial/>`_
+To follow a step-by-step tutorial head on to our blogpost where our specialist shows you `how to enhance your content model using Wordlift mappings. <https://wordlift.io/academy-entries/wordlift-mappings-tutorial/>`_
 
 Requirements
 ^^^^^^^^^^^^^^^
