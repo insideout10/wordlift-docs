@@ -27,11 +27,6 @@ _____________
 `Reconciling <key-concepts.html#reconciliation>`_ entities means providing computers with unambiguous identifications of the *entities* we talk about.  
 
 ==========
-GraphQL
-==========
-
-
-==========
 RDF
 ==========
 **RDF** stands for Resource Description Framework. 
@@ -126,10 +121,3 @@ Images greatly contribute to a website’s SEO and improve the overall user expe
 
 Head over to our blog that tackles `the optimization of images using machine learning <https://wordlift.io/blog/en/image-seo-using-ai/>`_
 
-==========
-Sharing the Vocabulary with other Web Sites
-==========
-
-==========
-Batch Anlysis
-==========
