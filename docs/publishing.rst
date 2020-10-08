@@ -73,6 +73,14 @@ The Faceted Search widget can be used on entity pages to display and filter the 
 
 .. image:: /images/wordlift-edit-entity-faceted-search-widget-frontend.gif
 
+You can also set a limit to the faceted search widgets on your website by using the following code:
+
+```
+add_filter( 'wl_faceted_search_default_limit', function( $value ) { return 10; } );
+```
+
+This will automatically set a default limit of 10 faceted search widgets.
+
 Navigator
 _________________
 
