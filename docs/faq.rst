@@ -256,3 +256,7 @@ _____________
 
 Neo4j is a graph database. WordLift stores data in a Linked Data store (`Apache Marmotta <https://marmotta.apache.org>`_) which provides linked data and SPARQL end-points. As long as Neo4j provides connectors for those interfaces, then an integration is possible.
 
+Do I need to be Administrator to configure it?
+_____________
+
+Yes. To configure WordLift you will need to have admin privileges. 
