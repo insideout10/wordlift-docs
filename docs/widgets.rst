@@ -9,7 +9,7 @@ _____________
 By default context cards will show up on hovering if Links to Entity Pages are enabled. To disable context cards, add the following code to your theme:
 
 .. code-block:: PHP
-    add_filter('wl_show_context_cards' '__return_false')
+    add_filter('wl_context_cards_show' '__return_false')
 
 The context card itself is wrapped within a class `wl-context-card` You can style this class and the child element classes using CSS. Other classes that you can use to style the context cards:
 
@@ -165,7 +165,7 @@ Personalization of the Context Cards
 By default context cards will show up on hovering if Links to Entity Pages are enabled. To disable context cards, add the following code to your theme:
 
 .. code-block:: PHP
-    add_filter('wl_show_context_cards' '__return_false')
+    add_filter('wl_context_cards_show' '__return_false')
 
 The context card itself is wrapped within a class `wl-context-card` You can style this class and the child element classes using CSS. Other classes that you can use to style the context cards:
 
