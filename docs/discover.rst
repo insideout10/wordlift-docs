@@ -39,7 +39,7 @@ To disable context cards, add the following code to your theme:
 
 .. code-block:: php
 
-   add_filter('wl_show_context_cards' '__return_false')
+   add_filter('wl_context_cards_show' '__return_false')
 
 .. image:: https://user-images.githubusercontent.com/5725682/60662170-f4ee9600-9e5b-11e9-8a06-368eede8b89e.png
 
