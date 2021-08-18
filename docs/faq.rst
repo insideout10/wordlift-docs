@@ -279,6 +279,11 @@ What are the datasets WordLift uses for named entity recognition?
 WordLift by default uses DBpedia and Freebase to detect and link named entities. With a custom configuration, the content analysis services provided by `Redlink <http://www.redlink.co>`_ and available via our professional services, can use any RDF-based `graph <key-concepts.html#knowledge-graph>`_. It is also possible to use *multiple graphs* for named entity recognition and `dereferencing <key-concepts.html#dereferencing-http-uris>`_.
 
 ===============
+How can I prevent WordLift from creating new entity pages?
+===============
+The best soution is to convert existing posts, pages and taxonomy terms to entities that will become part of your Knowledge Graph. This way you’ll not create new pages but re-link the existing pages on your web site.
+
+===============
 What is a triple?
 ===============
 
