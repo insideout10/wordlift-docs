@@ -10,11 +10,10 @@ Welcome to WordLift Documentation
 The main documentation for getting started with WordLift is organized in the following sections:
 
 .. toctree::
-   :maxdepth: 2
-   
+   :maxdepth: 3
+
    getting-started
    user-manual
    advanced-topics
    customization-and-development
    support
-
