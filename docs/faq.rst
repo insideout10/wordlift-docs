@@ -1,6 +1,3 @@
-Frequently Asked Questions
-========
-
 ===============
 Who is WordLift for?
 ===============
@@ -225,8 +222,8 @@ I have already published a JSON-LD on the page. How can I integrate it with the 
 We provide several options to help you integrate WordLift with the existing markup:
 
 1. Completely disable WordLift’s JSON-LD by adding ``add_filter( 'wl_jsonld_enabled', '__return_false' );`` in your theme.
-2. Edit WordLift’s JSON-LD by using WordPress filters (this requires PHP development skills): see `here on Stack Overflow <https://stackoverflow.com/questions/52925820/how-do-i-change-the-json-ld-type-from-article-to-newsarticle-in-wordlift>`_.
-3. Use `WordLift’s Mappings <https://wordlift.io/academy-entries/wordlift-mappings-tutorial/>_` to customize the JSON-LD using the UI provided by the plugin in *Dashboard > WordLift > Mappings*
+2. Edit WordLift’s JSON-LD by using WordPress filters (this requires PHP development skills), see `here on Stack Overflow <https://stackoverflow.com/questions/52925820/how-do-i-change-the-json-ld-type-from-article-to-newsarticle-in-wordlift>`_.
+3. Use `WordLift’s Mappings <https://wordlift.io/academy-entries/wordlift-mappings-tutorial/>`_ to customize the JSON-LD using the UI provided by the plugin in *Dashboard > WordLift > Mappings*
 4. Augment WordLift’s JSON-LD by adding your own custom JSON-LD matching the same @id (in this case Google will merge the data from WordLift’s JSON-LD and your JSON-LD)
 
 ===============

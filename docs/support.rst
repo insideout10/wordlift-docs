@@ -1,8 +1,6 @@
 Support
 ========
 
-.. include:: faq.rst
-
 ========
 Where to ask for support
 ========
@@ -11,3 +9,9 @@ Where to ask for support
 `Stack Overflow <https://stackoverflow.com/questions/tagged/wordlift>`_
 
 `Bug tracker <https://github.com/insideout10/wordlift-plugin/issues>`_
+
+========
+Frequently Asked Questions
+========
+
+.. include:: faq.rst
