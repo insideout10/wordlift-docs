@@ -1,10 +1,6 @@
 Support
 ========
 
-========
-Frequently Asked Questions
-========
-
 .. include:: faq.rst
 
 ========
