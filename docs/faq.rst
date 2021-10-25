@@ -156,7 +156,7 @@ In some cases key concepts that are important for (1), (2) and (3) are not autom
 
 .. note::
 
-	When entities already exist we shall always avoid creating a new entity.
+	When entities already exist on a website in the form of posts or pages we shall always avoid creating a new entity and instead turn these posts or pages into entities. `Here is how <https://wordlift.io/blog/en/wordlift-3-15/>`_.
 
 People should add entities that are accurate and directly relevant to the content they're writing.
 
@@ -164,7 +164,10 @@ Excessively broad entities should not be added to content.
 
 Content should not be overloaded with entities to increase its distribution online. As a general guideline, 6–8 entities should be adequate for most blog posts (based on the lenght of the article). If an article has too many entities it may be that some of the entities could be replaced with a single broader entity.
 
-All entities shall be matched to the proper language of the content.
+All entities shall be matched to the proper language of the content. There are two important articles to read on this topic:
+
+1. `8 Rules To Create A Vocabulary For Your WordPress Website <https://wordlift.io/blog/en/8-rules-create-vocabulary-wordpress-website/>`_
+2. `Entity Based SEO: How To Optimize Your Entity Vocabulary <https://wordlift.io/blog/en/use-vocabulary/>`_
 
 ===============
 How can I search for the equivalent entity in the web of data?
@@ -261,7 +264,7 @@ When should I link one entity to another?
 By running the analysis on the property description text of an entity you can *link* it to other entities. WordLift will store these relationships between one entity and other entities in the `graph <key-concepts.html#knowledge-graph>`_ using the Dublin Core property ``dct:related``. This information will be used to suggest new connections between the contents of your site. Creating links among relevant entities will create more structure for your content, even though it is not mandatory to do so. You should always link entities that can help other users discover relevant contents (i.e. the entity *[Berners-Lee]* shall be linked to entity *[Web]* as the two concepts are strictly related.)
 
 ===============
-How can I enable or disable links to entities
+How can I enable or disable links to entities?
 ===============
 
 You can enable or disable the link to an entity by toggling the "Link" option for each annotation. See below
