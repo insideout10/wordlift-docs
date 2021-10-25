@@ -261,6 +261,18 @@ When should I link one entity to another?
 By running the analysis on the property description text of an entity you can *link* it to other entities. WordLift will store these relationships between one entity and other entities in the `graph <key-concepts.html#knowledge-graph>`_ using the Dublin Core property ``dct:related``. This information will be used to suggest new connections between the contents of your site. Creating links among relevant entities will create more structure for your content, even though it is not mandatory to do so. You should always link entities that can help other users discover relevant contents (i.e. the entity *[Berners-Lee]* shall be linked to entity *[Web]* as the two concepts are strictly related.)
 
 ===============
+How can I enable or disable links to entities
+===============
+
+You can enable or disable the link to an entity by toggling the "Link" option for each annotation. See below
+
+.. image:: /images/wordlift-edit-entity-link.gif
+
+You can also enable or disable links site-wide from the WordLift Settings screen in the General tab as shown below.
+
+.. image:: /images/wordlift-settings-menu-link.png
+
+===============
 Why do I get 404 error on pages linked by WordLift?
 ===============
 
