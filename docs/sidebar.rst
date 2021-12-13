@@ -105,7 +105,7 @@ Updating and Linking Entities
 Updating the description
 _____________
 
-When we have something meanigful to say on a specific concept **we shall curate the information and edit the data that has been fetched automatically by WordLift** (*this will create our own version of Wikipedia*). 
+When we have something meaningful to say on a specific concept **we shall curate the information and edit the data that has been fetched automatically by WordLift** (*this will create our own version of Wikipedia*). 
 
 Linking other entities
 _____________
