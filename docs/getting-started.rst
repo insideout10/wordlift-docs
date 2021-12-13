@@ -98,11 +98,11 @@ Learn the how to get started with WordLift with these simple video demo's.
 What is WordLift?
 -----------------
 
-[WordLift](https://wordlift.io/entity/wordlift-2/) helps your website speak Google's native language by converting your content into a format easily understood by search engines: **structured data**.
+`WordLift <https://wordlift.io/>` helps your website speak Google's native language by converting your content into a format easily understood by search engines: **structured data**.
 
-Leveraging Natural Language Processing and [AI](https://wordlift.io/entity/artificial-intelligence/), **WordLift analyzes your content and identifies the most relevant topics for your business**, organizing them into **[entities](https://wordlift.io/entity/entity-2/)**. Each entity describes an idea, concept, person, or place you're talking about on your website. Entities are saved in a **vocabulary**. But WordLift goes deeper than that. It relates the entities in your vocabulary and turns the information into linked data, creating a **[Knowledge Graph](https://wordlift.io/entity/knowledge-graph/)**.
+Leveraging Natural Language Processing and AI, **WordLift analyzes your content and identifies the most relevant topics for your business**, organizing them into **entities**. Each entity describes an idea, concept, person, or place you're talking about on your website. Entities are saved in a **vocabulary**. But WordLift goes deeper than that. It relates the entities in your vocabulary and turns the information into linked data, creating a **`Knowledge Graph <https://wordlift.io/entity/knowledge-graph/>`**.
 
-[Imagine the Knowledge Graph as  **the infrastructure behind your content**](https://wordlift.io/blog/en/why-knowledge-graph/) that effectively helps **Google and search engines understand and index your content**. As a result, **users** searching for products, services, or businesses like yours **will find more relevant information** that meets their needs.
+Imagine the Knowledge Graph as **the infrastructure behind your content** that effectively helps **Google and search engines understand and index your content**. As a result, **users** searching for products, services, or businesses like yours **will find more relevant information** that meets their needs.
 
 The result is the strengthening of the **authority and reliability of your website**, the growth of **internal link building**, which helps Google and search engines understand the relationships between pages and content and their value, and **increases organic traffic and the time users spend on your website**.
 
@@ -111,9 +111,9 @@ How does WordLift work?
 
 With WordLift, you can **add structured data to your website**. This way, Google and the search engines know what you're talking about.
 
-Once you have installed WordLift and started the plug-in, the AI will analyze the text for each piece of content on your website and **suggest which concepts are relevant for your business**. You can **add [schema markup](https://wordlift.io/entity/schema-org/)** to these concepts, and **they will represent entities in your Knowledge Graph. **
+Once you have installed WordLift and started the plug-in, the AI will analyze the text for each piece of content on your website and **suggest which concepts are relevant for your business**. You can **add schema markup** to these concepts, and **they will represent entities in your Knowledge Graph. **
 
-**The entities will be part of** [**your vocabulary**](https://wordlift.io/blog/en/use-vocabulary/)**.** They can be linked within your articles, enriching your content and creating a dynamic environment where users can move around and find information relevant to their search intent.
+**The entities will be part of `your vocabulary <https://wordlift.io/blog/en/use-vocabulary>`**. They can be linked within your articles, enriching your content and creating a dynamic environment where users can move around and find information relevant to their search intent.
 
 Using WordLift is simple. To take the first steps with us, **watch the video here**.
 
@@ -124,16 +124,15 @@ Using WordLift is simple. To take the first steps with us, **watch the video her
 How can you create an entity with WordLift?
 -------------------------------------------
 
-**Entities** in WordLift are web pages that describe the "things" you talk about on your website. **All entities are organized into a vocabulary within [WordPress](https://wordlift.io/entity/wordpress/)**. Each entity is a web page and corresponds to a data point that WordLift creates in the data network.
+**Entities** in WordLift are web pages that describe the "things" you talk about on your website. **All entities are organized into a vocabulary within WordPress**. Each entity is a web page and corresponds to a data point that WordLift creates in the data network.
 
-Creating an entity with WordLift is clean. To learn how to do it and start building your vocabulary, **watch the video here**.
+Creating an entity with WordLift is simple. To learn how to do it and start building your vocabulary, **watch the video here**.
 
 .. raw:: html
 
    <iframe src="//content.jwplatform.com/players/Eq57aiqy-Aq9gyX5k.html" width="960" height="540" frameborder="0" scrolling="auto"></iframe>
 
 **Entities help organize the content that you're writing. **As you annotate an article with an entity, **WordLift creates a relationship** between the article and entity so that a **computer can better understand it** and **you can build your Knowledge Graph**.
-
 
 ===============
 Overview
