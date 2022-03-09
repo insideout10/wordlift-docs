@@ -1,0 +1,32 @@
+{% extends "!page.html" %}
+{% block footer %}
+    {{ super() }}
+    <!-- DocsQA integration start -->
+    {% if lang_attr == 'en' %}
+    <script src="https://cdn.jsdelivr.net/npm/qabot@0.4"></script>
+    <script>
+      // This prevents the global search interfere with qa-bot internal text input.
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('qa-bot').forEach((x) => {
+          x.addEventListener('keydown', (event) => {
+            event.stopPropagation();
+          });
+        });
+      });
+    </script>
+    <qa-bot
+        token="mVhWS6wV8SwiO98vtnc_Jd98_T05PtgkqXUhJN5x9TEwP4Fx9jslZch6-isnKoJ_8DY3Zc18tg=="
+        title="WordLift"
+        description="a plugin for WordPress">
+        <template>
+          <dl>
+            <dt>You can ask questions about WordLift. Try</dt>
+            <dd>Why shall I use WordLift?</dd>
+            <dd>What are the languages supported by WordLift?</dd>
+            <dd>Is WordLift Secure?</dd>
+          </dl>
+        </template>
+    </qa-bot>
+    {% endif %}
+    <!-- DocsQA integration end -->
+{% endblock %}
