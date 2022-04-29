@@ -1,7 +1,7 @@
 Mappings
 ========
 
-Mappings are designed to help us organize and structure content while improving the SEO on our website. 
+Mappings are designed to help us organize and structure content while improving the SEO on our website.
 
 **The markup in schema.org adds meaning to your content** for search engines but the real benefits come when you **use structured data as the basis for your content model.**
 
@@ -12,15 +12,15 @@ We call it the **entity-based content model** and you can learn more about by wa
 
 Or by `booking a call with our SEO experts. <https://wordlift.io/book-a-demo>`_.
 
-WordLift mappings have been developed as an integration for the `Advanced Custom Fields <https://www.advancedcustomfields.com/>`_ plugin and allows you to either: 
- 
+WordLift mappings have been developed as an integration for the `Advanced Custom Fields <https://www.advancedcustomfields.com/>`_ plugin and allows you to either:
+
 * re-use fields that you might have already configured with ACF on your CMS or,
 * create new fields based on the schema.org taxonomy
 
-Supported Schema types 
+Supported Schema types
 _____________
 
-WordLift loads automatically the latest version of schema.org and allows you to personalize your content model easily while taking care of the injection of the json-ld on your pages. 
+WordLift **loads automatically the latest version of the schema.org vocabulary**, supports **all the available schema types**, and allows you to personalize your content model easily while taking care of the injection of the json-ld on your pages.
 
 Advanced Schema types
 _____________
@@ -31,15 +31,28 @@ HowTo Schema allows you to explain exact instructions to achieving a wanted resu
 
 Recipe
 ^^^^^^^^^^^^^^^
-A recipe schema allows you to specify steps in your recipe, varying from nutritional information to the method of cooking. This can all be done by choosing specific keywords under the properties. 
+A recipe schema allows you to specify steps in your recipe, varying from nutritional information to the method of cooking. This can all be done by choosing specific keywords under the properties.
 
 FAQ
 ^^^^^^^^^^^^^^^
 FAQ stands for "Frequently Asked Questions", where the questions that most people ask you about your activities can be listed on this webpage. Some properties include breadcrumbs and lastreviewed, which is the date on which the content on this web page was last reviewed for accuracy and/or completeness.
+Learn more on `how to use the FAQPage Schema type <https://wordlift.io/academy-entries/how-to-use-faq-schema-type/>`_
 
 Review
 ^^^^^^^^^^^^^^^
 Review schema shows you the opinions and feedback regarding an item, a movie or a service.
+
+Product
+^^^^^^^^^^^^^^^
+Product markup communicates to Google a series of essential data for your customers such as product description, image, price, availability, conditions, and user ratings.
+With WordLift you can create a `product knowledge graph <https://wordlift.io/blog/en/product-knowledge-graph/>`_ and help Google discover more about the brand, the color, the condition (new, used, reconditioned etc) the shipping details and a lot more.
+If you are using WooCommerce here is `all you need to know about the product schema <https://wordlift.io/blog/en/schema-markup-woocommerce/>`_.
+
+Service
+^^^^^^^^^^^^^^^
+Service schema helps search engines understand your business and your services.
+Learn more on `how to use the service markup <https://wordlift.io/academy-entries/service-markup/>`_.
+
 
 Advanced Custom Fields
 _____________
@@ -53,7 +66,7 @@ Requirements
 
 .. image:: /images/mappings-acf.png
 
-* Advanced Custom Fields for schema.org by WordLift (`Contact our SEO team to get started <https://wordlift.io/customize-your-plan/>`_) 
+* Advanced Custom Fields for schema.org by WordLift (`Contact our SEO team to get started <https://wordlift.io/customize-your-plan/>`_)
 
 Add Custom Fields
 ^^^^^^^^^^^^^^^

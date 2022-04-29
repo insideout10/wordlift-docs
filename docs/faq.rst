@@ -312,3 +312,9 @@ Do I need to be Administrator to configure it?
 ===============
 
 Yes. To configure WordLift you will need to have admin privileges.
+
+===============
+Which Schema Types does WordLift support?
+===============
+
+WordLift, using the `business plan <https://wordlift.io/business/>`_, **supports all the schema types** listed in the `Schema.org <https://schema.org/>`_ vocabulary.
