@@ -324,5 +324,6 @@ What is the advantage of using a custom domain for publishing the knowledge grap
 ===============
 
 WordLift, includes with the `business plan <https://wordlift.io/business/>`_, the option **to support a custom domain** for linked data publishing.
-This means that you can use your own domain name to host the knowledge graph that WordLift creates. The main advantage is that you can use the same domain name for your website (ie https://www.example.org) and for the knowledge graph (https://data.example.org).
-Moreover if you decide to host the knowledge graph on a different platform you are free to do it (no vendor lock-in). WordLift hosts your data in a `Linked Data platform <https://www.w3.org/TR/ldp/>`_, using the custom domain you are free to migrate your data to any other compatible graph platform without the need of changing the URIs of your entities.
+This means that you can use your own domain name to host the knowledge graph that WordLift creates. The main advantage is that you can use the same domain name for your website (ie `https://www.example.org`) and for the knowledge graph (`https://data.example.org`).
+Moreover if you decide to host the knowledge graph on a different platform you are free to do so without any vendor lock-in.
+WordLift hosts your data in a `Linked Data platform <https://www.w3.org/TR/ldp/>`_, using the custom domain you are free to migrate your data to any other compatible graph platform without the need of changing the URIs of your entities.

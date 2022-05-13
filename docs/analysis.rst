@@ -14,14 +14,14 @@ _____________
 
 To start working with WordLift (once the plugin has been properly `installed <getting-started.html#installation>`_ and `configured <getting-started.html#configuration>`_) you can simply start writing a blog post using the `standard visual editor of WordPress <https://en.support.wordpress.com/visual-editor>`_.
 
-WordLift adds to the visual editor the `Widgets Menu`_ to embed `widgets <key-concepts.html#widget>`_ in page.
+WordLift adds to the visual editor the Widgets Menu to embed `widgets <key-concepts.html#widget>`_ in page.
 
 .. image:: /images/wordlift-menu.png
 
 .. warning::
 
     WordLift is designed for the standard **WordPress visual editor**.
-    **WordLift also offers experimental support for Visual Builders. Contact us to test your specific install**.
+    **WordLift also offers experimental support for Visual Builders. `Contact us <https://wordlift.io/contact-us>`_ to test your specific install**.
 
 
 .. note::
