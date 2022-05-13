@@ -21,7 +21,7 @@ WordLift adds to the visual editor the Widgets Menu to embed `widgets <key-conce
 .. warning::
 
     WordLift is designed for the standard **WordPress visual editor**.
-    **WordLift also offers experimental support for Visual Builders. `Contact us <https://wordlift.io/contact-us>`_ to test your specific install**.
+    **WordLift also offers experimental support for Visual Builders; `contact us <https://wordlift.io/contact-us>`_ to test your specific install**.
 
 
 .. note::
