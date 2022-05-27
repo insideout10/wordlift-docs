@@ -334,7 +334,7 @@ How can I change the JSON-LD `@type` from `Article` to `NewsArticle` in WordLift
 
 WordLift, allows you to filter the the JSON-LD output before it is sent to the client and change any part of it, e.g. in this specific case:
 
-```
+``
 add_filter( 'wl_post_jsonld',  function( $jsonld ) {
 
   // Bail out if `@type` isn't set or isn't `Article`.
@@ -346,4 +346,4 @@ add_filter( 'wl_post_jsonld',  function( $jsonld ) {
 
   return $jsonld;
 } );
-```
+``
