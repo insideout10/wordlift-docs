@@ -327,3 +327,23 @@ WordLift, includes with the `business plan <https://wordlift.io/business/>`_, th
 This means that you can use your own domain name to host the knowledge graph that WordLift creates. The main advantage is that you can use the same domain name for your website (ie `https://www.example.org`) and for the knowledge graph (`https://data.example.org`).
 Moreover if you decide to host the knowledge graph on a different platform you are free to do so without any vendor lock-in.
 WordLift hosts your data in a `Linked Data platform <https://www.w3.org/TR/ldp/>`_, using the custom domain you are free to migrate your data to any other compatible graph platform without the need of changing the URIs of your entities.
+
+===============
+How can I change the JSON-LD `@type` from `Article` to `NewsArticle` in WordLift?
+===============
+
+WordLift, allows you to filter the the JSON-LD output before it is sent to the client and change any part of it, e.g. in this specific case:
+
+```
+add_filter( 'wl_post_jsonld',  function( $jsonld ) {
+
+  // Bail out if `@type` isn't set or isn't `Article`.
+  if ( ! isset( $jsonld['@type'] ) || 'Article' !== $jsonld['@type'] ) {
+    return $jsonld;
+  }
+
+  $jsonld['@type'] = 'NewsArticle';
+
+  return $jsonld;
+} );
+```
