@@ -332,18 +332,16 @@ WordLift hosts your data in a `Linked Data platform <https://www.w3.org/TR/ldp/>
 How can I change the JSON-LD `@type` from `Article` to `NewsArticle` in WordLift?
 ===============
 
-WordLift, allows you to filter the the JSON-LD output before it is sent to the client and change any part of it, e.g. in this specific case:
+WordLift, allows you to filter the the JSON-LD output before it is sent to the client and change any part of it, e.g. in this specific case:::
 
-``
-add_filter( 'wl_post_jsonld',  function( $jsonld ) {
+	add_filter( 'wl_post_jsonld',  function( $jsonld ) {
 
-  // Bail out if `@type` isn't set or isn't `Article`.
-  if ( ! isset( $jsonld['@type'] ) || 'Article' !== $jsonld['@type'] ) {
-    return $jsonld;
-  }
+	// Bail out if `@type` isn't set or isn't `Article`.
+	if ( ! isset( $jsonld['@type'] ) || 'Article' !== $jsonld['@type'] ) {
+		return $jsonld;
+	}
 
-  $jsonld['@type'] = 'NewsArticle';
+	$jsonld['@type'] = 'NewsArticle';
 
-  return $jsonld;
-} );
-``
+	return $jsonld;
+	} );
