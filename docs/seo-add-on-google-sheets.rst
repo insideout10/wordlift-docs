@@ -18,6 +18,7 @@ In this video you will learn what is SEO Add-On for Google Sheets and how it can
     </div>
 
 
+
 ================
 How it works
 ================
