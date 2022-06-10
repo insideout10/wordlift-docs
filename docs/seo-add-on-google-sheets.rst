@@ -10,11 +10,13 @@ From there, you can see the **linked entities** and select the ones that are mos
 In this video you will learn what is SEO Add-On for Google Sheets and how it can help you to improve your SEO strategy.
 
 
+
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="https://www.youtube-nocookie.com/embed/_YSNUpZU8kY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
+
 
 ================
 How it works
@@ -85,8 +87,7 @@ You can now **select the relevant entities**. If you have WordPress with WordLif
 
 .. image:: /images/seo-add-on-google-sheets-step6.gif
 
-You can `build a Knowledge Graph from a SERP <
-https://wordlift.io/academy-entries/building-a-knowledge-graph-from-a-serp/>`_ by using SEO Add-On for Google Sheets. To discover how you can do that, watch the video.
+You can `build a Knowledge Graph from a SERP <https://wordlift.io/academy-entries/building-a-knowledge-graph-from-a-serp/>`_ by using SEO Add-On for Google Sheets. To discover how you can do that, watch the video.
 
 .. note::
         You can buy `SEO Add-On for Google Sheets <https://deals.thenextweb.com/sales/lifetime-subscription-wordlift-standard?aid=&utm_campaign=feed&utm_medium=RSS&utm_source=thenextweb>`_ from TNW website.
