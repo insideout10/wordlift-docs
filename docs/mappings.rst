@@ -31,7 +31,11 @@ HowTo Schema allows you to explain exact instructions to achieving a wanted resu
 
 Recipe
 ^^^^^^^^^^^^^^^
-A recipe schema allows you to specify steps in your recipe, varying from nutritional information to the method of cooking. This can all be done by choosing specific keywords under the properties.
+A recipe schema allows you to specify steps in your recipe, varying from nutritional information to the method of cooking. This can all be done by choosing specific keywords under the properties. Learn `how to add schema markup for recipes <https://wordlift.io/academy-entries/schema-markup-for-recipe/>`_.
+
+Course
+^^^^^^^^^^^^^^^
+Course schema markup is the specific entity type for web pages that describe an educational course that may be offered online or in person by public and private schools, colleges, and universities. Learn `how to add course schema markup to your content <https://wordlift.io/academy-entries/course-schema-markup/>`_.
 
 FAQ
 ^^^^^^^^^^^^^^^
@@ -48,11 +52,18 @@ Product markup communicates to Google a series of essential data for your custom
 With WordLift you can create a `product knowledge graph <https://wordlift.io/blog/en/product-knowledge-graph/>`_ and help Google discover more about the brand, the color, the condition (new, used, reconditioned etc) the shipping details and a lot more.
 If you are using WooCommerce here is `all you need to know about the product schema <https://wordlift.io/blog/en/schema-markup-woocommerce/>`_.
 
+Event
+^^^^^^^^^^^^^^^
+Event schema is a type of structured data markup that informs search engines that a particular web page is an event that takes place offline or online, such as concerts, seminars/webinars, meetings and more. Learn `how to add event schema markup to your website <https://wordlift.io/academy-entries/event-schema-markup/>`_.
+
 Service
 ^^^^^^^^^^^^^^^
 Service schema helps search engines understand your business and your services.
 Learn more on `how to use the service markup <https://wordlift.io/academy-entries/service-markup/>`_.
 
+LocalBusiness
+^^^^^^^^^^^^^^^
+LocalBusiness is the schema markup for a particular physical business or branch of an organization, such as for example a restaurant, a particular branch of a restaurant chain, a branch of a bank, a medical practice, a club, a bowling alley, etc. Learn `how to add LocalBusiness schema to your web pages <https://wordlift.io/academy-entries/how-to-add-localbusiness-schema/>`_.
 
 Advanced Custom Fields
 _____________
