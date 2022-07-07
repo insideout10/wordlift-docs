@@ -40,7 +40,7 @@ Course schema markup is the specific entity type for web pages that describe an 
 FAQ
 ^^^^^^^^^^^^^^^
 FAQ stands for "Frequently Asked Questions", where the questions that most people ask you about your activities can be listed on this webpage. Some properties include breadcrumbs and lastreviewed, which is the date on which the content on this web page was last reviewed for accuracy and/or completeness.
-Learn more on `how to use the FAQPage Schema type <https://wordlift.io/academy-entries/how-to-use-faq-schema-type/>`_
+Learn more on `how to use the FAQPage Schema type <https://wordlift.io/academy-entries/how-to-use-faq-schema-type/>`_.
 
 Review
 ^^^^^^^^^^^^^^^
