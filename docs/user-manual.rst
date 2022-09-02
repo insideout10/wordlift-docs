@@ -10,3 +10,4 @@ User Manual
    mappings
    woocommerce
    seo-add-on-google-sheets
+   data-studio-connector
