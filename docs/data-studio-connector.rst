@@ -38,8 +38,11 @@ At this point, you are close to creating your report, but two more steps are nee
 
 You can filter the data for EntityType and choose the period of time you prefer.
 
-.. raw:: html
-    <video controls src="https://wordlift.io/blog/en/wp-content/uploads/sites/3/2022/08/semantic-seo-report.mp4"></video>
-
 .. note::
         Learn how to `create your Semantic SEO reports <https://youtu.be/mWMEbx3qIVI>`_ in 3 simple steps, watch this video.
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube-nocookie.com/embed/mWMEbx3qIVI" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
