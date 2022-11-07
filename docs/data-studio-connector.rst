@@ -1,7 +1,7 @@
-WordLift Data Studio Connector
+WordLift Looker Studio Connector
 ================
 
-With the `WordLift Data Studio Connector <https://wordlift.io/blog/en/wordlift-data-studio-connector/>`_, you can **create semantic SEO reports** by loading data from your Knowledge Graph directly into Data Studio and merging it with Search Console or any other web analytics platform.
+With the `WordLift Looker Studio Connector <https://wordlift.io/blog/en/wordlift-data-studio-connector/>`_, you can **create semantic SEO reports** by loading data from your Knowledge Graph directly into Looker Studio and merging it with Search Console or any other web analytics platform.
 
 ================
 Get Started
@@ -10,7 +10,7 @@ Get Started
 1. Search for it
 -----------------
 
-The first step to start creating your semantic SEO report is to search for WordLift on the `Google Data Studio connectors page <https://datastudio.google.com/datasources>`_.
+The first step to start creating your semantic SEO report is to search for WordLift on the `Google Looker Studio connectors page <https://datastudio.google.com/datasources>`_.
 
 .. image:: /images/wordlift-datastudio-connector-get-started.png
 
