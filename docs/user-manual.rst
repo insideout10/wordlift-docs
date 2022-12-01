@@ -11,3 +11,4 @@ User Manual
    woocommerce
    seo-add-on-google-sheets
    data-studio-connector
+   pkg-builder
