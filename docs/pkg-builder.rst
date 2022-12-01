@@ -1,48 +1,46 @@
-WordLift Looker Studio Connector
+Product Knowledge Graph Builder
 ================
 
-With the `WordLift Looker Studio Connector <https://wordlift.io/blog/en/wordlift-data-studio-connector/>`_, you can **create semantic SEO reports** by loading data from your Knowledge Graph directly into Looker Studio and merging it with Search Console or any other web analytics platform.
+**Product KG Builder** is the feature for e-commerce that allows you to automate your SEO and `create a product knowledge graph <https://wordlift.io/blog/en/how-build-product-knowledge-graph/>`_ **with your Google Merchant Feed**.
+
+This helps e-commerce to **communicate with Google's Shopping Graph and get free listings in Google Shopping**. At the same time, it **improves the user experience** by providing your customers with information that is relevant to their search. 
+
+WordLift Product KG Builder can make a difference in your e-commerce and positively **impact both organic traffic and sales**. 
+
 
 ================
 Get Started
 ================
+Once you have purchased the WordLift `Business+E-Commerce subscription <https://wordlift.io/business/>`_ you will receive a key and then you will be able to access your dashboard. 
 
-1. Search for it
+The first step to start using your PKG Builder is to go to your dashboard and click on **+ Add Merchant** on the left side, then follow the simple steps in the wizard.
+
+.. image:: /images/PKG Builder_0.png
+
+1. Link your Google Account
 -----------------
 
-The first step to start creating your semantic SEO report is to search for WordLift on the `Google Looker Studio connectors page <https://datastudio.google.com/datasources>`_.
+Sign in with your Google account.
 
-.. image:: /images/wordlift-datastudio-connector-get-started.png
+.. image:: /images/PKG Builder_1.png
 
-.. raw:: html
-    <video controls src="https://wordlift.io/blog/en/wp-content/uploads/sites/3/2022/08/semantic-seo-report.mp4"></video>
-
-Just click on it and **enter the WordLift key**.
-
-We have a GraphQL query ready for you, so you don’t need to do anything to get started. In case you are a power user and you know the query that you want to run, just continue. For example, if you are running an e-commerce website, maybe you want to query for product attributes or prices. Then be sure to keep checking the box “use report template for new report”, so you can get a shiny new report premade for you.
-
-Then click **Connect**. Here you can see the fields that come from the report. Finally, click **Create Report**.
-
-.. image:: /images/wordlift-datastudio-connector-create-report.png
-
-
-2. Add GSC as a data source and check the blend
+2. Choose the Merchant Feed 
 -----------------
 
-At this point, you are close to creating your report, but two more steps are needed:
+Select the Merchant Feed you want to import. 
 
-1. To go to the managed data sources and add your Search Console data source: choose your website, choose URL Impressions anche choose Web Type, and then click on Create.
-2. Check the blends to verify that the data is merged from the Knowledge Graph and GSC.
+.. image:: /images/PGK_2.png
 
-.. image:: /images/wordlift-datastudio-connector-check.png
+At the moment, only one language per import is supported, therefore if your feed contains multiple languages, use the *Path* to filter the language, e.g. **/en** . Then you can create another configuration for another language.
 
-You can filter the data for EntityType and choose the period of time you prefer.
+3. Create your Product Knowledge Graph
+-----------------
 
-.. note::
-        Learn how to `create your Semantic SEO reports <https://youtu.be/mWMEbx3qIVI>`_ in 3 simple steps, watch this video.
+Link the website and import the data from the Merchant Feed to the website. 
+To **create your Product Knowledge Graph** you need to add the script into your website.
 
-.. raw:: html
+.. image:: /images/PGK_3.png
 
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube-nocookie.com/embed/mWMEbx3qIVI" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
+Click *Finish*. Once you have completed these 3 steps, you will see that the **products** have been imported into the backend of your e-commerce website and **already enriched with structured data**.
+
+From the WordLift dashboard, you can open the backend of your website and see the products imported and you can synchronize the data (it takes about 1 hour).
